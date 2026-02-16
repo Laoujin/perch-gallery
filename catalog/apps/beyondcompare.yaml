@@ -15,3 +15,8 @@ config:
     - source: BCPreferences.xml
       target:
         windows: "%APPDATA%/Scooter Software/Beyond Compare 3/BCPreferences.xml"
+  clean-filter:
+    files: [BCPreferences.xml]
+    rules:
+      - type: strip-xml-elements
+        elements: [WindowPlacement, RecentFiles, RecentFolders]
