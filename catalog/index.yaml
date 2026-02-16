@@ -79,6 +79,146 @@ apps:
     name: Bun
     category: Development/Node
     tags: [runtime, bundler, package-manager, javascript]
+  - id: chrome
+    name: Google Chrome
+    category: Browsers
+    tags: [browser, google, chromium]
+  - id: chrome-canary
+    name: Google Chrome Canary
+    category: Browsers
+    tags: [browser, google, chromium, dev]
+  - id: opera
+    name: Opera
+    category: Browsers
+    tags: [browser, chromium, vpn]
+  - id: docker
+    name: Docker Desktop
+    category: Development/Tools
+    tags: [containers, docker, devops, virtualization]
+  - id: dotnet-sdk
+    name: .NET SDK
+    category: Development/.NET
+    tags: [dotnet, sdk, microsoft, csharp]
+  - id: python
+    name: Python
+    category: Development/Tools
+    tags: [python, language, scripting]
+  - id: ruby
+    name: Ruby
+    category: Development/Tools
+    tags: [ruby, language, scripting]
+  - id: zoxide
+    name: zoxide
+    category: Development/Shells
+    tags: [cli, navigation, cd, shell]
+  - id: fzf
+    name: fzf
+    category: Development/Tools
+    tags: [cli, fuzzy-finder, search, shell]
+  - id: openssh
+    name: OpenSSH
+    category: Networking/Security
+    tags: [ssh, remote, cli, microsoft]
+  - id: ilspy
+    name: ILSpy
+    category: Development/.NET
+    tags: [dotnet, decompiler, open-source, csharp]
+  - id: dotpeek
+    name: dotPeek
+    category: Development/.NET
+    tags: [dotnet, decompiler, jetbrains, csharp]
+  - id: resharper
+    name: ReSharper
+    category: Development/.NET
+    tags: [dotnet, jetbrains, visual-studio, productivity]
+  - id: heidisql
+    name: HeidiSQL
+    category: Development/Tools
+    tags: [database, mysql, postgresql, sql, gui]
+  - id: robo3t
+    name: Robo 3T
+    category: Development/Tools
+    tags: [database, mongodb, gui, nosql]
+  - id: db-browser-sqlite
+    name: DB Browser for SQLite
+    category: Development/Tools
+    tags: [database, sqlite, gui, open-source]
+  - id: wireshark
+    name: Wireshark
+    category: Networking/Security
+    tags: [network, packet-capture, analysis, open-source]
+  - id: mitmproxy
+    name: mitmproxy
+    category: Networking/Security
+    tags: [proxy, http, debugging, ssl, cli]
+  - id: hoppscotch
+    name: Hoppscotch
+    category: Development/Tools
+    tags: [api, rest, graphql, testing, open-source]
+  - id: dropbox
+    name: Dropbox
+    category: Utilities/System
+    tags: [cloud, sync, storage, backup]
+  - id: obsidian
+    name: Obsidian
+    category: Utilities/Productivity
+    tags: [notes, markdown, knowledge-base, pkm]
+  - id: autohotkey
+    name: AutoHotkey
+    category: Utilities/Productivity
+    tags: [automation, scripting, hotkeys, windows]
+  - id: sysinternals
+    name: Sysinternals Suite
+    category: Utilities/System
+    tags: [system, diagnostics, microsoft, admin]
+  - id: 1password
+    name: 1Password
+    category: Security/Passwords
+    tags: [password-manager, security, vault]
+  - id: copyq
+    name: CopyQ
+    category: Utilities/Clipboard
+    tags: [clipboard, manager, open-source]
+  - id: sharex
+    name: ShareX
+    category: Utilities/Screenshots
+    tags: [screenshot, screen-recording, capture, open-source]
+  - id: windirstat
+    name: WinDirStat
+    category: File Management
+    tags: [disk-usage, visualization, cleanup, open-source]
+  - id: pdftk
+    name: PDFtk Free
+    category: Utilities/Productivity
+    tags: [pdf, cli, merge, split]
+  - id: sandboxie-plus
+    name: Sandboxie Plus
+    category: Security/Passwords
+    tags: [sandbox, isolation, security, open-source]
+  - id: irfanview
+    name: IrfanView
+    category: Media/Graphics
+    tags: [image-viewer, graphics, lightweight]
+  - id: paint-dot-net
+    name: Paint.NET
+    category: Media/Graphics
+    tags: [image-editor, graphics, layers, windows]
+  - id: spotify
+    name: Spotify
+    category: Media/Players
+    tags: [music, streaming, audio]
+  - id: slack
+    name: Slack
+    category: Communication/Chat
+    tags: [chat, messaging, team, collaboration]
+  - id: discord
+    name: Discord
+    category: Communication/Chat
+    tags: [chat, voice, gaming, community]
+  - id: steam
+    name: Steam
+    category: Gaming
+    tags: [gaming, store, valve, launcher]
 
 fonts:
   - id: cascadia-code-nf

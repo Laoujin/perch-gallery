@@ -1,0 +1,9 @@
+name: Opera
+category: Browsers
+tags: [browser, chromium, vpn]
+description: Feature-rich web browser with built-in VPN and ad blocker
+links:
+  website: https://www.opera.com
+install:
+  winget: Opera.Opera
+  choco: opera

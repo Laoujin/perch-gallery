@@ -1,0 +1,9 @@
+name: Slack
+category: Communication/Chat
+tags: [chat, messaging, team, collaboration]
+description: Business messaging and collaboration platform
+links:
+  website: https://slack.com
+install:
+  winget: SlackTechnologies.Slack
+  choco: slack

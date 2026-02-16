@@ -1,0 +1,10 @@
+name: Python
+category: Development/Tools
+tags: [python, language, scripting]
+description: Popular general-purpose programming language
+links:
+  website: https://www.python.org
+  docs: https://docs.python.org/3/
+install:
+  winget: Python.Python.3.13
+  choco: python

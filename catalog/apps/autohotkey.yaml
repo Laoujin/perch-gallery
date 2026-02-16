@@ -1,0 +1,10 @@
+name: AutoHotkey
+category: Utilities/Productivity
+tags: [automation, scripting, hotkeys, windows]
+description: Scripting language for desktop automation and custom hotkeys
+links:
+  website: https://www.autohotkey.com
+  docs: https://www.autohotkey.com/docs/
+install:
+  winget: AutoHotkey.AutoHotkey
+  choco: autohotkey

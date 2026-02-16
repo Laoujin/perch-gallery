@@ -1,0 +1,9 @@
+name: PDFtk Free
+category: Utilities/Productivity
+tags: [pdf, cli, merge, split]
+description: Command-line tool for manipulating PDF documents
+links:
+  website: https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
+install:
+  winget: PDFLabs.PDFtk.Free
+  choco: pdftk

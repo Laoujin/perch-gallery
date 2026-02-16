@@ -1,0 +1,9 @@
+name: HeidiSQL
+category: Development/Tools
+tags: [database, mysql, postgresql, sql, gui]
+description: Lightweight client for managing MySQL, PostgreSQL, SQL Server, and SQLite
+links:
+  website: https://www.heidisql.com
+install:
+  winget: HeidiSQL.HeidiSQL
+  choco: heidisql

@@ -1,0 +1,9 @@
+name: Google Chrome Canary
+category: Browsers
+tags: [browser, google, chromium, dev]
+description: Nightly build of Chrome for developers and early adopters
+links:
+  website: https://www.google.com/chrome/canary/
+install:
+  winget: Google.Chrome.Canary
+  choco: googlechrome.canary

@@ -1,0 +1,10 @@
+name: ILSpy
+category: Development/.NET
+tags: [dotnet, decompiler, open-source, csharp]
+description: Open-source .NET assembly browser and decompiler
+links:
+  website: https://icsharpcode.github.io/ILSpy/
+  github: https://github.com/icsharpcode/ILSpy
+install:
+  winget: icsharpcode.ILSpy
+  choco: ilspy

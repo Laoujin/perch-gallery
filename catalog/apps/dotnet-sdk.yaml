@@ -1,0 +1,11 @@
+name: .NET SDK
+category: Development/.NET
+tags: [dotnet, sdk, microsoft, csharp]
+description: Free, open-source, cross-platform framework for building apps
+links:
+  website: https://dotnet.microsoft.com
+  docs: https://learn.microsoft.com/en-us/dotnet/
+  github: https://github.com/dotnet/sdk
+install:
+  winget: Microsoft.DotNet.SDK.10
+  choco: dotnet-sdk

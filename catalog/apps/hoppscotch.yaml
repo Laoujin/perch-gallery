@@ -1,0 +1,9 @@
+name: Hoppscotch
+category: Development/Tools
+tags: [api, rest, graphql, testing, open-source]
+description: Open-source API development ecosystem and Postman alternative
+links:
+  website: https://hoppscotch.io
+  github: https://github.com/hoppscotch/hoppscotch
+install:
+  winget: hoppscotch.Hoppscotch

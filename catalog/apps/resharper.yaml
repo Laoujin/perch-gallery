@@ -1,0 +1,9 @@
+name: ReSharper
+category: Development/.NET
+tags: [dotnet, jetbrains, visual-studio, productivity]
+description: Visual Studio extension for .NET developers by JetBrains
+links:
+  website: https://www.jetbrains.com/resharper/
+install:
+  winget: JetBrains.ReSharper
+  choco: resharper

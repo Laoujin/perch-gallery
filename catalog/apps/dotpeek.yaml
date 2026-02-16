@@ -1,0 +1,9 @@
+name: dotPeek
+category: Development/.NET
+tags: [dotnet, decompiler, jetbrains, csharp]
+description: Free .NET decompiler and assembly browser by JetBrains
+links:
+  website: https://www.jetbrains.com/decompiler/
+install:
+  winget: JetBrains.dotPeek
+  choco: dotpeek

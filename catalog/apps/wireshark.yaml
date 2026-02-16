@@ -1,0 +1,10 @@
+name: Wireshark
+category: Networking/Security
+tags: [network, packet-capture, analysis, open-source]
+description: Network protocol analyzer for traffic capture and inspection
+links:
+  website: https://www.wireshark.org
+  docs: https://www.wireshark.org/docs/
+install:
+  winget: WiresharkFoundation.Wireshark
+  choco: wireshark

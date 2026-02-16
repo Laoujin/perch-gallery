@@ -1,0 +1,10 @@
+name: DB Browser for SQLite
+category: Development/Tools
+tags: [database, sqlite, gui, open-source]
+description: Visual tool for creating, designing, and editing SQLite databases
+links:
+  website: https://sqlitebrowser.org
+  github: https://github.com/sqlitebrowser/sqlitebrowser
+install:
+  winget: DBBrowserForSQLite.DBBrowserForSQLite
+  choco: db-browser-for-sqlite

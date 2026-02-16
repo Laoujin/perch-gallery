@@ -1,0 +1,10 @@
+name: Docker Desktop
+category: Development/Tools
+tags: [containers, docker, devops, virtualization]
+description: Container platform for building, sharing, and running applications
+links:
+  website: https://www.docker.com/products/docker-desktop/
+  docs: https://docs.docker.com/desktop/
+install:
+  winget: Docker.DockerDesktop
+  choco: docker-desktop

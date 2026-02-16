@@ -1,0 +1,10 @@
+name: Obsidian
+category: Utilities/Productivity
+tags: [notes, markdown, knowledge-base, pkm]
+description: Private and flexible markdown-based knowledge base
+links:
+  website: https://obsidian.md
+  docs: https://help.obsidian.md
+install:
+  winget: Obsidian.Obsidian
+  choco: obsidian

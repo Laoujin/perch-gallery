@@ -1,0 +1,11 @@
+name: Ruby
+display-name: Ruby with DevKit
+category: Development/Tools
+tags: [ruby, language, scripting]
+description: Dynamic programming language with elegant syntax
+links:
+  website: https://www.ruby-lang.org
+  docs: https://www.ruby-lang.org/en/documentation/
+install:
+  winget: RubyInstallerTeam.RubyWithDevKit.3.4
+  choco: ruby

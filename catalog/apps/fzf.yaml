@@ -1,0 +1,9 @@
+name: fzf
+category: Development/Tools
+tags: [cli, fuzzy-finder, search, shell]
+description: General-purpose command-line fuzzy finder
+links:
+  github: https://github.com/junegunn/fzf
+install:
+  winget: junegunn.fzf
+  choco: fzf

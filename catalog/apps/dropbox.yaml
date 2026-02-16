@@ -1,0 +1,9 @@
+name: Dropbox
+category: Utilities/System
+tags: [cloud, sync, storage, backup]
+description: Cloud file storage and synchronization service
+links:
+  website: https://www.dropbox.com
+install:
+  winget: Dropbox.Dropbox
+  choco: dropbox

@@ -1,0 +1,9 @@
+name: Robo 3T
+category: Development/Tools
+tags: [database, mongodb, gui, nosql]
+description: Lightweight GUI for MongoDB with embedded shell
+links:
+  website: https://robomongo.org
+install:
+  winget: 3TSoftwareLabs.Robo3T
+  choco: robo3t

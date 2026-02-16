@@ -1,0 +1,9 @@
+name: Paint.NET
+category: Media/Graphics
+tags: [image-editor, graphics, layers, windows]
+description: Free image and photo editing software for Windows
+links:
+  website: https://www.getpaint.net
+install:
+  winget: dotPDN.PaintDotNet
+  choco: paint.net

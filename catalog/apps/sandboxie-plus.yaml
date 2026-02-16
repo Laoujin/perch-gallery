@@ -1,0 +1,10 @@
+name: Sandboxie Plus
+category: Security/Passwords
+tags: [sandbox, isolation, security, open-source]
+description: Sandbox-based isolation program for running applications safely
+links:
+  website: https://sandboxie-plus.com
+  github: https://github.com/sandboxie-plus/Sandboxie
+install:
+  winget: Sandboxie.Plus
+  choco: sandboxie-plus

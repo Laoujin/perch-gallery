@@ -1,0 +1,9 @@
+name: zoxide
+category: Development/Shells
+tags: [cli, navigation, cd, shell]
+description: Smarter cd command that learns your most-used directories
+links:
+  github: https://github.com/ajeetdsouza/zoxide
+install:
+  winget: ajeetdsouza.zoxide
+  choco: zoxide

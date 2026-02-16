@@ -1,0 +1,10 @@
+name: CopyQ
+category: Utilities/Clipboard
+tags: [clipboard, manager, open-source]
+description: Advanced clipboard manager with editing and scripting
+links:
+  website: https://hluk.github.io/CopyQ/
+  github: https://github.com/hluk/CopyQ
+install:
+  winget: hluk.CopyQ
+  choco: copyq

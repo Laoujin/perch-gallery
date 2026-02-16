@@ -1,0 +1,9 @@
+name: Steam
+category: Gaming
+tags: [gaming, store, valve, launcher]
+description: Digital distribution platform for PC gaming
+links:
+  website: https://store.steampowered.com
+install:
+  winget: Valve.Steam
+  choco: steam

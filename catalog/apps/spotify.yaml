@@ -1,0 +1,9 @@
+name: Spotify
+category: Media/Players
+tags: [music, streaming, audio]
+description: Digital music streaming service
+links:
+  website: https://www.spotify.com
+install:
+  winget: Spotify.Spotify
+  choco: spotify
