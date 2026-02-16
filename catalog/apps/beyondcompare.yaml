@@ -1,0 +1,17 @@
+name: Beyond Compare
+category: Development/Diff Tools
+tags: [diff, compare, merge, windows]
+description: File and folder comparison utility
+links:
+  website: https://www.scootersoftware.com
+install:
+  winget: ScooterSoftware.BeyondCompare.4
+  choco: beyondcompare
+config:
+  links:
+    - source: BCCommands.xml
+      target:
+        windows: "%APPDATA%/Scooter Software/Beyond Compare 3/BCCommands.xml"
+    - source: BCPreferences.xml
+      target:
+        windows: "%APPDATA%/Scooter Software/Beyond Compare 3/BCPreferences.xml"

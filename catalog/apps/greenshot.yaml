@@ -1,0 +1,15 @@
+name: Greenshot
+category: Utilities/Screenshots
+tags: [screenshot, capture, windows]
+description: Light-weight screenshot tool for Windows
+links:
+  website: https://getgreenshot.org
+  github: https://github.com/greenshot/greenshot
+install:
+  winget: Greenshot.Greenshot
+  choco: greenshot
+config:
+  links:
+    - source: Greenshot.ini
+      target:
+        windows: "%APPDATA%/Greenshot/Greenshot.ini"

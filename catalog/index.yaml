@@ -39,6 +39,46 @@ apps:
     name: PowerToys
     category: Utilities/Productivity
     tags: [productivity, utilities, microsoft, windows]
+  - id: beyondcompare
+    name: Beyond Compare
+    category: Development/Diff Tools
+    tags: [diff, compare, merge, windows]
+  - id: cmder
+    name: Cmder
+    category: Development/Terminals
+    tags: [terminal, console, windows]
+  - id: filezilla
+    name: FileZilla
+    category: Networking/FTP
+    tags: [ftp, sftp, transfer, windows]
+  - id: sublimetext
+    name: Sublime Text
+    category: Development/Editors
+    tags: [editor, text, windows, macos, linux]
+  - id: bash
+    name: Bash
+    category: Development/Shells
+    tags: [shell, cli, linux, macos]
+  - id: ditto
+    name: Ditto
+    category: Utilities/Clipboard
+    tags: [clipboard, manager, windows]
+  - id: greenshot
+    name: Greenshot
+    category: Utilities/Screenshots
+    tags: [screenshot, capture, windows]
+  - id: visualstudio
+    name: Visual Studio
+    category: Development/IDEs
+    tags: [ide, microsoft, dotnet, windows]
+  - id: nvm
+    name: NVM for Windows
+    category: Development/Node
+    tags: [node, nvm, version-manager, windows]
+  - id: bun
+    name: Bun
+    category: Development/Node
+    tags: [runtime, bundler, package-manager, javascript]
 
 fonts:
   - id: cascadia-code-nf

@@ -1,0 +1,20 @@
+name: FileZilla
+category: Networking/FTP
+tags: [ftp, sftp, transfer, windows]
+description: Free FTP, FTPS and SFTP client
+links:
+  website: https://filezilla-project.org
+install:
+  winget: TimKosse.FileZilla.Client
+  choco: filezilla
+config:
+  links:
+    - source: filezilla.xml
+      target:
+        windows: "%APPDATA%/FileZilla/filezilla.xml"
+    - source: layout.xml
+      target:
+        windows: "%APPDATA%/FileZilla/layout.xml"
+    - source: sitemanager.xml
+      target:
+        windows: "%APPDATA%/FileZilla/sitemanager.xml"

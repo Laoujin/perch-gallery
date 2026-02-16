@@ -1,0 +1,9 @@
+name: Bun
+category: Development/Node
+tags: [runtime, bundler, package-manager, javascript]
+description: All-in-one JavaScript runtime, bundler, transpiler, and package manager
+links:
+  website: https://bun.sh
+  github: https://github.com/oven-sh/bun
+install:
+  winget: Oven-sh.Bun

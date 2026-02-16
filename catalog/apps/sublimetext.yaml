@@ -1,0 +1,21 @@
+name: Sublime Text
+category: Development/Editors
+tags: [editor, text, windows, macos, linux]
+description: Sophisticated text editor for code, markup and prose
+links:
+  website: https://www.sublimetext.com
+install:
+  winget: SublimeHQ.SublimeText.4
+  choco: sublimetext4
+config:
+  links:
+    - source: Preferences.sublime-settings
+      target:
+        windows: "%APPDATA%/Sublime Text/Packages/User/Preferences.sublime-settings"
+        linux: "$HOME/.config/sublime-text/Packages/User/Preferences.sublime-settings"
+        macos: "$HOME/Library/Application Support/Sublime Text/Packages/User/Preferences.sublime-settings"
+    - source: Default.sublime-keymap
+      target:
+        windows: "%APPDATA%/Sublime Text/Packages/User/Default.sublime-keymap"
+        linux: "$HOME/.config/sublime-text/Packages/User/Default.sublime-keymap"
+        macos: "$HOME/Library/Application Support/Sublime Text/Packages/User/Default.sublime-keymap"

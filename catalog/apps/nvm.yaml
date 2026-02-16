@@ -1,0 +1,10 @@
+name: NVM for Windows
+display-name: nvm
+category: Development/Node
+tags: [node, nvm, version-manager, windows]
+description: Node.js version manager for Windows
+links:
+  github: https://github.com/coreybutler/nvm-windows
+install:
+  winget: CoreyButler.NVMforWindows
+  choco: nvm

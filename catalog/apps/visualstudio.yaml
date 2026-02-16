@@ -1,0 +1,21 @@
+name: Visual Studio
+display-name: Visual Studio 2019
+category: Development/IDEs
+tags: [ide, microsoft, dotnet, windows]
+description: Full-featured IDE for .NET and C++ development
+links:
+  website: https://visualstudio.microsoft.com
+install:
+  winget: Microsoft.VisualStudio.2019.Community
+  choco: visualstudio2019community
+config:
+  links:
+    - source: "2019"
+      link-type: junction
+      platforms: [windows]
+      target:
+        windows: "%USERPROFILE%/Documents/Visual Studio 2019"
+    - source: 2019/Settings/CurrentSettings.vssettings
+      platforms: [windows]
+      target:
+        windows: "%LOCALAPPDATA%/Microsoft/VisualStudio/16.0/Settings/CurrentSettings.vssettings"

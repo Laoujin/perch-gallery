@@ -1,0 +1,13 @@
+name: Bash
+category: Development/Shells
+tags: [shell, cli, linux, macos]
+description: GNU Bourne-Again SHell
+links:
+  website: https://www.gnu.org/software/bash/
+config:
+  links:
+    - source: .bashrc
+      platforms: [linux, macos]
+      target:
+        linux: "$HOME/.bashrc"
+        macos: "$HOME/.bashrc"

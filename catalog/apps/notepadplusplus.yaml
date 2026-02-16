@@ -13,3 +13,17 @@ config:
     - source: config.xml
       target:
         windows: "%APPDATA%/Notepad++/config.xml"
+    - source: shortcuts.xml
+      target:
+        windows: "%APPDATA%/Notepad++/shortcuts.xml"
+    - source: langs.xml
+      target:
+        windows: "%APPDATA%/Notepad++/langs.xml"
+    - source: contextMenu.xml
+      target:
+        windows: "%APPDATA%/Notepad++/contextMenu.xml"
+  clean-filter:
+    files: [config.xml]
+    rules:
+      - type: strip-xml-elements
+        elements: [FindHistory, Session, GUIConfig]

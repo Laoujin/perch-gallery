@@ -1,0 +1,10 @@
+name: Ditto
+category: Utilities/Clipboard
+tags: [clipboard, manager, windows]
+description: Extension to the Windows clipboard with search and paste
+links:
+  website: https://ditto-cp.sourceforge.io
+  github: https://github.com/sabrogden/Ditto
+install:
+  winget: Ditto.Ditto
+  choco: ditto

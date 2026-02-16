@@ -1,0 +1,14 @@
+name: Cmder
+category: Development/Terminals
+tags: [terminal, console, windows]
+description: Portable console emulator for Windows based on ConEmu
+links:
+  website: https://cmder.app
+  github: https://github.com/cmderdev/cmder
+install:
+  choco: cmder
+config:
+  links:
+    - source: ConEmu.xml
+      target:
+        windows: "C:/tools/cmder/vendor/conemu-maximus5/ConEmu.xml"
