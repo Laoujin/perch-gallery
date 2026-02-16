@@ -1,0 +1,13 @@
+{
+  "name": "perch-gallery",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/copy-catalog.mjs",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.5.0",
+    "js-yaml": "^4.1.0"
+  }
+}

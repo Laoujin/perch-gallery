@@ -1,0 +1,664 @@
+---
+import Layout from '../layouts/Layout.astro';
+import yaml from 'js-yaml';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const base = import.meta.env.BASE_URL;
+
+interface IndexEntry {
+  id: string;
+  name: string;
+  category: string;
+  tags: string[];
+}
+
+interface IndexData {
+  apps: IndexEntry[];
+  fonts: IndexEntry[];
+  tweaks: IndexEntry[];
+}
+
+const catalogDir = path.resolve('catalog');
+const indexYaml = fs.readFileSync(path.join(catalogDir, 'index.yaml'), 'utf-8');
+const catalog = yaml.load(indexYaml) as IndexData;
+
+const apps = catalog.apps ?? [];
+const fonts = catalog.fonts ?? [];
+const tweaks = catalog.tweaks ?? [];
+
+const categories = [...new Set(apps.map(a => a.category.split('/')[0]))].sort();
+---
+
+<Layout title="Perch Gallery - App Definitions, Fonts & Tweaks">
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href={base} class="nav-brand">
+        <img src={`${base}images/logo.png`} alt="Perch" class="nav-logo" />
+        <span>Perch Gallery</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#apps">Apps</a>
+        <a href="#fonts">Fonts</a>
+        <a href="#tweaks">Tweaks</a>
+        <a href="https://github.com/Laoujin/perch-the-building" class="btn-outline">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src={`${base}images/hero.png`} alt="" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="hero-title">Make yourself at home.</h1>
+      <p class="hero-subtitle">
+        Everything that makes your machine yours &mdash; dotfiles, app settings,
+        packages, registry &mdash; managed in git, symlinked into place.
+      </p>
+      <div class="hero-actions">
+        <a href="#apps" class="btn-primary">Browse the Gallery</a>
+        <a href="https://github.com/Laoujin/perch-the-building#readme" class="btn-ghost">Get Started</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">{apps.length}</span>
+          <span class="stat-label">Apps</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">{fonts.length}</span>
+          <span class="stat-label">Fonts</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">{tweaks.length}</span>
+          <span class="stat-label">Tweaks</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title">Why Perch?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">&#128279;</div>
+          <h3>Symlink-First</h3>
+          <p>Change a setting, it's immediately in git. No copy commands, no sync scripts. Your config files live in a repo and are symlinked into place.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#127760;</div>
+          <h3>Cross-Platform</h3>
+          <p>Windows, macOS, and Linux. One config repo, platform-specific paths resolved automatically. Works with winget, brew, apt, choco, and more.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128230;</div>
+          <h3>Gallery-Powered</h3>
+          <p>Community-curated app definitions with install commands, config paths, and sensible defaults. Your config repo only needs the overrides.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128736;</div>
+          <h3>Registry & Tweaks</h3>
+          <p>Declarative Windows registry management. Capture your current settings, version them in git, and restore them on any machine.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128196;</div>
+          <h3>Templates</h3>
+          <p>Machine-specific generated files. Your .gitconfig template resolves user.name and user.email per machine &mdash; no manual editing.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">&#128683;</div>
+          <h3>Change-Ignore</h3>
+          <p>Git clean filters strip volatile fields (window positions, recent files, timestamps) so your commits stay clean and meaningful.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apps -->
+  <section id="apps" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">App Definitions</h2>
+      <p class="section-desc">
+        Pre-configured app definitions with install commands and config file mappings.
+        Each YAML file tells Perch how to install and manage an app's settings.
+      </p>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="app-search"
+          placeholder="Search apps..."
+          autocomplete="off"
+        />
+      </div>
+      <div class="filter-chips">
+        <button class="chip active" data-filter="all">All</button>
+        {categories.map(cat => (
+          <button class="chip" data-filter={cat}>{cat}</button>
+        ))}
+      </div>
+      <div class="card-grid" id="app-grid">
+        {apps.map(app => (
+          <a
+            href={`${base}catalog/apps/${app.id}.yaml`}
+            class="card"
+            data-category={app.category.split('/')[0]}
+            data-tags={app.tags.join(' ')}
+            data-name={app.name.toLowerCase()}
+          >
+            <div class="card-name">{app.name}</div>
+            <div class="card-category">{app.category}</div>
+            <div class="card-tags">
+              {app.tags.slice(0, 3).map(tag => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Fonts -->
+  <section id="fonts" class="section">
+    <div class="container">
+      <h2 class="section-title">Programming Fonts</h2>
+      <p class="section-desc">Nerd Font patched programming fonts with ligature support.</p>
+      <div class="card-grid">
+        {fonts.map(font => (
+          <a href={`${base}catalog/fonts/${font.id}.yaml`} class="card">
+            <div class="card-name">{font.name}</div>
+            <div class="card-category">{font.category}</div>
+            <div class="card-tags">
+              {font.tags.slice(0, 3).map(tag => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Tweaks -->
+  <section id="tweaks" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Windows Tweaks</h2>
+      <p class="section-desc">
+        Declarative registry modifications for a better Windows experience.
+        Each tweak is versioned and reversible.
+      </p>
+      <div class="card-grid">
+        {tweaks.map(tweak => (
+          <a href={`${base}catalog/tweaks/${tweak.id}.yaml`} class="card">
+            <div class="card-name">{tweak.name}</div>
+            <div class="card-category">{tweak.category}</div>
+            <div class="card-tags">
+              {tweak.tags.slice(0, 3).map(tag => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta-section">
+    <div class="container cta-content">
+      <h2>Ready to make yourself at home?</h2>
+      <p>Perch is free, open source, and built for developers who care about their setup.</p>
+      <div class="hero-actions">
+        <a href="https://github.com/Laoujin/perch-the-building#readme" class="btn-primary">Get Started</a>
+        <a href="https://github.com/Laoujin/perch-the-building" class="btn-ghost">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src={`${base}images/favicon.png`} alt="Perch" class="footer-logo" />
+        <span>Perch</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/Laoujin/perch-the-building">GitHub</a>
+        <a href="https://github.com/Laoujin/perch-gallery">Gallery Repo</a>
+        <a href="https://github.com/Laoujin/perch-config">Example Config</a>
+      </div>
+    </div>
+  </footer>
+</Layout>
+
+<script>
+  const searchInput = document.getElementById('app-search') as HTMLInputElement;
+  const grid = document.getElementById('app-grid')!;
+  const cards = Array.from(grid.querySelectorAll('.card')) as HTMLElement[];
+  const chips = document.querySelectorAll('.chip');
+
+  let activeFilter = 'all';
+
+  function filterCards() {
+    const query = searchInput.value.toLowerCase().trim();
+    cards.forEach(card => {
+      const name = card.dataset.name ?? '';
+      const tags = card.dataset.tags ?? '';
+      const category = card.dataset.category ?? '';
+      const matchesSearch = !query || name.includes(query) || tags.includes(query);
+      const matchesFilter = activeFilter === 'all' || category === activeFilter;
+      card.style.display = matchesSearch && matchesFilter ? '' : 'none';
+    });
+  }
+
+  searchInput.addEventListener('input', filterCards);
+
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilter = (chip as HTMLElement).dataset.filter ?? 'all';
+      filterCards();
+    });
+  });
+</script>
+
+<style>
+  /* Nav */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: rgba(26, 26, 46, 0.9);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text);
+  }
+  .nav-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .nav-links a {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover {
+    color: var(--accent);
+  }
+
+  /* Buttons */
+  .btn-primary {
+    display: inline-block;
+    padding: 0.75rem 1.75rem;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.2s;
+  }
+  .btn-primary:hover {
+    background: var(--accent-hover);
+    color: #fff;
+  }
+  .btn-ghost {
+    display: inline-block;
+    padding: 0.75rem 1.75rem;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  .btn-ghost:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .btn-outline {
+    padding: 0.4rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-secondary) !important;
+    font-size: 0.85rem;
+    transition: border-color 0.2s;
+  }
+  .btn-outline:hover {
+    border-color: var(--accent);
+    color: var(--accent) !important;
+  }
+
+  /* Hero */
+  .hero {
+    position: relative;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 60px;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+  }
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(26, 26, 46, 0.4) 0%,
+      rgba(26, 26, 46, 0.85) 60%,
+      var(--bg) 100%
+    );
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 700px;
+    padding: 2rem 1.5rem;
+  }
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--accent), #34D399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  .hero-stats {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+  .stat-label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  /* Sections */
+  .section {
+    padding: 5rem 1.5rem;
+  }
+  .section-alt {
+    background: rgba(255, 255, 255, 0.02);
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+  .section-desc {
+    text-align: center;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+
+  /* Features */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .feature-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.75rem;
+    transition: border-color 0.2s;
+  }
+  .feature-card:hover {
+    border-color: var(--accent);
+  }
+  .feature-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+  .feature-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .feature-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  /* Search & Filter */
+  .search-bar {
+    max-width: 400px;
+    margin: 0 auto 1.25rem;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text);
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .search-bar input:focus {
+    border-color: var(--accent);
+  }
+  .search-bar input::placeholder {
+    color: var(--text-muted);
+  }
+  .filter-chips {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .chip {
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .chip.active {
+    background: var(--accent-subtle);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* Card Grid */
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+    transition: all 0.2s;
+    display: block;
+    color: var(--text);
+  }
+  .card:hover {
+    border-color: var(--accent);
+    background: var(--bg-card-hover);
+    transform: translateY(-2px);
+  }
+  .card-name {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  .card-category {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    margin-bottom: 0.75rem;
+  }
+  .card-tags {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+  .tag {
+    padding: 0.15rem 0.5rem;
+    background: var(--accent-subtle);
+    color: var(--accent);
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+  /* CTA */
+  .cta-section {
+    text-align: center;
+    border-top: 1px solid var(--border);
+  }
+  .cta-content h2 {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .cta-content p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+  }
+
+  /* Footer */
+  .footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem 1.5rem;
+  }
+  .footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: var(--text-muted);
+  }
+  .footer-logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+  }
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .footer-links a {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+  .footer-links a:hover {
+    color: var(--accent);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2.25rem;
+    }
+    .hero-subtitle {
+      font-size: 1rem;
+    }
+    .nav-links a:not(.btn-outline) {
+      display: none;
+    }
+    .features-grid {
+      grid-template-columns: 1fr;
+    }
+    .card-grid {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+    .footer-inner {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+</style>
