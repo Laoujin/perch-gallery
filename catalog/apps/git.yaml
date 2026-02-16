@@ -1,0 +1,23 @@
+name: Git
+category: Development/Version Control
+tags: [vcs, cli, developer]
+description: Distributed version control system
+links:
+  website: https://git-scm.com
+  docs: https://git-scm.com/doc
+  github: https://github.com/git/git
+install:
+  winget: Git.Git
+  choco: git
+config:
+  links:
+    - source: .gitconfig
+      target:
+        windows: "%USERPROFILE%/.gitconfig"
+        linux: "$HOME/.gitconfig"
+        macos: "$HOME/.gitconfig"
+    - source: .gitignore_global
+      target:
+        windows: "%USERPROFILE%/.gitignore_global"
+        linux: "$HOME/.gitignore_global"
+        macos: "$HOME/.gitignore_global"

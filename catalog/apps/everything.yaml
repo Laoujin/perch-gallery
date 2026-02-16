@@ -1,0 +1,14 @@
+name: Everything
+category: Utilities/Search
+tags: [search, files, indexing, windows]
+description: Instant file search utility for Windows
+links:
+  website: https://www.voidtools.com
+install:
+  winget: voidtools.Everything
+  choco: everything
+config:
+  links:
+    - source: Everything.ini
+      target:
+        windows: "%APPDATA%/Everything/Everything.ini"

@@ -1,0 +1,7 @@
+name: Fira Code
+category: Fonts/Programming
+tags: [monospace, ligatures, open-source]
+description: Free monospaced font with programming ligatures
+preview-text: "=> != === <=> <!-- www"
+install:
+  choco: firacode

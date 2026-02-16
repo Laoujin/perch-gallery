@@ -1,0 +1,7 @@
+name: Cascadia Code Nerd Font
+category: Fonts/Programming
+tags: [monospace, nerd-font, ligatures, microsoft]
+description: Microsoft's Cascadia Code with Nerd Font patches
+preview-text: "let x => match { Ok(v) -> v }"
+install:
+  choco: cascadia-code-nerd-font

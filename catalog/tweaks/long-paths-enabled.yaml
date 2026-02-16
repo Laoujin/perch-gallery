@@ -1,0 +1,12 @@
+name: Enable Long Paths
+category: System
+tags: [filesystem, developer, paths]
+description: Enable Win32 long path support (requires admin)
+reversible: true
+profiles: [developer]
+priority: 1
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Control\FileSystem
+    name: LongPathsEnabled
+    value: 1
+    type: dword

@@ -1,0 +1,7 @@
+name: JetBrains Mono Nerd Font
+category: Fonts/Programming
+tags: [monospace, nerd-font, ligatures, jetbrains]
+description: JetBrains Mono with Nerd Font patches
+preview-text: "fn main() { let x = 42; }"
+install:
+  choco: nerd-fonts-jetbrainsmono

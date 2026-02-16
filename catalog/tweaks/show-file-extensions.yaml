@@ -1,0 +1,12 @@
+name: Show File Extensions
+category: Explorer
+tags: [explorer, files, visibility]
+description: Always show file name extensions in Explorer
+reversible: true
+profiles: [developer, power-user]
+priority: 1
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: HideFileExt
+    value: 0
+    type: dword

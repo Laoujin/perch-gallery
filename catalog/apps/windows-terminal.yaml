@@ -1,0 +1,16 @@
+name: Windows Terminal
+category: Development/Terminals
+tags: [terminal, shell, microsoft]
+description: Modern terminal application for command-line users
+links:
+  website: https://aka.ms/terminal
+  docs: https://learn.microsoft.com/en-us/windows/terminal/
+  github: https://github.com/microsoft/terminal
+install:
+  winget: Microsoft.WindowsTerminal
+  choco: microsoft-windows-terminal
+config:
+  links:
+    - source: settings.json
+      target:
+        windows: "%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json"

@@ -1,0 +1,24 @@
+name: Visual Studio Code
+display-name: VS Code
+category: Development/IDEs
+tags: [editor, ide, microsoft]
+description: Lightweight but powerful source code editor
+links:
+  website: https://code.visualstudio.com
+  docs: https://code.visualstudio.com/docs
+  github: https://github.com/microsoft/vscode
+install:
+  winget: Microsoft.VisualStudio.Code
+  choco: vscode
+config:
+  links:
+    - source: settings.json
+      target:
+        windows: "%APPDATA%/Code/User/settings.json"
+        linux: "$HOME/.config/Code/User/settings.json"
+        macos: "$HOME/Library/Application Support/Code/User/settings.json"
+    - source: keybindings.json
+      target:
+        windows: "%APPDATA%/Code/User/keybindings.json"
+        linux: "$HOME/.config/Code/User/keybindings.json"
+        macos: "$HOME/Library/Application Support/Code/User/keybindings.json"

@@ -1,0 +1,125 @@
+apps:
+  - id: vscode
+    name: Visual Studio Code
+    category: Development/IDEs
+    tags: [editor, ide, microsoft]
+  - id: git
+    name: Git
+    category: Development/Version Control
+    tags: [vcs, cli, developer]
+  - id: windows-terminal
+    name: Windows Terminal
+    category: Development/Terminals
+    tags: [terminal, shell, microsoft]
+  - id: firefox
+    name: Firefox
+    category: Browsers
+    tags: [browser, mozilla, privacy]
+  - id: 7zip
+    name: 7-Zip
+    category: Utilities/Compression
+    tags: [archive, compression, open-source]
+  - id: powershell
+    name: PowerShell
+    category: Development/Shells
+    tags: [shell, cli, microsoft, scripting]
+  - id: notepadplusplus
+    name: Notepad++
+    category: Development/Editors
+    tags: [editor, text, windows]
+  - id: vlc
+    name: VLC
+    category: Media/Players
+    tags: [media, video, audio, open-source]
+  - id: everything
+    name: Everything
+    category: Utilities/Search
+    tags: [search, files, indexing, windows]
+  - id: powertoys
+    name: PowerToys
+    category: Utilities/Productivity
+    tags: [productivity, utilities, microsoft, windows]
+
+fonts:
+  - id: cascadia-code-nf
+    name: Cascadia Code Nerd Font
+    category: Fonts/Programming
+    tags: [monospace, nerd-font, ligatures, microsoft]
+  - id: jetbrains-mono-nf
+    name: JetBrains Mono Nerd Font
+    category: Fonts/Programming
+    tags: [monospace, nerd-font, ligatures, jetbrains]
+  - id: fira-code
+    name: Fira Code
+    category: Fonts/Programming
+    tags: [monospace, ligatures, open-source]
+  - id: hack-nf
+    name: Hack Nerd Font
+    category: Fonts/Programming
+    tags: [monospace, nerd-font, open-source]
+  - id: meslo-nf
+    name: Meslo Nerd Font
+    category: Fonts/Programming
+    tags: [monospace, nerd-font, open-source]
+
+tweaks:
+  - id: show-file-extensions
+    name: Show File Extensions
+    category: Explorer
+    tags: [explorer, files, visibility]
+  - id: show-hidden-files
+    name: Show Hidden Files
+    category: Explorer
+    tags: [explorer, files, visibility]
+  - id: dark-mode
+    name: Dark Mode
+    category: Appearance
+    tags: [theme, dark-mode, personalization]
+  - id: taskbar-alignment-left
+    name: Taskbar Left Alignment
+    category: Taskbar
+    tags: [taskbar, alignment, windows-11]
+  - id: disable-web-search
+    name: Disable Web Search in Start
+    category: Search
+    tags: [search, start-menu, privacy]
+  - id: classic-context-menu
+    name: Classic Context Menu
+    category: Explorer
+    tags: [explorer, context-menu, windows-11]
+  - id: disable-sticky-keys
+    name: Disable Sticky Keys Shortcut
+    category: Accessibility
+    tags: [accessibility, keyboard, gaming]
+  - id: compact-mode
+    name: Compact Mode
+    category: Explorer
+    tags: [explorer, density, windows-11]
+  - id: explorer-open-this-pc
+    name: Explorer Opens to This PC
+    category: Explorer
+    tags: [explorer, navigation]
+  - id: disable-copilot-button
+    name: Hide Copilot Button
+    category: Taskbar
+    tags: [taskbar, copilot, windows-11]
+  - id: disable-widgets
+    name: Hide Widgets Button
+    category: Taskbar
+    tags: [taskbar, widgets, windows-11]
+  - id: disable-chat-icon
+    name: Hide Chat Icon
+    category: Taskbar
+    tags: [taskbar, teams, chat, windows-11]
+  - id: disable-advertising-id
+    name: Disable Advertising ID
+    category: Privacy
+    tags: [privacy, advertising, telemetry]
+  - id: disable-mouse-acceleration
+    name: Disable Mouse Acceleration
+    category: Input
+    tags: [mouse, gaming, precision]
+  - id: long-paths-enabled
+    name: Enable Long Paths
+    category: System
+    tags: [filesystem, developer, paths]

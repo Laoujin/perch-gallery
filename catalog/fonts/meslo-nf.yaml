@@ -1,0 +1,7 @@
+name: Meslo Nerd Font
+category: Fonts/Programming
+tags: [monospace, nerd-font, open-source]
+description: Customized version of Apple's Menlo with Nerd Font patches
+preview-text: "$ git status | grep modified"
+install:
+  choco: nerd-fonts-meslo

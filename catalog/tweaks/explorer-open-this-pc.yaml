@@ -1,0 +1,12 @@
+name: Explorer Opens to This PC
+category: Explorer
+tags: [explorer, navigation]
+description: Set File Explorer to open to This PC instead of Quick Access
+reversible: true
+profiles: [power-user]
+priority: 3
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: LaunchTo
+    value: 1
+    type: dword

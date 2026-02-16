@@ -1,0 +1,12 @@
+name: Disable Web Search in Start
+category: Search
+tags: [search, start-menu, privacy]
+description: Disable web search results in the Start menu
+reversible: true
+profiles: [developer, power-user]
+priority: 1
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\SearchSettings
+    name: IsDynamicSearchBoxEnabled
+    value: 0
+    type: dword

@@ -1,0 +1,16 @@
+name: PowerToys
+category: Utilities/Productivity
+tags: [productivity, utilities, microsoft, windows]
+description: Windows system utilities to maximize productivity
+links:
+  website: https://learn.microsoft.com/en-us/windows/powertoys/
+  docs: https://learn.microsoft.com/en-us/windows/powertoys/
+  github: https://github.com/microsoft/PowerToys
+install:
+  winget: Microsoft.PowerToys
+  choco: powertoys
+config:
+  links:
+    - source: settings.json
+      target:
+        windows: "%LOCALAPPDATA%/Microsoft/PowerToys/settings.json"

@@ -1,0 +1,18 @@
+name: PowerShell
+category: Development/Shells
+tags: [shell, cli, microsoft, scripting]
+description: Cross-platform task automation and configuration management
+links:
+  website: https://learn.microsoft.com/en-us/powershell/
+  docs: https://learn.microsoft.com/en-us/powershell/scripting/overview
+  github: https://github.com/PowerShell/PowerShell
+install:
+  winget: Microsoft.PowerShell
+  choco: powershell-core
+config:
+  links:
+    - source: profile.ps1
+      target:
+        windows: "%USERPROFILE%/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
+        linux: "$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1"
+        macos: "$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1"

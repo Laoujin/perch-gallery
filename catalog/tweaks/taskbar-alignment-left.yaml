@@ -1,0 +1,12 @@
+name: Taskbar Left Alignment
+category: Taskbar
+tags: [taskbar, alignment, windows-11]
+description: Align Windows 11 taskbar icons to the left
+reversible: true
+profiles: [power-user]
+priority: 3
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: TaskbarAl
+    value: 0
+    type: dword

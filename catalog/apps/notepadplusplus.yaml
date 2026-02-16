@@ -1,0 +1,15 @@
+name: Notepad++
+category: Development/Editors
+tags: [editor, text, windows]
+description: Free source code editor and Notepad replacement
+links:
+  website: https://notepad-plus-plus.org
+  github: https://github.com/notepad-plus-plus/notepad-plus-plus
+install:
+  winget: Notepad++.Notepad++
+  choco: notepadplusplus
+config:
+  links:
+    - source: config.xml
+      target:
+        windows: "%APPDATA%/Notepad++/config.xml"

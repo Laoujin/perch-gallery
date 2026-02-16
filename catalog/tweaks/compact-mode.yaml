@@ -1,0 +1,12 @@
+name: Compact Mode
+category: Explorer
+tags: [explorer, density, windows-11]
+description: Use compact spacing in File Explorer
+reversible: true
+profiles: [power-user]
+priority: 3
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: UseCompactMode
+    value: 1
+    type: dword

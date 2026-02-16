@@ -1,0 +1,12 @@
+name: Hide Chat Icon
+category: Taskbar
+tags: [taskbar, teams, chat, windows-11]
+description: Hide the Chat/Teams icon from the taskbar
+reversible: true
+profiles: [power-user]
+priority: 3
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: TaskbarMn
+    value: 0
+    type: dword

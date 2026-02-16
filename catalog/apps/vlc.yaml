@@ -1,0 +1,17 @@
+name: VLC
+category: Media/Players
+tags: [media, video, audio, open-source]
+description: Free and open-source cross-platform multimedia player
+links:
+  website: https://www.videolan.org/vlc/
+  docs: https://wiki.videolan.org/Documentation:Documentation/
+install:
+  winget: VideoLAN.VLC
+  choco: vlc
+config:
+  links:
+    - source: vlcrc
+      target:
+        windows: "%APPDATA%/vlc/vlcrc"
+        linux: "$HOME/.config/vlc/vlcrc"
+        macos: "$HOME/Library/Preferences/org.videolan.vlc/vlcrc"

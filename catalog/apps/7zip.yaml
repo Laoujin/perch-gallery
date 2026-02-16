@@ -1,0 +1,9 @@
+name: 7-Zip
+category: Utilities/Compression
+tags: [archive, compression, open-source]
+description: Free and open-source file archiver
+links:
+  website: https://www.7-zip.org
+install:
+  winget: 7zip.7zip
+  choco: 7zip

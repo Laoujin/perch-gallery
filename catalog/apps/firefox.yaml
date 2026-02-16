@@ -1,0 +1,22 @@
+name: Firefox
+category: Browsers
+tags: [browser, mozilla, privacy]
+description: Free and open-source web browser by Mozilla
+links:
+  website: https://www.mozilla.org/firefox/
+  docs: https://support.mozilla.org/
+install:
+  winget: Mozilla.Firefox
+  choco: firefox
+config:
+  links:
+    - source: user.js
+      target:
+        windows: "%APPDATA%/Mozilla/Firefox/Profiles/default/user.js"
+        linux: "$HOME/.mozilla/firefox/default/user.js"
+        macos: "$HOME/Library/Application Support/Firefox/Profiles/default/user.js"
+    - source: userChrome.css
+      target:
+        windows: "%APPDATA%/Mozilla/Firefox/Profiles/default/chrome/userChrome.css"
+        linux: "$HOME/.mozilla/firefox/default/chrome/userChrome.css"
+        macos: "$HOME/Library/Application Support/Firefox/Profiles/default/chrome/userChrome.css"
