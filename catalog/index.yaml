@@ -1,87 +1,89 @@
+# Auto-generated from catalog entries. Do not edit manually.
+# Run: node scripts/generate-index.mjs
+
 apps:
-  - id: vscode
-    name: Visual Studio Code
-    category: Development/IDEs
-    tags: [editor, ide, microsoft]
-  - id: git
-    name: Git
-    category: Development/Version Control
-    tags: [vcs, cli, developer]
-    kind: dotfile
-  - id: windows-terminal
-    name: Windows Terminal
-    category: Development/Terminals
-    tags: [terminal, shell, microsoft]
-  - id: firefox
-    name: Firefox
-    category: Browsers
-    tags: [browser, mozilla, privacy]
+  - id: dotnet-sdk
+    name: .NET SDK
+    category: Development/.NET
+    tags: [dotnet, sdk, microsoft, csharp]
+  - id: 1password
+    name: 1Password
+    category: Security/Passwords
+    tags: [password-manager, security, vault]
   - id: 7zip
     name: 7-Zip
     category: Utilities/Compression
     tags: [archive, compression, open-source]
-  - id: powershell
-    name: PowerShell
-    category: Development/Shells
-    tags: [shell, cli, microsoft, scripting]
-    kind: dotfile
-  - id: notepadplusplus
-    name: Notepad++
-    category: Development/Editors
-    tags: [editor, text, windows]
-  - id: vlc
-    name: VLC
-    category: Media/Players
-    tags: [media, video, audio, open-source]
-  - id: everything
-    name: Everything
-    category: Utilities/Search
-    tags: [search, files, indexing, windows]
-  - id: powertoys
-    name: PowerToys
+  - id: autohotkey
+    name: AutoHotkey
     category: Utilities/Productivity
-    tags: [productivity, utilities, microsoft, windows]
-  - id: beyondcompare
-    name: Beyond Compare
-    category: Development/Diff Tools
-    tags: [diff, compare, merge, windows]
-  - id: cmder
-    name: Cmder
-    category: Development/Terminals
-    tags: [terminal, console, windows]
-  - id: filezilla
-    name: FileZilla
-    category: Networking/FTP
-    tags: [ftp, sftp, transfer, windows]
-  - id: sublimetext
-    name: Sublime Text
-    category: Development/Editors
-    tags: [editor, text, windows, macos, linux]
+    tags: [automation, scripting, hotkeys, windows]
   - id: bash
     name: Bash
     category: Development/Shells
     tags: [shell, cli, linux, macos]
     kind: dotfile
-  - id: ditto
-    name: Ditto
-    category: Utilities/Clipboard
-    tags: [clipboard, manager, windows]
-  - id: greenshot
-    name: Greenshot
-    category: Utilities/Screenshots
-    tags: [screenshot, capture, windows]
-  - id: visualstudio
-    name: Visual Studio
-    category: Development/IDEs
-    tags: [ide, microsoft, dotnet, windows]
-  - id: nvm
-    name: NVM for Windows
-    category: Development/Node
-    tags: [node, nvm, version-manager, windows]
+  - id: beyondcompare
+    name: Beyond Compare
+    category: Development/Diff Tools
+    tags: [diff, compare, merge, windows]
   - id: bun
     name: Bun
     category: Development/Node
     tags: [runtime, bundler, package-manager, javascript]
+  - id: cmder
+    name: Cmder
+    category: Development/Terminals
+    tags: [terminal, console, windows]
+  - id: copyq
+    name: CopyQ
+    category: Utilities/Clipboard
+    tags: [clipboard, manager, open-source]
+  - id: db-browser-sqlite
+    name: DB Browser for SQLite
+    category: Development/Tools
+    tags: [database, sqlite, gui, open-source]
+  - id: discord
+    name: Discord
+    category: Communication/Chat
+    tags: [chat, voice, gaming, community]
+  - id: ditto
+    name: Ditto
+    category: Utilities/Clipboard
+    tags: [clipboard, manager, windows]
+  - id: docker
+    name: Docker Desktop
+    category: Development/Tools
+    tags: [containers, docker, devops, virtualization]
+  - id: dotpeek
+    name: dotPeek
+    category: Development/.NET
+    tags: [dotnet, decompiler, jetbrains, csharp]
+  - id: dropbox
+    name: Dropbox
+    category: Utilities/System
+    tags: [cloud, sync, storage, backup]
+  - id: everything
+    name: Everything
+    category: Utilities/Search
+    tags: [search, files, indexing, windows]
+  - id: filezilla
+    name: FileZilla
+    category: Networking/FTP
+    tags: [ftp, sftp, transfer, windows]
+  - id: firefox
+    name: Firefox
+    category: Browsers
+    tags: [browser, mozilla, privacy]
+  - id: fzf
+    name: fzf
+    category: Development/Tools
+    tags: [cli, fuzzy-finder, search, shell]
+  - id: git
+    name: Git
+    category: Development/Version Control
+    tags: [vcs, cli, developer]
+    kind: dotfile
   - id: chrome
     name: Google Chrome
     category: Browsers
@@ -90,168 +92,164 @@ apps:
     name: Google Chrome Canary
     category: Browsers
     tags: [browser, google, chromium, dev]
-  - id: opera
-    name: Opera
-    category: Browsers
-    tags: [browser, chromium, vpn]
-  - id: docker
-    name: Docker Desktop
-    category: Development/Tools
-    tags: [containers, docker, devops, virtualization]
-  - id: dotnet-sdk
-    name: .NET SDK
-    category: Development/.NET
-    tags: [dotnet, sdk, microsoft, csharp]
-  - id: python
-    name: Python
-    category: Development/Tools
-    tags: [python, language, scripting]
-  - id: ruby
-    name: Ruby
-    category: Development/Tools
-    tags: [ruby, language, scripting]
-  - id: zoxide
-    name: zoxide
-    category: Development/Shells
-    tags: [cli, navigation, cd, shell]
-  - id: fzf
-    name: fzf
-    category: Development/Tools
-    tags: [cli, fuzzy-finder, search, shell]
-  - id: openssh
-    name: OpenSSH
-    category: Networking/Security
-    tags: [ssh, remote, cli, microsoft]
-  - id: ilspy
-    name: ILSpy
-    category: Development/.NET
-    tags: [dotnet, decompiler, open-source, csharp]
-  - id: dotpeek
-    name: dotPeek
-    category: Development/.NET
-    tags: [dotnet, decompiler, jetbrains, csharp]
-  - id: resharper
-    name: ReSharper
-    category: Development/.NET
-    tags: [dotnet, jetbrains, visual-studio, productivity]
+  - id: greenshot
+    name: Greenshot
+    category: Utilities/Screenshots
+    tags: [screenshot, capture, windows]
   - id: heidisql
     name: HeidiSQL
     category: Development/Tools
     tags: [database, mysql, postgresql, sql, gui]
-  - id: robo3t
-    name: Robo 3T
-    category: Development/Tools
-    tags: [database, mongodb, gui, nosql]
-  - id: db-browser-sqlite
-    name: DB Browser for SQLite
-    category: Development/Tools
-    tags: [database, sqlite, gui, open-source]
-  - id: wireshark
-    name: Wireshark
-    category: Networking/Security
-    tags: [network, packet-capture, analysis, open-source]
-  - id: mitmproxy
-    name: mitmproxy
-    category: Networking/Security
-    tags: [proxy, http, debugging, ssl, cli]
   - id: hoppscotch
     name: Hoppscotch
     category: Development/Tools
     tags: [api, rest, graphql, testing, open-source]
-  - id: dropbox
-    name: Dropbox
-    category: Utilities/System
-    tags: [cloud, sync, storage, backup]
-  - id: obsidian
-    name: Obsidian
-    category: Utilities/Productivity
-    tags: [notes, markdown, knowledge-base, pkm]
-  - id: autohotkey
-    name: AutoHotkey
-    category: Utilities/Productivity
-    tags: [automation, scripting, hotkeys, windows]
-  - id: sysinternals
-    name: Sysinternals Suite
-    category: Utilities/System
-    tags: [system, diagnostics, microsoft, admin]
-  - id: 1password
-    name: 1Password
-    category: Security/Passwords
-    tags: [password-manager, security, vault]
-  - id: copyq
-    name: CopyQ
-    category: Utilities/Clipboard
-    tags: [clipboard, manager, open-source]
-  - id: sharex
-    name: ShareX
-    category: Utilities/Screenshots
-    tags: [screenshot, screen-recording, capture, open-source]
-  - id: windirstat
-    name: WinDirStat
-    category: File Management
-    tags: [disk-usage, visualization, cleanup, open-source]
-  - id: pdftk
-    name: PDFtk Free
-    category: Utilities/Productivity
-    tags: [pdf, cli, merge, split]
-  - id: sandboxie-plus
-    name: Sandboxie Plus
-    category: Security/Passwords
-    tags: [sandbox, isolation, security, open-source]
+  - id: ilspy
+    name: ILSpy
+    category: Development/.NET
+    tags: [dotnet, decompiler, open-source, csharp]
   - id: irfanview
     name: IrfanView
     category: Media/Graphics
     tags: [image-viewer, graphics, lightweight]
-  - id: paint-dot-net
-    name: Paint.NET
-    category: Media/Graphics
-    tags: [image-editor, graphics, layers, windows]
-  - id: spotify
-    name: Spotify
-    category: Media/Players
-    tags: [music, streaming, audio]
-  - id: slack
-    name: Slack
-    category: Communication/Chat
-    tags: [chat, messaging, team, collaboration]
-  - id: discord
-    name: Discord
-    category: Communication/Chat
-    tags: [chat, voice, gaming, community]
-  - id: steam
-    name: Steam
-    category: Gaming
-    tags: [gaming, store, valve, launcher]
+  - id: mitmproxy
+    name: mitmproxy
+    category: Networking/Security
+    tags: [proxy, http, debugging, ssl, cli]
+  - id: notepadplusplus
+    name: Notepad++
+    category: Development/Editors
+    tags: [editor, text, windows]
   - id: npm
     name: npm
     category: Development/Node
     tags: [node, package-manager, cli]
     kind: dotfile
+  - id: nvm
+    name: NVM for Windows
+    category: Development/Node
+    tags: [node, nvm, version-manager, windows]
+  - id: obsidian
+    name: Obsidian
+    category: Utilities/Productivity
+    tags: [notes, markdown, knowledge-base, pkm]
+  - id: openssh
+    name: OpenSSH
+    category: Networking/Security
+    tags: [ssh, remote, cli, microsoft]
+  - id: opera
+    name: Opera
+    category: Browsers
+    tags: [browser, chromium, vpn]
+  - id: paint-dot-net
+    name: Paint.NET
+    category: Media/Graphics
+    tags: [image-editor, graphics, layers, windows]
+  - id: pdftk
+    name: PDFtk Free
+    category: Utilities/Productivity
+    tags: [pdf, cli, merge, split]
+  - id: powershell
+    name: PowerShell
+    category: Development/Shells
+    tags: [shell, cli, microsoft, scripting]
+    kind: dotfile
+  - id: powertoys
+    name: PowerToys
+    category: Utilities/Productivity
+    tags: [productivity, utilities, microsoft, windows]
+  - id: python
+    name: Python
+    category: Development/Tools
+    tags: [python, language, scripting]
+  - id: resharper
+    name: ReSharper
+    category: Development/.NET
+    tags: [dotnet, jetbrains, visual-studio, productivity]
+  - id: robo3t
+    name: Robo 3T
+    category: Development/Tools
+    tags: [database, mongodb, gui, nosql]
+  - id: ruby
+    name: Ruby
+    category: Development/Tools
+    tags: [ruby, language, scripting]
+  - id: sandboxie-plus
+    name: Sandboxie Plus
+    category: Security/Passwords
+    tags: [sandbox, isolation, security, open-source]
+  - id: sharex
+    name: ShareX
+    category: Utilities/Screenshots
+    tags: [screenshot, screen-recording, capture, open-source]
+  - id: slack
+    name: Slack
+    category: Communication/Chat
+    tags: [chat, messaging, team, collaboration]
+  - id: spotify
+    name: Spotify
+    category: Media/Players
+    tags: [music, streaming, audio]
+  - id: steam
+    name: Steam
+    category: Gaming
+    tags: [gaming, store, valve, launcher]
+  - id: sublimetext
+    name: Sublime Text
+    category: Development/Editors
+    tags: [editor, text, windows, macos, linux]
+  - id: sysinternals
+    name: Sysinternals Suite
+    category: Utilities/System
+    tags: [system, diagnostics, microsoft, admin]
   - id: vim
     name: Vim
     category: Development/Editors
     tags: [editor, cli, terminal]
     kind: dotfile
+  - id: visualstudio
+    name: Visual Studio
+    category: Development/IDEs
+    tags: [ide, microsoft, dotnet, windows]
+  - id: vscode
+    name: Visual Studio Code
+    category: Development/IDEs
+    tags: [editor, ide, microsoft]
+  - id: vlc
+    name: VLC
+    category: Media/Players
+    tags: [media, video, audio, open-source]
+  - id: windirstat
+    name: WinDirStat
+    category: File Management
+    tags: [disk-usage, visualization, cleanup, open-source]
+  - id: windows-terminal
+    name: Windows Terminal
+    category: Development/Terminals
+    tags: [terminal, shell, microsoft]
+  - id: wireshark
+    name: Wireshark
+    category: Networking/Security
+    tags: [network, packet-capture, analysis, open-source]
   - id: wsl
     name: WSL
     category: System/Virtualization
     tags: [wsl, linux, microsoft, windows]
     kind: dotfile
+  - id: zoxide
+    name: zoxide
+    category: Development/Shells
+    tags: [cli, navigation, cd, shell]
   - id: zsh
     name: Zsh
     category: Development/Shells
     tags: [shell, cli, linux, macos]
     kind: dotfile
-
 fonts:
   - id: cascadia-code-nf
     name: Cascadia Code Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, ligatures, microsoft]
-  - id: jetbrains-mono-nf
-    name: JetBrains Mono Nerd Font
-    category: Fonts/Programming
-    tags: [monospace, nerd-font, ligatures, jetbrains]
   - id: fira-code
     name: Fira Code
     category: Fonts/Programming
@@ -260,60 +258,27 @@ fonts:
     name: Hack Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, open-source]
+  - id: jetbrains-mono-nf
+    name: JetBrains Mono Nerd Font
+    category: Fonts/Programming
+    tags: [monospace, nerd-font, ligatures, jetbrains]
   - id: meslo-nf
     name: Meslo Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, open-source]
-
 tweaks:
-  - id: show-file-extensions
-    name: Show File Extensions
-    category: Explorer
-    tags: [explorer, files, visibility]
-  - id: show-hidden-files
-    name: Show Hidden Files
-    category: Explorer
-    tags: [explorer, files, visibility]
-  - id: dark-mode
-    name: Dark Mode
-    category: Appearance
-    tags: [theme, dark-mode, personalization]
-  - id: taskbar-alignment-left
-    name: Taskbar Left Alignment
-    category: Taskbar
-    tags: [taskbar, alignment, windows-11]
-  - id: disable-web-search
-    name: Disable Web Search in Start
-    category: Search
-    tags: [search, start-menu, privacy]
   - id: classic-context-menu
     name: Classic Context Menu
     category: Explorer
     tags: [explorer, context-menu, windows-11]
-  - id: disable-sticky-keys
-    name: Disable Sticky Keys Shortcut
-    category: Accessibility
-    tags: [accessibility, keyboard, gaming]
   - id: compact-mode
     name: Compact Mode
     category: Explorer
     tags: [explorer, density, windows-11]
-  - id: explorer-open-this-pc
-    name: Explorer Opens to This PC
-    category: Explorer
-    tags: [explorer, navigation]
-  - id: disable-copilot-button
-    name: Hide Copilot Button
-    category: Taskbar
-    tags: [taskbar, copilot, windows-11]
-  - id: disable-widgets
-    name: Hide Widgets Button
-    category: Taskbar
-    tags: [taskbar, widgets, windows-11]
-  - id: disable-chat-icon
-    name: Hide Chat Icon
-    category: Taskbar
-    tags: [taskbar, teams, chat, windows-11]
+  - id: dark-mode
+    name: Dark Mode
+    category: Appearance
+    tags: [theme, dark-mode, personalization]
   - id: disable-advertising-id
     name: Disable Advertising ID
     category: Privacy
@@ -322,7 +287,43 @@ tweaks:
     name: Disable Mouse Acceleration
     category: Input
     tags: [mouse, gaming, precision]
+  - id: disable-sticky-keys
+    name: Disable Sticky Keys Shortcut
+    category: Accessibility
+    tags: [accessibility, keyboard, gaming]
+  - id: disable-web-search
+    name: Disable Web Search in Start
+    category: Search
+    tags: [search, start-menu, privacy]
   - id: long-paths-enabled
     name: Enable Long Paths
     category: System
     tags: [filesystem, developer, paths]
+  - id: explorer-open-this-pc
+    name: Explorer Opens to This PC
+    category: Explorer
+    tags: [explorer, navigation]
+  - id: disable-chat-icon
+    name: Hide Chat Icon
+    category: Taskbar
+    tags: [taskbar, teams, chat, windows-11]
+  - id: disable-copilot-button
+    name: Hide Copilot Button
+    category: Taskbar
+    tags: [taskbar, copilot, windows-11]
+  - id: disable-widgets
+    name: Hide Widgets Button
+    category: Taskbar
+    tags: [taskbar, widgets, windows-11]
+  - id: show-file-extensions
+    name: Show File Extensions
+    category: Explorer
+    tags: [explorer, files, visibility]
+  - id: show-hidden-files
+    name: Show Hidden Files
+    category: Explorer
+    tags: [explorer, files, visibility]
+  - id: taskbar-alignment-left
+    name: Taskbar Left Alignment
+    category: Taskbar
+    tags: [taskbar, alignment, windows-11]

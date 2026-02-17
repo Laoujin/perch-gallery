@@ -3,7 +3,8 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/copy-catalog.mjs",
+    "generate-index": "node scripts/generate-index.mjs",
+    "build": "node scripts/generate-index.mjs && astro build && node scripts/copy-catalog.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
