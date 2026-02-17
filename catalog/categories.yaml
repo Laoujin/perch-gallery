@@ -58,6 +58,7 @@ Appearance:
   sort: 1000
   children:
     Theme: { sort: 10 }
+    Window Management: { sort: 20 }
 
 Explorer:
   sort: 1100

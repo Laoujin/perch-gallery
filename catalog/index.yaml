@@ -269,61 +269,89 @@ fonts:
 tweaks:
   - id: classic-context-menu
     name: Classic Context Menu
-    category: Explorer
+    category: Explorer/Context Menu
     tags: [explorer, context-menu, windows-11]
   - id: compact-mode
     name: Compact Mode
-    category: Explorer
+    category: Explorer/Appearance
     tags: [explorer, density, windows-11]
   - id: dark-mode
     name: Dark Mode
-    category: Appearance
+    category: Appearance/Theme
     tags: [theme, dark-mode, personalization]
   - id: disable-advertising-id
     name: Disable Advertising ID
-    category: Privacy
+    category: Privacy/Advertising
     tags: [privacy, advertising, telemetry]
+  - id: disable-aero-shake
+    name: Disable Aero Shake
+    category: Appearance/Window Management
+    tags: [aero, shake, window-management]
   - id: disable-mouse-acceleration
     name: Disable Mouse Acceleration
-    category: Input
+    category: Input/Mouse
     tags: [mouse, gaming, precision]
   - id: disable-sticky-keys
     name: Disable Sticky Keys Shortcut
-    category: Accessibility
+    category: Accessibility/Keyboard
     tags: [accessibility, keyboard, gaming]
   - id: disable-web-search
     name: Disable Web Search in Start
-    category: Search
+    category: Search/Start Menu
     tags: [search, start-menu, privacy]
   - id: long-paths-enabled
     name: Enable Long Paths
-    category: System
+    category: System/Filesystem
     tags: [filesystem, developer, paths]
   - id: explorer-open-this-pc
     name: Explorer Opens to This PC
-    category: Explorer
+    category: Explorer/Navigation
     tags: [explorer, navigation]
   - id: disable-chat-icon
     name: Hide Chat Icon
-    category: Taskbar
+    category: Taskbar/Declutter
     tags: [taskbar, teams, chat, windows-11]
   - id: disable-copilot-button
     name: Hide Copilot Button
-    category: Taskbar
+    category: Taskbar/Declutter
     tags: [taskbar, copilot, windows-11]
+  - id: hide-network-navigation
+    name: Hide Network from Navigation Pane
+    category: Explorer/Navigation
+    tags: [explorer, network, navigation]
+  - id: hide-onedrive-navigation
+    name: Hide OneDrive from Navigation Pane
+    category: Explorer/Navigation
+    tags: [explorer, onedrive, navigation]
+  - id: hide-this-pc-folders
+    name: Hide This PC Folders
+    category: Explorer/Navigation
+    tags: [explorer, this-pc, folders, windows-10]
   - id: disable-widgets
     name: Hide Widgets Button
-    category: Taskbar
+    category: Taskbar/Declutter
     tags: [taskbar, widgets, windows-11]
+  - id: pin-to-start-context-menu
+    name: Restore Pin to Start Context Menu
+    category: Explorer/Context Menu
+    tags: [explorer, context-menu, pin-to-start, windows-10]
   - id: show-file-extensions
     name: Show File Extensions
-    category: Explorer
+    category: Explorer/Files
     tags: [explorer, files, visibility]
+  - id: show-full-path-in-title-bar
+    name: Show Full Path in Title Bar
+    category: Explorer/Navigation
+    tags: [explorer, navigation, path]
   - id: show-hidden-files
     name: Show Hidden Files
-    category: Explorer
+    category: Explorer/Files
     tags: [explorer, files, visibility]
+  - id: show-protected-os-files
+    name: Show Protected OS Files
+    category: Explorer/Files
+    tags: [explorer, files, visibility, advanced]
   - id: taskbar-alignment-left
     name: Taskbar Left Alignment
-    category: Taskbar
+    category: Taskbar/Layout
     tags: [taskbar, alignment, windows-11]
