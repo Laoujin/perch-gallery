@@ -1,0 +1,14 @@
+type: tweak
+name: Hide Network from Navigation Pane
+category: Explorer/Navigation
+tags: [explorer, network, navigation]
+description: Hide the Network icon from the Explorer navigation pane
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+script: |
+  $path = 'HKCR:\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder'
+  Set-ItemProperty -Path $path -Name 'Attributes' -Value 0xB0940064 -Type DWord
+undo-script: |
+  $path = 'HKCR:\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder'
+  Set-ItemProperty -Path $path -Name 'Attributes' -Value 0xB0040064 -Type DWord

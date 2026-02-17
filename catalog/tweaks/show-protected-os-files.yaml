@@ -1,0 +1,14 @@
+type: tweak
+name: Show Protected OS Files
+category: Explorer/Files
+tags: [explorer, files, visibility, advanced]
+description: Show hidden operating system files in Explorer
+reversible: true
+profiles: [developer]
+windows-versions: [10, 11]
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: ShowSuperHidden
+    value: 1
+    type: dword
+    default-value: 0

@@ -1,0 +1,14 @@
+type: tweak
+name: Show Full Path in Title Bar
+category: Explorer/Navigation
+tags: [explorer, navigation, path]
+description: Show the full folder path in the Explorer title bar
+reversible: true
+profiles: [developer, power-user]
+windows-versions: [10, 11]
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState
+    name: FullPath
+    value: 1
+    type: dword
+    default-value: 0

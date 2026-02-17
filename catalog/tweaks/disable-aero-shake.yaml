@@ -1,0 +1,14 @@
+type: tweak
+name: Disable Aero Shake
+category: Appearance/Window Management
+tags: [aero, shake, window-management]
+description: Disable the Aero Shake gesture that minimizes all other windows
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+registry:
+  - key: HKCU\Software\Policies\Microsoft\Windows\Explorer
+    name: NoWindowMinimizingShortcuts
+    value: 1
+    type: dword
+    default-value: null
