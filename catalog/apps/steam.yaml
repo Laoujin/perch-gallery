@@ -8,3 +8,13 @@ links:
 install:
   winget: Valve.Steam
   choco: steam
+tweaks:
+  - id: disable-autostart
+    name: Disable Auto-Start
+    description: Prevent Steam from launching at Windows startup
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+        name: Steam
+        value: null
+        type: string
+        default-value: null

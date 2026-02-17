@@ -8,3 +8,13 @@ links:
 install:
   winget: Spotify.Spotify
   choco: spotify
+tweaks:
+  - id: disable-autostart
+    name: Disable Auto-Start
+    description: Prevent Spotify from launching at Windows startup
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+        name: Spotify
+        value: null
+        type: string
+        default-value: null
