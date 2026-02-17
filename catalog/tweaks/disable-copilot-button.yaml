@@ -11,3 +11,4 @@ registry:
     name: ShowCopilotButton
     value: 0
     type: dword
+    default-value: 1

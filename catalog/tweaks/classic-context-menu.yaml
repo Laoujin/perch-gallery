@@ -11,3 +11,4 @@ registry:
     name: ""
     value: ""
     type: string
+    default-value: null

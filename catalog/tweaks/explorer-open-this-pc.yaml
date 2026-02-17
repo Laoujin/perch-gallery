@@ -11,3 +11,4 @@ registry:
     name: LaunchTo
     value: 1
     type: dword
+    default-value: 2

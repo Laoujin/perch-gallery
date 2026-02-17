@@ -11,3 +11,4 @@ registry:
     name: Flags
     value: "506"
     type: string
+    default-value: "510"

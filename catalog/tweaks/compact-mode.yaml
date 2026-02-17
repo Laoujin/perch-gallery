@@ -11,3 +11,4 @@ registry:
     name: UseCompactMode
     value: 1
     type: dword
+    default-value: 0

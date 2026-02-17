@@ -11,3 +11,4 @@ registry:
     name: IsDynamicSearchBoxEnabled
     value: 0
     type: dword
+    default-value: 1

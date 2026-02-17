@@ -12,3 +12,4 @@ registry:
     name: LongPathsEnabled
     value: 1
     type: dword
+    default-value: 0
