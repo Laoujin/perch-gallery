@@ -5,7 +5,7 @@ tags: [explorer, files, visibility]
 description: Always show file name extensions in Explorer
 reversible: true
 profiles: [developer, power-user]
-priority: 1
+windows-versions: [10, 11]
 registry:
   - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
     name: HideFileExt

@@ -5,7 +5,7 @@ tags: [taskbar, copilot, windows-11]
 description: Hide the Copilot button from the taskbar
 reversible: true
 profiles: [power-user]
-priority: 3
+windows-versions: [11]
 registry:
   - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
     name: ShowCopilotButton

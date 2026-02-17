@@ -5,7 +5,7 @@ tags: [mouse, gaming, precision]
 description: Disable mouse acceleration for consistent cursor movement
 reversible: true
 profiles: [developer, power-user]
-priority: 2
+windows-versions: [10, 11]
 registry:
   - key: HKCU\Control Panel\Mouse
     name: MouseSpeed

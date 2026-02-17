@@ -5,7 +5,7 @@ tags: [accessibility, keyboard, gaming]
 description: Disable the Sticky Keys shortcut triggered by pressing Shift five times
 reversible: true
 profiles: [developer, power-user]
-priority: 2
+windows-versions: [10, 11]
 registry:
   - key: HKCU\Control Panel\Accessibility\StickyKeys
     name: Flags
