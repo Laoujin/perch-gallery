@@ -1,6 +1,6 @@
 type: tweak
 name: Show Hidden Files
-category: Explorer
+category: Explorer/Files
 tags: [explorer, files, visibility]
 description: Show hidden files and folders in Explorer
 reversible: true

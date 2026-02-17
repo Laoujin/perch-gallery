@@ -1,6 +1,6 @@
 type: tweak
 name: Disable Advertising ID
-category: Privacy
+category: Privacy/Advertising
 tags: [privacy, advertising, telemetry]
 description: Disable the Windows advertising ID for personalized ads
 reversible: true

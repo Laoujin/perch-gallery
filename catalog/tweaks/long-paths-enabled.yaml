@@ -1,6 +1,6 @@
 type: tweak
 name: Enable Long Paths
-category: System
+category: System/Filesystem
 tags: [filesystem, developer, paths]
 description: Enable Win32 long path support (requires admin)
 reversible: true

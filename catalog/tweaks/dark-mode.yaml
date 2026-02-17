@@ -1,6 +1,6 @@
 type: tweak
 name: Dark Mode
-category: Appearance
+category: Appearance/Theme
 tags: [theme, dark-mode, personalization]
 description: Enable dark mode for apps and system UI
 reversible: true

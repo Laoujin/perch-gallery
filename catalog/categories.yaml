@@ -54,18 +54,50 @@ Security:
 Gaming: { sort: 900 }
 
 # Windows tweaks categories
-Appearance: { sort: 1000 }
-Explorer: { sort: 1100 }
-Taskbar: { sort: 1200 }
-Privacy: { sort: 1300 }
-Search: { sort: 1400 }
-Input: { sort: 1500 }
-Accessibility: { sort: 1600 }
+Appearance:
+  sort: 1000
+  children:
+    Theme: { sort: 10 }
+
+Explorer:
+  sort: 1100
+  children:
+    Files: { sort: 10 }
+    Context Menu: { sort: 20 }
+    Appearance: { sort: 30 }
+    Navigation: { sort: 40 }
+
+Taskbar:
+  sort: 1200
+  children:
+    Layout: { sort: 10 }
+    Declutter: { sort: 20 }
+
+Privacy:
+  sort: 1300
+  children:
+    Advertising: { sort: 10 }
+
+Search:
+  sort: 1400
+  children:
+    Start Menu: { sort: 10 }
+
+Input:
+  sort: 1500
+  children:
+    Mouse: { sort: 10 }
+
+Accessibility:
+  sort: 1600
+  children:
+    Keyboard: { sort: 10 }
 
 System:
   sort: 1700
   children:
     Virtualization: { sort: 10 }
+    Filesystem: { sort: 20 }
 
 Fonts:
   sort: 2000

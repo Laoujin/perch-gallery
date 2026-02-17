@@ -1,6 +1,6 @@
 type: tweak
 name: Show File Extensions
-category: Explorer
+category: Explorer/Files
 tags: [explorer, files, visibility]
 description: Always show file name extensions in Explorer
 reversible: true

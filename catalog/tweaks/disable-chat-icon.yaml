@@ -1,6 +1,6 @@
 type: tweak
 name: Hide Chat Icon
-category: Taskbar
+category: Taskbar/Declutter
 tags: [taskbar, teams, chat, windows-11]
 description: Hide the Chat/Teams icon from the taskbar
 reversible: true

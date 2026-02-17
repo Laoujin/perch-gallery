@@ -1,6 +1,6 @@
 type: tweak
 name: Disable Sticky Keys Shortcut
-category: Accessibility
+category: Accessibility/Keyboard
 tags: [accessibility, keyboard, gaming]
 description: Disable the Sticky Keys shortcut triggered by pressing Shift five times
 reversible: true

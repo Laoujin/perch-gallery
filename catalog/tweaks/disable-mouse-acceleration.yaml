@@ -1,6 +1,6 @@
 type: tweak
 name: Disable Mouse Acceleration
-category: Input
+category: Input/Mouse
 tags: [mouse, gaming, precision]
 description: Disable mouse acceleration for consistent cursor movement
 reversible: true

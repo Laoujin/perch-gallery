@@ -1,6 +1,6 @@
 type: tweak
 name: Classic Context Menu
-category: Explorer
+category: Explorer/Context Menu
 tags: [explorer, context-menu, windows-11]
 description: Restore the classic full context menu in Windows 11
 reversible: true

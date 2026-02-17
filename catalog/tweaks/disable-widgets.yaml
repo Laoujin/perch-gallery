@@ -1,6 +1,6 @@
 type: tweak
 name: Hide Widgets Button
-category: Taskbar
+category: Taskbar/Declutter
 tags: [taskbar, widgets, windows-11]
 description: Hide the Widgets button from the taskbar
 reversible: true

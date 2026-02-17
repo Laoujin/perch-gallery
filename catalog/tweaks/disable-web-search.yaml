@@ -1,6 +1,6 @@
 type: tweak
 name: Disable Web Search in Start
-category: Search
+category: Search/Start Menu
 tags: [search, start-menu, privacy]
 description: Disable web search results in the Start menu
 reversible: true

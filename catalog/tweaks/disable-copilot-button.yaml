@@ -1,6 +1,6 @@
 type: tweak
 name: Hide Copilot Button
-category: Taskbar
+category: Taskbar/Declutter
 tags: [taskbar, copilot, windows-11]
 description: Hide the Copilot button from the taskbar
 reversible: true

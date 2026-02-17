@@ -1,6 +1,6 @@
 type: tweak
 name: Compact Mode
-category: Explorer
+category: Explorer/Appearance
 tags: [explorer, density, windows-11]
 description: Use compact spacing in File Explorer
 reversible: true

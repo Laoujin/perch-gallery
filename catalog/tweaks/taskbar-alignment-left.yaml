@@ -1,6 +1,6 @@
 type: tweak
 name: Taskbar Left Alignment
-category: Taskbar
+category: Taskbar/Layout
 tags: [taskbar, alignment, windows-11]
 description: Align Windows 11 taskbar icons to the left
 reversible: true
