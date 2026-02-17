@@ -1,0 +1,45 @@
+type: tweak
+name: Hide This PC Folders
+category: Explorer/Navigation
+tags: [explorer, this-pc, folders, windows-10]
+description: Hide the Desktop, Documents, Downloads, Music, Pictures and Videos folders below This PC
+reversible: true
+profiles: [power-user]
+windows-versions: [10]
+script: |
+  # Remove the six default folders from This PC (both 64-bit and 32-bit nodes)
+  $guids = @(
+    '{1CF1260C-4DD0-4ebb-811F-33C572699FDE}',  # Music
+    '{374DE290-123F-4565-9164-39C4925E467B}',  # Downloads
+    '{3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA}',  # Pictures
+    '{A0953C92-50DC-43bf-BE83-3742FED03C9C}',  # Videos
+    '{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}',  # Documents
+    '{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}'   # Desktop
+  )
+  $basePaths = @(
+    'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace',
+    'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace'
+  )
+  foreach ($base in $basePaths) {
+    foreach ($guid in $guids) {
+      Remove-Item -Path "$base\$guid" -Recurse -ErrorAction SilentlyContinue
+    }
+  }
+undo-script: |
+  $guids = @(
+    '{1CF1260C-4DD0-4ebb-811F-33C572699FDE}',
+    '{374DE290-123F-4565-9164-39C4925E467B}',
+    '{3ADD1653-EB32-4cb0-BBD7-DFA0ABB5ACCA}',
+    '{A0953C92-50DC-43bf-BE83-3742FED03C9C}',
+    '{A8CDFF1C-4878-43be-B5FD-F8091C1C60D0}',
+    '{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}'
+  )
+  $basePaths = @(
+    'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace',
+    'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace'
+  )
+  foreach ($base in $basePaths) {
+    foreach ($guid in $guids) {
+      New-Item -Path "$base\$guid" -Force | Out-Null
+    }
+  }

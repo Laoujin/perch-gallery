@@ -13,3 +13,21 @@ config:
     - source: ConEmu.xml
       target:
         windows: "C:/tools/cmder/vendor/conemu-maximus5/ConEmu.xml"
+tweaks:
+  - id: open-here-context-menu
+    name: Open Cmder Here Context Menu
+    description: Add "Open Cmder Here" to the folder right-click context menu
+    script: |
+      New-Item -Path 'HKCR:\Directory\Background\shell\Cmder' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\Directory\Background\shell\Cmder' -Name '(Default)' -Value 'Open Cmder Here'
+      Set-ItemProperty -Path 'HKCR:\Directory\Background\shell\Cmder' -Name 'Icon' -Value 'C:\tools\cmder\Cmder.exe,0'
+      New-Item -Path 'HKCR:\Directory\Background\shell\Cmder\command' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\Directory\Background\shell\Cmder\command' -Name '(Default)' -Value '"C:\tools\cmder\Cmder.exe" "%V"'
+      New-Item -Path 'HKCR:\Directory\shell\Cmder' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\Directory\shell\Cmder' -Name '(Default)' -Value 'Open Cmder Here'
+      Set-ItemProperty -Path 'HKCR:\Directory\shell\Cmder' -Name 'Icon' -Value 'C:\tools\cmder\Cmder.exe,0'
+      New-Item -Path 'HKCR:\Directory\shell\Cmder\command' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\Directory\shell\Cmder\command' -Name '(Default)' -Value '"C:\tools\cmder\Cmder.exe" "%1"'
+    undo-script: |
+      Remove-Item -Path 'HKCR:\Directory\Background\shell\Cmder' -Recurse -ErrorAction SilentlyContinue
+      Remove-Item -Path 'HKCR:\Directory\shell\Cmder' -Recurse -ErrorAction SilentlyContinue

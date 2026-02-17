@@ -1,0 +1,35 @@
+type: tweak
+name: Restore Pin to Start Context Menu
+category: Explorer/Context Menu
+tags: [explorer, context-menu, pin-to-start, windows-10]
+description: Restore the "Pin to Start" option in the right-click context menu
+reversible: true
+profiles: [power-user]
+windows-versions: [10]
+script: |
+  # Remove custom shell overrides and restore default COM handlers
+  Remove-Item -Path 'HKCR:\*\shell\pintostartscreen' -Recurse -ErrorAction SilentlyContinue
+  Set-ItemProperty -Path 'HKCR:\*\shellex\ContextMenuHandlers\PintoStartScreen' -Name '(Default)' -Value '{470C0EBD-5D73-4d58-9CED-E91E22E23282}'
+  Remove-Item -Path 'HKCR:\exefile\shell\pintostartscreen' -Recurse -ErrorAction SilentlyContinue
+  Set-ItemProperty -Path 'HKCR:\exefile\shellex\ContextMenuHandlers\PintoStartScreen' -Name '(Default)' -Value '{470C0EBD-5D73-4d58-9CED-E91E22E23282}'
+  Remove-Item -Path 'HKCR:\Folder\shell\pintostartscreen' -Recurse -ErrorAction SilentlyContinue
+  Set-ItemProperty -Path 'HKCR:\Folder\shellex\ContextMenuHandlers\PintoStartScreen' -Name '(Default)' -Value '{470C0EBD-5D73-4d58-9CED-E91E22E23282}'
+  Remove-Item -Path 'HKCR:\mscfile\shell\pintostartscreen' -Recurse -ErrorAction SilentlyContinue
+  Set-ItemProperty -Path 'HKCR:\mscfile\shellex\ContextMenuHandlers\PintoStartScreen' -Name '(Default)' -Value '{470C0EBD-5D73-4d58-9CED-E91E22E23282}'
+  Remove-Item -Path 'HKLM:\SOFTWARE\Classes\exefile\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  New-Item -Path 'HKLM:\SOFTWARE\Classes\exefile\shellex\ContextMenuHandlers\PintoStartScreen' -Force | Out-Null
+  Set-ItemProperty -Path 'HKLM:\SOFTWARE\Classes\exefile\shellex\ContextMenuHandlers\PintoStartScreen' -Name '(Default)' -Value '{470C0EBD-5D73-4d58-9CED-E91E22E23282}'
+  Remove-Item -Path 'HKLM:\SOFTWARE\Classes\Folder\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  New-Item -Path 'HKLM:\SOFTWARE\Classes\Folder\shellex\ContextMenuHandlers\PintoStartScreen' -Force | Out-Null
+  Set-ItemProperty -Path 'HKLM:\SOFTWARE\Classes\Folder\shellex\ContextMenuHandlers\PintoStartScreen' -Name '(Default)' -Value '{470C0EBD-5D73-4d58-9CED-E91E22E23282}'
+  Remove-Item -Path 'HKLM:\SOFTWARE\Classes\mscfile\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  New-Item -Path 'HKLM:\SOFTWARE\Classes\mscfile\shellex\ContextMenuHandlers\PintoStartScreen' -Force | Out-Null
+  Set-ItemProperty -Path 'HKLM:\SOFTWARE\Classes\mscfile\shellex\ContextMenuHandlers\PintoStartScreen' -Name '(Default)' -Value '{470C0EBD-5D73-4d58-9CED-E91E22E23282}'
+undo-script: |
+  Remove-Item -Path 'HKCR:\*\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  Remove-Item -Path 'HKCR:\exefile\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  Remove-Item -Path 'HKCR:\Folder\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  Remove-Item -Path 'HKCR:\mscfile\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  Remove-Item -Path 'HKLM:\SOFTWARE\Classes\exefile\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  Remove-Item -Path 'HKLM:\SOFTWARE\Classes\Folder\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
+  Remove-Item -Path 'HKLM:\SOFTWARE\Classes\mscfile\shellex\ContextMenuHandlers\PintoStartScreen' -Recurse -ErrorAction SilentlyContinue
