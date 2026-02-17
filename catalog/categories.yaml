@@ -1,0 +1,73 @@
+# Category sort order for unified tree display.
+# Lower values appear first. Sub-categories inherit parent sort
+# unless overridden. Gaps left for future insertion.
+
+Development:
+  sort: 100
+  children:
+    IDEs: { sort: 10 }
+    Editors: { sort: 20 }
+    Shells: { sort: 30 }
+    Terminals: { sort: 40 }
+    Version Control: { sort: 50 }
+    Diff Tools: { sort: 60 }
+    .NET: { sort: 70 }
+    Node: { sort: 80 }
+    Tools: { sort: 90 }
+
+Browsers: { sort: 200 }
+
+Communication:
+  sort: 300
+  children:
+    Chat: { sort: 10 }
+
+File Management: { sort: 400 }
+
+Media:
+  sort: 500
+  children:
+    Graphics: { sort: 10 }
+    Players: { sort: 20 }
+
+Networking:
+  sort: 600
+  children:
+    FTP: { sort: 10 }
+    Security: { sort: 20 }
+
+Utilities:
+  sort: 700
+  children:
+    Clipboard: { sort: 10 }
+    Compression: { sort: 20 }
+    Productivity: { sort: 30 }
+    Screenshots: { sort: 40 }
+    Search: { sort: 50 }
+    System: { sort: 60 }
+
+Security:
+  sort: 800
+  children:
+    Passwords: { sort: 10 }
+
+Gaming: { sort: 900 }
+
+# Windows tweaks categories
+Appearance: { sort: 1000 }
+Explorer: { sort: 1100 }
+Taskbar: { sort: 1200 }
+Privacy: { sort: 1300 }
+Search: { sort: 1400 }
+Input: { sort: 1500 }
+Accessibility: { sort: 1600 }
+
+System:
+  sort: 1700
+  children:
+    Virtualization: { sort: 10 }
+
+Fonts:
+  sort: 2000
+  children:
+    Programming: { sort: 10 }
