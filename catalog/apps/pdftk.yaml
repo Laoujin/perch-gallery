@@ -1,3 +1,4 @@
+type: app
 name: PDFtk Free
 category: Utilities/Productivity
 tags: [pdf, cli, merge, split]

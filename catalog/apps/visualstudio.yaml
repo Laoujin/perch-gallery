@@ -1,3 +1,4 @@
+type: app
 name: Visual Studio
 display-name: Visual Studio 2019
 category: Development/IDEs

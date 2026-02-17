@@ -1,3 +1,4 @@
+type: app
 name: 7-Zip
 category: Utilities/Compression
 tags: [archive, compression, open-source]

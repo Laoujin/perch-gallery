@@ -1,3 +1,4 @@
+type: tweak
 name: Show File Extensions
 category: Explorer
 tags: [explorer, files, visibility]

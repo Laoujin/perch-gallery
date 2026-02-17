@@ -1,3 +1,4 @@
+type: app
 name: Opera
 category: Browsers
 tags: [browser, chromium, vpn]

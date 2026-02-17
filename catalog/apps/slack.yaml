@@ -1,3 +1,4 @@
+type: app
 name: Slack
 category: Communication/Chat
 tags: [chat, messaging, team, collaboration]

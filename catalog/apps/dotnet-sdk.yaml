@@ -1,3 +1,4 @@
+type: app
 name: .NET SDK
 category: Development/.NET
 tags: [dotnet, sdk, microsoft, csharp]

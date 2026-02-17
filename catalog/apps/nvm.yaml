@@ -1,3 +1,4 @@
+type: app
 name: NVM for Windows
 display-name: nvm
 category: Development/Node

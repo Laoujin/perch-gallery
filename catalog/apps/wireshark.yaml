@@ -1,3 +1,4 @@
+type: app
 name: Wireshark
 category: Networking/Security
 tags: [network, packet-capture, analysis, open-source]

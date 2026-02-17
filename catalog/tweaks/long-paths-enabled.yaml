@@ -1,3 +1,4 @@
+type: tweak
 name: Enable Long Paths
 category: System
 tags: [filesystem, developer, paths]

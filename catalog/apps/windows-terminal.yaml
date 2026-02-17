@@ -1,3 +1,4 @@
+type: app
 name: Windows Terminal
 category: Development/Terminals
 tags: [terminal, shell, microsoft]

@@ -1,3 +1,4 @@
+type: app
 name: FileZilla
 category: Networking/FTP
 tags: [ftp, sftp, transfer, windows]

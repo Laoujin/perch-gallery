@@ -1,3 +1,4 @@
+type: app
 name: Bun
 category: Development/Node
 tags: [runtime, bundler, package-manager, javascript]

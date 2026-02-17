@@ -1,3 +1,4 @@
+type: app
 name: Docker Desktop
 category: Development/Tools
 tags: [containers, docker, devops, virtualization]

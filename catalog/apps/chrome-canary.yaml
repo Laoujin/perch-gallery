@@ -1,3 +1,4 @@
+type: app
 name: Google Chrome Canary
 category: Browsers
 tags: [browser, google, chromium, dev]

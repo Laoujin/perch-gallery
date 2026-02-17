@@ -1,3 +1,4 @@
+type: app
 name: PowerShell
 kind: dotfile
 category: Development/Shells

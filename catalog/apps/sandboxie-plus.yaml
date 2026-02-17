@@ -1,3 +1,4 @@
+type: app
 name: Sandboxie Plus
 category: Security/Passwords
 tags: [sandbox, isolation, security, open-source]

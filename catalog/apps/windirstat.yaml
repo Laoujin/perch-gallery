@@ -1,3 +1,4 @@
+type: app
 name: WinDirStat
 category: File Management
 tags: [disk-usage, visualization, cleanup, open-source]

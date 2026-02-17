@@ -1,3 +1,4 @@
+type: app
 name: Cmder
 category: Development/Terminals
 tags: [terminal, console, windows]

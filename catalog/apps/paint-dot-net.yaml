@@ -1,3 +1,4 @@
+type: app
 name: Paint.NET
 category: Media/Graphics
 tags: [image-editor, graphics, layers, windows]

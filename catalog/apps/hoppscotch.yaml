@@ -1,3 +1,4 @@
+type: app
 name: Hoppscotch
 category: Development/Tools
 tags: [api, rest, graphql, testing, open-source]

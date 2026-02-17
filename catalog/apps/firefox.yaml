@@ -1,3 +1,4 @@
+type: app
 name: Firefox
 category: Browsers
 tags: [browser, mozilla, privacy]

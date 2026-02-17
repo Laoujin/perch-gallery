@@ -1,3 +1,4 @@
+type: app
 name: HeidiSQL
 category: Development/Tools
 tags: [database, mysql, postgresql, sql, gui]

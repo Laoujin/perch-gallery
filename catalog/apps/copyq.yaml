@@ -1,3 +1,4 @@
+type: app
 name: CopyQ
 category: Utilities/Clipboard
 tags: [clipboard, manager, open-source]

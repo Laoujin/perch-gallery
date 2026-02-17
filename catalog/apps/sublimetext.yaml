@@ -1,3 +1,4 @@
+type: app
 name: Sublime Text
 category: Development/Editors
 tags: [editor, text, windows, macos, linux]

@@ -1,3 +1,4 @@
+type: app
 name: ReSharper
 category: Development/.NET
 tags: [dotnet, jetbrains, visual-studio, productivity]

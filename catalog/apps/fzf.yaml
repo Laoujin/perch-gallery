@@ -1,3 +1,4 @@
+type: app
 name: fzf
 category: Development/Tools
 tags: [cli, fuzzy-finder, search, shell]

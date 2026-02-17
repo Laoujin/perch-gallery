@@ -1,3 +1,4 @@
+type: app
 name: Zsh
 kind: dotfile
 category: Development/Shells

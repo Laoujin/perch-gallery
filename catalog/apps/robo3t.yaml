@@ -1,3 +1,4 @@
+type: app
 name: Robo 3T
 category: Development/Tools
 tags: [database, mongodb, gui, nosql]

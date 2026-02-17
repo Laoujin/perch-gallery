@@ -1,3 +1,4 @@
+type: app
 name: Dropbox
 category: Utilities/System
 tags: [cloud, sync, storage, backup]

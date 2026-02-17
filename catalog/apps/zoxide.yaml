@@ -1,3 +1,4 @@
+type: app
 name: zoxide
 category: Development/Shells
 tags: [cli, navigation, cd, shell]

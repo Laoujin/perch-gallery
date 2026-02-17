@@ -1,3 +1,4 @@
+type: tweak
 name: Disable Advertising ID
 category: Privacy
 tags: [privacy, advertising, telemetry]

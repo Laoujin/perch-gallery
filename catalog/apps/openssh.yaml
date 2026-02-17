@@ -1,3 +1,4 @@
+type: app
 name: OpenSSH
 display-name: OpenSSH (Preview)
 category: Networking/Security

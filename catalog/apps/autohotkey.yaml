@@ -1,3 +1,4 @@
+type: app
 name: AutoHotkey
 category: Utilities/Productivity
 tags: [automation, scripting, hotkeys, windows]

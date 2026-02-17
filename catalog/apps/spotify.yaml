@@ -1,3 +1,4 @@
+type: app
 name: Spotify
 category: Media/Players
 tags: [music, streaming, audio]

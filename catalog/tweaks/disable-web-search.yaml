@@ -1,3 +1,4 @@
+type: tweak
 name: Disable Web Search in Start
 category: Search
 tags: [search, start-menu, privacy]

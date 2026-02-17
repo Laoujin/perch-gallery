@@ -1,3 +1,4 @@
+type: app
 name: Ruby
 display-name: Ruby with DevKit
 category: Development/Tools

@@ -1,3 +1,4 @@
+type: app
 name: dotPeek
 category: Development/.NET
 tags: [dotnet, decompiler, jetbrains, csharp]

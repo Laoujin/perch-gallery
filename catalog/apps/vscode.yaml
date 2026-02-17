@@ -1,3 +1,4 @@
+type: app
 name: Visual Studio Code
 display-name: VS Code
 category: Development/IDEs

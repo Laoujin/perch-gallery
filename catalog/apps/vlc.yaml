@@ -1,3 +1,4 @@
+type: app
 name: VLC
 category: Media/Players
 tags: [media, video, audio, open-source]

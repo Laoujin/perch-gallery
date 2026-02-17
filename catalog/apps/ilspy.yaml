@@ -1,3 +1,4 @@
+type: app
 name: ILSpy
 category: Development/.NET
 tags: [dotnet, decompiler, open-source, csharp]

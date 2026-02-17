@@ -1,3 +1,4 @@
+type: app
 name: Beyond Compare
 category: Development/Diff Tools
 tags: [diff, compare, merge, windows]

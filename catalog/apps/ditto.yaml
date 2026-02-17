@@ -1,3 +1,4 @@
+type: app
 name: Ditto
 category: Utilities/Clipboard
 tags: [clipboard, manager, windows]

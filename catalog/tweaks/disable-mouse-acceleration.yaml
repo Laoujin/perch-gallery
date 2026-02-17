@@ -1,3 +1,4 @@
+type: tweak
 name: Disable Mouse Acceleration
 category: Input
 tags: [mouse, gaming, precision]

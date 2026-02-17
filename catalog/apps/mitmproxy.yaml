@@ -1,3 +1,4 @@
+type: app
 name: mitmproxy
 category: Networking/Security
 tags: [proxy, http, debugging, ssl, cli]

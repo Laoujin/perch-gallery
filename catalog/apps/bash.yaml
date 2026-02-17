@@ -1,3 +1,4 @@
+type: app
 name: Bash
 kind: dotfile
 category: Development/Shells
