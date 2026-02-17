@@ -6,6 +6,7 @@ description: Hide the Copilot button from the taskbar
 reversible: true
 profiles: [power-user]
 windows-versions: [11]
+suggests: [disable-widgets, disable-chat-icon]
 registry:
   - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
     name: ShowCopilotButton

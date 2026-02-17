@@ -6,6 +6,7 @@ description: Show hidden files and folders in Explorer
 reversible: true
 profiles: [developer, power-user]
 windows-versions: [10, 11]
+suggests: [show-file-extensions]
 registry:
   - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
     name: Hidden
