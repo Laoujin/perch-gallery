@@ -1,0 +1,14 @@
+name: Zsh
+kind: dotfile
+category: Development/Shells
+tags: [shell, cli, linux, macos]
+description: Z shell configuration
+links:
+  website: https://www.zsh.org
+config:
+  links:
+    - source: .zshrc
+      platforms: [linux, macos]
+      target:
+        linux: "$HOME/.zshrc"
+        macos: "$HOME/.zshrc"

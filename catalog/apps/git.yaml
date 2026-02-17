@@ -1,4 +1,5 @@
 name: Git
+kind: dotfile
 category: Development/Version Control
 tags: [vcs, cli, developer]
 description: Distributed version control system

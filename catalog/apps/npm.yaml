@@ -1,0 +1,12 @@
+name: npm
+kind: dotfile
+category: Development/Node
+tags: [node, package-manager, cli]
+description: Node.js package manager configuration
+config:
+  links:
+    - source: .npmrc
+      target:
+        windows: "%USERPROFILE%/.npmrc"
+        linux: "$HOME/.npmrc"
+        macos: "$HOME/.npmrc"

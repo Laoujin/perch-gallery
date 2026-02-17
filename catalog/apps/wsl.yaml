@@ -1,0 +1,11 @@
+name: WSL
+kind: dotfile
+category: System/Virtualization
+tags: [wsl, linux, microsoft, windows]
+description: Windows Subsystem for Linux configuration
+config:
+  links:
+    - source: .wslconfig
+      platforms: [windows]
+      target:
+        windows: "%USERPROFILE%/.wslconfig"

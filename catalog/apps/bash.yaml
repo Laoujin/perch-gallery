@@ -1,4 +1,5 @@
 name: Bash
+kind: dotfile
 category: Development/Shells
 tags: [shell, cli, linux, macos]
 description: GNU Bourne-Again SHell

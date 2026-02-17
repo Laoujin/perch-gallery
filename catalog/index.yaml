@@ -7,6 +7,7 @@ apps:
     name: Git
     category: Development/Version Control
     tags: [vcs, cli, developer]
+    kind: dotfile
   - id: windows-terminal
     name: Windows Terminal
     category: Development/Terminals
@@ -23,6 +24,7 @@ apps:
     name: PowerShell
     category: Development/Shells
     tags: [shell, cli, microsoft, scripting]
+    kind: dotfile
   - id: notepadplusplus
     name: Notepad++
     category: Development/Editors
@@ -59,6 +61,7 @@ apps:
     name: Bash
     category: Development/Shells
     tags: [shell, cli, linux, macos]
+    kind: dotfile
   - id: ditto
     name: Ditto
     category: Utilities/Clipboard
@@ -219,6 +222,26 @@ apps:
     name: Steam
     category: Gaming
     tags: [gaming, store, valve, launcher]
+  - id: npm
+    name: npm
+    category: Development/Node
+    tags: [node, package-manager, cli]
+    kind: dotfile
+  - id: vim
+    name: Vim
+    category: Development/Editors
+    tags: [editor, cli, terminal]
+    kind: dotfile
+  - id: wsl
+    name: WSL
+    category: System/Virtualization
+    tags: [wsl, linux, microsoft, windows]
+    kind: dotfile
+  - id: zsh
+    name: Zsh
+    category: Development/Shells
+    tags: [shell, cli, linux, macos]
+    kind: dotfile
 
 fonts:
   - id: cascadia-code-nf
