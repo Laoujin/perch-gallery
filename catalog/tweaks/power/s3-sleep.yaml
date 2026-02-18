@@ -1,0 +1,15 @@
+type: tweak
+name: S3 Sleep
+category: Power/Sleep
+tags: [power, sleep, s3, standby]
+description: "Toggles between Modern Standby and S3 sleep."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Control\Power
+    name: PlatformAoAcOverride
+    value: 0
+    type: dword
+    default-value: null

@@ -1,0 +1,15 @@
+type: tweak
+name: Task View Button in Taskbar
+category: Taskbar/Declutter
+tags: [taskbar, task-view, declutter]
+description: "If Enabled then Task View Button in Taskbar will be shown."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: ShowTaskViewButton
+    value: 1
+    type: dword
+    default-value: 0

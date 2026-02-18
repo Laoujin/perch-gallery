@@ -1,0 +1,71 @@
+type: tweak
+name: Set Display for Performance
+category: Performance/Visual
+tags: [performance, visual-effects, animations]
+description: "Sets the system preferences to performance. You can do this manually with sysdm.cpl as well."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+# NOTE: WinUtil also has InvokeScript/UndoScript for this tweak (not imported)
+registry:
+  - key: HKCU\Control Panel\Desktop
+    name: DragFullWindows
+    value: 0
+    type: string
+    default-value: 1
+  - key: HKCU\Control Panel\Desktop
+    name: MenuShowDelay
+    value: 200
+    type: string
+    default-value: 400
+  - key: HKCU\Control Panel\Desktop\WindowMetrics
+    name: MinAnimate
+    value: 0
+    type: string
+    default-value: 1
+  - key: HKCU\Control Panel\Keyboard
+    name: KeyboardDelay
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: ListviewAlphaSelect
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: ListviewShadow
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: TaskbarAnimations
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects
+    name: VisualFXSetting
+    value: 3
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\DWM
+    name: EnableAeroPeek
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: TaskbarMn
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: ShowTaskViewButton
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Search
+    name: SearchboxTaskbarMode
+    value: 0
+    type: dword
+    default-value: 1

@@ -1,0 +1,20 @@
+type: tweak
+name: NumLock on Startup
+category: Input/Keyboard
+tags: [keyboard, numlock, startup]
+description: "Toggle the Num Lock key state when your computer starts."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKU\.Default\Control Panel\Keyboard
+    name: InitialKeyboardIndicators
+    value: 2
+    type: dword
+    default-value: 0
+  - key: HKCU\Control Panel\Keyboard
+    name: InitialKeyboardIndicators
+    value: 2
+    type: dword
+    default-value: 0

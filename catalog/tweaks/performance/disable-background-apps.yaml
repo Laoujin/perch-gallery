@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Background Apps
+category: Performance/Background
+tags: [performance, background-apps, resources]
+description: "Disables all Microsoft Store apps from running in the background, which has to be done individually since Win11"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\BackgroundAccessApplications
+    name: GlobalUserDisabled
+    value: 1
+    type: dword
+    default-value: 0

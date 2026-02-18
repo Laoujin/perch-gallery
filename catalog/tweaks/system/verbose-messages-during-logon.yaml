@@ -1,0 +1,15 @@
+type: tweak
+name: Verbose Messages During Logon
+category: System/Diagnostics
+tags: [diagnostics, logon, verbose]
+description: "Show detailed messages during the login process for troubleshooting and diagnostics."
+reversible: true
+profiles: [developer]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: VerboseStatus
+    value: 1
+    type: dword
+    default-value: 0

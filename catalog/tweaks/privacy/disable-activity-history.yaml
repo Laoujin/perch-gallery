@@ -1,0 +1,25 @@
+type: tweak
+name: Disable Activity History
+category: Privacy/Tracking
+tags: [privacy, activity-history, telemetry]
+description: "This erases recent docs, clipboard, and run history."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+    name: EnableActivityFeed
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+    name: PublishUserActivities
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+    name: UploadUserActivities
+    value: 0
+    type: dword
+    default-value: null

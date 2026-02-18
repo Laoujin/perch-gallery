@@ -1,0 +1,26 @@
+type: tweak
+name: Recommendations in Start Menu
+category: Search/Start Menu
+tags: [start-menu, recommendations, declutter]
+description: "If disabled then you will not see recommendations in the Start Menu."
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: winutil
+# NOTE: WinUtil also has InvokeScript/UndoScript for this tweak (not imported)
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Start
+    name: HideRecommendedSection
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKLM\SOFTWARE\Microsoft\PolicyManager\current\device\Education
+    name: IsEducationEnvironment
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\Explorer
+    name: HideRecommendedSection
+    value: 0
+    type: dword
+    default-value: 1

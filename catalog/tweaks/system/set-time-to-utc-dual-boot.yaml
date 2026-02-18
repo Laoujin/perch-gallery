@@ -1,0 +1,15 @@
+type: tweak
+name: Set Time to UTC (Dual Boot)
+category: System/Clock
+tags: [clock, utc, dual-boot, linux]
+description: "Essential for computers that are dual booting. Fixes the time sync with Linux Systems."
+reversible: true
+profiles: [developer]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation
+    name: RealTimeIsUniversal
+    value: 1
+    type: qword
+    default-value: 0

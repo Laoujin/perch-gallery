@@ -1,0 +1,30 @@
+type: tweak
+name: New Outlook
+category: System/Settings
+tags: [outlook, microsoft, mail]
+description: "If disabled it removes the toggle for new Outlook, disables the new Outlook migration and makes sure the Outlook Application actually uses the old Outlook."
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: winutil
+registry:
+  - key: HKCU\SOFTWARE\Microsoft\Office\16.0\Outlook\Preferences
+    name: UseNewOutlook
+    value: 1
+    type: dword
+    default-value: 0
+  - key: HKCU\Software\Microsoft\Office\16.0\Outlook\Options\General
+    name: HideNewOutlookToggle
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Policies\Microsoft\Office\16.0\Outlook\Options\General
+    name: DoNewOutlookAutoMigration
+    value: 0
+    type: dword
+    default-value: 0
+  - key: HKCU\Software\Policies\Microsoft\Office\16.0\Outlook\Preferences
+    name: NewOutlookMigrationUserSetting
+    value: 0
+    type: dword
+    default-value: null

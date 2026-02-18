@@ -1,0 +1,15 @@
+type: tweak
+name: "Cross-Device Resume"
+category: Privacy/Sync
+tags: [privacy, cross-device, sync, resume]
+description: "This tweak controls the Resume function in Windows 11 24H2 and later, which allows you to resume an activity from a mobile device and vice-versa."
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: winutil
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\CrossDeviceResume\Configuration
+    name: IsResumeAllowed
+    value: 1
+    type: dword
+    default-value: 0

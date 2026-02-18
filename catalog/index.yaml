@@ -215,6 +215,7 @@ apps:
     name: Visual Studio Code
     category: Development/IDEs
     tags: [editor, ide, microsoft]
+    kind: dotfile
   - id: vlc
     name: VLC
     category: Media/Players
@@ -227,6 +228,7 @@ apps:
     name: Windows Terminal
     category: Development/Terminals
     tags: [terminal, shell, microsoft]
+    kind: dotfile
   - id: wireshark
     name: Wireshark
     category: Networking/Security
@@ -267,6 +269,14 @@ fonts:
     category: Fonts/Programming
     tags: [monospace, nerd-font, open-source]
 tweaks:
+  - id: block-razer-software-installs
+    name: Block Razer Software Installs
+    category: System/Bloatware
+    tags: [razer, bloatware, driver]
+  - id: brave-debloat
+    name: Brave Debloat
+    category: Browsers/Debloat
+    tags: [brave, browser, debloat]
   - id: classic-context-menu
     name: Classic Context Menu
     category: Explorer/Context Menu
@@ -275,10 +285,26 @@ tweaks:
     name: Compact Mode
     category: Explorer/Appearance
     tags: [explorer, density, windows-11]
+  - id: create-restore-point
+    name: Create Restore Point
+    category: System/Backup
+    tags: [backup, restore-point, system-protection]
+  - id: cross-device-resume
+    name: Cross-Device Resume
+    category: Privacy/Sync
+    tags: [privacy, cross-device, sync, resume]
   - id: dark-mode
     name: Dark Mode
     category: Appearance/Theme
     tags: [theme, dark-mode, personalization]
+  - id: detailed-bsod
+    name: Detailed BSoD
+    category: System/Diagnostics
+    tags: [bsod, diagnostics, crash]
+  - id: disable-activity-history
+    name: Disable Activity History
+    category: Privacy/Tracking
+    tags: [privacy, activity-history, telemetry]
   - id: disable-advertising-id
     name: Disable Advertising ID
     category: Privacy/Advertising
@@ -287,18 +313,74 @@ tweaks:
     name: Disable Aero Shake
     category: Appearance/Window Management
     tags: [aero, shake, window-management]
+  - id: disable-background-apps
+    name: Disable Background Apps
+    category: Performance/Background
+    tags: [performance, background-apps, resources]
+  - id: disable-consumerfeatures
+    name: Disable ConsumerFeatures
+    category: Privacy/Advertising
+    tags: [privacy, consumer-features, suggestions]
+  - id: disable-fullscreen-optimizations
+    name: Disable Fullscreen Optimizations
+    category: Performance/Gaming
+    tags: [gaming, fullscreen, performance]
+  - id: disable-hibernation
+    name: Disable Hibernation
+    category: Power/Hibernation
+    tags: [power, hibernation, disk-space]
+  - id: disable-ipv6
+    name: Disable IPv6
+    category: Networking/Protocol
+    tags: [networking, ipv6, disable]
+  - id: disable-location-tracking
+    name: Disable Location Tracking
+    category: Privacy/Tracking
+    tags: [privacy, location, tracking]
   - id: disable-mouse-acceleration
     name: Disable Mouse Acceleration
     category: Input/Mouse
     tags: [mouse, gaming, precision]
+  - id: disable-multiplane-overlay
+    name: Disable Multiplane Overlay
+    category: System/Graphics
+    tags: [graphics, multiplane-overlay, performance]
+  - id: disable-notification-traycalendar
+    name: Disable Notification Tray/Calendar
+    category: Taskbar/Declutter
+    tags: [taskbar, notifications, calendar, declutter]
   - id: disable-sticky-keys
     name: Disable Sticky Keys Shortcut
     category: Accessibility/Keyboard
     tags: [accessibility, keyboard, gaming]
+  - id: disable-storage-sense
+    name: Disable Storage Sense
+    category: System/Storage
+    tags: [storage, storage-sense, cleanup]
+  - id: disable-telemetry
+    name: Disable Telemetry
+    category: Privacy/Telemetry
+    tags: [privacy, telemetry, microsoft]
+  - id: disable-teredo
+    name: Disable Teredo
+    category: Networking/Protocol
+    tags: [networking, teredo, ipv6, tunnel]
   - id: disable-web-search
     name: Disable Web Search in Start
     category: Search/Start Menu
     tags: [search, start-menu, privacy]
+  - id: disable-windows-platform-binary-table-wpbt
+    name: Disable Windows Platform Binary Table (WPBT)
+    category: Security/Firmware
+    tags: [security, firmware, wpbt]
+  - id: edge-debloat
+    name: Edge Debloat
+    category: Browsers/Debloat
+    tags: [edge, browser, debloat, microsoft]
+  - id: enable-end-task-with-right-click
+    name: Enable End Task With Right Click
+    category: Taskbar/Productivity
+    tags: [taskbar, end-task, right-click]
   - id: long-paths-enabled
     name: Enable Long Paths
     category: System/Filesystem
@@ -331,10 +413,46 @@ tweaks:
     name: Hide Widgets Button
     category: Taskbar/Declutter
     tags: [taskbar, widgets, windows-11]
+  - id: new-outlook
+    name: New Outlook
+    category: System/Settings
+    tags: [outlook, microsoft, mail]
+  - id: numlock-on-startup
+    name: NumLock on Startup
+    category: Input/Keyboard
+    tags: [keyboard, numlock, startup]
+  - id: prefer-ipv4-over-ipv6
+    name: Prefer IPv4 over IPv6
+    category: Networking/Protocol
+    tags: [networking, ipv4, ipv6]
+  - id: recommendations-in-start-menu
+    name: Recommendations in Start Menu
+    category: Search/Start Menu
+    tags: [start-menu, recommendations, declutter]
+  - id: remove-settings-home-page
+    name: Remove Settings Home Page
+    category: System/Settings
+    tags: [settings, home-page, declutter]
   - id: pin-to-start-context-menu
     name: Restore Pin to Start Context Menu
     category: Explorer/Context Menu
     tags: [explorer, context-menu, pin-to-start, windows-10]
+  - id: s3-sleep
+    name: S3 Sleep
+    category: Power/Sleep
+    tags: [power, sleep, s3, standby]
+  - id: search-button-in-taskbar
+    name: Search Button in Taskbar
+    category: Taskbar/Declutter
+    tags: [taskbar, search, declutter]
+  - id: set-display-for-performance
+    name: Set Display for Performance
+    category: Performance/Visual
+    tags: [performance, visual-effects, animations]
+  - id: set-time-to-utc-dual-boot
+    name: Set Time to UTC (Dual Boot)
+    category: System/Clock
+    tags: [clock, utc, dual-boot, linux]
   - id: show-file-extensions
     name: Show File Extensions
     category: Explorer/Files
@@ -351,7 +469,15 @@ tweaks:
     name: Show Protected OS Files
     category: Explorer/Files
     tags: [explorer, files, visibility, advanced]
+  - id: task-view-button-in-taskbar
+    name: Task View Button in Taskbar
+    category: Taskbar/Declutter
+    tags: [taskbar, task-view, declutter]
   - id: taskbar-alignment-left
     name: Taskbar Left Alignment
     category: Taskbar/Layout
     tags: [taskbar, alignment, windows-11]
+  - id: verbose-messages-during-logon
+    name: Verbose Messages During Logon
+    category: System/Diagnostics
+    tags: [diagnostics, logon, verbose]

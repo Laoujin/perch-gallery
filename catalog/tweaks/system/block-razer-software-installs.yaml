@@ -1,0 +1,21 @@
+type: tweak
+name: Block Razer Software Installs
+category: System/Bloatware
+tags: [razer, bloatware, driver]
+description: "Blocks ALL Razer Software installations. The hardware works fine without any software. WARNING: this will also block all Windows third-party driver installations."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+# NOTE: WinUtil also has InvokeScript/UndoScript for this tweak (not imported)
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching
+    name: SearchOrderConfig
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Device Installer
+    name: DisableCoInstallers
+    value: 1
+    type: dword
+    default-value: 0

@@ -1,0 +1,16 @@
+type: tweak
+name: Disable IPv6
+category: Networking/Protocol
+tags: [networking, ipv6, disable]
+description: "Disables IPv6."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+# NOTE: WinUtil also has InvokeScript/UndoScript for this tweak (not imported)
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters
+    name: DisabledComponents
+    value: 255
+    type: dword
+    default-value: 0

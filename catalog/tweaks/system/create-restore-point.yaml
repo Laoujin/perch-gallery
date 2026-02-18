@@ -1,0 +1,16 @@
+type: tweak
+name: Create Restore Point
+category: System/Backup
+tags: [backup, restore-point, system-protection]
+description: "Creates a restore point at runtime in case a revert is needed from WinUtil modifications"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+# NOTE: WinUtil also has InvokeScript/UndoScript for this tweak (not imported)
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore
+    name: SystemRestorePointCreationFrequency
+    value: 0
+    type: dword
+    default-value: 1440

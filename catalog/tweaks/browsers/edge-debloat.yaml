@@ -1,0 +1,90 @@
+type: tweak
+name: Edge Debloat
+category: Browsers/Debloat
+tags: [edge, browser, debloat, microsoft]
+description: "Disables various telemetry options, popups, and other annoyances in Edge."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SOFTWARE\Policies\Microsoft\EdgeUpdate
+    name: CreateDesktopShortcutDefault
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: PersonalizationReportingEnabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallBlocklist
+    name: 1
+    value: ofefcgjbeghpigppfmkologfjadafddi
+    type: string
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: ShowRecommendationsEnabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: HideFirstRunExperience
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: UserFeedbackAllowed
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: ConfigureDoNotTrack
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: AlternateErrorPagesEnabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: EdgeCollectionsEnabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: EdgeShoppingAssistantEnabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: MicrosoftEdgeInsiderPromotionEnabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: ShowMicrosoftRewards
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: WebWidgetAllowed
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: DiagnosticData
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: EdgeAssetDeliveryServiceEnabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+    name: WalletDonationEnabled
+    value: 0
+    type: dword
+    default-value: null

@@ -1,0 +1,15 @@
+type: tweak
+name: Prefer IPv4 over IPv6
+category: Networking/Protocol
+tags: [networking, ipv4, ipv6]
+description: "To set the IPv4 preference can have latency and security benefits on private networks where IPv6 is not configured."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters
+    name: DisabledComponents
+    value: 32
+    type: dword
+    default-value: 0

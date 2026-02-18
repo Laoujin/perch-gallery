@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Windows Platform Binary Table (WPBT)
+category: Security/Firmware
+tags: [security, firmware, wpbt]
+description: "If enabled then allows your computer vendor to execute a program each time it boots. It enables computer vendors to force install anti-theft software, software drivers, or a software program conveniently. This could also be a security risk."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Control\Session Manager
+    name: DisableWpbtExecution
+    value: 1
+    type: dword
+    default-value: null

@@ -1,16 +1,29 @@
-import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
 import { resolve, basename } from 'node:path';
 import yaml from 'js-yaml';
 
 const catalogDir = resolve('catalog');
 
+function collectYamlFiles(dir) {
+  const results = [];
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = resolve(dir, entry.name);
+    if (entry.isDirectory()) {
+      results.push(...collectYamlFiles(fullPath));
+    } else if (entry.name.endsWith('.yaml')) {
+      results.push(fullPath);
+    }
+  }
+  return results;
+}
+
 function readEntries(subdir) {
   const dir = resolve(catalogDir, subdir);
-  const files = readdirSync(dir).filter(f => f.endsWith('.yaml'));
+  const files = collectYamlFiles(dir);
 
   return files.map(file => {
     const id = basename(file, '.yaml');
-    const content = yaml.load(readFileSync(resolve(dir, file), 'utf8'));
+    const content = yaml.load(readFileSync(file, 'utf8'));
 
     const entry = { id, name: content.name, category: content.category, tags: content.tags };
     if (content.kind) entry.kind = content.kind;

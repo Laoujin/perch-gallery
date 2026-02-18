@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Multiplane Overlay
+category: System/Graphics
+tags: [graphics, multiplane-overlay, performance]
+description: "Disable the Multiplane Overlay which can sometimes cause issues with Graphics Cards."
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows\Dwm
+    name: OverlayTestMode
+    value: 5
+    type: dword
+    default-value: null

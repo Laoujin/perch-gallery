@@ -15,7 +15,10 @@ Development:
     Node: { sort: 80 }
     Tools: { sort: 90 }
 
-Browsers: { sort: 200 }
+Browsers:
+  sort: 200
+  children:
+    Debloat: { sort: 10 }
 
 Communication:
   sort: 300
@@ -35,6 +38,7 @@ Networking:
   children:
     FTP: { sort: 10 }
     Security: { sort: 20 }
+    Protocol: { sort: 30 }
 
 Utilities:
   sort: 700
@@ -50,6 +54,7 @@ Security:
   sort: 800
   children:
     Passwords: { sort: 10 }
+    Firmware: { sort: 20 }
 
 Gaming: { sort: 900 }
 
@@ -73,11 +78,15 @@ Taskbar:
   children:
     Layout: { sort: 10 }
     Declutter: { sort: 20 }
+    Productivity: { sort: 30 }
 
 Privacy:
   sort: 1300
   children:
     Advertising: { sort: 10 }
+    Tracking: { sort: 20 }
+    Telemetry: { sort: 30 }
+    Sync: { sort: 40 }
 
 Search:
   sort: 1400
@@ -88,17 +97,38 @@ Input:
   sort: 1500
   children:
     Mouse: { sort: 10 }
+    Keyboard: { sort: 20 }
 
 Accessibility:
   sort: 1600
   children:
     Keyboard: { sort: 10 }
 
+Power:
+  sort: 1650
+  children:
+    Sleep: { sort: 10 }
+    Hibernation: { sort: 20 }
+
+Performance:
+  sort: 1680
+  children:
+    Visual: { sort: 10 }
+    Background: { sort: 20 }
+    Gaming: { sort: 30 }
+
 System:
   sort: 1700
   children:
     Virtualization: { sort: 10 }
     Filesystem: { sort: 20 }
+    Diagnostics: { sort: 30 }
+    Clock: { sort: 40 }
+    Settings: { sort: 50 }
+    Storage: { sort: 60 }
+    Graphics: { sort: 70 }
+    Backup: { sort: 80 }
+    Bloatware: { sort: 90 }
 
 Fonts:
   sort: 2000

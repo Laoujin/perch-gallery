@@ -1,0 +1,15 @@
+type: tweak
+name: Remove Settings Home Page
+category: System/Settings
+tags: [settings, home-page, declutter]
+description: "Removes the Home page in the Windows Settings app."
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: winutil
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+    name: SettingsPageVisibility
+    value: "hide:home"
+    type: string
+    default-value: "show:home"

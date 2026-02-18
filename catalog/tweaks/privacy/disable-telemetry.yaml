@@ -1,0 +1,71 @@
+type: tweak
+name: Disable Telemetry
+category: Privacy/Telemetry
+tags: [privacy, telemetry, microsoft]
+description: "Disables Microsoft Telemetry...Duh"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+# NOTE: WinUtil also has InvokeScript/UndoScript for this tweak (not imported)
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo
+    name: Enabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Privacy
+    name: TailoredExperiencesWithDiagnosticDataEnabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Speech_OneCore\Settings\OnlineSpeechPrivacy
+    name: HasAccepted
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Input\TIPC
+    name: Enabled
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\InputPersonalization
+    name: RestrictImplicitInkCollection
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\InputPersonalization
+    name: RestrictImplicitTextCollection
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\InputPersonalization\TrainedDataStore
+    name: HarvestContacts
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Personalization\Settings
+    name: AcceptedPrivacyPolicy
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection
+    name: AllowTelemetry
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: Start_TrackProgs
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\System
+    name: PublishUserActivities
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Siuf\Rules
+    name: NumberOfSIUFInPeriod
+    value: 0
+    type: dword
+    default-value: null

@@ -1,0 +1,15 @@
+type: tweak
+name: Enable End Task With Right Click
+category: Taskbar/Productivity
+tags: [taskbar, end-task, right-click]
+description: "Enables option to end task when right clicking a program in the taskbar"
+reversible: true
+profiles: [developer, power-user]
+windows-versions: [11]
+source: winutil
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\TaskbarDeveloperSettings
+    name: TaskbarEndTask
+    value: 1
+    type: dword
+    default-value: null

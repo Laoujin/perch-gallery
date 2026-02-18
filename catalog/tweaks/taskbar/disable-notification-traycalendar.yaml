@@ -1,0 +1,20 @@
+type: tweak
+name: Disable Notification Tray/Calendar
+category: Taskbar/Declutter
+tags: [taskbar, notifications, calendar, declutter]
+description: "Disables all Notifications INCLUDING Calendar"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKCU\Software\Policies\Microsoft\Windows\Explorer
+    name: DisableNotificationCenter
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\PushNotifications
+    name: ToastEnabled
+    value: 0
+    type: dword
+    default-value: 1

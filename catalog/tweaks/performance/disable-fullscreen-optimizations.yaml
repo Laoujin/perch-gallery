@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Fullscreen Optimizations
+category: Performance/Gaming
+tags: [gaming, fullscreen, performance]
+description: "Disables FSO in all applications. NOTE: This will disable Color Management in Exclusive Fullscreen"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKCU\System\GameConfigStore
+    name: GameDVR_DXGIHonorFSEWindowsCompatible
+    value: 1
+    type: dword
+    default-value: 0

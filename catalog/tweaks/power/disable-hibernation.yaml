@@ -1,0 +1,21 @@
+type: tweak
+name: Disable Hibernation
+category: Power/Hibernation
+tags: [power, hibernation, disk-space]
+description: "Hibernation is really meant for laptops as it saves what's in memory before turning the pc off. It really should never be used"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+# NOTE: WinUtil also has InvokeScript/UndoScript for this tweak (not imported)
+registry:
+  - key: HKLM\System\CurrentControlSet\Control\Session Manager\Power
+    name: HibernateEnabled
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FlyoutMenuSettings
+    name: ShowHibernateOption
+    value: 0
+    type: dword
+    default-value: 1

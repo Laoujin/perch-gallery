@@ -1,0 +1,30 @@
+type: tweak
+name: Disable Location Tracking
+category: Privacy/Tracking
+tags: [privacy, location, tracking]
+description: "Disables Location Tracking...DUH!"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: winutil
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location
+    name: Value
+    value: Deny
+    type: string
+    default-value: Allow
+  - key: HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Sensor\Overrides\{BFA794E4-F964-4FDB-90F6-51056BFE4B44}
+    name: SensorPermissionState
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKLM\SYSTEM\CurrentControlSet\Services\lfsvc\Service\Configuration
+    name: Status
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKLM\SYSTEM\Maps
+    name: AutoUpdateEnabled
+    value: 0
+    type: dword
+    default-value: 1
