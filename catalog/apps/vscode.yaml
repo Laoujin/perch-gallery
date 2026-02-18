@@ -1,8 +1,6 @@
 type: app
 name: Visual Studio Code
 display-name: VS Code
-kind: dotfile
-dotfiles: true
 category: Development/IDEs
 tags: [editor, ide, microsoft]
 description: Lightweight but powerful source code editor

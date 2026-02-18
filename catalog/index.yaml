@@ -215,7 +215,6 @@ apps:
     name: Visual Studio Code
     category: Development/IDEs
     tags: [editor, ide, microsoft]
-    kind: dotfile
   - id: vlc
     name: VLC
     category: Media/Players
@@ -228,7 +227,6 @@ apps:
     name: Windows Terminal
     category: Development/Terminals
     tags: [terminal, shell, microsoft]
-    kind: dotfile
   - id: wireshark
     name: Wireshark
     category: Networking/Security
