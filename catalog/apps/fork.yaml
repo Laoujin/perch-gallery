@@ -1,0 +1,13 @@
+type: app
+name: Fork
+category: Development/Version Control
+tags: [git, gui, lightweight]
+description: Fast and friendly Git client for Mac and Windows
+profiles: [developer]
+os: [windows, macos]
+license: proprietary
+links:
+  website: https://git-fork.com
+install:
+  winget: Fork.Fork
+  choco: git-fork

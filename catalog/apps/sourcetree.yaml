@@ -1,0 +1,13 @@
+type: app
+name: Sourcetree
+category: Development/Version Control
+tags: [git, gui, atlassian]
+description: Free Git client for Windows and Mac by Atlassian
+profiles: [developer]
+os: [windows, macos]
+license: freeware
+links:
+  website: https://www.sourcetreeapp.com
+install:
+  winget: Atlassian.Sourcetree
+  choco: sourcetree

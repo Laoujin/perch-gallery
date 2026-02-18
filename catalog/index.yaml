@@ -233,6 +233,11 @@ apps:
     tags: [audio, music, player, lightweight]
     profiles: [power-user]
     hidden: true
+  - id: fork
+    name: Fork
+    category: Development/Version Control
+    tags: [git, gui, lightweight]
+    profiles: [developer]
   - id: foxit-reader
     name: Foxit PDF Reader
     category: Utilities/PDF
@@ -255,6 +260,16 @@ apps:
     category: Development/Version Control
     tags: [vcs, cli, developer]
     kind: dotfile
+    profiles: [developer]
+  - id: github-desktop
+    name: GitHub Desktop
+    category: Development/Version Control
+    tags: [git, gui, github, open-source]
+    profiles: [developer]
+  - id: gitkraken
+    name: GitKraken
+    category: Development/Version Control
+    tags: [git, gui, cross-platform]
     profiles: [developer]
   - id: global-json
     name: global.json
@@ -524,6 +539,11 @@ apps:
     category: Communication/Chat
     tags: [chat, messaging, team, collaboration]
     profiles: [developer]
+  - id: sourcetree
+    name: Sourcetree
+    category: Development/Version Control
+    tags: [git, gui, atlassian]
+    profiles: [developer]
   - id: spotify
     name: Spotify
     category: Media/Players
@@ -560,6 +580,11 @@ apps:
     category: Communication/Email
     tags: [email, calendar, open-source, mozilla]
     profiles: [casual, power-user]
+  - id: tortoisegit
+    name: TortoiseGit
+    category: Development/Version Control
+    tags: [git, gui, explorer-integration, open-source]
+    profiles: [developer]
   - id: trillian
     name: Trillian
     category: Communication/Chat

@@ -26,3 +26,12 @@ config:
         windows: "%USERPROFILE%/.gitignore_global"
         linux: "$HOME/.gitignore_global"
         macos: "$HOME/.gitignore_global"
+tweaks:
+  - id: git-bash-here
+    name: Git Bash Here
+    description: Add "Git Bash Here" to the Explorer context menu
+    registry:
+      - key: HKCR\Directory\Background\shell\git_shell\command
+        name: "(Default)"
+        value: '"C:\Program Files\Git\git-bash.exe" "--cd=%v"'
+        type: string

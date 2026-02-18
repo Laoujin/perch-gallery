@@ -1,0 +1,13 @@
+type: app
+name: GitKraken
+category: Development/Version Control
+tags: [git, gui, cross-platform]
+description: Cross-platform Git client with visual merge conflict editor
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
+links:
+  website: https://www.gitkraken.com
+install:
+  winget: Axosoft.GitKraken
+  choco: gitkraken

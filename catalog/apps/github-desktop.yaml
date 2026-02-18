@@ -1,0 +1,14 @@
+type: app
+name: GitHub Desktop
+category: Development/Version Control
+tags: [git, gui, github, open-source]
+description: Simple Git GUI client focused on GitHub workflows
+profiles: [developer]
+os: [windows, macos]
+license: MIT
+links:
+  website: https://desktop.github.com
+  github: https://github.com/desktop/desktop
+install:
+  winget: GitHub.GitHubDesktop
+  choco: github-desktop
