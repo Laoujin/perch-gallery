@@ -1,0 +1,13 @@
+type: app
+name: GlazeWM
+category: Appearance/Window Management
+tags: [tiling, window-manager, i3, productivity]
+description: Tiling window manager for Windows inspired by i3wm
+profiles: [developer, power-user]
+os: [windows]
+license: MIT
+alternatives: [komorebi]
+links:
+  github: https://github.com/glzr-io/glazewm
+install:
+  winget: glzr-io.glazewm

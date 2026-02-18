@@ -1,0 +1,14 @@
+type: app
+name: Zed
+category: Development/Editors
+tags: [editor, ide, gpu, collaboration, rust]
+description: High-performance multiplayer code editor from the creators of Atom
+profiles: [developer]
+os: [windows, linux, macos]
+license: GPL-3.0
+alternatives: [vscode, cursor]
+links:
+  website: https://zed.dev
+  github: https://github.com/zed-industries/zed
+install:
+  winget: Zed.Zed

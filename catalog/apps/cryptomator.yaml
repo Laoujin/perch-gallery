@@ -1,0 +1,14 @@
+type: app
+name: Cryptomator
+category: Security
+tags: [encryption, cloud, privacy, open-source]
+description: Transparent client-side encryption for your cloud files
+profiles: [power-user]
+os: [windows, linux, macos]
+license: GPL-3.0
+links:
+  website: https://cryptomator.org
+  github: https://github.com/cryptomator/cryptomator
+install:
+  winget: Cryptomator.Cryptomator
+  choco: cryptomator

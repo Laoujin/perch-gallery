@@ -1,0 +1,14 @@
+type: app
+name: Ventoy
+category: Utilities/System
+tags: [usb, bootable, iso, multiboot]
+description: Create bootable USB drive supporting multiple ISO files at once
+profiles: [power-user]
+os: [windows, linux]
+license: GPL-3.0
+alternatives: [rufus]
+links:
+  website: https://www.ventoy.net
+  github: https://github.com/ventoy/Ventoy
+install:
+  choco: ventoy

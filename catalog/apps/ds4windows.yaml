@@ -1,0 +1,14 @@
+type: app
+name: DS4Windows
+category: Gaming/Controllers
+tags: [gaming, controller, dualshock, gamepad]
+description: DualShock 4 and DualSense controller support and remapping for PC
+profiles: [gamer]
+os: [windows]
+license: GPL-3.0
+alternatives: [antimicrox]
+links:
+  github: https://github.com/Ryochan7/DS4Windows
+install:
+  winget: Ryochan7.DS4Windows
+  choco: ds4windows

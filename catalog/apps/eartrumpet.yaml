@@ -1,0 +1,13 @@
+type: app
+name: EarTrumpet
+category: Utilities/System
+tags: [audio, volume, per-app, taskbar]
+description: Per-app volume control from the system tray
+profiles: [power-user]
+os: [windows]
+license: MIT
+links:
+  github: https://github.com/File-New-Project/EarTrumpet
+install:
+  winget: File-New-Project.EarTrumpet
+  choco: eartrumpet

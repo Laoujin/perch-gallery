@@ -1,0 +1,14 @@
+type: app
+name: gsudo
+category: Utilities/System
+tags: [cli, sudo, elevation, windows]
+description: Sudo for Windows — run elevated commands from a non-elevated shell
+kind: cli-tool
+profiles: [developer, power-user]
+os: [windows]
+license: MIT
+links:
+  github: https://github.com/gerardog/gsudo
+install:
+  winget: gerardog.gsudo
+  choco: gsudo

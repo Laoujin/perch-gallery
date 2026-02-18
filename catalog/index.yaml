@@ -49,6 +49,12 @@ apps:
     tags: [office, documents, spreadsheet, open-source]
     profiles: [casual]
     hidden: true
+  - id: atuin
+    name: Atuin
+    category: Development/Shells
+    tags: [cli, shell, history, sync, rust]
+    kind: cli-tool
+    profiles: [developer]
   - id: audacity
     name: Audacity
     category: Media/Audio
@@ -86,11 +92,29 @@ apps:
     category: Media/3D
     tags: [3d, modeling, animation, rendering, open-source]
     profiles: [creative]
+  - id: bottom
+    name: bottom
+    category: Utilities/System
+    tags: [cli, monitor, system, tui, rust]
+    kind: cli-tool
+    profiles: [developer, power-user]
+    hidden: true
   - id: brave
     name: Brave
     category: Browsers
     tags: [browser, privacy, chromium, open-source]
     profiles: [casual, power-user]
+  - id: bruno
+    name: Bruno
+    category: Development/API Tools
+    tags: [api, rest, graphql, open-source]
+    profiles: [developer]
+  - id: btop
+    name: btop
+    category: Utilities/System
+    tags: [cli, monitor, system, tui]
+    kind: cli-tool
+    profiles: [developer, power-user]
   - id: bun
     name: Bun
     category: Development/Node
@@ -98,6 +122,17 @@ apps:
     kind: runtime
     profiles: [developer]
     path: apps/node/bun.yaml
+  - id: calibre
+    name: calibre
+    category: Utilities
+    tags: [ebooks, library, reader, converter]
+    profiles: [casual]
+  - id: cheat-engine
+    name: Cheat Engine
+    category: Gaming/Modding
+    tags: [gaming, modding, memory, debugging]
+    profiles: [gamer]
+    hidden: true
   - id: cmake
     name: CMake
     category: Development/Tools
@@ -115,6 +150,11 @@ apps:
     category: Utilities/Clipboard
     tags: [clipboard, manager, open-source]
     profiles: [developer, power-user]
+  - id: cryptomator
+    name: Cryptomator
+    category: Security
+    tags: [encryption, cloud, privacy, open-source]
+    profiles: [power-user]
   - id: cursor
     name: Cursor
     category: Development/IDEs
@@ -215,6 +255,23 @@ apps:
     category: Utilities/System
     tags: [cloud, sync, storage, backup]
     profiles: [casual]
+  - id: ds4windows
+    name: DS4Windows
+    category: Gaming/Controllers
+    tags: [gaming, controller, dualshock, gamepad]
+    profiles: [gamer]
+  - id: dust
+    name: dust
+    category: Utilities/System
+    tags: [cli, disk, du, rust]
+    kind: cli-tool
+    profiles: [developer, power-user]
+    hidden: true
+  - id: eartrumpet
+    name: EarTrumpet
+    category: Utilities/System
+    tags: [audio, volume, per-app, taskbar]
+    profiles: [power-user]
   - id: eclipse
     name: Eclipse IDE
     category: Development/IDEs
@@ -233,6 +290,11 @@ apps:
     category: Gaming/Stores
     tags: [gaming, store, launcher]
     profiles: [gamer]
+  - id: espanso
+    name: Espanso
+    category: Utilities/Productivity
+    tags: [text-expander, automation, productivity]
+    profiles: [power-user]
   - id: everything
     name: Everything
     category: Utilities/Search
@@ -266,6 +328,11 @@ apps:
     category: Browsers
     tags: [browser, mozilla, privacy]
     profiles: [casual, developer]
+  - id: flameshot
+    name: Flameshot
+    category: Utilities/Screenshots
+    tags: [screenshot, annotation, open-source]
+    profiles: [developer, power-user]
   - id: flow-launcher
     name: Flow Launcher
     category: Utilities/Productivity
@@ -322,6 +389,11 @@ apps:
     category: Development/Version Control
     tags: [git, gui, cross-platform]
     profiles: [developer]
+  - id: glazewm
+    name: GlazeWM
+    category: Appearance/Window Management
+    tags: [tiling, window-manager, i3, productivity]
+    profiles: [developer, power-user]
   - id: global-json
     name: global.json
     category: Development/.NET
@@ -349,6 +421,12 @@ apps:
     category: Utilities/Screenshots
     tags: [screenshot, capture, windows]
     profiles: [developer, power-user]
+  - id: gsudo
+    name: gsudo
+    category: Utilities/System
+    tags: [cli, sudo, elevation, windows]
+    kind: cli-tool
+    profiles: [developer, power-user]
   - id: handbrake
     name: HandBrake
     category: Media/Video
@@ -358,6 +436,12 @@ apps:
     name: HeidiSQL
     category: Development/Tools
     tags: [database, mysql, postgresql, sql, gui]
+    profiles: [developer]
+  - id: helix
+    name: Helix
+    category: Development/Editors
+    tags: [editor, modal, terminal, rust]
+    kind: cli-tool
     profiles: [developer]
   - id: hoppscotch
     name: Hoppscotch
@@ -370,6 +454,11 @@ apps:
     tags: [dotnet, decompiler, open-source, csharp]
     profiles: [developer]
     path: apps/dotnet/ilspy.yaml
+  - id: imageglass
+    name: ImageGlass
+    category: Media/Graphics
+    tags: [image-viewer, lightweight, open-source]
+    profiles: [creative, casual]
   - id: inkscape
     name: Inkscape
     category: Media/Graphics
@@ -398,6 +487,11 @@ apps:
     category: Utilities/Productivity
     tags: [notes, markdown, sync, open-source]
     profiles: [casual, power-user]
+  - id: kdenlive
+    name: Kdenlive
+    category: Media/Video
+    tags: [video-editor, editing, open-source]
+    profiles: [creative]
   - id: keepass
     name: KeePass 2
     category: Security/Passwords
@@ -419,6 +513,12 @@ apps:
     tags: [launcher, productivity, keyboard, open-source]
     profiles: [power-user]
     hidden: true
+  - id: lazydocker
+    name: lazydocker
+    category: Development/Containers
+    tags: [cli, docker, tui, containers]
+    kind: cli-tool
+    profiles: [developer]
   - id: lazygit
     name: lazygit
     category: Development/Version Control
@@ -436,18 +536,57 @@ apps:
     tags: [dotnet, csharp, linq, scratchpad]
     profiles: [developer]
     path: apps/dotnet/linqpad.yaml
+  - id: localsend
+    name: LocalSend
+    category: Networking
+    tags: [file-sharing, local, airdrop, open-source]
+    profiles: [casual, power-user]
+  - id: logseq
+    name: Logseq
+    category: Utilities/Productivity
+    tags: [notes, knowledge-base, markdown, graph]
+    profiles: [power-user]
+  - id: lsd
+    name: lsd
+    category: Development/Tools
+    tags: [cli, ls, files, rust]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+  - id: ludusavi
+    name: Ludusavi
+    category: Gaming/Saves
+    tags: [gaming, backup, save-games, open-source]
+    profiles: [gamer]
   - id: mediamonkey
     name: MediaMonkey
     category: Media/Audio
     tags: [audio, music, player, library, organizer]
     profiles: [casual]
     hidden: true
+  - id: mise
+    name: mise
+    category: Development/Tools
+    tags: [cli, version-manager, polyglot, rust]
+    kind: cli-tool
+    profiles: [developer]
   - id: mitmproxy
     name: mitmproxy
     category: Development/API Tools
     tags: [proxy, http, debugging, ssl, cli]
     kind: cli-tool
     profiles: [developer]
+  - id: mpc-hc
+    name: MPC-HC
+    category: Media/Players
+    tags: [video, player, lightweight, codec]
+    profiles: [power-user]
+    hidden: true
+  - id: mpv
+    name: mpv
+    category: Media/Players
+    tags: [video, player, cli, open-source]
+    profiles: [power-user]
   - id: msys2
     name: MSYS2
     category: Development/Tools
@@ -557,6 +696,11 @@ apps:
     tags: [chat, instant-messaging, multi-protocol, open-source]
     profiles: [casual]
     hidden: true
+  - id: playnite
+    name: Playnite
+    category: Gaming/Launchers
+    tags: [gaming, launcher, library, open-source]
+    profiles: [gamer]
   - id: pnpm
     name: pnpm
     category: Development/Node
@@ -581,6 +725,13 @@ apps:
     category: Utilities/Productivity
     tags: [productivity, utilities, microsoft, windows]
     profiles: [developer, power-user]
+  - id: procs
+    name: procs
+    category: Utilities/System
+    tags: [cli, process, ps, rust]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: putty
     name: PuTTY
     category: Networking/Protocol
@@ -603,6 +754,13 @@ apps:
     category: Development/Containers
     tags: [containers, kubernetes, docker, open-source]
     profiles: [developer]
+  - id: rclone
+    name: rclone
+    category: Utilities/Storage
+    tags: [cli, cloud, sync, backup]
+    kind: cli-tool
+    profiles: [developer, power-user]
+    hidden: true
   - id: resharper
     name: ReSharper
     category: Development/.NET
@@ -631,11 +789,28 @@ apps:
     tags: [ruby, language, scripting]
     kind: runtime
     profiles: [developer]
+  - id: rufus
+    name: Rufus
+    category: Utilities/System
+    tags: [usb, bootable, iso, formatting]
+    profiles: [power-user]
   - id: sandboxie-plus
     name: Sandboxie Plus
     category: Security/Passwords
     tags: [sandbox, isolation, security, open-source]
     profiles: [power-user]
+  - id: screentogif
+    name: ScreenToGif
+    category: Utilities/Screenshots
+    tags: [gif, recording, screen-capture]
+    profiles: [developer, creative]
+  - id: sd
+    name: sd
+    category: Development/Tools
+    tags: [cli, sed, find-replace, rust]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: sharex
     name: ShareX
     category: Utilities/Screenshots
@@ -682,6 +857,11 @@ apps:
     category: Utilities/PDF
     tags: [pdf, reader, lightweight, open-source]
     profiles: [casual]
+  - id: syncthing
+    name: Syncthing
+    category: Utilities/Storage
+    tags: [sync, p2p, file-sharing, open-source]
+    profiles: [power-user]
   - id: sysinternals
     name: Sysinternals Suite
     category: Utilities/System
@@ -715,6 +895,11 @@ apps:
     tags: [cli, python, package-manager, rust]
     kind: cli-tool
     profiles: [developer]
+  - id: ventoy
+    name: Ventoy
+    category: Utilities/System
+    tags: [usb, bootable, iso, multiboot]
+    profiles: [power-user]
   - id: vim
     name: Vim
     category: Development/Editors
@@ -810,6 +995,17 @@ apps:
     kind: cli-tool
     profiles: [developer]
     path: apps/node/yarn.yaml
+  - id: yazi
+    name: yazi
+    category: File Management
+    tags: [cli, file-manager, tui, rust]
+    kind: cli-tool
+    profiles: [developer, power-user]
+  - id: zed
+    name: Zed
+    category: Development/Editors
+    tags: [editor, ide, gpu, collaboration, rust]
+    profiles: [developer]
   - id: zoom
     name: Zoom
     category: Communication/Video

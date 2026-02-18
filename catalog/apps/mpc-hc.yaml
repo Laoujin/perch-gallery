@@ -1,0 +1,16 @@
+type: app
+name: MPC-HC
+category: Media/Players
+tags: [video, player, lightweight, codec]
+description: Extremely lightweight, open-source media player for Windows
+hidden: true
+profiles: [power-user]
+os: [windows]
+license: GPL-3.0
+alternatives: [vlc, mpv]
+links:
+  website: https://github.com/clsid2/mpc-hc
+  github: https://github.com/clsid2/mpc-hc
+install:
+  winget: clsid2.MPC-HC
+  choco: mpc-hc

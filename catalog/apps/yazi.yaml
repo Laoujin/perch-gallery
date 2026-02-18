@@ -1,0 +1,14 @@
+type: app
+name: yazi
+category: File Management
+tags: [cli, file-manager, tui, rust]
+description: Blazing fast terminal file manager with async I/O and image preview
+kind: cli-tool
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://yazi-rs.github.io
+  github: https://github.com/sxyazi/yazi
+install:
+  winget: sxyazi.yazi

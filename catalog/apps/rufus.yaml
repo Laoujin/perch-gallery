@@ -1,0 +1,15 @@
+type: app
+name: Rufus
+category: Utilities/System
+tags: [usb, bootable, iso, formatting]
+description: Create bootable USB flash drives with format and ISO writing
+profiles: [power-user]
+os: [windows]
+license: GPL-3.0
+alternatives: [ventoy]
+links:
+  website: https://rufus.ie
+  github: https://github.com/pbatard/rufus
+install:
+  winget: Rufus.Rufus
+  choco: rufus

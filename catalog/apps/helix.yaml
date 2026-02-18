@@ -1,0 +1,17 @@
+type: app
+name: Helix
+category: Development/Editors
+tags: [editor, modal, terminal, rust]
+description: Post-modern modal text editor with built-in LSP support
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: MPL-2.0
+alternatives: [neovim, vim]
+links:
+  website: https://helix-editor.com
+  docs: https://docs.helix-editor.com
+  github: https://github.com/helix-editor/helix
+install:
+  winget: Helix.Helix
+  choco: helix

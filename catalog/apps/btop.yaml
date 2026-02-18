@@ -1,0 +1,14 @@
+type: app
+name: btop
+category: Utilities/System
+tags: [cli, monitor, system, tui]
+description: Resource monitor showing usage and stats for CPU, memory, disks, and network
+kind: cli-tool
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: Apache-2.0
+alternatives: [bottom]
+links:
+  github: https://github.com/aristocratos/btop
+install:
+  winget: aristocratos.btop4win

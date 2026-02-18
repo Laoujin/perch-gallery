@@ -1,0 +1,16 @@
+type: app
+name: bottom
+category: Utilities/System
+tags: [cli, monitor, system, tui, rust]
+description: Graphical process/system monitor for the terminal
+kind: cli-tool
+hidden: true
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: MIT
+alternatives: [btop]
+links:
+  github: https://github.com/ClementTsang/bottom
+install:
+  winget: Clement.bottom
+  choco: bottom

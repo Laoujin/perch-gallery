@@ -1,0 +1,14 @@
+type: app
+name: sd
+category: Development/Tools
+tags: [cli, sed, find-replace, rust]
+description: Intuitive find and replace CLI using regex and string-literal modes
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  github: https://github.com/chmln/sd
+install:
+  choco: sd-cli

@@ -1,0 +1,15 @@
+type: app
+name: procs
+category: Utilities/System
+tags: [cli, process, ps, rust]
+description: Modern replacement for ps with color and keyword search
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  github: https://github.com/dalance/procs
+install:
+  winget: dalance.procs
+  choco: procs

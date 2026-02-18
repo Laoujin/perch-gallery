@@ -1,0 +1,14 @@
+type: app
+name: calibre
+category: Utilities
+tags: [ebooks, library, reader, converter]
+description: Powerful and easy-to-use e-book manager and converter
+profiles: [casual]
+os: [windows, linux, macos]
+license: GPL-3.0
+links:
+  website: https://calibre-ebook.com
+  github: https://github.com/kovidgoyal/calibre
+install:
+  winget: calibre.calibre
+  choco: calibre

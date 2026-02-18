@@ -1,0 +1,14 @@
+type: app
+name: Playnite
+category: Gaming/Launchers
+tags: [gaming, launcher, library, open-source]
+description: Video game library manager with support for Steam, GOG, Epic, and more
+profiles: [gamer]
+os: [windows]
+license: MIT
+links:
+  website: https://playnite.link
+  github: https://github.com/JosefNemworthy/Playnite
+install:
+  winget: Playnite.Playnite
+  choco: playnite

@@ -1,0 +1,15 @@
+type: app
+name: mpv
+category: Media/Players
+tags: [video, player, cli, open-source]
+description: Free, open-source, cross-platform media player for the power user
+profiles: [power-user]
+os: [windows, linux, macos]
+license: GPL-2.0
+alternatives: [vlc]
+links:
+  website: https://mpv.io
+  github: https://github.com/mpv-player/mpv
+install:
+  winget: mpv.net
+  choco: mpv

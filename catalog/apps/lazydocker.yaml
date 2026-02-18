@@ -1,0 +1,14 @@
+type: app
+name: lazydocker
+category: Development/Containers
+tags: [cli, docker, tui, containers]
+description: Simple terminal UI for Docker and Docker Compose
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  github: https://github.com/jesseduffield/lazydocker
+install:
+  winget: JesseDuffield.Lazydocker
+  choco: lazydocker

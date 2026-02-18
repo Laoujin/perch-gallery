@@ -1,0 +1,14 @@
+type: app
+name: Espanso
+category: Utilities/Productivity
+tags: [text-expander, automation, productivity]
+description: Cross-platform text expander — type abbreviations that auto-expand
+profiles: [power-user]
+os: [windows, linux, macos]
+license: GPL-3.0
+links:
+  website: https://espanso.org
+  github: https://github.com/espanso/espanso
+install:
+  winget: Espanso.Espanso
+  choco: espanso

@@ -1,0 +1,14 @@
+type: app
+name: ScreenToGif
+category: Utilities/Screenshots
+tags: [gif, recording, screen-capture]
+description: Screen, webcam, and sketchboard recorder with integrated editor
+profiles: [developer, creative]
+os: [windows]
+license: MS-PL
+links:
+  website: https://www.screentogif.com
+  github: https://github.com/NickeManarin/ScreenToGif
+install:
+  winget: NickeManarin.ScreenToGif
+  choco: screentogif

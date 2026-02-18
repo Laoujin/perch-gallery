@@ -1,0 +1,14 @@
+type: app
+name: Kdenlive
+category: Media/Video
+tags: [video-editor, editing, open-source]
+description: Free and open-source video editor based on MLT and KDE frameworks
+profiles: [creative]
+os: [windows, linux, macos]
+license: GPL-2.0
+links:
+  website: https://kdenlive.org
+  github: https://github.com/KDE/kdenlive
+install:
+  winget: KDE.Kdenlive
+  choco: kdenlive

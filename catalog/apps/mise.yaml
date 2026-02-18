@@ -1,0 +1,15 @@
+type: app
+name: mise
+category: Development/Tools
+tags: [cli, version-manager, polyglot, rust]
+description: Polyglot dev tool version manager (replaces asdf, nvm, pyenv, rbenv)
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+alternatives: [fnm, nvm, volta]
+links:
+  website: https://mise.jdx.dev
+  github: https://github.com/jdx/mise
+install:
+  winget: jdx.mise

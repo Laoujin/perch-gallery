@@ -1,0 +1,14 @@
+type: app
+name: Syncthing
+category: Utilities/Storage
+tags: [sync, p2p, file-sharing, open-source]
+description: Continuous file synchronization between devices without a cloud
+profiles: [power-user]
+os: [windows, linux, macos]
+license: MPL-2.0
+links:
+  website: https://syncthing.net
+  github: https://github.com/syncthing/syncthing
+install:
+  winget: Syncthing.Syncthing
+  choco: syncthing

@@ -83,6 +83,13 @@ Gaming:
   children:
     Xbox: { sort: 10 }
     Stores: { sort: 20 }
+    Launchers: { sort: 30 }
+    Controllers: { sort: 40 }
+    Modding: { sort: 50 }
+    Performance: { sort: 60 }
+    Streaming: { sort: 70 }
+    Emulators: { sort: 80 }
+    Saves: { sort: 90 }
 
 # Windows tweaks categories
 Appearance:

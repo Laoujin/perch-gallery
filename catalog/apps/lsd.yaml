@@ -1,0 +1,16 @@
+type: app
+name: lsd
+category: Development/Tools
+tags: [cli, ls, files, rust]
+description: Next-gen ls command with colors, icons, and tree view
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+alternatives: [eza]
+links:
+  github: https://github.com/lsd-rs/lsd
+install:
+  winget: lsd-rs.lsd
+  choco: lsd

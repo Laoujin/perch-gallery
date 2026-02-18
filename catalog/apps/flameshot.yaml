@@ -1,0 +1,14 @@
+type: app
+name: Flameshot
+category: Utilities/Screenshots
+tags: [screenshot, annotation, open-source]
+description: Powerful yet simple to use screenshot tool with annotation support
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: GPL-3.0
+alternatives: [greenshot, sharex]
+links:
+  github: https://github.com/flameshot-org/flameshot
+install:
+  winget: Flameshot.Flameshot
+  choco: flameshot
