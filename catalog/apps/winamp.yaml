@@ -1,0 +1,11 @@
+type: app
+name: Winamp
+category: Media/Audio
+tags: [audio, music, player, classic]
+description: Classic media player for Windows
+hidden: true
+links:
+  website: https://www.winamp.com
+install:
+  winget: Winamp.Winamp
+  choco: winamp

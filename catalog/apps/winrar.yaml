@@ -1,0 +1,11 @@
+type: app
+name: WinRAR
+category: Utilities/Compression
+tags: [archive, compression, rar]
+description: File archiver with RAR and ZIP support
+hidden: true
+links:
+  website: https://www.win-rar.com
+install:
+  winget: RARLab.WinRAR
+  choco: winrar

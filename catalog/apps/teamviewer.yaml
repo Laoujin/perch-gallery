@@ -1,0 +1,11 @@
+type: app
+name: TeamViewer
+category: Networking/Protocol
+tags: [remote-desktop, remote-access, screen-sharing]
+description: Remote desktop access and support software
+hidden: true
+links:
+  website: https://www.teamviewer.com
+install:
+  winget: TeamViewer.TeamViewer
+  choco: teamviewer

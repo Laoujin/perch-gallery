@@ -1,0 +1,10 @@
+type: app
+name: Launchy
+category: Utilities/Productivity
+tags: [launcher, productivity, keyboard, open-source]
+description: Keystroke application launcher
+hidden: true
+links:
+  website: https://www.launchy.net
+install:
+  choco: launchy

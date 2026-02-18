@@ -1,0 +1,11 @@
+type: app
+name: MusicBee
+category: Media/Audio
+tags: [audio, music, player, library]
+description: Music manager and player for Windows
+hidden: true
+links:
+  website: https://getmusicbee.com
+install:
+  winget: MusicBee.MusicBee
+  choco: musicbee

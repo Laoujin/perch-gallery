@@ -15,6 +15,21 @@ apps:
     name: 7-Zip
     category: Utilities/Compression
     tags: [archive, compression, open-source]
+  - id: aimp
+    name: AIMP
+    category: Media/Audio
+    tags: [audio, music, player]
+    hidden: true
+  - id: anydesk
+    name: AnyDesk
+    category: Networking/Protocol
+    tags: [remote-desktop, remote-access]
+    hidden: true
+  - id: openoffice
+    name: Apache OpenOffice
+    category: Productivity/Office
+    tags: [office, documents, spreadsheet, open-source]
+    hidden: true
   - id: audacity
     name: Audacity
     category: Media/Audio
@@ -57,6 +72,11 @@ apps:
     name: Cursor
     category: Development/IDEs
     tags: [ide, ai, editor, vscode-fork]
+  - id: cutepdf
+    name: CutePDF Writer
+    category: Utilities/PDF
+    tags: [pdf, printer, converter]
+    hidden: true
   - id: db-browser-sqlite
     name: DB Browser for SQLite
     category: Development/Tools
@@ -82,6 +102,11 @@ apps:
     name: Dropbox
     category: Utilities/System
     tags: [cloud, sync, storage, backup]
+  - id: eclipse
+    name: Eclipse IDE
+    category: Development/IDEs
+    tags: [ide, java, open-source]
+    hidden: true
   - id: epic-games
     name: Epic Games Launcher
     category: Gaming/Stores
@@ -90,6 +115,11 @@ apps:
     name: Everything
     category: Utilities/Search
     tags: [search, files, indexing, windows]
+  - id: faststone
+    name: FastStone Image Viewer
+    category: Media/Graphics
+    tags: [image-viewer, graphics, editor]
+    hidden: true
   - id: filezilla
     name: FileZilla
     category: Networking/FTP
@@ -98,6 +128,16 @@ apps:
     name: Firefox
     category: Browsers
     tags: [browser, mozilla, privacy]
+  - id: foobar2000
+    name: foobar2000
+    category: Media/Audio
+    tags: [audio, music, player, lightweight]
+    hidden: true
+  - id: foxit-reader
+    name: Foxit PDF Reader
+    category: Utilities/PDF
+    tags: [pdf, reader, annotate]
+    hidden: true
   - id: fzf
     name: fzf
     category: Development/Tools
@@ -160,14 +200,29 @@ apps:
     name: Krita
     category: Media/Graphics
     tags: [graphics, digital-painting, illustration, open-source]
+  - id: launchy
+    name: Launchy
+    category: Utilities/Productivity
+    tags: [launcher, productivity, keyboard, open-source]
+    hidden: true
   - id: libreoffice
     name: LibreOffice
     category: Productivity/Office
     tags: [office, documents, spreadsheet, presentation, open-source]
+  - id: mediamonkey
+    name: MediaMonkey
+    category: Media/Audio
+    tags: [audio, music, player, library, organizer]
+    hidden: true
   - id: mitmproxy
     name: mitmproxy
     category: Networking/Security
     tags: [proxy, http, debugging, ssl, cli]
+  - id: musicbee
+    name: MusicBee
+    category: Media/Audio
+    tags: [audio, music, player, library]
+    hidden: true
   - id: notepadplusplus
     name: Notepad++
     category: Development/Editors
@@ -211,6 +266,16 @@ apps:
     name: PDFtk Free
     category: Utilities/Productivity
     tags: [pdf, cli, merge, split]
+  - id: peazip
+    name: PeaZip
+    category: Utilities/Compression
+    tags: [archive, compression, open-source]
+    hidden: true
+  - id: pidgin
+    name: Pidgin
+    category: Communication/Chat
+    tags: [chat, instant-messaging, multi-protocol, open-source]
+    hidden: true
   - id: powershell
     name: PowerShell
     category: Development/Shells
@@ -220,6 +285,11 @@ apps:
     name: PowerToys
     category: Utilities/Productivity
     tags: [productivity, utilities, microsoft, windows]
+  - id: putty
+    name: PuTTY
+    category: Networking/Protocol
+    tags: [ssh, telnet, terminal, remote]
+    hidden: true
   - id: python
     name: Python
     category: Development/Tools
@@ -277,10 +347,20 @@ apps:
     name: Sysinternals Suite
     category: Utilities/System
     tags: [system, diagnostics, microsoft, admin]
+  - id: teamviewer
+    name: TeamViewer
+    category: Networking/Protocol
+    tags: [remote-desktop, remote-access, screen-sharing]
+    hidden: true
   - id: thunderbird
     name: Thunderbird
     category: Communication/Email
     tags: [email, calendar, open-source, mozilla]
+  - id: trillian
+    name: Trillian
+    category: Communication/Chat
+    tags: [chat, instant-messaging, multi-protocol]
+    hidden: true
   - id: vim
     name: Vim
     category: Development/Editors
@@ -298,6 +378,11 @@ apps:
     name: VLC
     category: Media/Players
     tags: [media, video, audio, open-source]
+  - id: winamp
+    name: Winamp
+    category: Media/Audio
+    tags: [audio, music, player, classic]
+    hidden: true
   - id: windirstat
     name: WinDirStat
     category: File Management
@@ -310,6 +395,11 @@ apps:
     name: WinMerge
     category: Development/Diff Tools
     tags: [diff, merge, comparison, open-source]
+  - id: winrar
+    name: WinRAR
+    category: Utilities/Compression
+    tags: [archive, compression, rar]
+    hidden: true
   - id: winscp
     name: WinSCP
     category: Networking/FTP
@@ -327,6 +417,11 @@ apps:
     category: System/Virtualization
     tags: [wsl, linux, microsoft, windows]
     kind: dotfile
+  - id: xnview
+    name: XnView
+    category: Media/Graphics
+    tags: [image-viewer, graphics, batch-processing]
+    hidden: true
   - id: zoom
     name: Zoom
     category: Communication/Video

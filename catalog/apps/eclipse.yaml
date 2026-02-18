@@ -1,0 +1,12 @@
+type: app
+name: Eclipse IDE
+display-name: Eclipse
+category: Development/IDEs
+tags: [ide, java, open-source]
+description: Open-source IDE primarily for Java development
+hidden: true
+links:
+  website: https://www.eclipse.org
+install:
+  winget: EclipseFoundation.EclipseIDE
+  choco: eclipse

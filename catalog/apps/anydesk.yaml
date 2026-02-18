@@ -1,0 +1,11 @@
+type: app
+name: AnyDesk
+category: Networking/Protocol
+tags: [remote-desktop, remote-access]
+description: Remote desktop application for remote access and support
+hidden: true
+links:
+  website: https://anydesk.com
+install:
+  winget: AnyDeskSoftwareGmbH.AnyDesk
+  choco: anydesk

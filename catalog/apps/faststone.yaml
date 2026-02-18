@@ -1,0 +1,12 @@
+type: app
+name: FastStone Image Viewer
+display-name: FastStone
+category: Media/Graphics
+tags: [image-viewer, graphics, editor]
+description: Fast and compact image viewer, editor, and converter
+hidden: true
+links:
+  website: https://www.faststone.org
+install:
+  winget: FastStone.Viewer
+  choco: fsviewer

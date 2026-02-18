@@ -1,0 +1,11 @@
+type: app
+name: CutePDF Writer
+display-name: CutePDF
+category: Utilities/PDF
+tags: [pdf, printer, converter]
+description: Free PDF creation tool that installs as a virtual printer
+hidden: true
+links:
+  website: https://www.cutepdf.com
+install:
+  choco: cutepdf

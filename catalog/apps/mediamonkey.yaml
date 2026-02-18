@@ -1,0 +1,11 @@
+type: app
+name: MediaMonkey
+category: Media/Audio
+tags: [audio, music, player, library, organizer]
+description: Music manager and media jukebox for large collections
+hidden: true
+links:
+  website: https://www.mediamonkey.com
+install:
+  winget: MediaMonkey.MediaMonkey
+  choco: mediamonkey

@@ -1,0 +1,11 @@
+type: app
+name: AIMP
+category: Media/Audio
+tags: [audio, music, player]
+description: Freeware audio player with a clean interface
+hidden: true
+links:
+  website: https://www.aimp.ru
+install:
+  winget: AIMP.AIMP
+  choco: aimp

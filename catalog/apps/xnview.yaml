@@ -1,0 +1,11 @@
+type: app
+name: XnView
+category: Media/Graphics
+tags: [image-viewer, graphics, batch-processing]
+description: Image viewer, browser, and converter with batch processing
+hidden: true
+links:
+  website: https://www.xnview.com
+install:
+  winget: XnSoft.XnViewMP
+  choco: xnviewmp

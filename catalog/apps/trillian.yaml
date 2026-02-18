@@ -1,0 +1,11 @@
+type: app
+name: Trillian
+category: Communication/Chat
+tags: [chat, instant-messaging, multi-protocol]
+description: Multi-protocol instant messaging client
+hidden: true
+links:
+  website: https://www.trillian.im
+install:
+  winget: CeruleanStudios.Trillian
+  choco: trillian

@@ -1,0 +1,12 @@
+type: app
+name: PeaZip
+category: Utilities/Compression
+tags: [archive, compression, open-source]
+description: Free and open-source file archiver and compressor
+hidden: true
+links:
+  website: https://peazip.github.io
+  github: https://github.com/peazip/PeaZip
+install:
+  winget: Giorgiotani.Peazip
+  choco: peazip

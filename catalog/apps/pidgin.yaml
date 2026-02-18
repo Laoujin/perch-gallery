@@ -1,0 +1,11 @@
+type: app
+name: Pidgin
+category: Communication/Chat
+tags: [chat, instant-messaging, multi-protocol, open-source]
+description: Universal chat client supporting multiple protocols
+hidden: true
+links:
+  website: https://pidgin.im
+install:
+  winget: Pidgin.Pidgin
+  choco: pidgin
