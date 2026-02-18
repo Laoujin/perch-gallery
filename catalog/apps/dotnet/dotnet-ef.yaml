@@ -7,6 +7,7 @@ description: Entity Framework Core command-line tools
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
+requires: [dotnet-sdk]
 links:
   docs: https://learn.microsoft.com/en-us/ef/core/cli/dotnet
 install:

@@ -1,6 +1,6 @@
 type: app
 name: mitmproxy
-category: Networking/Security
+category: Development/API Tools
 tags: [proxy, http, debugging, ssl, cli]
 description: Interactive HTTPS proxy for debugging and penetration testing
 kind: cli-tool

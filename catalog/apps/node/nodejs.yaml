@@ -7,6 +7,7 @@ description: JavaScript runtime built on Chrome's V8 engine
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
+alternatives: [bun]
 links:
   website: https://nodejs.org
   docs: https://nodejs.org/docs/latest/api/

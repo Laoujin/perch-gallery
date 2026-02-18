@@ -6,6 +6,7 @@ description: Free and open-source office productivity suite
 profiles: [casual]
 os: [windows, linux, macos]
 license: MPL-2.0
+alternatives: [openoffice]
 links:
   website: https://www.libreoffice.org
 install:

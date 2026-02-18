@@ -1,0 +1,15 @@
+type: app
+name: Postman
+category: Development/API Tools
+tags: [api, rest, graphql, testing]
+description: API platform for building and testing APIs
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
+alternatives: [hoppscotch]
+links:
+  website: https://www.postman.com
+install:
+  winget: Postman.Postman
+  choco: postman

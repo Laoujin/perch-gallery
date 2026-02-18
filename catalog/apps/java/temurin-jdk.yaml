@@ -8,6 +8,7 @@ description: Open-source Java runtime from the Eclipse Adoptium project
 profiles: [developer]
 os: [windows, linux, macos]
 license: GPL-2.0
+alternatives: [corretto-jdk]
 links:
   website: https://adoptium.net
   github: https://github.com/adoptium/temurin-build

@@ -6,6 +6,7 @@ description: Advanced clipboard manager with editing and scripting
 profiles: [developer, power-user]
 os: [windows, linux]
 license: GPL-3.0
+alternatives: [ditto]
 links:
   website: https://hluk.github.io/CopyQ/
   github: https://github.com/hluk/CopyQ

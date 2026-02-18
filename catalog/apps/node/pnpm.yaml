@@ -7,6 +7,7 @@ description: Fast, disk space efficient package manager for Node.js
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
+alternatives: [npm, yarn]
 links:
   website: https://pnpm.io
   github: https://github.com/pnpm/pnpm

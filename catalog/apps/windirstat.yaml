@@ -6,6 +6,7 @@ description: Disk usage statistics viewer and cleanup tool
 profiles: [power-user]
 os: [windows]
 license: GPL-2.0
+alternatives: [wiztree]
 links:
   website: https://windirstat.net
 install:

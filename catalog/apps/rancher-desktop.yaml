@@ -1,0 +1,15 @@
+type: app
+name: Rancher Desktop
+category: Development/Containers
+tags: [containers, kubernetes, docker, open-source]
+description: Open-source container management and Kubernetes on the desktop
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+alternatives: [docker]
+links:
+  website: https://rancherdesktop.io
+  github: https://github.com/rancher-sandbox/rancher-desktop
+install:
+  winget: suse.RancherDesktop
+  choco: rancher-desktop

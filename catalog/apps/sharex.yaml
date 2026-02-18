@@ -6,6 +6,7 @@ description: Screen capture, file sharing, and productivity tool
 profiles: [developer, power-user]
 os: [windows]
 license: GPL-3.0
+alternatives: [greenshot]
 links:
   website: https://getsharex.com
   github: https://github.com/ShareX/ShareX

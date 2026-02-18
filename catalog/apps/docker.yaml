@@ -1,11 +1,12 @@
 type: app
 name: Docker Desktop
-category: Development/Tools
+category: Development/Containers
 tags: [containers, docker, devops, virtualization]
 description: Container platform for building, sharing, and running applications
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0
+alternatives: [rancher-desktop]
 links:
   website: https://www.docker.com/products/docker-desktop/
   docs: https://docs.docker.com/desktop/

@@ -7,6 +7,7 @@ description: Node.js version manager for Windows
 profiles: [developer]
 os: [windows]
 license: MIT
+alternatives: [fnm, volta]
 links:
   github: https://github.com/coreybutler/nvm-windows
 install:

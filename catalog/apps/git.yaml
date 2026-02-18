@@ -7,6 +7,7 @@ description: Distributed version control system
 profiles: [developer]
 os: [windows, linux, macos]
 license: GPL-2.0
+suggests: [github-desktop, gitkraken, sourcetree, fork, tortoisegit]
 links:
   website: https://git-scm.com
   docs: https://git-scm.com/doc

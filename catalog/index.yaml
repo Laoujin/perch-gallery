@@ -148,7 +148,7 @@ apps:
     path: apps/dotnet/dnspy.yaml
   - id: docker
     name: Docker Desktop
-    category: Development/Tools
+    category: Development/Containers
     tags: [containers, docker, devops, virtualization]
     profiles: [developer]
   - id: dotmemory
@@ -331,7 +331,7 @@ apps:
     profiles: [developer]
   - id: hoppscotch
     name: Hoppscotch
-    category: Development/Tools
+    category: Development/API Tools
     tags: [api, rest, graphql, testing, open-source]
     profiles: [developer]
   - id: ilspy
@@ -398,7 +398,7 @@ apps:
     hidden: true
   - id: mitmproxy
     name: mitmproxy
-    category: Networking/Security
+    category: Development/API Tools
     tags: [proxy, http, debugging, ssl, cli]
     kind: cli-tool
     profiles: [developer]
@@ -508,6 +508,12 @@ apps:
     kind: cli-tool
     profiles: [developer]
     path: apps/node/pnpm.yaml
+  - id: postman
+    name: Postman
+    category: Development/API Tools
+    tags: [api, rest, graphql, testing]
+    profiles: [developer]
+    hidden: true
   - id: powershell
     name: PowerShell
     category: Development/Shells
@@ -536,6 +542,11 @@ apps:
     category: Utilities/Downloads
     tags: [torrent, downloads, open-source]
     profiles: [casual]
+  - id: rancher-desktop
+    name: Rancher Desktop
+    category: Development/Containers
+    tags: [containers, kubernetes, docker, open-source]
+    profiles: [developer]
   - id: resharper
     name: ReSharper
     category: Development/.NET

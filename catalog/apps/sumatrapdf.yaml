@@ -6,6 +6,7 @@ description: Lightweight and fast PDF, EPUB, MOBI, and comic book reader
 profiles: [casual]
 os: [windows]
 license: GPL-3.0
+alternatives: [foxit-reader]
 links:
   website: https://www.sumatrapdfreader.org
 install:

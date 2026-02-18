@@ -6,6 +6,7 @@ description: Open-source .NET assembly browser and decompiler
 profiles: [developer]
 os: [windows]
 license: MIT
+alternatives: [dotpeek, dnspy]
 links:
   website: https://icsharpcode.github.io/ILSpy/
   github: https://github.com/icsharpcode/ILSpy

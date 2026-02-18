@@ -7,6 +7,7 @@ description: Check and update outdated NuGet packages
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
+requires: [dotnet-sdk]
 links:
   github: https://github.com/dotnet-outdated/dotnet-outdated
 install:

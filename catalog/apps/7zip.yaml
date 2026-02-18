@@ -6,6 +6,7 @@ description: Free and open-source file archiver
 profiles: [casual, power-user]
 os: [windows, linux]
 license: LGPL-2.1
+alternatives: [peazip, winrar]
 links:
   website: https://www.7-zip.org
 install:
