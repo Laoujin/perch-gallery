@@ -8,7 +8,7 @@ profiles: [power-user]
 windows-versions: [10, 11]
 source: sophia-script
 registry:
-  - key: Registry::HKEY_USERS\S-1-5-20\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings
+  - key: HKU\S-1-5-20\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings
     name: DownloadMode
     value: 0
     type: dword
