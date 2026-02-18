@@ -1,0 +1,15 @@
+type: app
+name: lazygit
+category: Development/Version Control
+tags: [cli, git, tui]
+description: Simple terminal UI for git commands
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+alternatives: [gitui]
+links:
+  github: https://github.com/jesseduffield/lazygit
+install:
+  winget: JesseDuffield.lazygit
+  choco: lazygit

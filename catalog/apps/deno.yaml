@@ -1,0 +1,15 @@
+type: app
+name: Deno
+category: Development/Node
+tags: [runtime, javascript, typescript, rust]
+description: Secure runtime for JavaScript and TypeScript with built-in tooling
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://deno.com
+  docs: https://docs.deno.com
+  github: https://github.com/denoland/deno
+install:
+  winget: DenoLand.Deno
+  choco: deno

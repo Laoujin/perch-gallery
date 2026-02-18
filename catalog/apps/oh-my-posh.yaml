@@ -1,0 +1,17 @@
+type: app
+name: Oh My Posh
+category: Development/Shells
+tags: [cli, prompt, shell, powershell, theme]
+description: Prompt theme engine for any shell
+kind: cli-tool
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: MIT
+alternatives: [starship]
+links:
+  website: https://ohmyposh.dev
+  docs: https://ohmyposh.dev/docs
+  github: https://github.com/JanDeDobbeleer/oh-my-posh
+install:
+  winget: JanDeDobbeleer.OhMyPosh
+  choco: oh-my-posh

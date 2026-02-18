@@ -1,0 +1,14 @@
+type: app
+name: ripgrep
+category: Development/Tools
+tags: [cli, grep, search, rust]
+description: Recursively search directories for a regex pattern, extremely fast
+kind: cli-tool
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: MIT
+links:
+  github: https://github.com/BurntSushi/ripgrep
+install:
+  winget: BurntSushi.ripgrep.MSVC
+  choco: ripgrep

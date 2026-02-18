@@ -1,0 +1,15 @@
+type: app
+name: Flow Launcher
+category: Utilities/Productivity
+tags: [launcher, search, productivity, plugins]
+description: Quick file search and app launcher with community-made plugins
+profiles: [power-user]
+os: [windows]
+license: MIT
+alternatives: [launchy]
+links:
+  website: https://www.flowlauncher.com
+  github: https://github.com/Flow-Launcher/Flow.Launcher
+install:
+  winget: Flow-Launcher.Flow-Launcher
+  choco: flow-launcher

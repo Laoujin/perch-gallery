@@ -25,6 +25,11 @@ apps:
     tags: [audio, music, player]
     profiles: [casual]
     hidden: true
+  - id: alacritty
+    name: Alacritty
+    category: Development/Terminals
+    tags: [terminal, gpu, rust]
+    profiles: [developer]
   - id: corretto-jdk
     name: Amazon Corretto JDK
     category: Development/Tools
@@ -60,11 +65,22 @@ apps:
     tags: [shell, cli, linux, macos, wsl]
     kind: dotfile
     profiles: [developer]
+  - id: bat
+    name: bat
+    category: Development/Tools
+    tags: [cli, cat, syntax-highlighting, rust]
+    kind: cli-tool
+    profiles: [developer, power-user]
   - id: beyondcompare
     name: Beyond Compare
     category: Development/Diff Tools
     tags: [diff, compare, merge, windows]
     profiles: [developer]
+  - id: bitwarden
+    name: Bitwarden
+    category: Security/Passwords
+    tags: [passwords, security, open-source]
+    profiles: [casual, power-user]
   - id: blender
     name: Blender
     category: Media/3D
@@ -114,6 +130,17 @@ apps:
     name: DB Browser for SQLite
     category: Development/Tools
     tags: [database, sqlite, gui, open-source]
+    profiles: [developer]
+  - id: delta
+    name: delta
+    category: Development/Diff Tools
+    tags: [cli, git, diff, syntax-highlighting, rust]
+    kind: cli-tool
+    profiles: [developer]
+  - id: deno
+    name: Deno
+    category: Development/Node
+    tags: [runtime, javascript, typescript, rust]
     profiles: [developer]
   - id: discord
     name: Discord
@@ -211,12 +238,24 @@ apps:
     category: Utilities/Search
     tags: [search, files, indexing, windows]
     profiles: [power-user]
+  - id: eza
+    name: eza
+    category: Development/Tools
+    tags: [cli, ls, files, rust]
+    kind: cli-tool
+    profiles: [developer, power-user]
   - id: faststone
     name: FastStone Image Viewer
     category: Media/Graphics
     tags: [image-viewer, graphics, editor]
     profiles: [casual]
     hidden: true
+  - id: fd
+    name: fd
+    category: Development/Tools
+    tags: [cli, find, search, rust]
+    kind: cli-tool
+    profiles: [developer, power-user]
   - id: filezilla
     name: FileZilla
     category: Networking/FTP
@@ -227,6 +266,11 @@ apps:
     category: Browsers
     tags: [browser, mozilla, privacy]
     profiles: [casual, developer]
+  - id: flow-launcher
+    name: Flow Launcher
+    category: Utilities/Productivity
+    tags: [launcher, search, productivity, plugins]
+    profiles: [power-user]
   - id: fnm
     name: fnm
     category: Development/Node
@@ -349,10 +393,20 @@ apps:
     tags: [ide, dotnet, csharp, jetbrains]
     profiles: [developer]
     path: apps/dotnet/rider.yaml
+  - id: joplin
+    name: Joplin
+    category: Utilities/Productivity
+    tags: [notes, markdown, sync, open-source]
+    profiles: [casual, power-user]
   - id: keepass
     name: KeePass 2
     category: Security/Passwords
     tags: [passwords, security, encryption, open-source]
+    profiles: [power-user]
+  - id: keepassxc
+    name: KeePassXC
+    category: Security/Passwords
+    tags: [passwords, security, open-source, offline]
     profiles: [power-user]
   - id: krita
     name: Krita
@@ -365,6 +419,12 @@ apps:
     tags: [launcher, productivity, keyboard, open-source]
     profiles: [power-user]
     hidden: true
+  - id: lazygit
+    name: lazygit
+    category: Development/Version Control
+    tags: [cli, git, tui]
+    kind: cli-tool
+    profiles: [developer]
   - id: libreoffice
     name: LibreOffice
     category: Productivity/Office
@@ -400,6 +460,12 @@ apps:
     tags: [audio, music, player, library]
     profiles: [casual]
     hidden: true
+  - id: neovim
+    name: Neovim
+    category: Development/Editors
+    tags: [editor, vim, terminal, lua]
+    kind: cli-tool
+    profiles: [developer]
   - id: nodejs
     name: Node.js
     category: Development/Node
@@ -425,10 +491,21 @@ apps:
     tags: [node, nvm, version-manager, windows]
     profiles: [developer]
     path: apps/node/nvm.yaml
+  - id: obs-studio
+    name: OBS Studio
+    category: Media/Video
+    tags: [streaming, recording, video, open-source]
+    profiles: [creative, gamer]
   - id: obsidian
     name: Obsidian
     category: Utilities/Productivity
     tags: [notes, markdown, knowledge-base, pkm]
+    profiles: [developer, power-user]
+  - id: oh-my-posh
+    name: Oh My Posh
+    category: Development/Shells
+    tags: [cli, prompt, shell, powershell, theme]
+    kind: cli-tool
     profiles: [developer, power-user]
   - id: onedrive
     name: OneDrive
@@ -537,6 +614,12 @@ apps:
     category: Utilities/Uninstallers
     tags: [uninstaller, cleanup, system]
     profiles: [power-user]
+  - id: ripgrep
+    name: ripgrep
+    category: Development/Tools
+    tags: [cli, grep, search, rust]
+    kind: cli-tool
+    profiles: [developer, power-user]
   - id: robo3t
     name: Robo 3T
     category: Development/Tools
@@ -558,6 +641,11 @@ apps:
     category: Utilities/Screenshots
     tags: [screenshot, screen-recording, capture, open-source]
     profiles: [developer, power-user]
+  - id: signal
+    name: Signal
+    category: Communication/Chat
+    tags: [messaging, privacy, encryption, open-source]
+    profiles: [casual]
   - id: slack
     name: Slack
     category: Communication/Chat
@@ -573,6 +661,12 @@ apps:
     category: Media/Players
     tags: [music, streaming, audio]
     profiles: [casual]
+  - id: starship
+    name: Starship
+    category: Development/Shells
+    tags: [cli, prompt, shell, rust]
+    kind: cli-tool
+    profiles: [developer]
   - id: steam
     name: Steam
     category: Gaming
@@ -615,6 +709,12 @@ apps:
     tags: [chat, instant-messaging, multi-protocol]
     profiles: [casual]
     hidden: true
+  - id: uv
+    name: uv
+    category: Development/Tools
+    tags: [cli, python, package-manager, rust]
+    kind: cli-tool
+    profiles: [developer]
   - id: vim
     name: Vim
     category: Development/Editors
@@ -650,6 +750,11 @@ apps:
     kind: cli-tool
     profiles: [developer]
     path: apps/node/volta.yaml
+  - id: wezterm
+    name: WezTerm
+    category: Development/Terminals
+    tags: [terminal, gpu, lua, multiplexer]
+    profiles: [developer]
   - id: winamp
     name: Winamp
     category: Media/Audio

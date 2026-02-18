@@ -1,0 +1,16 @@
+type: app
+name: WezTerm
+category: Development/Terminals
+tags: [terminal, gpu, lua, multiplexer]
+description: GPU-accelerated terminal emulator and multiplexer with Lua config
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+alternatives: [alacritty, windows-terminal]
+links:
+  website: https://wezfurlong.org/wezterm
+  docs: https://wezfurlong.org/wezterm/config/files.html
+  github: https://github.com/wez/wezterm
+install:
+  winget: wez.wezterm
+  choco: wezterm

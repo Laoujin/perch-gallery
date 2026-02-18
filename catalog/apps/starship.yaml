@@ -1,0 +1,16 @@
+type: app
+name: Starship
+category: Development/Shells
+tags: [cli, prompt, shell, rust]
+description: Minimal, blazing-fast, and infinitely customizable cross-shell prompt
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: ISC
+alternatives: [oh-my-posh]
+links:
+  website: https://starship.rs
+  github: https://github.com/starship/starship
+install:
+  winget: Starship.Starship
+  choco: starship

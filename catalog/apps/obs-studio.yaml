@@ -1,0 +1,14 @@
+type: app
+name: OBS Studio
+category: Media/Video
+tags: [streaming, recording, video, open-source]
+description: Free and open-source software for video recording and live streaming
+profiles: [creative, gamer]
+os: [windows, linux, macos]
+license: GPL-2.0
+links:
+  website: https://obsproject.com
+  github: https://github.com/obsproject/obs-studio
+install:
+  winget: OBSProject.OBSStudio
+  choco: obs-studio

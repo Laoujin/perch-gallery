@@ -1,0 +1,15 @@
+type: app
+name: uv
+category: Development/Tools
+tags: [cli, python, package-manager, rust]
+description: Extremely fast Python package and project manager
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  website: https://docs.astral.sh/uv
+  github: https://github.com/astral-sh/uv
+install:
+  winget: astral-sh.uv
+  choco: uv

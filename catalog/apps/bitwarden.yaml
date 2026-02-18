@@ -1,0 +1,15 @@
+type: app
+name: Bitwarden
+category: Security/Passwords
+tags: [passwords, security, open-source]
+description: Open-source password manager
+profiles: [casual, power-user]
+os: [windows, linux, macos]
+license: GPL-3.0
+alternatives: [keepassxc, keepass]
+links:
+  website: https://bitwarden.com
+  github: https://github.com/bitwarden/clients
+install:
+  winget: Bitwarden.Bitwarden
+  choco: bitwarden

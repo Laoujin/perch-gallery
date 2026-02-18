@@ -1,0 +1,15 @@
+type: app
+name: KeePassXC
+category: Security/Passwords
+tags: [passwords, security, open-source, offline]
+description: Cross-platform community-driven port of KeePass
+profiles: [power-user]
+os: [windows, linux, macos]
+license: GPL-3.0
+alternatives: [bitwarden, keepass]
+links:
+  website: https://keepassxc.org
+  github: https://github.com/keepassxreboot/keepassxc
+install:
+  winget: KeePassXCTeam.KeePassXC
+  choco: keepassxc

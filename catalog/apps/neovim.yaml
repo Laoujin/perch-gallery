@@ -1,0 +1,17 @@
+type: app
+name: Neovim
+category: Development/Editors
+tags: [editor, vim, terminal, lua]
+description: Hyperextensible Vim-based text editor
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+alternatives: [vim, helix]
+links:
+  website: https://neovim.io
+  docs: https://neovim.io/doc
+  github: https://github.com/neovim/neovim
+install:
+  winget: Neovim.Neovim
+  choco: neovim

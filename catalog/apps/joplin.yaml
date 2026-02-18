@@ -1,0 +1,15 @@
+type: app
+name: Joplin
+category: Utilities/Productivity
+tags: [notes, markdown, sync, open-source]
+description: Open-source note-taking and to-do application with sync
+profiles: [casual, power-user]
+os: [windows, linux, macos]
+license: AGPL-3.0
+alternatives: [obsidian, logseq]
+links:
+  website: https://joplinapp.org
+  github: https://github.com/laurent22/joplin
+install:
+  winget: Joplin.Joplin
+  choco: joplin

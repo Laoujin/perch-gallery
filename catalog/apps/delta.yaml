@@ -1,0 +1,14 @@
+type: app
+name: delta
+category: Development/Diff Tools
+tags: [cli, git, diff, syntax-highlighting, rust]
+description: Syntax-highlighting pager for git, diff, and grep output
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  github: https://github.com/dandavison/delta
+install:
+  winget: dandavison.delta
+  choco: delta

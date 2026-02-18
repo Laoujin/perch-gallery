@@ -1,0 +1,15 @@
+type: app
+name: eza
+category: Development/Tools
+tags: [cli, ls, files, rust]
+description: Modern replacement for ls with colors, icons, and Git integration
+kind: cli-tool
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: MIT
+alternatives: [lsd]
+links:
+  github: https://github.com/eza-community/eza
+install:
+  winget: eza-community.eza
+  choco: eza

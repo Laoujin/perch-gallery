@@ -1,0 +1,14 @@
+type: app
+name: Signal
+category: Communication/Chat
+tags: [messaging, privacy, encryption, open-source]
+description: Private messenger with end-to-end encryption
+profiles: [casual]
+os: [windows, linux, macos]
+license: AGPL-3.0
+links:
+  website: https://signal.org
+  github: https://github.com/signalapp/Signal-Desktop
+install:
+  winget: OpenWhisperSystems.Signal
+  choco: signal
