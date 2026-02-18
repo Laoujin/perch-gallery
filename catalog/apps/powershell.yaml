@@ -21,3 +21,29 @@ config:
         windows: "%USERPROFILE%/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
         linux: "$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1"
         macos: "$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1"
+tweaks:
+  - id: enable-module-logging
+    name: Enable Module Logging
+    description: Enable logging for all PowerShell modules
+    reversible: true
+    registry:
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLogging
+        name: EnableModuleLogging
+        value: 1
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLogging\ModuleNames
+        name: "*"
+        value: "*"
+        type: string
+        default-value: null
+  - id: enable-script-logging
+    name: Enable Script Logging
+    description: Enable logging for all PowerShell scripts
+    reversible: true
+    registry:
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging
+        name: EnableScriptBlockLogging
+        value: 1
+        type: dword
+        default-value: null

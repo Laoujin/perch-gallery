@@ -654,6 +654,11 @@ apps:
     tags: [audio, music, player, library, organizer]
     profiles: [casual]
     hidden: true
+  - id: edge
+    name: Microsoft Edge
+    category: Browsers
+    tags: [browser, chromium, microsoft]
+    profiles: [casual]
   - id: mise
     name: mise
     category: Development/Tools
@@ -1029,6 +1034,11 @@ apps:
     tags: [terminal, ssh, serial, electron]
     profiles: [developer]
     hidden: true
+  - id: teams-chat
+    name: Teams Chat
+    category: Communication/Chat
+    tags: [chat, teams, microsoft, windows-11]
+    profiles: [casual]
   - id: teamviewer
     name: TeamViewer
     category: Networking/Protocol
@@ -1152,6 +1162,11 @@ apps:
     category: File Management
     tags: [disk-usage, visualization, cleanup, open-source]
     profiles: [power-user]
+  - id: copilot
+    name: Windows Copilot
+    category: Utilities
+    tags: [ai, microsoft, copilot, windows-11]
+    profiles: [casual]
   - id: windows-terminal
     name: Windows Terminal
     category: Development/Terminals
@@ -1183,6 +1198,11 @@ apps:
     category: Utilities/Storage
     tags: [disk-space, analyzer, storage]
     profiles: [power-user]
+  - id: xbox
+    name: Xbox Game Bar
+    category: Gaming
+    tags: [gaming, xbox, microsoft, game-bar]
+    profiles: [gamer]
   - id: xnview
     name: XnView
     category: Media/Graphics
@@ -1269,12 +1289,6 @@ tweaks:
     tags: [razer, bloatware, driver]
     profiles: [power-user]
     path: tweaks/system/block-razer-software-installs.yaml
-  - id: brave-debloat
-    name: Brave Debloat
-    category: Browsers/Debloat
-    tags: [brave, browser, debloat]
-    profiles: [power-user]
-    path: tweaks/browsers/brave-debloat.yaml
   - id: classic-context-menu
     name: Classic Context Menu
     category: Explorer/Context Menu
@@ -1467,12 +1481,6 @@ tweaks:
     tags: [taskbar, notifications, calendar, declutter]
     profiles: [power-user]
     path: tweaks/taskbar/disable-notification-traycalendar.yaml
-  - id: disable-onedrive-file-explorer-ads
-    name: Disable OneDrive File Explorer Ads
-    category: Explorer/Declutter
-    tags: [explorer, onedrive, ads, notifications]
-    profiles: [power-user]
-    path: tweaks/explorer/disable-onedrive-file-explorer-ads.yaml
   - id: disable-search-highlights
     name: Disable Search Highlights
     category: Search/Start Menu
@@ -1581,30 +1589,12 @@ tweaks:
     tags: [privacy, tips, suggestions]
     profiles: [power-user]
     path: tweaks/privacy/disable-windows-tips.yaml
-  - id: disable-xbox-game-bar
-    name: Disable Xbox Game Bar
-    category: Gaming/Xbox
-    tags: [gaming, xbox, game-bar]
-    profiles: [power-user]
-    path: tweaks/gaming/disable-xbox-game-bar.yaml
-  - id: disable-xbox-game-tips
-    name: Disable Xbox Game Tips
-    category: Gaming/Xbox
-    tags: [gaming, xbox, game-tips]
-    profiles: [power-user]
-    path: tweaks/gaming/disable-xbox-game-tips.yaml
   - id: disable-zone-information-saving
     name: Disable Zone Information Saving
     category: Security/Downloads
     tags: [security, zone, downloads, block]
     profiles: [power-user]
     path: tweaks/security/disable-zone-information-saving.yaml
-  - id: edge-debloat
-    name: Edge Debloat
-    category: Browsers/Debloat
-    tags: [edge, browser, debloat, microsoft]
-    profiles: [power-user]
-    path: tweaks/browsers/edge-debloat.yaml
   - id: enable-bulk-file-actions
     name: Enable Bulk File Actions
     category: Explorer/Context Menu
@@ -1635,18 +1625,6 @@ tweaks:
     tags: [security, lsa, credential-guard]
     profiles: [power-user]
     path: tweaks/security/enable-lsa-protection.yaml
-  - id: enable-powershell-module-logging
-    name: Enable PowerShell Module Logging
-    category: Security/Logging
-    tags: [security, powershell, logging]
-    profiles: [developer]
-    path: tweaks/security/enable-powershell-module-logging.yaml
-  - id: enable-powershell-script-logging
-    name: Enable PowerShell Script Logging
-    category: Security/Logging
-    tags: [security, powershell, script-logging]
-    profiles: [developer]
-    path: tweaks/security/enable-powershell-script-logging.yaml
   - id: enable-process-creation-event-view
     name: Enable Process Creation Event View
     category: System/Diagnostics
@@ -1671,18 +1649,6 @@ tweaks:
     tags: [updates, latest, preview]
     profiles: [power-user]
     path: tweaks/system/get-latest-windows-updates.yaml
-  - id: disable-chat-icon
-    name: Hide Chat Icon
-    category: Taskbar/Declutter
-    tags: [taskbar, teams, chat, windows-11]
-    profiles: [power-user]
-    path: tweaks/taskbar/disable-chat-icon.yaml
-  - id: disable-copilot-button
-    name: Hide Copilot Button
-    category: Taskbar/Declutter
-    tags: [taskbar, copilot, windows-11]
-    profiles: [power-user]
-    path: tweaks/taskbar/disable-copilot-button.yaml
   - id: hide-frequent-folders-in-quick-access
     name: Hide Frequent Folders in Quick Access
     category: Explorer/Navigation
@@ -1701,12 +1667,6 @@ tweaks:
     tags: [explorer, network, navigation]
     profiles: [power-user]
     path: tweaks/explorer/hide-network-navigation.yaml
-  - id: hide-onedrive-navigation
-    name: Hide OneDrive from Navigation Pane
-    category: Explorer/Navigation
-    tags: [explorer, onedrive, navigation]
-    profiles: [power-user]
-    path: tweaks/explorer/hide-onedrive-navigation.yaml
   - id: hide-recent-files-in-quick-access
     name: Hide Recent Files in Quick Access
     category: Explorer/Navigation
@@ -1773,12 +1733,6 @@ tweaks:
     tags: [networking, ipv4, ipv6]
     profiles: [power-user]
     path: tweaks/networking/prefer-ipv4-over-ipv6.yaml
-  - id: prevent-edge-desktop-shortcuts
-    name: Prevent Edge Desktop Shortcuts
-    category: Browsers/Debloat
-    tags: [edge, shortcuts, desktop]
-    profiles: [power-user]
-    path: tweaks/browsers/prevent-edge-desktop-shortcuts.yaml
   - id: printscreen-opens-snipping-tool
     name: PrintScreen Opens Snipping Tool
     category: Input/Keyboard

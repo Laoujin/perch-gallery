@@ -1,0 +1,21 @@
+type: app
+name: Teams Chat
+category: Communication/Chat
+tags: [chat, teams, microsoft, windows-11]
+description: Built-in Teams Chat integration in the Windows 11 taskbar
+profiles: [casual]
+os: [windows]
+license: proprietary
+links:
+  website: https://www.microsoft.com/en-us/microsoft-teams
+tweaks:
+  - id: hide-icon
+    name: Hide Chat Icon
+    description: Hide the Chat/Teams icon from the taskbar
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+        name: TaskbarMn
+        value: 0
+        type: dword
+        default-value: 1

@@ -1,0 +1,21 @@
+type: app
+name: Windows Copilot
+category: Utilities
+tags: [ai, microsoft, copilot, windows-11]
+description: AI-powered assistant built into Windows 11
+profiles: [casual]
+os: [windows]
+license: proprietary
+links:
+  website: https://www.microsoft.com/en-us/copilot
+tweaks:
+  - id: hide-button
+    name: Hide Copilot Button
+    description: Hide the Copilot button from the taskbar
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+        name: ShowCopilotButton
+        value: 0
+        type: dword
+        default-value: 1

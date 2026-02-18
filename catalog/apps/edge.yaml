@@ -1,0 +1,121 @@
+type: app
+name: Microsoft Edge
+category: Browsers
+tags: [browser, chromium, microsoft]
+description: Microsoft's Chromium-based web browser built into Windows
+profiles: [casual]
+os: [windows]
+license: proprietary
+links:
+  website: https://www.microsoft.com/edge
+tweaks:
+  - id: debloat
+    name: Edge Debloat
+    description: "Disables various telemetry options, popups, and other annoyances in Edge"
+    reversible: true
+    registry:
+      - key: HKLM\SOFTWARE\Policies\Microsoft\EdgeUpdate
+        name: CreateDesktopShortcutDefault
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: PersonalizationReportingEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallBlocklist
+        name: 1
+        value: ofefcgjbeghpigppfmkologfjadafddi
+        type: string
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: ShowRecommendationsEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: HideFirstRunExperience
+        value: 1
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: UserFeedbackAllowed
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: ConfigureDoNotTrack
+        value: 1
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: AlternateErrorPagesEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: EdgeCollectionsEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: EdgeShoppingAssistantEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: MicrosoftEdgeInsiderPromotionEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: ShowMicrosoftRewards
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: WebWidgetAllowed
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: DiagnosticData
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: EdgeAssetDeliveryServiceEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\Edge
+        name: WalletDonationEnabled
+        value: 0
+        type: dword
+        default-value: null
+  - id: prevent-desktop-shortcuts
+    name: Prevent Edge Desktop Shortcuts
+    description: "Prevent Microsoft Edge from creating desktop shortcuts on update"
+    reversible: true
+    registry:
+      - key: HKLM\SOFTWARE\Policies\Microsoft\EdgeUpdate
+        name: "CreateDesktopShortcut{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}"
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\EdgeUpdate
+        name: "CreateDesktopShortcut{2CD8A007-E189-409D-A2C8-9AF4EF3C72AA}"
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\EdgeUpdate
+        name: "CreateDesktopShortcut{0D50BFEC-CD6A-4F9A-964C-C7416E3ACB10}"
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\Microsoft\EdgeUpdate
+        name: "CreateDesktopShortcut{65C35B14-6C1D-4122-AC46-7148CC9D6497}"
+        value: 0
+        type: dword
+        default-value: null

@@ -1,0 +1,36 @@
+type: app
+name: Xbox Game Bar
+category: Gaming
+tags: [gaming, xbox, microsoft, game-bar]
+description: Built-in Windows game overlay for recording, screenshots, and performance monitoring
+profiles: [gamer]
+os: [windows]
+license: proprietary
+links:
+  website: https://www.xbox.com/en-US/apps/xbox-app-for-pc
+tweaks:
+  - id: disable-game-bar
+    name: Disable Xbox Game Bar
+    description: "Disable Xbox Game Bar and related features"
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\GameDVR
+        name: AppCaptureEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKCU\System\GameConfigStore
+        name: GameDVR_Enabled
+        value: 0
+        type: dword
+        default-value: null
+  - id: disable-game-tips
+    name: Disable Xbox Game Tips
+    description: "Disable Xbox Game Bar tips and notifications"
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\GameBar
+        name: ShowStartupPanel
+        value: 0
+        type: dword
+        default-value: null

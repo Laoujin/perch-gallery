@@ -12,3 +12,34 @@ links:
 install:
   winget: Brave.Brave
   choco: brave
+tweaks:
+  - id: debloat
+    name: Brave Debloat
+    description: "Disables various annoyances like Brave Rewards, Leo AI, Crypto Wallet and VPN"
+    reversible: true
+    registry:
+      - key: HKLM\SOFTWARE\Policies\BraveSoftware\Brave
+        name: BraveRewardsDisabled
+        value: 1
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\BraveSoftware\Brave
+        name: BraveWalletDisabled
+        value: 1
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\BraveSoftware\Brave
+        name: BraveVPNDisabled
+        value: 1
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\BraveSoftware\Brave
+        name: BraveAIChatEnabled
+        value: 0
+        type: dword
+        default-value: null
+      - key: HKLM\SOFTWARE\Policies\BraveSoftware\Brave
+        name: BraveStatsPingEnabled
+        value: 0
+        type: dword
+        default-value: null
