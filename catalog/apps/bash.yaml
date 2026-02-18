@@ -2,10 +2,10 @@ type: app
 name: Bash
 kind: dotfile
 category: Development/Shells
-tags: [shell, cli, linux, macos]
+tags: [shell, cli, linux, macos, wsl]
 description: GNU Bourne-Again SHell
 profiles: [developer]
-os: [linux, macos]
+os: [windows, linux, macos]
 license: GPL-3.0
 links:
   website: https://www.gnu.org/software/bash/
@@ -16,3 +16,7 @@ config:
       target:
         linux: "$HOME/.bashrc"
         macos: "$HOME/.bashrc"
+    - source: .wslconfig
+      platforms: [windows]
+      target:
+        windows: "%USERPROFILE%/.wslconfig"

@@ -9,13 +9,6 @@ apps:
     kind: runtime
     profiles: [developer]
     path: apps/dotnet/dotnet-sdk.yaml
-  - id: npmrc
-    name: .npmrc
-    category: Development/Node
-    tags: [node, npm, config]
-    kind: dotfile
-    profiles: [developer]
-    path: apps/node/npmrc.yaml
   - id: 1password
     name: 1Password
     category: Security/Passwords
@@ -64,7 +57,7 @@ apps:
   - id: bash
     name: Bash
     category: Development/Shells
-    tags: [shell, cli, linux, macos]
+    tags: [shell, cli, linux, macos, wsl]
     kind: dotfile
     profiles: [developer]
   - id: beyondcompare
@@ -89,13 +82,6 @@ apps:
     kind: runtime
     profiles: [developer]
     path: apps/node/bun.yaml
-  - id: bunfig-toml
-    name: bunfig.toml
-    category: Development/Node
-    tags: [bun, config]
-    kind: dotfile
-    profiles: [developer]
-    path: apps/node/bunfig-toml.yaml
   - id: cmake
     name: CMake
     category: Development/Tools
@@ -426,13 +412,6 @@ apps:
     category: Development/Editors
     tags: [editor, text, windows]
     profiles: [developer, power-user]
-  - id: npm
-    name: npm
-    category: Development/Node
-    tags: [node, package-manager, cli]
-    kind: dotfile
-    profiles: [developer]
-    path: apps/node/npm.yaml
   - id: nuget-config
     name: NuGet Config
     category: Development/.NET
@@ -713,12 +692,6 @@ apps:
     category: Utilities/Storage
     tags: [disk-space, analyzer, storage]
     profiles: [power-user]
-  - id: wsl
-    name: WSL
-    category: System/Virtualization
-    tags: [wsl, linux, microsoft, windows]
-    kind: dotfile
-    profiles: [developer]
   - id: xnview
     name: XnView
     category: Media/Graphics

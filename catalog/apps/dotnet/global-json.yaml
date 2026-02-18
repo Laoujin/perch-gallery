@@ -3,14 +3,7 @@ name: global.json
 kind: dotfile
 category: Development/.NET
 tags: [dotnet, sdk, version-pinning]
-description: .NET SDK version pinning for project trees
+description: .NET SDK version pinning for reproducible builds
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
-config:
-  links:
-    - source: global.json
-      target:
-        windows: "%USERPROFILE%/global.json"
-        linux: "$HOME/global.json"
-        macos: "$HOME/global.json"

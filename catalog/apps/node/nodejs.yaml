@@ -15,3 +15,10 @@ links:
 install:
   winget: OpenJS.NodeJS.LTS
   choco: nodejs-lts
+config:
+  links:
+    - source: .npmrc
+      target:
+        windows: "%USERPROFILE%/.npmrc"
+        linux: "$HOME/.npmrc"
+        macos: "$HOME/.npmrc"

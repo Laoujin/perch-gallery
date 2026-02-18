@@ -12,3 +12,10 @@ links:
   github: https://github.com/oven-sh/bun
 install:
   winget: Oven-sh.Bun
+config:
+  links:
+    - source: bunfig.toml
+      target:
+        windows: "%USERPROFILE%/.bunfig.toml"
+        linux: "$HOME/.bunfig.toml"
+        macos: "$HOME/.bunfig.toml"
