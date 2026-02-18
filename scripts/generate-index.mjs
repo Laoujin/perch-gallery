@@ -27,6 +27,8 @@ function readEntries(subdir) {
 
     const entry = { id, name: content.name, category: content.category, tags: content.tags };
     if (content.kind) entry.kind = content.kind;
+    if (content.profiles?.length) entry.profiles = content.profiles;
+    if (content.hidden) entry.hidden = true;
 
     return entry;
   }).sort((a, b) => a.name.localeCompare(b.name));
