@@ -1,0 +1,16 @@
+type: app
+name: Amazon Corretto JDK
+display-name: Corretto JDK
+kind: runtime
+category: Development/Tools
+tags: [java, jdk, runtime, amazon, open-source]
+description: No-cost production-ready OpenJDK distribution by Amazon
+profiles: [developer]
+os: [windows, linux, macos]
+license: GPL-2.0
+links:
+  website: https://aws.amazon.com/corretto/
+  github: https://github.com/corretto/corretto-21
+install:
+  winget: Amazon.Corretto.21.JDK
+  choco: corretto21jdk

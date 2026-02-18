@@ -1,0 +1,15 @@
+type: app
+name: Visual C++ Redistributable
+display-name: VC++ Redist
+kind: runtime
+category: Development/Tools
+tags: [cpp, runtime, microsoft]
+description: Microsoft Visual C++ runtime libraries required by many applications
+profiles: [casual, developer]
+os: [windows]
+license: proprietary
+links:
+  docs: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+install:
+  winget: Microsoft.VCRedist.2015+.x64
+  choco: vcredist140

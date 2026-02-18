@@ -32,6 +32,13 @@ apps:
     tags: [audio, music, player]
     profiles: [casual]
     hidden: true
+  - id: corretto-jdk
+    name: Amazon Corretto JDK
+    category: Development/Tools
+    tags: [java, jdk, runtime, amazon, open-source]
+    kind: runtime
+    profiles: [developer]
+    path: apps/java/corretto-jdk.yaml
   - id: anydesk
     name: AnyDesk
     category: Networking/Protocol
@@ -89,6 +96,13 @@ apps:
     kind: dotfile
     profiles: [developer]
     path: apps/node/bunfig-toml.yaml
+  - id: cmake
+    name: CMake
+    category: Development/Tools
+    tags: [cpp, build-system, cross-platform, open-source]
+    kind: cli-tool
+    profiles: [developer]
+    path: apps/cpp/cmake.yaml
   - id: cmder
     name: Cmder
     category: Development/Terminals
@@ -194,6 +208,13 @@ apps:
     tags: [ide, java, open-source]
     profiles: [developer]
     hidden: true
+  - id: temurin-jdk
+    name: Eclipse Temurin JDK
+    category: Development/Tools
+    tags: [java, jdk, runtime, open-source]
+    kind: runtime
+    profiles: [developer]
+    path: apps/java/temurin-jdk.yaml
   - id: epic-games
     name: Epic Games Launcher
     category: Gaming/Stores
@@ -324,6 +345,13 @@ apps:
     category: Media/Graphics
     tags: [graphics, vector, svg, open-source]
     profiles: [creative]
+  - id: intellij-idea-community
+    name: IntelliJ IDEA Community
+    category: Development/IDEs
+    tags: [ide, java, kotlin, jetbrains, open-source]
+    profiles: [developer]
+    hidden: true
+    path: apps/java/intellij-idea-community.yaml
   - id: irfanview
     name: IrfanView
     category: Media/Graphics
@@ -374,6 +402,12 @@ apps:
     tags: [proxy, http, debugging, ssl, cli]
     kind: cli-tool
     profiles: [developer]
+  - id: msys2
+    name: MSYS2
+    category: Development/Tools
+    tags: [cpp, gnu, posix, windows, open-source]
+    profiles: [developer]
+    path: apps/cpp/msys2.yaml
   - id: musicbee
     name: MusicBee
     category: Media/Audio
@@ -597,6 +631,13 @@ apps:
     tags: [editor, cli, terminal]
     kind: dotfile
     profiles: [developer]
+  - id: vcredist
+    name: Visual C++ Redistributable
+    category: Development/Tools
+    tags: [cpp, runtime, microsoft]
+    kind: runtime
+    profiles: [casual, developer]
+    path: apps/cpp/vcredist.yaml
   - id: visualstudio
     name: Visual Studio
     category: Development/IDEs

@@ -1,0 +1,15 @@
+type: app
+name: IntelliJ IDEA Community
+display-name: IntelliJ IDEA
+category: Development/IDEs
+tags: [ide, java, kotlin, jetbrains, open-source]
+description: Free Java/Kotlin IDE by JetBrains
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  website: https://www.jetbrains.com/idea/
+install:
+  winget: JetBrains.IntelliJIDEA.Community
+  choco: intellijidea-community

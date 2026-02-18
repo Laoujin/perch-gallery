@@ -1,0 +1,14 @@
+type: app
+name: MSYS2
+category: Development/Tools
+tags: [cpp, gnu, posix, windows, open-source]
+description: Software distribution and building platform for Windows with pacman
+profiles: [developer]
+os: [windows]
+license: GPL-3.0
+links:
+  website: https://www.msys2.org
+  github: https://github.com/msys2/msys2-installer
+install:
+  winget: MSYS2.MSYS2
+  choco: msys2
