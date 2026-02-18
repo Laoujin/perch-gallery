@@ -1,0 +1,25 @@
+type: tweak
+name: Set Diagnostic Data to Minimum
+category: Privacy/Telemetry
+tags: [privacy, diagnostics, telemetry]
+description: "Set diagnostic data collection to required (minimum) level"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Policies\Microsoft\Windows\DataCollection
+    name: AllowTelemetry
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection
+    name: MaxTelemetryAllowed
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack
+    name: ShowedToastAtLevel
+    value: 1
+    type: dword
+    default-value: null

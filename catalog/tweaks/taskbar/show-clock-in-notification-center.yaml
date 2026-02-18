@@ -1,0 +1,15 @@
+type: tweak
+name: Show Clock in Notification Center
+category: Taskbar/Clock
+tags: [taskbar, clock, notification-center]
+description: "Show clock in the notification center area"
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: ShowClockInNotificationCenter
+    value: 1
+    type: dword
+    default-value: null

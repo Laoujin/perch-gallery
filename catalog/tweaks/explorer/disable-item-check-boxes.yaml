@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Item Check Boxes
+category: Explorer/Appearance
+tags: [explorer, checkboxes, selection]
+description: "Disable item check boxes in File Explorer"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: AutoCheckSelect
+    value: 1
+    type: dword
+    default-value: null

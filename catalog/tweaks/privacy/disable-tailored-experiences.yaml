@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Tailored Experiences
+category: Privacy/Telemetry
+tags: [privacy, tailored-experiences, telemetry]
+description: "Disable tailored experiences based on diagnostic data"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Privacy
+    name: TailoredExperiencesWithDiagnosticDataEnabled
+    value: 0
+    type: dword
+    default-value: null

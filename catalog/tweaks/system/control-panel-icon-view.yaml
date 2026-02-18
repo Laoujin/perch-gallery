@@ -1,0 +1,20 @@
+type: tweak
+name: Control Panel Icon View
+category: System/Settings
+tags: [control-panel, icons, view]
+description: "Set Control Panel to large/small icons or category view"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel
+    name: AllItemsIconView
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel
+    name: StartupPage
+    value: 0
+    type: dword
+    default-value: null

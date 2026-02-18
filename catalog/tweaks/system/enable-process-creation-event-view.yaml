@@ -1,0 +1,15 @@
+type: tweak
+name: Enable Process Creation Event View
+category: System/Diagnostics
+tags: [event-viewer, diagnostics, process-creation]
+description: "Create a custom Event Viewer view for process creation events"
+reversible: true
+profiles: [developer]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit
+    name: ProcessCreationIncludeCmdLine_Enabled
+    value: 1
+    type: dword
+    default-value: null

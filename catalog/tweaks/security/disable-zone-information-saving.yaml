@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Zone Information Saving
+category: Security/Downloads
+tags: [security, zone, downloads, block]
+description: "Do not save zone information (Mark of the Web) in downloaded files"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments
+    name: SaveZoneInformation
+    value: 1
+    type: dword
+    default-value: null

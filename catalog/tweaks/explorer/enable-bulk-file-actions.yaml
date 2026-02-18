@@ -1,0 +1,15 @@
+type: tweak
+name: Enable Bulk File Actions
+category: Explorer/Context Menu
+tags: [explorer, context-menu, bulk-selection]
+description: "Allow Open/Print/Edit for more than 15 selected files"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer
+    name: MultipleInvokePromptMinimum
+    value: 300
+    type: dword
+    default-value: null

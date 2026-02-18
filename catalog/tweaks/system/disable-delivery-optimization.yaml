@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Delivery Optimization
+category: System/Updates
+tags: [updates, delivery-optimization, bandwidth]
+description: "Disable Windows Update Delivery Optimization for peer-to-peer updates"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: Registry::HKEY_USERS\S-1-5-20\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings
+    name: DownloadMode
+    value: 0
+    type: dword
+    default-value: null

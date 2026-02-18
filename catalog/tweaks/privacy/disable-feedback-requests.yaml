@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Feedback Requests
+category: Privacy/Telemetry
+tags: [privacy, feedback, telemetry]
+description: "Set Windows feedback frequency to never"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Siuf\Rules
+    name: NumberOfSIUFInPeriod
+    value: 0
+    type: dword
+    default-value: null

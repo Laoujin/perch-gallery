@@ -1,0 +1,15 @@
+type: tweak
+name: Add MSI Extract Context Menu
+category: Explorer/Context Menu
+tags: [explorer, context-menu, msi, extract]
+description: "Add Extract All item to .msi file context menu"
+reversible: true
+profiles: [developer]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCR\Msi.Package\shell\Extract
+    name: Icon
+    value: '%SystemRoot%\System32\shell32.dll,-16817'
+    type: string
+    default-value: null

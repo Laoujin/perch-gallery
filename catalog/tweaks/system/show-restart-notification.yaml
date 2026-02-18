@@ -1,0 +1,15 @@
+type: tweak
+name: Show Restart Notification
+category: System/Updates
+tags: [updates, restart, notification]
+description: "Show notification when PC requires restart for updates"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+    name: RestartNotificationsAllowed2
+    value: 1
+    type: dword
+    default-value: null

@@ -1,0 +1,15 @@
+type: tweak
+name: Hide Store in Open With
+category: System/Settings
+tags: [store, open-with, app-suggestions]
+description: "Hide Look for an app in the Microsoft Store from Open With dialog"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Policies\Microsoft\Windows\Explorer
+    name: NoUseStoreOpenWith
+    value: 1
+    type: dword
+    default-value: null

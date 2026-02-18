@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Windows Tips
+category: Privacy/Advertising
+tags: [privacy, tips, suggestions]
+description: "Disable getting tips and suggestions when using Windows"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager
+    name: "SubscribedContent-338389Enabled"
+    value: 0
+    type: dword
+    default-value: null

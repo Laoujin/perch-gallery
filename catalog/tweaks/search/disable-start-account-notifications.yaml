@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Start Account Notifications
+category: Search/Start Menu
+tags: [start-menu, account, notifications]
+description: "Disable Microsoft account notifications in Start"
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: Start_AccountNotifications
+    value: 0
+    type: dword
+    default-value: null

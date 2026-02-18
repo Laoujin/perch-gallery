@@ -1,0 +1,15 @@
+type: tweak
+name: "Disable What's New in Windows"
+category: Privacy/Advertising
+tags: [privacy, tips, whats-new]
+description: "Disable the Ways to get the most out of Windows notifications"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement
+    name: ScoobeSystemSettingEnabled
+    value: 0
+    type: dword
+    default-value: null

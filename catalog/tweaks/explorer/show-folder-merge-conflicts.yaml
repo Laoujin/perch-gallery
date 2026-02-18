@@ -1,0 +1,15 @@
+type: tweak
+name: Show Folder Merge Conflicts
+category: Explorer/Behavior
+tags: [explorer, merge, conflicts]
+description: "Show folder merge conflicts in File Explorer"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: HideMergeConflicts
+    value: 0
+    type: dword
+    default-value: null

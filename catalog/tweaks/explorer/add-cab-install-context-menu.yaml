@@ -1,0 +1,15 @@
+type: tweak
+name: Add CAB Install Context Menu
+category: Explorer/Context Menu
+tags: [explorer, context-menu, cab, install]
+description: "Add Install item to .cab file context menu"
+reversible: true
+profiles: [developer]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: Registry::HKEY_CLASSES_ROOT\CABFolder\Shell\runas
+    name: MUIVerb
+    value: "@shell32.dll,-10210"
+    type: string
+    default-value: null

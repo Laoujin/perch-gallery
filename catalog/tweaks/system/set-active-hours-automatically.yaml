@@ -1,0 +1,15 @@
+type: tweak
+name: Set Active Hours Automatically
+category: System/Updates
+tags: [updates, active-hours, restart]
+description: "Automatically adjust active hours based on device activity to avoid restart during use"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+    name: SmartActiveHoursState
+    value: 1
+    type: dword
+    default-value: null

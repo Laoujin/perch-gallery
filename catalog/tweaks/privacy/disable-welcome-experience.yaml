@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Welcome Experience
+category: Privacy/Advertising
+tags: [privacy, welcome, post-update]
+description: "Disable Windows welcome experiences after updates"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager
+    name: "SubscribedContent-310093Enabled"
+    value: 1
+    type: dword
+    default-value: null

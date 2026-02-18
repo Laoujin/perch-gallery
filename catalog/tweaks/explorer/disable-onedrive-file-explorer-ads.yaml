@@ -1,0 +1,15 @@
+type: tweak
+name: Disable OneDrive File Explorer Ads
+category: Explorer/Declutter
+tags: [explorer, onedrive, ads, notifications]
+description: "Disable OneDrive sync provider notifications in File Explorer"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: ShowSyncProviderNotifications
+    value: 0
+    type: dword
+    default-value: null

@@ -1,0 +1,15 @@
+type: tweak
+name: Show Seconds in Clock
+category: Taskbar/Clock
+tags: [taskbar, clock, seconds]
+description: "Show seconds on the taskbar clock"
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: ShowSecondsInSystemClock
+    value: 1
+    type: dword
+    default-value: null

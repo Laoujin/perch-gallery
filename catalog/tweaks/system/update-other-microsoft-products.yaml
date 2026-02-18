@@ -1,0 +1,15 @@
+type: tweak
+name: Update Other Microsoft Products
+category: System/Updates
+tags: [updates, microsoft, office]
+description: "Receive updates for other Microsoft products via Windows Update"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings
+    name: AllowMUUpdateService
+    value: 1
+    type: dword
+    default-value: null

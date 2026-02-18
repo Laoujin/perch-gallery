@@ -1,0 +1,30 @@
+type: tweak
+name: Hide Recommended Section
+category: Search/Start Menu
+tags: [start-menu, recommended, declutter]
+description: "Hide the entire Recommended section in Start"
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Start
+    name: ShowRecentList
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Start
+    name: ShowFrequentList
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: Start_IrisRecommendations
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: Start_TrackDocs
+    value: 0
+    type: dword
+    default-value: null

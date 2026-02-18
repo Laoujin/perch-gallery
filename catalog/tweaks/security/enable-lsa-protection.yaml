@@ -1,0 +1,20 @@
+type: tweak
+name: Enable LSA Protection
+category: Security/System
+tags: [security, lsa, credential-guard]
+description: "Enable Local Security Authority protection"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Control\Lsa
+    name: RunAsPPL
+    value: 2
+    type: dword
+    default-value: null
+  - key: HKLM\SYSTEM\CurrentControlSet\Control\Lsa
+    name: RunAsPPLBoot
+    value: 2
+    type: dword
+    default-value: null

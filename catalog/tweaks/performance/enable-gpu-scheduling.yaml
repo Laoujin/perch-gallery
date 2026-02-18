@@ -1,0 +1,15 @@
+type: tweak
+name: Enable GPU Scheduling
+category: Performance/GPU
+tags: [performance, gpu, scheduling]
+description: "Enable hardware-accelerated GPU scheduling"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers
+    name: HwSchMode
+    value: 2
+    type: dword
+    default-value: null

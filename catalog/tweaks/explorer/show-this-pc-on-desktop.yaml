@@ -1,0 +1,15 @@
+type: tweak
+name: Show This PC on Desktop
+category: Explorer/Desktop
+tags: [explorer, desktop, this-pc, icon]
+description: "Show This PC icon on the desktop"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel
+    name: "{20D04FE0-3AEA-1069-A2D8-08002B30309D}"
+    value: 0
+    type: dword
+    default-value: null

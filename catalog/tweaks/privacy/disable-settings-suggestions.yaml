@@ -1,0 +1,25 @@
+type: tweak
+name: Disable Settings Suggestions
+category: Privacy/Advertising
+tags: [privacy, settings, suggestions]
+description: "Disable suggested content in the Settings app"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager
+    name: "SubscribedContent-338393Enabled"
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager
+    name: "SubscribedContent-353694Enabled"
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager
+    name: "SubscribedContent-353696Enabled"
+    value: 0
+    type: dword
+    default-value: null

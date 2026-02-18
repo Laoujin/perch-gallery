@@ -1,0 +1,15 @@
+type: tweak
+name: Expand to Current Folder
+category: Explorer/Navigation
+tags: [explorer, navigation, expand]
+description: "Expand navigation pane to current folder"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: NavPaneExpandToCurrentFolder
+    value: 0
+    type: dword
+    default-value: null

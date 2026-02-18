@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Sticky Shift Shortcut
+category: Accessibility/Keyboard
+tags: [accessibility, keyboard, sticky-shift]
+description: "Disable the Sticky Keys prompt from pressing Shift 5 times"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Control Panel\Accessibility\StickyKeys
+    name: Flags
+    value: 506
+    type: string
+    default-value: null

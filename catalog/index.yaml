@@ -267,6 +267,14 @@ fonts:
     category: Fonts/Programming
     tags: [monospace, nerd-font, open-source]
 tweaks:
+  - id: add-cab-install-context-menu
+    name: Add CAB Install Context Menu
+    category: Explorer/Context Menu
+    tags: [explorer, context-menu, cab, install]
+  - id: add-msi-extract-context-menu
+    name: Add MSI Extract Context Menu
+    category: Explorer/Context Menu
+    tags: [explorer, context-menu, msi, extract]
   - id: block-razer-software-installs
     name: Block Razer Software Installs
     category: System/Bloatware
@@ -283,6 +291,14 @@ tweaks:
     name: Compact Mode
     category: Explorer/Appearance
     tags: [explorer, density, windows-11]
+  - id: configure-start-layout
+    name: Configure Start Layout
+    category: Search/Start Menu
+    tags: [start-menu, layout, pins]
+  - id: control-panel-icon-view
+    name: Control Panel Icon View
+    category: System/Settings
+    tags: [control-panel, icons, view]
   - id: create-restore-point
     name: Create Restore Point
     category: System/Backup
@@ -299,6 +315,10 @@ tweaks:
     name: Detailed BSoD
     category: System/Diagnostics
     tags: [bsod, diagnostics, crash]
+  - id: detailed-file-transfer-dialog
+    name: Detailed File Transfer Dialog
+    category: Explorer/Appearance
+    tags: [explorer, file-transfer, dialog]
   - id: disable-activity-history
     name: Disable Activity History
     category: Privacy/Tracking
@@ -311,14 +331,50 @@ tweaks:
     name: Disable Aero Shake
     category: Appearance/Window Management
     tags: [aero, shake, window-management]
+  - id: disable-app-smartscreen
+    name: Disable App SmartScreen
+    category: Security/Defender
+    tags: [security, smartscreen, defender]
+  - id: disable-auto-restart-after-update
+    name: Disable Auto Restart After Update
+    category: System/Updates
+    tags: [updates, restart, automatic]
+  - id: disable-auto-troubleshooting
+    name: Disable Auto Troubleshooting
+    category: System/Troubleshooting
+    tags: [troubleshooting, automatic, diagnostics]
+  - id: disable-autoplay
+    name: Disable AutoPlay
+    category: System/Devices
+    tags: [autoplay, media, devices]
   - id: disable-background-apps
     name: Disable Background Apps
     category: Performance/Background
     tags: [performance, background-apps, resources]
+  - id: disable-caps-lock
+    name: Disable Caps Lock
+    category: Input/Keyboard
+    tags: [keyboard, capslock, remap]
   - id: disable-consumerfeatures
     name: Disable ConsumerFeatures
     category: Privacy/Advertising
     tags: [privacy, consumer-features, suggestions]
+  - id: disable-delivery-optimization
+    name: Disable Delivery Optimization
+    category: System/Updates
+    tags: [updates, delivery-optimization, bandwidth]
+  - id: disable-error-reporting
+    name: Disable Error Reporting
+    category: Privacy/Telemetry
+    tags: [privacy, error-reporting, telemetry]
+  - id: disable-feedback-requests
+    name: Disable Feedback Requests
+    category: Privacy/Telemetry
+    tags: [privacy, feedback, telemetry]
+  - id: disable-first-logon-animation
+    name: Disable First Logon Animation
+    category: Appearance/Logon
+    tags: [appearance, logon, animation]
   - id: disable-fullscreen-optimizations
     name: Disable Fullscreen Optimizations
     category: Performance/Gaming
@@ -331,6 +387,10 @@ tweaks:
     name: Disable IPv6
     category: Networking/Protocol
     tags: [networking, ipv6, disable]
+  - id: disable-item-check-boxes
+    name: Disable Item Check Boxes
+    category: Explorer/Appearance
+    tags: [explorer, checkboxes, selection]
   - id: disable-location-tracking
     name: Disable Location Tracking
     category: Privacy/Tracking
@@ -343,18 +403,58 @@ tweaks:
     name: Disable Multiplane Overlay
     category: System/Graphics
     tags: [graphics, multiplane-overlay, performance]
+  - id: disable-network-adapter-power-saving
+    name: Disable Network Adapter Power Saving
+    category: Power/Devices
+    tags: [power, network, wake, sleep]
   - id: disable-notification-traycalendar
     name: Disable Notification Tray/Calendar
     category: Taskbar/Declutter
     tags: [taskbar, notifications, calendar, declutter]
+  - id: disable-onedrive-file-explorer-ads
+    name: Disable OneDrive File Explorer Ads
+    category: Explorer/Declutter
+    tags: [explorer, onedrive, ads, notifications]
+  - id: disable-search-highlights
+    name: Disable Search Highlights
+    category: Search/Start Menu
+    tags: [search, highlights, bing]
+  - id: disable-settings-suggestions
+    name: Disable Settings Suggestions
+    category: Privacy/Advertising
+    tags: [privacy, settings, suggestions]
+  - id: disable-sign-in-auto-setup
+    name: Disable Sign-in Auto Setup
+    category: Privacy/Logon
+    tags: [privacy, sign-in, auto-finish]
+  - id: disable-silent-app-installing
+    name: Disable Silent App Installing
+    category: Privacy/Advertising
+    tags: [privacy, auto-install, suggestions]
+  - id: disable-snap-assist
+    name: Disable Snap Assist
+    category: Appearance/Window Management
+    tags: [window-management, snap, assist]
+  - id: disable-start-account-notifications
+    name: Disable Start Account Notifications
+    category: Search/Start Menu
+    tags: [start-menu, account, notifications]
   - id: disable-sticky-keys
     name: Disable Sticky Keys Shortcut
     category: Accessibility/Keyboard
     tags: [accessibility, keyboard, gaming]
+  - id: disable-sticky-shift-shortcut
+    name: Disable Sticky Shift Shortcut
+    category: Accessibility/Keyboard
+    tags: [accessibility, keyboard, sticky-shift]
   - id: disable-storage-sense
     name: Disable Storage Sense
     category: System/Storage
     tags: [storage, storage-sense, cleanup]
+  - id: disable-tailored-experiences
+    name: Disable Tailored Experiences
+    category: Privacy/Telemetry
+    tags: [privacy, tailored-experiences, telemetry]
   - id: disable-telemetry
     name: Disable Telemetry
     category: Privacy/Telemetry
@@ -363,30 +463,90 @@ tweaks:
     name: Disable Teredo
     category: Networking/Protocol
     tags: [networking, teredo, ipv6, tunnel]
+  - id: disable-uac-admin-approval-mode
+    name: Disable UAC Admin Approval Mode
+    category: Security/UAC
+    tags: [security, uac, admin]
   - id: disable-web-search
     name: Disable Web Search in Start
     category: Search/Start Menu
     tags: [search, start-menu, privacy]
+  - id: disable-welcome-experience
+    name: Disable Welcome Experience
+    category: Privacy/Advertising
+    tags: [privacy, welcome, post-update]
+  - id: disable-whats-new-in-windows
+    name: Disable What's New in Windows
+    category: Privacy/Advertising
+    tags: [privacy, tips, whats-new]
   - id: disable-windows-platform-binary-table-wpbt
     name: Disable Windows Platform Binary Table (WPBT)
     category: Security/Firmware
     tags: [security, firmware, wpbt]
+  - id: disable-windows-tips
+    name: Disable Windows Tips
+    category: Privacy/Advertising
+    tags: [privacy, tips, suggestions]
+  - id: disable-xbox-game-bar
+    name: Disable Xbox Game Bar
+    category: Gaming/Xbox
+    tags: [gaming, xbox, game-bar]
+  - id: disable-xbox-game-tips
+    name: Disable Xbox Game Tips
+    category: Gaming/Xbox
+    tags: [gaming, xbox, game-tips]
+  - id: disable-zone-information-saving
+    name: Disable Zone Information Saving
+    category: Security/Downloads
+    tags: [security, zone, downloads, block]
   - id: edge-debloat
     name: Edge Debloat
     category: Browsers/Debloat
     tags: [edge, browser, debloat, microsoft]
+  - id: enable-bulk-file-actions
+    name: Enable Bulk File Actions
+    category: Explorer/Context Menu
+    tags: [explorer, context-menu, bulk-selection]
   - id: enable-end-task-with-right-click
     name: Enable End Task With Right Click
     category: Taskbar/Productivity
     tags: [taskbar, end-task, right-click]
+  - id: enable-gpu-scheduling
+    name: Enable GPU Scheduling
+    category: Performance/GPU
+    tags: [performance, gpu, scheduling]
   - id: long-paths-enabled
     name: Enable Long Paths
     category: System/Filesystem
     tags: [filesystem, developer, paths]
+  - id: enable-lsa-protection
+    name: Enable LSA Protection
+    category: Security/System
+    tags: [security, lsa, credential-guard]
+  - id: enable-powershell-module-logging
+    name: Enable PowerShell Module Logging
+    category: Security/Logging
+    tags: [security, powershell, logging]
+  - id: enable-powershell-script-logging
+    name: Enable PowerShell Script Logging
+    category: Security/Logging
+    tags: [security, powershell, script-logging]
+  - id: enable-process-creation-event-view
+    name: Enable Process Creation Event View
+    category: System/Diagnostics
+    tags: [event-viewer, diagnostics, process-creation]
+  - id: expand-to-current-folder
+    name: Expand to Current Folder
+    category: Explorer/Navigation
+    tags: [explorer, navigation, expand]
   - id: explorer-open-this-pc
     name: Explorer Opens to This PC
     category: Explorer/Navigation
     tags: [explorer, navigation]
+  - id: get-latest-windows-updates
+    name: Get Latest Windows Updates
+    category: System/Updates
+    tags: [updates, latest, preview]
   - id: disable-chat-icon
     name: Hide Chat Icon
     category: Taskbar/Declutter
@@ -395,6 +555,14 @@ tweaks:
     name: Hide Copilot Button
     category: Taskbar/Declutter
     tags: [taskbar, copilot, windows-11]
+  - id: hide-frequent-folders-in-quick-access
+    name: Hide Frequent Folders in Quick Access
+    category: Explorer/Navigation
+    tags: [explorer, quick-access, folders]
+  - id: hide-most-used-start-apps
+    name: Hide Most Used Start Apps
+    category: Search/Start Menu
+    tags: [start-menu, most-used, apps]
   - id: hide-network-navigation
     name: Hide Network from Navigation Pane
     category: Explorer/Navigation
@@ -403,6 +571,22 @@ tweaks:
     name: Hide OneDrive from Navigation Pane
     category: Explorer/Navigation
     tags: [explorer, onedrive, navigation]
+  - id: hide-recent-files-in-quick-access
+    name: Hide Recent Files in Quick Access
+    category: Explorer/Navigation
+    tags: [explorer, quick-access, recent-files]
+  - id: hide-recently-added-start-apps
+    name: Hide Recently Added Start Apps
+    category: Search/Start Menu
+    tags: [start-menu, recently-added, apps]
+  - id: hide-recommended-section
+    name: Hide Recommended Section
+    category: Search/Start Menu
+    tags: [start-menu, recommended, declutter]
+  - id: hide-store-in-open-with
+    name: Hide Store in Open With
+    category: System/Settings
+    tags: [store, open-with, app-suggestions]
   - id: hide-this-pc-folders
     name: Hide This PC Folders
     category: Explorer/Navigation
@@ -411,6 +595,14 @@ tweaks:
     name: Hide Widgets Button
     category: Taskbar/Declutter
     tags: [taskbar, widgets, windows-11]
+  - id: max-jpeg-wallpaper-quality
+    name: Max JPEG Wallpaper Quality
+    category: Appearance/Wallpaper
+    tags: [appearance, wallpaper, jpeg, quality]
+  - id: never-combine-taskbar-buttons
+    name: Never Combine Taskbar Buttons
+    category: Taskbar/Layout
+    tags: [taskbar, combine, labels]
   - id: new-outlook
     name: New Outlook
     category: System/Settings
@@ -423,6 +615,14 @@ tweaks:
     name: Prefer IPv4 over IPv6
     category: Networking/Protocol
     tags: [networking, ipv4, ipv6]
+  - id: prevent-edge-desktop-shortcuts
+    name: Prevent Edge Desktop Shortcuts
+    category: Browsers/Debloat
+    tags: [edge, shortcuts, desktop]
+  - id: printscreen-opens-snipping-tool
+    name: PrintScreen Opens Snipping Tool
+    category: Input/Keyboard
+    tags: [keyboard, print-screen, snipping-tool, screenshot]
   - id: recommendations-in-start-menu
     name: Recommendations in Start Menu
     category: Search/Start Menu
@@ -431,6 +631,14 @@ tweaks:
     name: Remove Settings Home Page
     category: System/Settings
     tags: [settings, home-page, declutter]
+  - id: remove-shortcut-suffix
+    name: Remove Shortcut Suffix
+    category: Explorer/Behavior
+    tags: [explorer, shortcuts, suffix]
+  - id: restore-folders-at-logon
+    name: Restore Folders at Logon
+    category: Explorer/Behavior
+    tags: [explorer, restore, folders, logon]
   - id: pin-to-start-context-menu
     name: Restore Pin to Start Context Menu
     category: Explorer/Context Menu
@@ -443,6 +651,14 @@ tweaks:
     name: Search Button in Taskbar
     category: Taskbar/Declutter
     tags: [taskbar, search, declutter]
+  - id: set-active-hours-automatically
+    name: Set Active Hours Automatically
+    category: System/Updates
+    tags: [updates, active-hours, restart]
+  - id: set-diagnostic-data-to-minimum
+    name: Set Diagnostic Data to Minimum
+    category: Privacy/Telemetry
+    tags: [privacy, diagnostics, telemetry]
   - id: set-display-for-performance
     name: Set Display for Performance
     category: Performance/Visual
@@ -451,10 +667,18 @@ tweaks:
     name: Set Time to UTC (Dual Boot)
     category: System/Clock
     tags: [clock, utc, dual-boot, linux]
+  - id: show-clock-in-notification-center
+    name: Show Clock in Notification Center
+    category: Taskbar/Clock
+    tags: [taskbar, clock, notification-center]
   - id: show-file-extensions
     name: Show File Extensions
     category: Explorer/Files
     tags: [explorer, files, visibility]
+  - id: show-folder-merge-conflicts
+    name: Show Folder Merge Conflicts
+    category: Explorer/Behavior
+    tags: [explorer, merge, conflicts]
   - id: show-full-path-in-title-bar
     name: Show Full Path in Title Bar
     category: Explorer/Navigation
@@ -467,6 +691,18 @@ tweaks:
     name: Show Protected OS Files
     category: Explorer/Files
     tags: [explorer, files, visibility, advanced]
+  - id: show-restart-notification
+    name: Show Restart Notification
+    category: System/Updates
+    tags: [updates, restart, notification]
+  - id: show-seconds-in-clock
+    name: Show Seconds in Clock
+    category: Taskbar/Clock
+    tags: [taskbar, clock, seconds]
+  - id: show-this-pc-on-desktop
+    name: Show This PC on Desktop
+    category: Explorer/Desktop
+    tags: [explorer, desktop, this-pc, icon]
   - id: task-view-button-in-taskbar
     name: Task View Button in Taskbar
     category: Taskbar/Declutter
@@ -475,6 +711,10 @@ tweaks:
     name: Taskbar Left Alignment
     category: Taskbar/Layout
     tags: [taskbar, alignment, windows-11]
+  - id: update-other-microsoft-products
+    name: Update Other Microsoft Products
+    category: System/Updates
+    tags: [updates, microsoft, office]
   - id: verbose-messages-during-logon
     name: Verbose Messages During Logon
     category: System/Diagnostics

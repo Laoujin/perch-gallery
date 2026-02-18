@@ -1,0 +1,15 @@
+type: tweak
+name: Hide Frequent Folders in Quick Access
+category: Explorer/Navigation
+tags: [explorer, quick-access, folders]
+description: "Hide frequently used folders from Quick Access"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer
+    name: ShowFrequent
+    value: 0
+    type: dword
+    default-value: null

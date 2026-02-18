@@ -1,0 +1,15 @@
+type: tweak
+name: Configure Start Layout
+category: Search/Start Menu
+tags: [start-menu, layout, pins]
+description: "Set Start layout to show more pins or more recommendations"
+reversible: true
+profiles: [power-user]
+windows-versions: [11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: Start_Layout
+    value: 0
+    type: dword
+    default-value: null

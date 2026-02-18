@@ -1,0 +1,20 @@
+type: tweak
+name: Disable Snap Assist
+category: Appearance/Window Management
+tags: [window-management, snap, assist]
+description: "Disable Snap Assist window arrangement suggestions"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Control Panel\Desktop
+    name: WindowArrangementActive
+    value: 1
+    type: string
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: SnapAssist
+    value: 0
+    type: dword
+    default-value: null

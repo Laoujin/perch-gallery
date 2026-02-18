@@ -1,0 +1,25 @@
+type: tweak
+name: Disable Network Adapter Power Saving
+category: Power/Devices
+tags: [power, network, wake, sleep]
+description: "Prevent network adapters from waking the computer and disable power saving"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location
+    name: Value
+    value: Allow
+    type: string
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location
+    name: Value
+    value: Allow
+    type: string
+    default-value: null
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location\NonPackaged
+    name: Value
+    value: Allow
+    type: string
+    default-value: null

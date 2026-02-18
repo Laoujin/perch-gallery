@@ -1,0 +1,15 @@
+type: tweak
+name: "Disable Sign-in Auto Setup"
+category: Privacy/Logon
+tags: [privacy, sign-in, auto-finish]
+description: "Disable using sign-in info to auto-finish setup after an update"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\UserARSO\$SID
+    name: OptOut
+    value: 1
+    type: dword
+    default-value: null

@@ -1,0 +1,15 @@
+type: tweak
+name: Hide Recent Files in Quick Access
+category: Explorer/Navigation
+tags: [explorer, quick-access, recent-files]
+description: "Hide recently used files from Quick Access"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer
+    name: ShowRecent
+    value: 0
+    type: dword
+    default-value: null

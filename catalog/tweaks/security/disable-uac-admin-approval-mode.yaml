@@ -1,0 +1,55 @@
+type: tweak
+name: Disable UAC Admin Approval Mode
+category: Security/UAC
+tags: [security, uac, admin]
+description: "Disable the User Account Control admin approval mode for the built-in Administrator account"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: ConsentPromptBehaviorUser
+    value: 3
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: EnableInstallerDetection
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: ValidateAdminCodeSignatures
+    value: 0
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: EnableSecureUIAPaths
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: EnableLUA
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: PromptOnSecureDesktop
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: EnableVirtualization
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: EnableUIADesktopToggle
+    value: 1
+    type: dword
+    default-value: null
+  - key: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
+    name: ConsentPromptBehaviorAdmin
+    value: 0
+    type: dword
+    default-value: null

@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Search Highlights
+category: Search/Start Menu
+tags: [search, highlights, bing]
+description: "Disable search highlights (trending images/news) in search"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\SearchSettings
+    name: IsDynamicSearchBoxEnabled
+    value: 0
+    type: dword
+    default-value: null

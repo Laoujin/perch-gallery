@@ -1,0 +1,15 @@
+type: tweak
+name: Restore Folders at Logon
+category: Explorer/Behavior
+tags: [explorer, restore, folders, logon]
+description: "Restore previous folder windows at logon"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+    name: PersistBrowsers
+    value: 0
+    type: dword
+    default-value: null

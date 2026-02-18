@@ -1,0 +1,15 @@
+type: tweak
+name: Remove Shortcut Suffix
+category: Explorer/Behavior
+tags: [explorer, shortcuts, suffix]
+description: "Remove the - Shortcut suffix from new shortcuts"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\NamingTemplates
+    name: ShortcutNameTemplate
+    value: "%s.lnk"
+    type: string
+    default-value: null

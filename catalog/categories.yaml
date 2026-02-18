@@ -55,8 +55,16 @@ Security:
   children:
     Passwords: { sort: 10 }
     Firmware: { sort: 20 }
+    Defender: { sort: 30 }
+    Downloads: { sort: 40 }
+    Logging: { sort: 50 }
+    System: { sort: 60 }
+    UAC: { sort: 70 }
 
-Gaming: { sort: 900 }
+Gaming:
+  sort: 900
+  children:
+    Xbox: { sort: 10 }
 
 # Windows tweaks categories
 Appearance:
@@ -64,6 +72,8 @@ Appearance:
   children:
     Theme: { sort: 10 }
     Window Management: { sort: 20 }
+    Logon: { sort: 30 }
+    Wallpaper: { sort: 40 }
 
 Explorer:
   sort: 1100
@@ -72,6 +82,9 @@ Explorer:
     Context Menu: { sort: 20 }
     Appearance: { sort: 30 }
     Navigation: { sort: 40 }
+    Behavior: { sort: 50 }
+    Declutter: { sort: 60 }
+    Desktop: { sort: 70 }
 
 Taskbar:
   sort: 1200
@@ -79,6 +92,7 @@ Taskbar:
     Layout: { sort: 10 }
     Declutter: { sort: 20 }
     Productivity: { sort: 30 }
+    Clock: { sort: 40 }
 
 Privacy:
   sort: 1300
@@ -87,6 +101,7 @@ Privacy:
     Tracking: { sort: 20 }
     Telemetry: { sort: 30 }
     Sync: { sort: 40 }
+    Logon: { sort: 50 }
 
 Search:
   sort: 1400
@@ -109,6 +124,7 @@ Power:
   children:
     Sleep: { sort: 10 }
     Hibernation: { sort: 20 }
+    Devices: { sort: 30 }
 
 Performance:
   sort: 1680
@@ -116,6 +132,7 @@ Performance:
     Visual: { sort: 10 }
     Background: { sort: 20 }
     Gaming: { sort: 30 }
+    GPU: { sort: 40 }
 
 System:
   sort: 1700
@@ -129,6 +146,9 @@ System:
     Graphics: { sort: 70 }
     Backup: { sort: 80 }
     Bloatware: { sort: 90 }
+    Devices: { sort: 100 }
+    Troubleshooting: { sort: 110 }
+    Updates: { sort: 120 }
 
 Fonts:
   sort: 2000

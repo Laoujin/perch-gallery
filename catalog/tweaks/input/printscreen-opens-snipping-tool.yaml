@@ -1,0 +1,15 @@
+type: tweak
+name: PrintScreen Opens Snipping Tool
+category: Input/Keyboard
+tags: [keyboard, print-screen, snipping-tool, screenshot]
+description: "Map the Print Screen key to open Snipping Tool"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Control Panel\Keyboard
+    name: PrintScreenKeyForSnippingEnabled
+    value: 1
+    type: dword
+    default-value: null

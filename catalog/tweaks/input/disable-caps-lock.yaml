@@ -1,0 +1,15 @@
+type: tweak
+name: Disable Caps Lock
+category: Input/Keyboard
+tags: [keyboard, capslock, remap]
+description: "Disable the Caps Lock key"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SYSTEM\CurrentControlSet\Control\Keyboard Layout
+    name: Scancode Map
+    value: "([byte[]](0,0,0,0,0,0,0,0,2,0,0,0,0,0,58,0,0,0,0,0))"
+    type: binary
+    default-value: null
