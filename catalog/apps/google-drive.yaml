@@ -11,3 +11,14 @@ links:
 install:
   winget: Google.GoogleDrive
   choco: googledrive
+tweaks:
+  - id: disable-autostart
+    name: Disable Auto-Start
+    description: Prevent Google Drive from launching at Windows startup
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+        name: GoogleDriveFS
+        value: null
+        type: string
+        default-value: null

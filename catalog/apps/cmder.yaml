@@ -20,6 +20,7 @@ tweaks:
   - id: open-here-context-menu
     name: Open Cmder Here Context Menu
     description: Add "Open Cmder Here" to the folder right-click context menu
+    reversible: true
     script: |
       New-Item -Path 'HKCR:\Directory\Background\shell\Cmder' -Force | Out-Null
       Set-ItemProperty -Path 'HKCR:\Directory\Background\shell\Cmder' -Name '(Default)' -Value 'Open Cmder Here'

@@ -15,6 +15,31 @@ links:
 install:
   winget: Microsoft.VisualStudio.Code
   choco: vscode
+tweaks:
+  - id: open-with-code
+    name: Open with Code
+    description: Add "Open with Code" to the Explorer context menu for files and folders
+    reversible: true
+    script: |
+      New-Item -Path 'HKCR:\*\shell\VSCode' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\*\shell\VSCode' -Name '(Default)' -Value 'Open with Code'
+      Set-ItemProperty -Path 'HKCR:\*\shell\VSCode' -Name 'Icon' -Value '"C:\Program Files\Microsoft VS Code\Code.exe"'
+      New-Item -Path 'HKCR:\*\shell\VSCode\command' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\*\shell\VSCode\command' -Name '(Default)' -Value '"C:\Program Files\Microsoft VS Code\Code.exe" "%1"'
+      New-Item -Path 'HKCR:\Directory\shell\VSCode' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\Directory\shell\VSCode' -Name '(Default)' -Value 'Open with Code'
+      Set-ItemProperty -Path 'HKCR:\Directory\shell\VSCode' -Name 'Icon' -Value '"C:\Program Files\Microsoft VS Code\Code.exe"'
+      New-Item -Path 'HKCR:\Directory\shell\VSCode\command' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\Directory\shell\VSCode\command' -Name '(Default)' -Value '"C:\Program Files\Microsoft VS Code\Code.exe" "%V"'
+      New-Item -Path 'HKCR:\Directory\Background\shell\VSCode' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\Directory\Background\shell\VSCode' -Name '(Default)' -Value 'Open with Code'
+      Set-ItemProperty -Path 'HKCR:\Directory\Background\shell\VSCode' -Name 'Icon' -Value '"C:\Program Files\Microsoft VS Code\Code.exe"'
+      New-Item -Path 'HKCR:\Directory\Background\shell\VSCode\command' -Force | Out-Null
+      Set-ItemProperty -Path 'HKCR:\Directory\Background\shell\VSCode\command' -Name '(Default)' -Value '"C:\Program Files\Microsoft VS Code\Code.exe" "%V"'
+    undo-script: |
+      Remove-Item -Path 'HKCR:\*\shell\VSCode' -Recurse -ErrorAction SilentlyContinue
+      Remove-Item -Path 'HKCR:\Directory\shell\VSCode' -Recurse -ErrorAction SilentlyContinue
+      Remove-Item -Path 'HKCR:\Directory\Background\shell\VSCode' -Recurse -ErrorAction SilentlyContinue
 config:
   links:
     - source: settings.json

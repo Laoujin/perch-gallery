@@ -11,3 +11,14 @@ links:
 install:
   winget: Zoom.Zoom
   choco: zoom
+tweaks:
+  - id: disable-autostart
+    name: Disable Auto-Start
+    description: Prevent Zoom from launching at Windows startup
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+        name: Zoom
+        value: null
+        type: string
+        default-value: null

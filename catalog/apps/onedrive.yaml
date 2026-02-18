@@ -10,3 +10,14 @@ links:
   website: https://onedrive.live.com
 install:
   winget: Microsoft.OneDrive
+tweaks:
+  - id: disable-autostart
+    name: Disable Auto-Start
+    description: Prevent OneDrive from launching at Windows startup
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+        name: OneDrive
+        value: null
+        type: string
+        default-value: null

@@ -12,3 +12,14 @@ links:
 install:
   winget: EpicGames.EpicGamesLauncher
   choco: epicgameslauncher
+tweaks:
+  - id: disable-autostart
+    name: Disable Auto-Start
+    description: Prevent Epic Games Launcher from launching at Windows startup
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+        name: EpicGamesLauncher
+        value: null
+        type: string
+        default-value: null

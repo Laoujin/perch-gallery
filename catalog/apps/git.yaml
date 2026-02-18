@@ -31,6 +31,7 @@ tweaks:
   - id: git-bash-here
     name: Git Bash Here
     description: Add "Git Bash Here" to the Explorer context menu
+    reversible: true
     registry:
       - key: HKCR\Directory\Background\shell\git_shell\command
         name: "(Default)"

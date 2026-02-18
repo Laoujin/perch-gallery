@@ -12,6 +12,16 @@ links:
 install:
   winget: Notepad++.Notepad++
   choco: notepadplusplus
+tweaks:
+  - id: edit-with-notepadplusplus
+    name: Edit with Notepad++
+    description: Add "Edit with Notepad++" to the Explorer context menu for files
+    reversible: true
+    registry:
+      - key: HKCR\*\shell\Notepad++\command
+        name: "(Default)"
+        value: '"C:\Program Files\Notepad++\notepad++.exe" "%1"'
+        type: string
 config:
   links:
     - source: config.xml

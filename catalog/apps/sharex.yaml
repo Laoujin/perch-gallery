@@ -13,3 +13,14 @@ links:
 install:
   winget: ShareX.ShareX
   choco: sharex
+tweaks:
+  - id: disable-autostart
+    name: Disable Auto-Start
+    description: Prevent ShareX from launching at Windows startup
+    reversible: true
+    registry:
+      - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Run
+        name: ShareX
+        value: null
+        type: string
+        default-value: null
