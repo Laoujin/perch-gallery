@@ -1,0 +1,15 @@
+type: app
+name: Volta
+kind: cli-tool
+category: Development/Node
+tags: [node, version-manager, cli, rust, open-source]
+description: JavaScript tool manager with per-project version pinning
+profiles: [developer]
+os: [windows, linux, macos]
+license: BSD-2-Clause
+links:
+  website: https://volta.sh
+  github: https://github.com/volta-cli/volta
+install:
+  winget: Volta.Volta
+  choco: volta

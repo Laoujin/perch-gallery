@@ -1,0 +1,14 @@
+type: app
+name: Yarn
+kind: cli-tool
+category: Development/Node
+tags: [package-manager, node, cli, open-source]
+description: Fast, reliable, and secure dependency management for Node.js
+profiles: [developer]
+os: [windows, linux, macos]
+license: BSD-2-Clause
+links:
+  website: https://yarnpkg.com
+  github: https://github.com/yarnpkg/berry
+install:
+  node-package: yarn

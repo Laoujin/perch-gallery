@@ -1,0 +1,16 @@
+type: app
+name: Node.js
+kind: runtime
+category: Development/Node
+tags: [runtime, javascript, typescript, server]
+description: JavaScript runtime built on Chrome's V8 engine
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://nodejs.org
+  docs: https://nodejs.org/docs/latest/api/
+  github: https://github.com/nodejs/node
+install:
+  winget: OpenJS.NodeJS.LTS
+  choco: nodejs-lts

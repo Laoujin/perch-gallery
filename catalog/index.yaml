@@ -9,6 +9,13 @@ apps:
     kind: runtime
     profiles: [developer]
     path: apps/dotnet/dotnet-sdk.yaml
+  - id: npmrc
+    name: .npmrc
+    category: Development/Node
+    tags: [node, npm, config]
+    kind: dotfile
+    profiles: [developer]
+    path: apps/node/npmrc.yaml
   - id: 1password
     name: 1Password
     category: Security/Passwords
@@ -75,6 +82,13 @@ apps:
     kind: runtime
     profiles: [developer]
     path: apps/node/bun.yaml
+  - id: bunfig-toml
+    name: bunfig.toml
+    category: Development/Node
+    tags: [bun, config]
+    kind: dotfile
+    profiles: [developer]
+    path: apps/node/bunfig-toml.yaml
   - id: cmder
     name: Cmder
     category: Development/Terminals
@@ -206,6 +220,13 @@ apps:
     category: Browsers
     tags: [browser, mozilla, privacy]
     profiles: [casual, developer]
+  - id: fnm
+    name: fnm
+    category: Development/Node
+    tags: [node, version-manager, cli, rust, open-source]
+    kind: cli-tool
+    profiles: [developer]
+    path: apps/node/fnm.yaml
   - id: foobar2000
     name: foobar2000
     category: Media/Audio
@@ -344,6 +365,13 @@ apps:
     tags: [audio, music, player, library]
     profiles: [casual]
     hidden: true
+  - id: nodejs
+    name: Node.js
+    category: Development/Node
+    tags: [runtime, javascript, typescript, server]
+    kind: runtime
+    profiles: [developer]
+    path: apps/node/nodejs.yaml
   - id: notepadplusplus
     name: Notepad++
     category: Development/Editors
@@ -424,6 +452,13 @@ apps:
     tags: [chat, instant-messaging, multi-protocol, open-source]
     profiles: [casual]
     hidden: true
+  - id: pnpm
+    name: pnpm
+    category: Development/Node
+    tags: [package-manager, node, cli, open-source]
+    kind: cli-tool
+    profiles: [developer]
+    path: apps/node/pnpm.yaml
   - id: powershell
     name: PowerShell
     category: Development/Shells
@@ -552,6 +587,13 @@ apps:
     category: Media/Players
     tags: [media, video, audio, open-source]
     profiles: [casual]
+  - id: volta
+    name: Volta
+    category: Development/Node
+    tags: [node, version-manager, cli, rust, open-source]
+    kind: cli-tool
+    profiles: [developer]
+    path: apps/node/volta.yaml
   - id: winamp
     name: Winamp
     category: Media/Audio
@@ -606,6 +648,13 @@ apps:
     tags: [image-viewer, graphics, batch-processing]
     profiles: [casual]
     hidden: true
+  - id: yarn
+    name: Yarn
+    category: Development/Node
+    tags: [package-manager, node, cli, open-source]
+    kind: cli-tool
+    profiles: [developer]
+    path: apps/node/yarn.yaml
   - id: zoom
     name: Zoom
     category: Communication/Video

@@ -1,0 +1,15 @@
+type: app
+name: pnpm
+kind: cli-tool
+category: Development/Node
+tags: [package-manager, node, cli, open-source]
+description: Fast, disk space efficient package manager for Node.js
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://pnpm.io
+  github: https://github.com/pnpm/pnpm
+install:
+  winget: pnpm.pnpm
+  node-package: pnpm
