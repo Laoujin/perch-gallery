@@ -4,6 +4,7 @@ display-name: Visual Studio 2019
 category: Development/IDEs
 tags: [ide, microsoft, dotnet, windows]
 description: Full-featured IDE for .NET and C++ development
+hidden: true
 profiles: [developer]
 os: [windows]
 license: proprietary

@@ -61,6 +61,7 @@ apps:
     tags: [cli, shell, history, sync, rust]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
   - id: audacity
     name: Audacity
     category: Media/Audio
@@ -83,6 +84,7 @@ apps:
     tags: [cli, cat, syntax-highlighting, rust]
     kind: cli-tool
     profiles: [developer, power-user]
+    hidden: true
   - id: beyondcompare
     name: Beyond Compare
     category: Development/Diff Tools
@@ -132,6 +134,7 @@ apps:
     tags: [runtime, bundler, package-manager, javascript]
     kind: runtime
     profiles: [developer]
+    hidden: true
     path: apps/node/bun.yaml
   - id: calibre
     name: calibre
@@ -200,6 +203,8 @@ apps:
     category: Development/Node
     tags: [runtime, javascript, typescript, rust]
     profiles: [developer]
+    hidden: true
+    path: apps/node/deno.yaml
   - id: deskflow
     name: Deskflow
     category: Networking/Remote Access
@@ -233,6 +238,7 @@ apps:
     category: Development/.NET
     tags: [profiler, memory, dotnet, jetbrains]
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/dotmemory.yaml
   - id: dotnet-ef
     name: dotnet-ef
@@ -240,6 +246,7 @@ apps:
     tags: [dotnet, entity-framework, database, cli, open-source]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/dotnet-ef.yaml
   - id: dotnet-format
     name: dotnet-format
@@ -247,6 +254,7 @@ apps:
     tags: [dotnet, formatter, code-style, cli, open-source]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/dotnet-format.yaml
   - id: dotnet-outdated
     name: dotnet-outdated
@@ -254,6 +262,7 @@ apps:
     tags: [dotnet, nuget, dependencies, cli, open-source]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/dotnet-outdated.yaml
   - id: dotnet-tools-json
     name: dotnet-tools.json
@@ -267,12 +276,14 @@ apps:
     category: Development/.NET
     tags: [dotnet, decompiler, jetbrains, csharp]
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/dotpeek.yaml
   - id: dottrace
     name: dotTrace
     category: Development/.NET
     tags: [profiler, performance, dotnet, jetbrains]
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/dottrace.yaml
   - id: doublecommander
     name: Double Commander
@@ -336,6 +347,7 @@ apps:
     tags: [cli, ls, files, rust]
     kind: cli-tool
     profiles: [developer, power-user]
+    hidden: true
   - id: faststone
     name: FastStone Image Viewer
     category: Media/Graphics
@@ -348,6 +360,7 @@ apps:
     tags: [cli, find, search, rust]
     kind: cli-tool
     profiles: [developer, power-user]
+    hidden: true
   - id: fiddler
     name: Fiddler Classic
     category: Networking/Security
@@ -379,6 +392,7 @@ apps:
     tags: [node, version-manager, cli, rust, open-source]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
     path: apps/node/fnm.yaml
   - id: foobar2000
     name: foobar2000
@@ -403,6 +417,7 @@ apps:
     tags: [cli, fuzzy-finder, search, shell]
     kind: cli-tool
     profiles: [developer, power-user]
+    hidden: true
   - id: gimp
     name: GIMP
     category: Media/Graphics
@@ -516,6 +531,7 @@ apps:
     category: Development/.NET
     tags: [dotnet, decompiler, open-source, csharp]
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/ilspy.yaml
   - id: imageglass
     name: ImageGlass
@@ -550,6 +566,7 @@ apps:
     category: Development/IDEs
     tags: [ide, dotnet, csharp, jetbrains]
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/rider.yaml
   - id: joplin
     name: Joplin
@@ -624,6 +641,7 @@ apps:
     category: Development/.NET
     tags: [dotnet, csharp, linq, scratchpad]
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/linqpad.yaml
   - id: localsend
     name: LocalSend
@@ -760,6 +778,7 @@ apps:
     category: Development/Node
     tags: [node, nvm, version-manager, windows]
     profiles: [developer]
+    hidden: true
     path: apps/node/nvm.yaml
   - id: obs-studio
     name: OBS Studio
@@ -777,6 +796,7 @@ apps:
     tags: [cli, prompt, shell, powershell, theme]
     kind: cli-tool
     profiles: [developer, power-user]
+    hidden: true
   - id: onedrive
     name: OneDrive
     category: Utilities/Storage
@@ -820,6 +840,7 @@ apps:
     category: Development/.NET
     tags: [profiler, performance, etw, dotnet, open-source]
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/perfview.yaml
   - id: pidgin
     name: Pidgin
@@ -838,6 +859,7 @@ apps:
     tags: [package-manager, node, cli, open-source]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
     path: apps/node/pnpm.yaml
   - id: postman
     name: Postman
@@ -908,6 +930,7 @@ apps:
     category: Development/.NET
     tags: [dotnet, jetbrains, visual-studio, productivity]
     profiles: [developer]
+    hidden: true
     path: apps/dotnet/resharper.yaml
   - id: retroarch
     name: RetroArch
@@ -926,6 +949,7 @@ apps:
     tags: [cli, grep, search, rust]
     kind: cli-tool
     profiles: [developer, power-user]
+    hidden: true
   - id: robo3t
     name: Robo 3T
     category: Development/Databases
@@ -1002,6 +1026,7 @@ apps:
     tags: [cli, prompt, shell, rust]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
   - id: steam
     name: Steam
     category: Gaming/Stores
@@ -1111,6 +1136,7 @@ apps:
     tags: [cli, python, package-manager, rust]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
   - id: ventoy
     name: Ventoy
     category: Utilities/System
@@ -1134,6 +1160,7 @@ apps:
     category: Development/IDEs
     tags: [ide, microsoft, dotnet, windows]
     profiles: [developer]
+    hidden: true
   - id: visualstudio-2022
     name: Visual Studio 2022
     category: Development/IDEs
@@ -1160,6 +1187,7 @@ apps:
     tags: [node, version-manager, cli, rust, open-source]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
     path: apps/node/volta.yaml
   - id: wezterm
     name: WezTerm
@@ -1230,6 +1258,7 @@ apps:
     tags: [package-manager, node, cli, open-source]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
     path: apps/node/yarn.yaml
   - id: yazi
     name: yazi
@@ -1253,6 +1282,7 @@ apps:
     tags: [cli, navigation, cd, shell]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
   - id: zsh
     name: Zsh
     category: Development/Shells

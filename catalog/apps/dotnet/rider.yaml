@@ -4,6 +4,7 @@ display-name: Rider
 category: Development/IDEs
 tags: [ide, dotnet, csharp, jetbrains]
 description: Cross-platform .NET IDE by JetBrains
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: proprietary

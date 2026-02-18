@@ -4,6 +4,7 @@ category: Development/Tools
 tags: [cli, python, package-manager, rust]
 description: Extremely fast Python package and project manager
 kind: cli-tool
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

@@ -4,6 +4,7 @@ category: Development/Shells
 tags: [cli, navigation, cd, shell]
 description: Smarter cd command that learns your most-used directories
 kind: cli-tool
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

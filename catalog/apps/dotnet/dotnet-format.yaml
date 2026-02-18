@@ -4,6 +4,7 @@ kind: cli-tool
 category: Development/.NET
 tags: [dotnet, formatter, code-style, cli, open-source]
 description: Code formatter for .NET projects
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

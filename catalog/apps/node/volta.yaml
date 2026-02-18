@@ -4,6 +4,7 @@ kind: cli-tool
 category: Development/Node
 tags: [node, version-manager, cli, rust, open-source]
 description: JavaScript tool manager with per-project version pinning
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: BSD-2-Clause

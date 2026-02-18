@@ -4,6 +4,7 @@ kind: cli-tool
 category: Development/Node
 tags: [package-manager, node, cli, open-source]
 description: Fast, disk space efficient package manager for Node.js
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

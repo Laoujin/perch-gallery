@@ -4,6 +4,7 @@ category: Development/Shells
 tags: [cli, shell, history, sync, rust]
 description: Magical shell history with sync, search, and stats
 kind: cli-tool
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

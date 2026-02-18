@@ -7,6 +7,7 @@ kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
+suggests: [rider, resharper, visualstudio, dotnet-ef, dotnet-format, dotnet-outdated, ilspy, dotpeek, dnspy, linqpad, perfview, dottrace, dotmemory, global-json, nuget-config, dotnet-tools-json]
 links:
   website: https://dotnet.microsoft.com
   docs: https://learn.microsoft.com/en-us/dotnet/

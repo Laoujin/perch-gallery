@@ -8,6 +8,7 @@ profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
 alternatives: [bun]
+suggests: [yarn, pnpm, fnm, volta, nvm, deno, bun]
 links:
   website: https://nodejs.org
   docs: https://nodejs.org/docs/latest/api/

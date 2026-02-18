@@ -4,6 +4,7 @@ display-name: nvm
 category: Development/Node
 tags: [node, nvm, version-manager, windows]
 description: Node.js version manager for Windows
+hidden: true
 profiles: [developer]
 os: [windows]
 license: MIT

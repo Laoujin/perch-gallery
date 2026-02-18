@@ -3,6 +3,7 @@ name: LINQPad
 category: Development/.NET
 tags: [dotnet, csharp, linq, scratchpad]
 description: .NET code scratchpad for instant query and script execution
+hidden: true
 profiles: [developer]
 os: [windows]
 license: freeware

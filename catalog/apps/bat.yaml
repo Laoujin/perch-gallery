@@ -4,6 +4,7 @@ category: Development/CLI Tools
 tags: [cli, cat, syntax-highlighting, rust]
 description: Cat clone with syntax highlighting and Git integration
 kind: cli-tool
+hidden: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: Apache-2.0

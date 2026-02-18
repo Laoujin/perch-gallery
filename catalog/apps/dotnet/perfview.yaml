@@ -3,6 +3,7 @@ name: PerfView
 category: Development/.NET
 tags: [profiler, performance, etw, dotnet, open-source]
 description: Performance analysis tool for .NET using ETW traces
+hidden: true
 profiles: [developer]
 os: [windows]
 license: MIT

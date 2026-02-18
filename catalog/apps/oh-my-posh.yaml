@@ -4,6 +4,7 @@ category: Development/Shells
 tags: [cli, prompt, shell, powershell, theme]
 description: Prompt theme engine for any shell
 kind: cli-tool
+hidden: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

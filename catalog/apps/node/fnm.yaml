@@ -4,6 +4,7 @@ kind: cli-tool
 category: Development/Node
 tags: [node, version-manager, cli, rust, open-source]
 description: Fast and simple Node.js version manager built in Rust
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: GPL-3.0

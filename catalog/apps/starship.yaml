@@ -4,6 +4,7 @@ category: Development/Shells
 tags: [cli, prompt, shell, rust]
 description: Minimal, blazing-fast, and infinitely customizable cross-shell prompt
 kind: cli-tool
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: ISC

@@ -4,6 +4,7 @@ category: Development/CLI Tools
 tags: [cli, grep, search, rust]
 description: Recursively search directories for a regex pattern, extremely fast
 kind: cli-tool
+hidden: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

@@ -3,6 +3,7 @@ name: ReSharper
 category: Development/.NET
 tags: [dotnet, jetbrains, visual-studio, productivity]
 description: Visual Studio extension for .NET developers by JetBrains
+hidden: true
 profiles: [developer]
 os: [windows]
 license: proprietary

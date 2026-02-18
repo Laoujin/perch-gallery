@@ -4,6 +4,7 @@ category: Development/CLI Tools
 tags: [cli, ls, files, rust]
 description: Modern replacement for ls with colors, icons, and Git integration
 kind: cli-tool
+hidden: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

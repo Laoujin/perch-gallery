@@ -4,6 +4,7 @@ category: Development/CLI Tools
 tags: [cli, fuzzy-finder, search, shell]
 description: General-purpose command-line fuzzy finder
 kind: cli-tool
+hidden: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

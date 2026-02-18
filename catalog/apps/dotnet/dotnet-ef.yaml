@@ -4,6 +4,7 @@ kind: cli-tool
 category: Development/.NET
 tags: [dotnet, entity-framework, database, cli, open-source]
 description: Entity Framework Core command-line tools
+hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
