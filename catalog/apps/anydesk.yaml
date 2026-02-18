@@ -1,6 +1,6 @@
 type: app
 name: AnyDesk
-category: Networking/Protocol
+category: Networking/Remote Access
 tags: [remote-desktop, remote-access]
 description: Remote desktop application for remote access and support
 hidden: true

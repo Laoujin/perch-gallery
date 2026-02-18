@@ -1,6 +1,6 @@
 type: app
 name: Playnite
-category: Gaming/Launchers
+category: Gaming/Stores
 tags: [gaming, launcher, library, open-source]
 description: Video game library manager with support for Steam, GOG, Epic, and more
 profiles: [gamer]

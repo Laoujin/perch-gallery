@@ -52,10 +52,18 @@ Networking:
     Remote Access: { sort: 25 }
     Protocol: { sort: 30 }
 
-Productivity:
+Security:
   sort: 650
   children:
-    Office: { sort: 10 }
+    Encryption: { sort: 5 }
+    Sandboxing: { sort: 8 }
+    Passwords: { sort: 10 }
+    Firmware: { sort: 20 }
+    Defender: { sort: 30 }
+    Downloads: { sort: 40 }
+    Logging: { sort: 50 }
+    System: { sort: 60 }
+    UAC: { sort: 70 }
 
 Utilities:
   sort: 700
@@ -72,31 +80,20 @@ Utilities:
     Storage: { sort: 90 }
     Uninstallers: { sort: 100 }
 
-Security:
-  sort: 800
+Productivity:
+  sort: 750
   children:
-    Encryption: { sort: 5 }
-    Sandboxing: { sort: 8 }
-    Passwords: { sort: 10 }
-    Firmware: { sort: 20 }
-    Defender: { sort: 30 }
-    Downloads: { sort: 40 }
-    Logging: { sort: 50 }
-    System: { sort: 60 }
-    UAC: { sort: 70 }
+    Office: { sort: 10 }
 
 Gaming:
   sort: 900
   children:
-    Xbox: { sort: 10 }
-    Stores: { sort: 20 }
-    Launchers: { sort: 30 }
-    Controllers: { sort: 40 }
-    Modding: { sort: 50 }
-    Performance: { sort: 60 }
-    Streaming: { sort: 70 }
-    Emulators: { sort: 80 }
-    Saves: { sort: 90 }
+    Stores: { sort: 10 }
+    Xbox: { sort: 20 }
+    Controllers: { sort: 30 }
+    Modding: { sort: 40 }
+    Performance: { sort: 50 }
+    Streaming: { sort: 60 }
 
 # Windows tweaks categories
 Appearance:

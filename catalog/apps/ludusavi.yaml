@@ -1,6 +1,6 @@
 type: app
 name: Ludusavi
-category: Gaming/Saves
+category: Gaming/Modding
 tags: [gaming, backup, save-games, open-source]
 description: PC game save data backup tool supporting thousands of games
 profiles: [gamer]

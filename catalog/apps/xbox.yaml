@@ -1,6 +1,6 @@
 type: app
 name: Xbox Game Bar
-category: Gaming
+category: Gaming/Modding
 tags: [gaming, xbox, microsoft, game-bar]
 description: Built-in Windows game overlay for recording, screenshots, and performance monitoring
 profiles: [gamer]

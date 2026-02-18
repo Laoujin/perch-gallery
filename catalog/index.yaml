@@ -45,7 +45,7 @@ apps:
     hidden: true
   - id: anydesk
     name: AnyDesk
-    category: Networking/Protocol
+    category: Networking/Remote Access
     tags: [remote-desktop, remote-access]
     profiles: [casual]
     hidden: true
@@ -650,7 +650,7 @@ apps:
     hidden: true
   - id: ludusavi
     name: Ludusavi
-    category: Gaming/Saves
+    category: Gaming/Modding
     tags: [gaming, backup, save-games, open-source]
     profiles: [gamer]
   - id: mediamonkey
@@ -829,7 +829,7 @@ apps:
     hidden: true
   - id: playnite
     name: Playnite
-    category: Gaming/Launchers
+    category: Gaming/Stores
     tags: [gaming, launcher, library, open-source]
     profiles: [gamer]
   - id: pnpm
@@ -865,7 +865,7 @@ apps:
     hidden: true
   - id: putty
     name: PuTTY
-    category: Networking/Protocol
+    category: Networking/Security
     tags: [ssh, telnet, terminal, remote]
     profiles: [developer]
     hidden: true
@@ -911,7 +911,7 @@ apps:
     path: apps/dotnet/resharper.yaml
   - id: retroarch
     name: RetroArch
-    category: Gaming/Emulators
+    category: Gaming/Stores
     tags: [gaming, emulator, retro, multi-system]
     profiles: [gamer]
     hidden: true
@@ -1004,7 +1004,7 @@ apps:
     profiles: [developer]
   - id: steam
     name: Steam
-    category: Gaming
+    category: Gaming/Stores
     tags: [gaming, store, valve, launcher]
     profiles: [gamer]
   - id: sublimetext
@@ -1046,7 +1046,7 @@ apps:
     profiles: [casual]
   - id: teamviewer
     name: TeamViewer
-    category: Networking/Protocol
+    category: Networking/Remote Access
     tags: [remote-desktop, remote-access, screen-sharing]
     profiles: [casual]
     hidden: true
@@ -1215,7 +1215,7 @@ apps:
     profiles: [power-user]
   - id: xbox
     name: Xbox Game Bar
-    category: Gaming
+    category: Gaming/Modding
     tags: [gaming, xbox, microsoft, game-bar]
     profiles: [gamer]
   - id: xnview

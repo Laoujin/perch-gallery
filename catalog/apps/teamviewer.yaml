@@ -1,6 +1,6 @@
 type: app
 name: TeamViewer
-category: Networking/Protocol
+category: Networking/Remote Access
 tags: [remote-desktop, remote-access, screen-sharing]
 description: Remote desktop access and support software
 hidden: true
