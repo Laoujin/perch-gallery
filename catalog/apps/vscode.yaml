@@ -52,3 +52,9 @@ config:
         windows: "%APPDATA%/Code/User/keybindings.json"
         linux: "$HOME/.config/Code/User/keybindings.json"
         macos: "$HOME/Library/Application Support/Code/User/keybindings.json"
+    - source: snippets
+      target:
+        windows: "%APPDATA%/Code/User/snippets"
+        linux: "$HOME/.config/Code/User/snippets"
+        macos: "$HOME/Library/Application Support/Code/User/snippets"
+      link-type: junction

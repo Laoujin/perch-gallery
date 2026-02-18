@@ -12,3 +12,21 @@ links:
 install:
   winget: Ditto.Ditto
   choco: ditto
+config:
+  registry:
+    - key: HKEY_CURRENT_USER\Software\Ditto
+      name: DittoHotKey
+      value: 732
+      type: dword
+    - key: HKEY_CURRENT_USER\Software\Ditto
+      name: Position1
+      value: 609
+      type: dword
+    - key: HKEY_CURRENT_USER\Software\Ditto
+      name: Position2
+      value: 610
+      type: dword
+    - key: HKEY_CURRENT_USER\Software\Ditto
+      name: Position3
+      value: 611
+      type: dword
