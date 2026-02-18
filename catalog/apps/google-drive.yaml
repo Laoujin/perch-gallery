@@ -1,0 +1,10 @@
+type: app
+name: Google Drive
+category: Utilities/Storage
+tags: [cloud, storage, sync, google]
+description: Cloud storage and file synchronization service by Google
+links:
+  website: https://drive.google.com
+install:
+  winget: Google.GoogleDrive
+  choco: googledrive

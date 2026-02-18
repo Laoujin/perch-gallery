@@ -1,0 +1,10 @@
+type: app
+name: Thunderbird
+category: Communication/Email
+tags: [email, calendar, open-source, mozilla]
+description: Free and open-source email client by Mozilla
+links:
+  website: https://www.thunderbird.net
+install:
+  winget: Mozilla.Thunderbird
+  choco: thunderbird

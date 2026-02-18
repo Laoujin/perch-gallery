@@ -1,0 +1,10 @@
+type: app
+name: GIMP
+category: Media/Graphics
+tags: [graphics, image-editor, open-source]
+description: Free and open-source raster graphics editor
+links:
+  website: https://www.gimp.org
+install:
+  winget: GIMP.GIMP
+  choco: gimp

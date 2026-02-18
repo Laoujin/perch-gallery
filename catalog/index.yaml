@@ -15,6 +15,10 @@ apps:
     name: 7-Zip
     category: Utilities/Compression
     tags: [archive, compression, open-source]
+  - id: audacity
+    name: Audacity
+    category: Media/Audio
+    tags: [audio, editor, recording, open-source]
   - id: autohotkey
     name: AutoHotkey
     category: Utilities/Productivity
@@ -28,6 +32,14 @@ apps:
     name: Beyond Compare
     category: Development/Diff Tools
     tags: [diff, compare, merge, windows]
+  - id: blender
+    name: Blender
+    category: Media/3D
+    tags: [3d, modeling, animation, rendering, open-source]
+  - id: brave
+    name: Brave
+    category: Browsers
+    tags: [browser, privacy, chromium, open-source]
   - id: bun
     name: Bun
     category: Development/Node
@@ -41,6 +53,10 @@ apps:
     name: CopyQ
     category: Utilities/Clipboard
     tags: [clipboard, manager, open-source]
+  - id: cursor
+    name: Cursor
+    category: Development/IDEs
+    tags: [ide, ai, editor, vscode-fork]
   - id: db-browser-sqlite
     name: DB Browser for SQLite
     category: Development/Tools
@@ -66,6 +82,10 @@ apps:
     name: Dropbox
     category: Utilities/System
     tags: [cloud, sync, storage, backup]
+  - id: epic-games
+    name: Epic Games Launcher
+    category: Gaming/Stores
+    tags: [gaming, store, launcher]
   - id: everything
     name: Everything
     category: Utilities/Search
@@ -82,6 +102,10 @@ apps:
     name: fzf
     category: Development/Tools
     tags: [cli, fuzzy-finder, search, shell]
+  - id: gimp
+    name: GIMP
+    category: Media/Graphics
+    tags: [graphics, image-editor, open-source]
   - id: git
     name: Git
     category: Development/Version Control
@@ -95,10 +119,18 @@ apps:
     name: Google Chrome Canary
     category: Browsers
     tags: [browser, google, chromium, dev]
+  - id: google-drive
+    name: Google Drive
+    category: Utilities/Storage
+    tags: [cloud, storage, sync, google]
   - id: greenshot
     name: Greenshot
     category: Utilities/Screenshots
     tags: [screenshot, capture, windows]
+  - id: handbrake
+    name: HandBrake
+    category: Media/Video
+    tags: [video, converter, transcoder, open-source]
   - id: heidisql
     name: HeidiSQL
     category: Development/Tools
@@ -112,10 +144,26 @@ apps:
     category: Development/.NET
     tags: [dotnet, decompiler, open-source, csharp]
     path: apps/dotnet/ilspy.yaml
+  - id: inkscape
+    name: Inkscape
+    category: Media/Graphics
+    tags: [graphics, vector, svg, open-source]
   - id: irfanview
     name: IrfanView
     category: Media/Graphics
     tags: [image-viewer, graphics, lightweight]
+  - id: keepass
+    name: KeePass 2
+    category: Security/Passwords
+    tags: [passwords, security, encryption, open-source]
+  - id: krita
+    name: Krita
+    category: Media/Graphics
+    tags: [graphics, digital-painting, illustration, open-source]
+  - id: libreoffice
+    name: LibreOffice
+    category: Productivity/Office
+    tags: [office, documents, spreadsheet, presentation, open-source]
   - id: mitmproxy
     name: mitmproxy
     category: Networking/Security
@@ -139,6 +187,14 @@ apps:
     name: Obsidian
     category: Utilities/Productivity
     tags: [notes, markdown, knowledge-base, pkm]
+  - id: onedrive
+    name: OneDrive
+    category: Utilities/Storage
+    tags: [cloud, storage, sync, microsoft]
+  - id: open-shell
+    name: Open-Shell
+    category: Utilities/System
+    tags: [start-menu, shell, customization, open-source]
   - id: openssh
     name: OpenSSH
     category: Networking/Security
@@ -168,11 +224,19 @@ apps:
     name: Python
     category: Development/Tools
     tags: [python, language, scripting]
+  - id: qbittorrent
+    name: qBittorrent
+    category: Utilities/Downloads
+    tags: [torrent, downloads, open-source]
   - id: resharper
     name: ReSharper
     category: Development/.NET
     tags: [dotnet, jetbrains, visual-studio, productivity]
     path: apps/dotnet/resharper.yaml
+  - id: revo-uninstaller
+    name: Revo Uninstaller
+    category: Utilities/Uninstallers
+    tags: [uninstaller, cleanup, system]
   - id: robo3t
     name: Robo 3T
     category: Development/Tools
@@ -205,10 +269,18 @@ apps:
     name: Sublime Text
     category: Development/Editors
     tags: [editor, text, windows, macos, linux]
+  - id: sumatrapdf
+    name: SumatraPDF
+    category: Utilities/PDF
+    tags: [pdf, reader, lightweight, open-source]
   - id: sysinternals
     name: Sysinternals Suite
     category: Utilities/System
     tags: [system, diagnostics, microsoft, admin]
+  - id: thunderbird
+    name: Thunderbird
+    category: Communication/Email
+    tags: [email, calendar, open-source, mozilla]
   - id: vim
     name: Vim
     category: Development/Editors
@@ -234,15 +306,31 @@ apps:
     name: Windows Terminal
     category: Development/Terminals
     tags: [terminal, shell, microsoft]
+  - id: winmerge
+    name: WinMerge
+    category: Development/Diff Tools
+    tags: [diff, merge, comparison, open-source]
+  - id: winscp
+    name: WinSCP
+    category: Networking/FTP
+    tags: [ftp, sftp, scp, file-transfer, open-source]
   - id: wireshark
     name: Wireshark
     category: Networking/Security
     tags: [network, packet-capture, analysis, open-source]
+  - id: wiztree
+    name: WizTree
+    category: Utilities/Storage
+    tags: [disk-space, analyzer, storage]
   - id: wsl
     name: WSL
     category: System/Virtualization
     tags: [wsl, linux, microsoft, windows]
     kind: dotfile
+  - id: zoom
+    name: Zoom
+    category: Communication/Video
+    tags: [video, meetings, conferencing]
   - id: zoxide
     name: zoxide
     category: Development/Shells

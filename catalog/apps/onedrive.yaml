@@ -1,0 +1,9 @@
+type: app
+name: OneDrive
+category: Utilities/Storage
+tags: [cloud, storage, sync, microsoft]
+description: Cloud storage and file synchronization service by Microsoft
+links:
+  website: https://onedrive.live.com
+install:
+  winget: Microsoft.OneDrive

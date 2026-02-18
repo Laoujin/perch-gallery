@@ -1,0 +1,11 @@
+type: app
+name: Brave
+category: Browsers
+tags: [browser, privacy, chromium, open-source]
+description: Privacy-focused Chromium-based web browser with built-in ad blocking
+links:
+  website: https://brave.com
+  github: https://github.com/brave/brave-browser
+install:
+  winget: Brave.Brave
+  choco: brave

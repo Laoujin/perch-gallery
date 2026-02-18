@@ -1,0 +1,11 @@
+type: app
+name: Audacity
+category: Media/Audio
+tags: [audio, editor, recording, open-source]
+description: Free and open-source digital audio editor and recorder
+links:
+  website: https://www.audacityteam.org
+  github: https://github.com/audacity/audacity
+install:
+  winget: Audacity.Audacity
+  choco: audacity

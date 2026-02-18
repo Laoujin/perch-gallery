@@ -14,6 +14,9 @@ Development:
     .NET: { sort: 70 }
     Node: { sort: 80 }
     Tools: { sort: 90 }
+    API Tools: { sort: 100 }
+    Databases: { sort: 110 }
+    Containers: { sort: 120 }
 
 Browsers:
   sort: 200
@@ -24,6 +27,8 @@ Communication:
   sort: 300
   children:
     Chat: { sort: 10 }
+    Email: { sort: 20 }
+    Video: { sort: 30 }
 
 File Management: { sort: 400 }
 
@@ -32,6 +37,9 @@ Media:
   children:
     Graphics: { sort: 10 }
     Players: { sort: 20 }
+    Audio: { sort: 30 }
+    Video: { sort: 40 }
+    3D: { sort: 50 }
 
 Networking:
   sort: 600
@@ -39,6 +47,11 @@ Networking:
     FTP: { sort: 10 }
     Security: { sort: 20 }
     Protocol: { sort: 30 }
+
+Productivity:
+  sort: 650
+  children:
+    Office: { sort: 10 }
 
 Utilities:
   sort: 700
@@ -49,6 +62,10 @@ Utilities:
     Screenshots: { sort: 40 }
     Search: { sort: 50 }
     System: { sort: 60 }
+    PDF: { sort: 70 }
+    Downloads: { sort: 80 }
+    Storage: { sort: 90 }
+    Uninstallers: { sort: 100 }
 
 Security:
   sort: 800
@@ -65,6 +82,7 @@ Gaming:
   sort: 900
   children:
     Xbox: { sort: 10 }
+    Stores: { sort: 20 }
 
 # Windows tweaks categories
 Appearance:

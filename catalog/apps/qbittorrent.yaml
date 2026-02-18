@@ -1,0 +1,11 @@
+type: app
+name: qBittorrent
+category: Utilities/Downloads
+tags: [torrent, downloads, open-source]
+description: Free and open-source BitTorrent client
+links:
+  website: https://www.qbittorrent.org
+  github: https://github.com/qbittorrent/qBittorrent
+install:
+  winget: qBittorrent.qBittorrent
+  choco: qbittorrent

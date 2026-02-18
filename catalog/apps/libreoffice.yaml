@@ -1,0 +1,10 @@
+type: app
+name: LibreOffice
+category: Productivity/Office
+tags: [office, documents, spreadsheet, presentation, open-source]
+description: Free and open-source office productivity suite
+links:
+  website: https://www.libreoffice.org
+install:
+  winget: TheDocumentFoundation.LibreOffice
+  choco: libreoffice-fresh

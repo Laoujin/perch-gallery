@@ -1,0 +1,11 @@
+type: app
+name: WinSCP
+category: Networking/FTP
+tags: [ftp, sftp, scp, file-transfer, open-source]
+description: Free SFTP, SCP, S3, and FTP client for Windows
+links:
+  website: https://winscp.net
+  github: https://github.com/winscp/winscp
+install:
+  winget: WinSCP.WinSCP
+  choco: winscp

@@ -1,0 +1,11 @@
+type: app
+name: WinMerge
+category: Development/Diff Tools
+tags: [diff, merge, comparison, open-source]
+description: Free and open-source differencing and merging tool for Windows
+links:
+  website: https://winmerge.org
+  github: https://github.com/WinMerge/winmerge
+install:
+  winget: WinMerge.WinMerge
+  choco: winmerge

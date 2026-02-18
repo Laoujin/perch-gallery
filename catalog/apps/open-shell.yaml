@@ -1,0 +1,11 @@
+type: app
+name: Open-Shell
+category: Utilities/System
+tags: [start-menu, shell, customization, open-source]
+description: Classic Start menu and Windows shell customizations
+links:
+  website: https://open-shell.github.io/Open-Shell-Menu/
+  github: https://github.com/Open-Shell/Open-Shell-Menu
+install:
+  winget: Open-Shell.Open-Shell-Menu
+  choco: open-shell

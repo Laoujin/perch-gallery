@@ -1,0 +1,11 @@
+type: app
+name: Epic Games Launcher
+display-name: Epic Games
+category: Gaming/Stores
+tags: [gaming, store, launcher]
+description: Digital distribution platform and game launcher by Epic Games
+links:
+  website: https://store.epicgames.com
+install:
+  winget: EpicGames.EpicGamesLauncher
+  choco: epicgameslauncher

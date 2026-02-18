@@ -1,0 +1,11 @@
+type: app
+name: Inkscape
+category: Media/Graphics
+tags: [graphics, vector, svg, open-source]
+description: Free and open-source vector graphics editor
+links:
+  website: https://inkscape.org
+  github: https://github.com/inkscape/inkscape
+install:
+  winget: Inkscape.Inkscape
+  choco: inkscape

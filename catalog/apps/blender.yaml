@@ -1,0 +1,11 @@
+type: app
+name: Blender
+category: Media/3D
+tags: [3d, modeling, animation, rendering, open-source]
+description: Free and open-source 3D creation suite
+links:
+  website: https://www.blender.org
+  github: https://github.com/blender/blender
+install:
+  winget: BlenderFoundation.Blender
+  choco: blender

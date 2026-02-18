@@ -1,0 +1,10 @@
+type: app
+name: Cursor
+category: Development/IDEs
+tags: [ide, ai, editor, vscode-fork]
+description: AI-powered code editor built on VS Code
+links:
+  website: https://cursor.com
+install:
+  winget: Anysphere.Cursor
+  choco: cursor
