@@ -1,5 +1,5 @@
-import { readdirSync, readFileSync, writeFileSync, statSync } from 'node:fs';
-import { resolve, basename } from 'node:path';
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { resolve, basename, relative } from 'node:path';
 import yaml from 'js-yaml';
 
 const catalogDir = resolve('catalog');
@@ -24,11 +24,18 @@ function readEntries(subdir) {
   return files.map(file => {
     const id = basename(file, '.yaml');
     const content = yaml.load(readFileSync(file, 'utf8'));
+    const relPath = relative(catalogDir, file).replace(/\\/g, '/');
 
     const entry = { id, name: content.name, category: content.category, tags: content.tags };
     if (content.kind) entry.kind = content.kind;
     if (content.profiles?.length) entry.profiles = content.profiles;
     if (content.hidden) entry.hidden = true;
+
+    // Include path when file is in a subdirectory (not flat)
+    const flatPath = `${subdir}/${id}.yaml`;
+    if (relPath !== flatPath) {
+      entry.path = relPath;
+    }
 
     return entry;
   }).sort((a, b) => a.name.localeCompare(b.name));

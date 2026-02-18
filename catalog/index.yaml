@@ -6,6 +6,7 @@ apps:
     name: .NET SDK
     category: Development/.NET
     tags: [dotnet, sdk, microsoft, csharp]
+    path: apps/dotnet/dotnet-sdk.yaml
   - id: 1password
     name: 1Password
     category: Security/Passwords
@@ -31,6 +32,7 @@ apps:
     name: Bun
     category: Development/Node
     tags: [runtime, bundler, package-manager, javascript]
+    path: apps/node/bun.yaml
   - id: cmder
     name: Cmder
     category: Development/Terminals
@@ -59,6 +61,7 @@ apps:
     name: dotPeek
     category: Development/.NET
     tags: [dotnet, decompiler, jetbrains, csharp]
+    path: apps/dotnet/dotpeek.yaml
   - id: dropbox
     name: Dropbox
     category: Utilities/System
@@ -108,6 +111,7 @@ apps:
     name: ILSpy
     category: Development/.NET
     tags: [dotnet, decompiler, open-source, csharp]
+    path: apps/dotnet/ilspy.yaml
   - id: irfanview
     name: IrfanView
     category: Media/Graphics
@@ -125,10 +129,12 @@ apps:
     category: Development/Node
     tags: [node, package-manager, cli]
     kind: dotfile
+    path: apps/node/npm.yaml
   - id: nvm
     name: NVM for Windows
     category: Development/Node
     tags: [node, nvm, version-manager, windows]
+    path: apps/node/nvm.yaml
   - id: obsidian
     name: Obsidian
     category: Utilities/Productivity
@@ -166,6 +172,7 @@ apps:
     name: ReSharper
     category: Development/.NET
     tags: [dotnet, jetbrains, visual-studio, productivity]
+    path: apps/dotnet/resharper.yaml
   - id: robo3t
     name: Robo 3T
     category: Development/Tools
@@ -272,563 +279,676 @@ tweaks:
     category: Explorer/Context Menu
     tags: [explorer, context-menu, cab, install]
     profiles: [developer]
+    path: tweaks/explorer/add-cab-install-context-menu.yaml
   - id: add-msi-extract-context-menu
     name: Add MSI Extract Context Menu
     category: Explorer/Context Menu
     tags: [explorer, context-menu, msi, extract]
     profiles: [developer]
+    path: tweaks/explorer/add-msi-extract-context-menu.yaml
   - id: block-razer-software-installs
     name: Block Razer Software Installs
     category: System/Bloatware
     tags: [razer, bloatware, driver]
     profiles: [power-user]
+    path: tweaks/system/block-razer-software-installs.yaml
   - id: brave-debloat
     name: Brave Debloat
     category: Browsers/Debloat
     tags: [brave, browser, debloat]
     profiles: [power-user]
+    path: tweaks/browsers/brave-debloat.yaml
   - id: classic-context-menu
     name: Classic Context Menu
     category: Explorer/Context Menu
     tags: [explorer, context-menu, windows-11]
     profiles: [developer, power-user]
+    path: tweaks/explorer/classic-context-menu.yaml
   - id: compact-mode
     name: Compact Mode
     category: Explorer/Appearance
     tags: [explorer, density, windows-11]
     profiles: [power-user]
+    path: tweaks/explorer/compact-mode.yaml
   - id: configure-start-layout
     name: Configure Start Layout
     category: Search/Start Menu
     tags: [start-menu, layout, pins]
     profiles: [power-user]
+    path: tweaks/search/configure-start-layout.yaml
   - id: control-panel-icon-view
     name: Control Panel Icon View
     category: System/Settings
     tags: [control-panel, icons, view]
     profiles: [power-user]
+    path: tweaks/system/control-panel-icon-view.yaml
   - id: create-restore-point
     name: Create Restore Point
     category: System/Backup
     tags: [backup, restore-point, system-protection]
     profiles: [power-user]
+    path: tweaks/system/create-restore-point.yaml
   - id: cross-device-resume
     name: Cross-Device Resume
     category: Privacy/Sync
     tags: [privacy, cross-device, sync, resume]
     profiles: [power-user]
+    path: tweaks/privacy/cross-device-resume.yaml
   - id: dark-mode
     name: Dark Mode
     category: Appearance/Theme
     tags: [theme, dark-mode, personalization]
     profiles: [developer, power-user]
+    path: tweaks/appearance/dark-mode.yaml
   - id: detailed-bsod
     name: Detailed BSoD
     category: System/Diagnostics
     tags: [bsod, diagnostics, crash]
     profiles: [developer]
+    path: tweaks/system/detailed-bsod.yaml
   - id: detailed-file-transfer-dialog
     name: Detailed File Transfer Dialog
     category: Explorer/Appearance
     tags: [explorer, file-transfer, dialog]
     profiles: [power-user]
+    path: tweaks/explorer/detailed-file-transfer-dialog.yaml
   - id: disable-activity-history
     name: Disable Activity History
     category: Privacy/Tracking
     tags: [privacy, activity-history, telemetry]
     profiles: [power-user]
+    path: tweaks/privacy/disable-activity-history.yaml
   - id: disable-advertising-id
     name: Disable Advertising ID
     category: Privacy/Advertising
     tags: [privacy, advertising, telemetry]
     profiles: [developer, power-user]
+    path: tweaks/privacy/disable-advertising-id.yaml
   - id: disable-aero-shake
     name: Disable Aero Shake
     category: Appearance/Window Management
     tags: [aero, shake, window-management]
     profiles: [power-user]
+    path: tweaks/appearance/disable-aero-shake.yaml
   - id: disable-app-smartscreen
     name: Disable App SmartScreen
     category: Security/Defender
     tags: [security, smartscreen, defender]
     profiles: [power-user]
+    path: tweaks/security/disable-app-smartscreen.yaml
   - id: disable-auto-restart-after-update
     name: Disable Auto Restart After Update
     category: System/Updates
     tags: [updates, restart, automatic]
     profiles: [power-user]
+    path: tweaks/system/disable-auto-restart-after-update.yaml
   - id: disable-auto-troubleshooting
     name: Disable Auto Troubleshooting
     category: System/Troubleshooting
     tags: [troubleshooting, automatic, diagnostics]
     profiles: [power-user]
+    path: tweaks/system/disable-auto-troubleshooting.yaml
   - id: disable-autoplay
     name: Disable AutoPlay
     category: System/Devices
     tags: [autoplay, media, devices]
     profiles: [power-user]
+    path: tweaks/system/disable-autoplay.yaml
   - id: disable-background-apps
     name: Disable Background Apps
     category: Performance/Background
     tags: [performance, background-apps, resources]
     profiles: [power-user]
+    path: tweaks/performance/disable-background-apps.yaml
   - id: disable-caps-lock
     name: Disable Caps Lock
     category: Input/Keyboard
     tags: [keyboard, capslock, remap]
     profiles: [power-user]
+    path: tweaks/input/disable-caps-lock.yaml
   - id: disable-consumerfeatures
     name: Disable ConsumerFeatures
     category: Privacy/Advertising
     tags: [privacy, consumer-features, suggestions]
     profiles: [power-user]
+    path: tweaks/privacy/disable-consumerfeatures.yaml
   - id: disable-delivery-optimization
     name: Disable Delivery Optimization
     category: System/Updates
     tags: [updates, delivery-optimization, bandwidth]
     profiles: [power-user]
+    path: tweaks/system/disable-delivery-optimization.yaml
   - id: disable-error-reporting
     name: Disable Error Reporting
     category: Privacy/Telemetry
     tags: [privacy, error-reporting, telemetry]
     profiles: [power-user]
+    path: tweaks/privacy/disable-error-reporting.yaml
   - id: disable-feedback-requests
     name: Disable Feedback Requests
     category: Privacy/Telemetry
     tags: [privacy, feedback, telemetry]
     profiles: [power-user]
+    path: tweaks/privacy/disable-feedback-requests.yaml
   - id: disable-first-logon-animation
     name: Disable First Logon Animation
     category: Appearance/Logon
     tags: [appearance, logon, animation]
     profiles: [power-user]
+    path: tweaks/appearance/disable-first-logon-animation.yaml
   - id: disable-fullscreen-optimizations
     name: Disable Fullscreen Optimizations
     category: Performance/Gaming
     tags: [gaming, fullscreen, performance]
     profiles: [power-user]
+    path: tweaks/performance/disable-fullscreen-optimizations.yaml
   - id: disable-hibernation
     name: Disable Hibernation
     category: Power/Hibernation
     tags: [power, hibernation, disk-space]
     profiles: [power-user]
+    path: tweaks/power/disable-hibernation.yaml
   - id: disable-ipv6
     name: Disable IPv6
     category: Networking/Protocol
     tags: [networking, ipv6, disable]
     profiles: [power-user]
+    path: tweaks/networking/disable-ipv6.yaml
   - id: disable-item-check-boxes
     name: Disable Item Check Boxes
     category: Explorer/Appearance
     tags: [explorer, checkboxes, selection]
     profiles: [power-user]
+    path: tweaks/explorer/disable-item-check-boxes.yaml
   - id: disable-location-tracking
     name: Disable Location Tracking
     category: Privacy/Tracking
     tags: [privacy, location, tracking]
     profiles: [power-user]
+    path: tweaks/privacy/disable-location-tracking.yaml
   - id: disable-mouse-acceleration
     name: Disable Mouse Acceleration
     category: Input/Mouse
     tags: [mouse, gaming, precision]
     profiles: [developer, power-user]
+    path: tweaks/input/disable-mouse-acceleration.yaml
   - id: disable-multiplane-overlay
     name: Disable Multiplane Overlay
     category: System/Graphics
     tags: [graphics, multiplane-overlay, performance]
     profiles: [power-user]
+    path: tweaks/system/disable-multiplane-overlay.yaml
   - id: disable-network-adapter-power-saving
     name: Disable Network Adapter Power Saving
     category: Power/Devices
     tags: [power, network, wake, sleep]
     profiles: [power-user]
+    path: tweaks/power/disable-network-adapter-power-saving.yaml
   - id: disable-notification-traycalendar
     name: Disable Notification Tray/Calendar
     category: Taskbar/Declutter
     tags: [taskbar, notifications, calendar, declutter]
     profiles: [power-user]
+    path: tweaks/taskbar/disable-notification-traycalendar.yaml
   - id: disable-onedrive-file-explorer-ads
     name: Disable OneDrive File Explorer Ads
     category: Explorer/Declutter
     tags: [explorer, onedrive, ads, notifications]
     profiles: [power-user]
+    path: tweaks/explorer/disable-onedrive-file-explorer-ads.yaml
   - id: disable-search-highlights
     name: Disable Search Highlights
     category: Search/Start Menu
     tags: [search, highlights, bing]
     profiles: [power-user]
+    path: tweaks/search/disable-search-highlights.yaml
   - id: disable-settings-suggestions
     name: Disable Settings Suggestions
     category: Privacy/Advertising
     tags: [privacy, settings, suggestions]
     profiles: [power-user]
+    path: tweaks/privacy/disable-settings-suggestions.yaml
   - id: disable-sign-in-auto-setup
     name: Disable Sign-in Auto Setup
     category: Privacy/Logon
     tags: [privacy, sign-in, auto-finish]
     profiles: [power-user]
+    path: tweaks/privacy/disable-sign-in-auto-setup.yaml
   - id: disable-silent-app-installing
     name: Disable Silent App Installing
     category: Privacy/Advertising
     tags: [privacy, auto-install, suggestions]
     profiles: [power-user]
+    path: tweaks/privacy/disable-silent-app-installing.yaml
   - id: disable-snap-assist
     name: Disable Snap Assist
     category: Appearance/Window Management
     tags: [window-management, snap, assist]
     profiles: [power-user]
+    path: tweaks/appearance/disable-snap-assist.yaml
   - id: disable-start-account-notifications
     name: Disable Start Account Notifications
     category: Search/Start Menu
     tags: [start-menu, account, notifications]
     profiles: [power-user]
+    path: tweaks/search/disable-start-account-notifications.yaml
   - id: disable-sticky-keys
     name: Disable Sticky Keys Shortcut
     category: Accessibility/Keyboard
     tags: [accessibility, keyboard, gaming]
     profiles: [developer, power-user]
+    path: tweaks/accessibility/disable-sticky-keys.yaml
   - id: disable-sticky-shift-shortcut
     name: Disable Sticky Shift Shortcut
     category: Accessibility/Keyboard
     tags: [accessibility, keyboard, sticky-shift]
     profiles: [power-user]
+    path: tweaks/accessibility/disable-sticky-shift-shortcut.yaml
   - id: disable-storage-sense
     name: Disable Storage Sense
     category: System/Storage
     tags: [storage, storage-sense, cleanup]
     profiles: [power-user]
+    path: tweaks/system/disable-storage-sense.yaml
   - id: disable-tailored-experiences
     name: Disable Tailored Experiences
     category: Privacy/Telemetry
     tags: [privacy, tailored-experiences, telemetry]
     profiles: [power-user]
+    path: tweaks/privacy/disable-tailored-experiences.yaml
   - id: disable-telemetry
     name: Disable Telemetry
     category: Privacy/Telemetry
     tags: [privacy, telemetry, microsoft]
     profiles: [power-user]
+    path: tweaks/privacy/disable-telemetry.yaml
   - id: disable-teredo
     name: Disable Teredo
     category: Networking/Protocol
     tags: [networking, teredo, ipv6, tunnel]
     profiles: [power-user]
+    path: tweaks/networking/disable-teredo.yaml
   - id: disable-uac-admin-approval-mode
     name: Disable UAC Admin Approval Mode
     category: Security/UAC
     tags: [security, uac, admin]
     profiles: [power-user]
+    path: tweaks/security/disable-uac-admin-approval-mode.yaml
   - id: disable-web-search
     name: Disable Web Search in Start
     category: Search/Start Menu
     tags: [search, start-menu, privacy]
     profiles: [developer, power-user]
+    path: tweaks/search/disable-web-search.yaml
   - id: disable-welcome-experience
     name: Disable Welcome Experience
     category: Privacy/Advertising
     tags: [privacy, welcome, post-update]
     profiles: [power-user]
+    path: tweaks/privacy/disable-welcome-experience.yaml
   - id: disable-whats-new-in-windows
     name: Disable What's New in Windows
     category: Privacy/Advertising
     tags: [privacy, tips, whats-new]
     profiles: [power-user]
+    path: tweaks/privacy/disable-whats-new-in-windows.yaml
   - id: disable-windows-platform-binary-table-wpbt
     name: Disable Windows Platform Binary Table (WPBT)
     category: Security/Firmware
     tags: [security, firmware, wpbt]
     profiles: [power-user]
+    path: tweaks/security/disable-windows-platform-binary-table-wpbt.yaml
   - id: disable-windows-tips
     name: Disable Windows Tips
     category: Privacy/Advertising
     tags: [privacy, tips, suggestions]
     profiles: [power-user]
+    path: tweaks/privacy/disable-windows-tips.yaml
   - id: disable-xbox-game-bar
     name: Disable Xbox Game Bar
     category: Gaming/Xbox
     tags: [gaming, xbox, game-bar]
     profiles: [power-user]
+    path: tweaks/gaming/disable-xbox-game-bar.yaml
   - id: disable-xbox-game-tips
     name: Disable Xbox Game Tips
     category: Gaming/Xbox
     tags: [gaming, xbox, game-tips]
     profiles: [power-user]
+    path: tweaks/gaming/disable-xbox-game-tips.yaml
   - id: disable-zone-information-saving
     name: Disable Zone Information Saving
     category: Security/Downloads
     tags: [security, zone, downloads, block]
     profiles: [power-user]
+    path: tweaks/security/disable-zone-information-saving.yaml
   - id: edge-debloat
     name: Edge Debloat
     category: Browsers/Debloat
     tags: [edge, browser, debloat, microsoft]
     profiles: [power-user]
+    path: tweaks/browsers/edge-debloat.yaml
   - id: enable-bulk-file-actions
     name: Enable Bulk File Actions
     category: Explorer/Context Menu
     tags: [explorer, context-menu, bulk-selection]
     profiles: [power-user]
+    path: tweaks/explorer/enable-bulk-file-actions.yaml
   - id: enable-end-task-with-right-click
     name: Enable End Task With Right Click
     category: Taskbar/Productivity
     tags: [taskbar, end-task, right-click]
     profiles: [developer, power-user]
+    path: tweaks/taskbar/enable-end-task-with-right-click.yaml
   - id: enable-gpu-scheduling
     name: Enable GPU Scheduling
     category: Performance/GPU
     tags: [performance, gpu, scheduling]
     profiles: [power-user]
+    path: tweaks/performance/enable-gpu-scheduling.yaml
   - id: long-paths-enabled
     name: Enable Long Paths
     category: System/Filesystem
     tags: [filesystem, developer, paths]
     profiles: [developer]
+    path: tweaks/system/long-paths-enabled.yaml
   - id: enable-lsa-protection
     name: Enable LSA Protection
     category: Security/System
     tags: [security, lsa, credential-guard]
     profiles: [power-user]
+    path: tweaks/security/enable-lsa-protection.yaml
   - id: enable-powershell-module-logging
     name: Enable PowerShell Module Logging
     category: Security/Logging
     tags: [security, powershell, logging]
     profiles: [developer]
+    path: tweaks/security/enable-powershell-module-logging.yaml
   - id: enable-powershell-script-logging
     name: Enable PowerShell Script Logging
     category: Security/Logging
     tags: [security, powershell, script-logging]
     profiles: [developer]
+    path: tweaks/security/enable-powershell-script-logging.yaml
   - id: enable-process-creation-event-view
     name: Enable Process Creation Event View
     category: System/Diagnostics
     tags: [event-viewer, diagnostics, process-creation]
     profiles: [developer]
+    path: tweaks/system/enable-process-creation-event-view.yaml
   - id: expand-to-current-folder
     name: Expand to Current Folder
     category: Explorer/Navigation
     tags: [explorer, navigation, expand]
     profiles: [power-user]
+    path: tweaks/explorer/expand-to-current-folder.yaml
   - id: explorer-open-this-pc
     name: Explorer Opens to This PC
     category: Explorer/Navigation
     tags: [explorer, navigation]
     profiles: [power-user]
+    path: tweaks/explorer/explorer-open-this-pc.yaml
   - id: get-latest-windows-updates
     name: Get Latest Windows Updates
     category: System/Updates
     tags: [updates, latest, preview]
     profiles: [power-user]
+    path: tweaks/system/get-latest-windows-updates.yaml
   - id: disable-chat-icon
     name: Hide Chat Icon
     category: Taskbar/Declutter
     tags: [taskbar, teams, chat, windows-11]
     profiles: [power-user]
+    path: tweaks/taskbar/disable-chat-icon.yaml
   - id: disable-copilot-button
     name: Hide Copilot Button
     category: Taskbar/Declutter
     tags: [taskbar, copilot, windows-11]
     profiles: [power-user]
+    path: tweaks/taskbar/disable-copilot-button.yaml
   - id: hide-frequent-folders-in-quick-access
     name: Hide Frequent Folders in Quick Access
     category: Explorer/Navigation
     tags: [explorer, quick-access, folders]
     profiles: [power-user]
+    path: tweaks/explorer/hide-frequent-folders-in-quick-access.yaml
   - id: hide-most-used-start-apps
     name: Hide Most Used Start Apps
     category: Search/Start Menu
     tags: [start-menu, most-used, apps]
     profiles: [power-user]
+    path: tweaks/search/hide-most-used-start-apps.yaml
   - id: hide-network-navigation
     name: Hide Network from Navigation Pane
     category: Explorer/Navigation
     tags: [explorer, network, navigation]
     profiles: [power-user]
+    path: tweaks/explorer/hide-network-navigation.yaml
   - id: hide-onedrive-navigation
     name: Hide OneDrive from Navigation Pane
     category: Explorer/Navigation
     tags: [explorer, onedrive, navigation]
     profiles: [power-user]
+    path: tweaks/explorer/hide-onedrive-navigation.yaml
   - id: hide-recent-files-in-quick-access
     name: Hide Recent Files in Quick Access
     category: Explorer/Navigation
     tags: [explorer, quick-access, recent-files]
     profiles: [power-user]
+    path: tweaks/explorer/hide-recent-files-in-quick-access.yaml
   - id: hide-recently-added-start-apps
     name: Hide Recently Added Start Apps
     category: Search/Start Menu
     tags: [start-menu, recently-added, apps]
     profiles: [power-user]
+    path: tweaks/search/hide-recently-added-start-apps.yaml
   - id: hide-recommended-section
     name: Hide Recommended Section
     category: Search/Start Menu
     tags: [start-menu, recommended, declutter]
     profiles: [power-user]
+    path: tweaks/search/hide-recommended-section.yaml
   - id: hide-store-in-open-with
     name: Hide Store in Open With
     category: System/Settings
     tags: [store, open-with, app-suggestions]
     profiles: [power-user]
+    path: tweaks/system/hide-store-in-open-with.yaml
   - id: hide-this-pc-folders
     name: Hide This PC Folders
     category: Explorer/Navigation
     tags: [explorer, this-pc, folders, windows-10]
     profiles: [power-user]
+    path: tweaks/explorer/hide-this-pc-folders.yaml
   - id: disable-widgets
     name: Hide Widgets Button
     category: Taskbar/Declutter
     tags: [taskbar, widgets, windows-11]
     profiles: [power-user]
+    path: tweaks/taskbar/disable-widgets.yaml
   - id: max-jpeg-wallpaper-quality
     name: Max JPEG Wallpaper Quality
     category: Appearance/Wallpaper
     tags: [appearance, wallpaper, jpeg, quality]
     profiles: [power-user]
+    path: tweaks/appearance/max-jpeg-wallpaper-quality.yaml
   - id: never-combine-taskbar-buttons
     name: Never Combine Taskbar Buttons
     category: Taskbar/Layout
     tags: [taskbar, combine, labels]
     profiles: [power-user]
+    path: tweaks/taskbar/never-combine-taskbar-buttons.yaml
   - id: new-outlook
     name: New Outlook
     category: System/Settings
     tags: [outlook, microsoft, mail]
     profiles: [power-user]
+    path: tweaks/system/new-outlook.yaml
   - id: numlock-on-startup
     name: NumLock on Startup
     category: Input/Keyboard
     tags: [keyboard, numlock, startup]
     profiles: [power-user]
+    path: tweaks/input/numlock-on-startup.yaml
   - id: prefer-ipv4-over-ipv6
     name: Prefer IPv4 over IPv6
     category: Networking/Protocol
     tags: [networking, ipv4, ipv6]
     profiles: [power-user]
+    path: tweaks/networking/prefer-ipv4-over-ipv6.yaml
   - id: prevent-edge-desktop-shortcuts
     name: Prevent Edge Desktop Shortcuts
     category: Browsers/Debloat
     tags: [edge, shortcuts, desktop]
     profiles: [power-user]
+    path: tweaks/browsers/prevent-edge-desktop-shortcuts.yaml
   - id: printscreen-opens-snipping-tool
     name: PrintScreen Opens Snipping Tool
     category: Input/Keyboard
     tags: [keyboard, print-screen, snipping-tool, screenshot]
     profiles: [power-user]
+    path: tweaks/input/printscreen-opens-snipping-tool.yaml
   - id: recommendations-in-start-menu
     name: Recommendations in Start Menu
     category: Search/Start Menu
     tags: [start-menu, recommendations, declutter]
     profiles: [power-user]
+    path: tweaks/search/recommendations-in-start-menu.yaml
   - id: remove-settings-home-page
     name: Remove Settings Home Page
     category: System/Settings
     tags: [settings, home-page, declutter]
     profiles: [power-user]
+    path: tweaks/system/remove-settings-home-page.yaml
   - id: remove-shortcut-suffix
     name: Remove Shortcut Suffix
     category: Explorer/Behavior
     tags: [explorer, shortcuts, suffix]
     profiles: [power-user]
+    path: tweaks/explorer/remove-shortcut-suffix.yaml
   - id: restore-folders-at-logon
     name: Restore Folders at Logon
     category: Explorer/Behavior
     tags: [explorer, restore, folders, logon]
     profiles: [power-user]
+    path: tweaks/explorer/restore-folders-at-logon.yaml
   - id: pin-to-start-context-menu
     name: Restore Pin to Start Context Menu
     category: Explorer/Context Menu
     tags: [explorer, context-menu, pin-to-start, windows-10]
     profiles: [power-user]
+    path: tweaks/explorer/pin-to-start-context-menu.yaml
   - id: s3-sleep
     name: S3 Sleep
     category: Power/Sleep
     tags: [power, sleep, s3, standby]
     profiles: [power-user]
+    path: tweaks/power/s3-sleep.yaml
   - id: search-button-in-taskbar
     name: Search Button in Taskbar
     category: Taskbar/Declutter
     tags: [taskbar, search, declutter]
     profiles: [power-user]
+    path: tweaks/taskbar/search-button-in-taskbar.yaml
   - id: set-active-hours-automatically
     name: Set Active Hours Automatically
     category: System/Updates
     tags: [updates, active-hours, restart]
     profiles: [power-user]
+    path: tweaks/system/set-active-hours-automatically.yaml
   - id: set-diagnostic-data-to-minimum
     name: Set Diagnostic Data to Minimum
     category: Privacy/Telemetry
     tags: [privacy, diagnostics, telemetry]
     profiles: [power-user]
+    path: tweaks/privacy/set-diagnostic-data-to-minimum.yaml
   - id: set-display-for-performance
     name: Set Display for Performance
     category: Performance/Visual
     tags: [performance, visual-effects, animations]
     profiles: [power-user]
+    path: tweaks/performance/set-display-for-performance.yaml
   - id: set-time-to-utc-dual-boot
     name: Set Time to UTC (Dual Boot)
     category: System/Clock
     tags: [clock, utc, dual-boot, linux]
     profiles: [developer]
+    path: tweaks/system/set-time-to-utc-dual-boot.yaml
   - id: show-clock-in-notification-center
     name: Show Clock in Notification Center
     category: Taskbar/Clock
     tags: [taskbar, clock, notification-center]
     profiles: [power-user]
+    path: tweaks/taskbar/show-clock-in-notification-center.yaml
   - id: show-file-extensions
     name: Show File Extensions
     category: Explorer/Files
     tags: [explorer, files, visibility]
     profiles: [developer, power-user]
+    path: tweaks/explorer/show-file-extensions.yaml
   - id: show-folder-merge-conflicts
     name: Show Folder Merge Conflicts
     category: Explorer/Behavior
     tags: [explorer, merge, conflicts]
     profiles: [power-user]
+    path: tweaks/explorer/show-folder-merge-conflicts.yaml
   - id: show-full-path-in-title-bar
     name: Show Full Path in Title Bar
     category: Explorer/Navigation
     tags: [explorer, navigation, path]
     profiles: [developer, power-user]
+    path: tweaks/explorer/show-full-path-in-title-bar.yaml
   - id: show-hidden-files
     name: Show Hidden Files
     category: Explorer/Files
     tags: [explorer, files, visibility]
     profiles: [developer, power-user]
+    path: tweaks/explorer/show-hidden-files.yaml
   - id: show-protected-os-files
     name: Show Protected OS Files
     category: Explorer/Files
     tags: [explorer, files, visibility, advanced]
     profiles: [developer]
+    path: tweaks/explorer/show-protected-os-files.yaml
   - id: show-restart-notification
     name: Show Restart Notification
     category: System/Updates
     tags: [updates, restart, notification]
     profiles: [power-user]
+    path: tweaks/system/show-restart-notification.yaml
   - id: show-seconds-in-clock
     name: Show Seconds in Clock
     category: Taskbar/Clock
     tags: [taskbar, clock, seconds]
     profiles: [power-user]
+    path: tweaks/taskbar/show-seconds-in-clock.yaml
   - id: show-this-pc-on-desktop
     name: Show This PC on Desktop
     category: Explorer/Desktop
     tags: [explorer, desktop, this-pc, icon]
     profiles: [power-user]
+    path: tweaks/explorer/show-this-pc-on-desktop.yaml
   - id: task-view-button-in-taskbar
     name: Task View Button in Taskbar
     category: Taskbar/Declutter
     tags: [taskbar, task-view, declutter]
     profiles: [power-user]
+    path: tweaks/taskbar/task-view-button-in-taskbar.yaml
   - id: taskbar-alignment-left
     name: Taskbar Left Alignment
     category: Taskbar/Layout
     tags: [taskbar, alignment, windows-11]
     profiles: [power-user]
+    path: tweaks/taskbar/taskbar-alignment-left.yaml
   - id: update-other-microsoft-products
     name: Update Other Microsoft Products
     category: System/Updates
     tags: [updates, microsoft, office]
     profiles: [power-user]
+    path: tweaks/system/update-other-microsoft-products.yaml
   - id: verbose-messages-during-logon
     name: Verbose Messages During Logon
     category: System/Diagnostics
     tags: [diagnostics, logon, verbose]
     profiles: [developer]
+    path: tweaks/system/verbose-messages-during-logon.yaml
