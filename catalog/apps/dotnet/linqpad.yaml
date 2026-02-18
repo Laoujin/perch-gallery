@@ -1,0 +1,13 @@
+type: app
+name: LINQPad
+category: Development/.NET
+tags: [dotnet, csharp, linq, scratchpad]
+description: .NET code scratchpad for instant query and script execution
+profiles: [developer]
+os: [windows]
+license: freeware
+links:
+  website: https://www.linqpad.net
+install:
+  winget: JosephAlbaworthy.LINQPad.8
+  choco: linqpad

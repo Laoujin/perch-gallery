@@ -1,0 +1,12 @@
+type: app
+name: dotTrace
+category: Development/.NET
+tags: [profiler, performance, dotnet, jetbrains]
+description: .NET performance profiler by JetBrains
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
+links:
+  website: https://www.jetbrains.com/profiler/
+install:
+  choco: dottrace

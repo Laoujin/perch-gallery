@@ -1,0 +1,13 @@
+type: app
+name: dotnet-ef
+kind: cli-tool
+category: Development/.NET
+tags: [dotnet, entity-framework, database, cli, open-source]
+description: Entity Framework Core command-line tools
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  docs: https://learn.microsoft.com/en-us/ef/core/cli/dotnet
+install:
+  dotnet-tool: dotnet-ef

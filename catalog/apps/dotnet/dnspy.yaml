@@ -1,0 +1,13 @@
+type: app
+name: dnSpy
+category: Development/.NET
+tags: [decompiler, debugger, dotnet, open-source]
+description: .NET debugger and assembly editor
+hidden: true
+profiles: [developer]
+os: [windows]
+license: GPL-3.0
+links:
+  github: https://github.com/dnSpy/dnSpy
+install:
+  choco: dnspy

@@ -1,0 +1,13 @@
+type: app
+name: dotnet-format
+kind: cli-tool
+category: Development/.NET
+tags: [dotnet, formatter, code-style, cli, open-source]
+description: Code formatter for .NET projects
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  github: https://github.com/dotnet/format
+install:
+  dotnet-tool: dotnet-format

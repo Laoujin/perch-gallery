@@ -1,0 +1,12 @@
+type: app
+name: PerfView
+category: Development/.NET
+tags: [profiler, performance, etw, dotnet, open-source]
+description: Performance analysis tool for .NET using ETW traces
+profiles: [developer]
+os: [windows]
+license: MIT
+links:
+  github: https://github.com/microsoft/perfview
+install:
+  choco: perfview

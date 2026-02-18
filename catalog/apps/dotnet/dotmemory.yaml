@@ -1,0 +1,12 @@
+type: app
+name: dotMemory
+category: Development/.NET
+tags: [profiler, memory, dotnet, jetbrains]
+description: .NET memory profiler by JetBrains
+profiles: [developer]
+os: [windows, linux]
+license: proprietary
+links:
+  website: https://www.jetbrains.com/dotmemory/
+install:
+  choco: dotmemory

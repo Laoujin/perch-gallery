@@ -1,0 +1,16 @@
+type: app
+name: NuGet Config
+kind: dotfile
+category: Development/.NET
+tags: [dotnet, nuget, config]
+description: NuGet package source and credentials configuration
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+config:
+  links:
+    - source: nuget.config
+      target:
+        windows: "%APPDATA%/NuGet/NuGet.Config"
+        linux: "$HOME/.nuget/NuGet/NuGet.Config"
+        macos: "$HOME/.nuget/NuGet/NuGet.Config"

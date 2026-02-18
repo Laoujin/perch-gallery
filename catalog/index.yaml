@@ -111,17 +111,64 @@ apps:
     category: Utilities/Clipboard
     tags: [clipboard, manager, windows]
     profiles: [power-user]
+  - id: dnspy
+    name: dnSpy
+    category: Development/.NET
+    tags: [decompiler, debugger, dotnet, open-source]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/dnspy.yaml
   - id: docker
     name: Docker Desktop
     category: Development/Tools
     tags: [containers, docker, devops, virtualization]
     profiles: [developer]
+  - id: dotmemory
+    name: dotMemory
+    category: Development/.NET
+    tags: [profiler, memory, dotnet, jetbrains]
+    profiles: [developer]
+    path: apps/dotnet/dotmemory.yaml
+  - id: dotnet-ef
+    name: dotnet-ef
+    category: Development/.NET
+    tags: [dotnet, entity-framework, database, cli, open-source]
+    kind: cli-tool
+    profiles: [developer]
+    path: apps/dotnet/dotnet-ef.yaml
+  - id: dotnet-format
+    name: dotnet-format
+    category: Development/.NET
+    tags: [dotnet, formatter, code-style, cli, open-source]
+    kind: cli-tool
+    profiles: [developer]
+    path: apps/dotnet/dotnet-format.yaml
+  - id: dotnet-outdated
+    name: dotnet-outdated
+    category: Development/.NET
+    tags: [dotnet, nuget, dependencies, cli, open-source]
+    kind: cli-tool
+    profiles: [developer]
+    path: apps/dotnet/dotnet-outdated.yaml
+  - id: dotnet-tools-json
+    name: dotnet-tools.json
+    category: Development/.NET
+    tags: [dotnet, tools, manifest]
+    kind: dotfile
+    profiles: [developer]
+    path: apps/dotnet/dotnet-tools-json.yaml
   - id: dotpeek
     name: dotPeek
     category: Development/.NET
     tags: [dotnet, decompiler, jetbrains, csharp]
     profiles: [developer]
     path: apps/dotnet/dotpeek.yaml
+  - id: dottrace
+    name: dotTrace
+    category: Development/.NET
+    tags: [profiler, performance, dotnet, jetbrains]
+    profiles: [developer]
+    path: apps/dotnet/dottrace.yaml
   - id: dropbox
     name: Dropbox
     category: Utilities/System
@@ -188,6 +235,13 @@ apps:
     tags: [vcs, cli, developer]
     kind: dotfile
     profiles: [developer]
+  - id: global-json
+    name: global.json
+    category: Development/.NET
+    tags: [dotnet, sdk, version-pinning]
+    kind: dotfile
+    profiles: [developer]
+    path: apps/dotnet/global-json.yaml
   - id: chrome
     name: Google Chrome
     category: Browsers
@@ -239,6 +293,12 @@ apps:
     category: Media/Graphics
     tags: [image-viewer, graphics, lightweight]
     profiles: [casual]
+  - id: rider
+    name: JetBrains Rider
+    category: Development/IDEs
+    tags: [ide, dotnet, csharp, jetbrains]
+    profiles: [developer]
+    path: apps/dotnet/rider.yaml
   - id: keepass
     name: KeePass 2
     category: Security/Passwords
@@ -260,6 +320,12 @@ apps:
     category: Productivity/Office
     tags: [office, documents, spreadsheet, presentation, open-source]
     profiles: [casual]
+  - id: linqpad
+    name: LINQPad
+    category: Development/.NET
+    tags: [dotnet, csharp, linq, scratchpad]
+    profiles: [developer]
+    path: apps/dotnet/linqpad.yaml
   - id: mediamonkey
     name: MediaMonkey
     category: Media/Audio
@@ -290,6 +356,13 @@ apps:
     kind: dotfile
     profiles: [developer]
     path: apps/node/npm.yaml
+  - id: nuget-config
+    name: NuGet Config
+    category: Development/.NET
+    tags: [dotnet, nuget, config]
+    kind: dotfile
+    profiles: [developer]
+    path: apps/dotnet/nuget-config.yaml
   - id: nvm
     name: NVM for Windows
     category: Development/Node
@@ -339,6 +412,12 @@ apps:
     tags: [archive, compression, open-source]
     profiles: [casual]
     hidden: true
+  - id: perfview
+    name: PerfView
+    category: Development/.NET
+    tags: [profiler, performance, etw, dotnet, open-source]
+    profiles: [developer]
+    path: apps/dotnet/perfview.yaml
   - id: pidgin
     name: Pidgin
     category: Communication/Chat

@@ -1,0 +1,14 @@
+type: app
+name: JetBrains Rider
+display-name: Rider
+category: Development/IDEs
+tags: [ide, dotnet, csharp, jetbrains]
+description: Cross-platform .NET IDE by JetBrains
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
+links:
+  website: https://www.jetbrains.com/rider/
+install:
+  winget: JetBrains.Rider
+  choco: jetbrains-rider
