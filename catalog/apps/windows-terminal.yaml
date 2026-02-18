@@ -3,6 +3,9 @@ name: Windows Terminal
 category: Development/Terminals
 tags: [terminal, shell, microsoft]
 description: Modern terminal application for command-line users
+profiles: [developer, power-user]
+os: [windows]
+license: MIT
 links:
   website: https://aka.ms/terminal
   docs: https://learn.microsoft.com/en-us/windows/terminal/

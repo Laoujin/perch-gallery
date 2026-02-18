@@ -4,6 +4,9 @@ category: Media/Audio
 tags: [audio, music, player, library]
 description: Music manager and player for Windows
 hidden: true
+profiles: [casual]
+os: [windows]
+license: freeware
 links:
   website: https://getmusicbee.com
 install:

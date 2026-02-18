@@ -3,6 +3,9 @@ name: Firefox
 category: Browsers
 tags: [browser, mozilla, privacy]
 description: Free and open-source web browser by Mozilla
+profiles: [casual, developer]
+os: [windows, linux, macos]
+license: MPL-2.0
 links:
   website: https://www.mozilla.org/firefox/
   docs: https://support.mozilla.org/

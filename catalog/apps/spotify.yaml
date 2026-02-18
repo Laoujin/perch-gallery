@@ -3,6 +3,9 @@ name: Spotify
 category: Media/Players
 tags: [music, streaming, audio]
 description: Digital music streaming service
+profiles: [casual]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://www.spotify.com
 install:

@@ -4,6 +4,9 @@ category: Networking/Protocol
 tags: [ssh, telnet, terminal, remote]
 description: Free SSH and telnet client for Windows
 hidden: true
+profiles: [developer]
+os: [windows]
+license: MIT
 links:
   website: https://www.putty.org
 install:

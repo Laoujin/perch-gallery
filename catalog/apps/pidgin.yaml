@@ -4,6 +4,9 @@ category: Communication/Chat
 tags: [chat, instant-messaging, multi-protocol, open-source]
 description: Universal chat client supporting multiple protocols
 hidden: true
+profiles: [casual]
+os: [windows, linux]
+license: GPL-2.0
 links:
   website: https://pidgin.im
 install:

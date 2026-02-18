@@ -4,6 +4,9 @@ category: Media/Audio
 tags: [audio, music, player, lightweight]
 description: Advanced freeware audio player for Windows
 hidden: true
+profiles: [power-user]
+os: [windows]
+license: freeware
 links:
   website: https://www.foobar2000.org
 install:

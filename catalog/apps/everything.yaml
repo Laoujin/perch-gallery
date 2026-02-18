@@ -3,6 +3,9 @@ name: Everything
 category: Utilities/Search
 tags: [search, files, indexing, windows]
 description: Instant file search utility for Windows
+profiles: [power-user]
+os: [windows]
+license: proprietary
 links:
   website: https://www.voidtools.com
 install:

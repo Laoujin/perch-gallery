@@ -3,6 +3,9 @@ name: Google Chrome
 category: Browsers
 tags: [browser, google, chromium]
 description: Fast, secure web browser built by Google
+profiles: [casual, developer]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://www.google.com/chrome/
 install:

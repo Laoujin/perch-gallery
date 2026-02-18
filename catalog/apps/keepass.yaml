@@ -4,6 +4,9 @@ display-name: KeePass
 category: Security/Passwords
 tags: [passwords, security, encryption, open-source]
 description: Free and open-source password manager
+profiles: [power-user]
+os: [windows, linux, macos]
+license: GPL-2.0
 links:
   website: https://keepass.info
 install:

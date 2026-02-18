@@ -3,6 +3,10 @@ name: zoxide
 category: Development/Shells
 tags: [cli, navigation, cd, shell]
 description: Smarter cd command that learns your most-used directories
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
 links:
   github: https://github.com/ajeetdsouza/zoxide
 install:

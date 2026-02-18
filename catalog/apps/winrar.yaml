@@ -4,6 +4,9 @@ category: Utilities/Compression
 tags: [archive, compression, rar]
 description: File archiver with RAR and ZIP support
 hidden: true
+profiles: [casual]
+os: [windows]
+license: proprietary
 links:
   website: https://www.win-rar.com
 install:

@@ -3,6 +3,9 @@ name: Brave
 category: Browsers
 tags: [browser, privacy, chromium, open-source]
 description: Privacy-focused Chromium-based web browser with built-in ad blocking
+profiles: [casual, power-user]
+os: [windows, linux, macos]
+license: MPL-2.0
 links:
   website: https://brave.com
   github: https://github.com/brave/brave-browser

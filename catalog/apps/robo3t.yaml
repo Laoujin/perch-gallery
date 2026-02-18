@@ -3,6 +3,9 @@ name: Robo 3T
 category: Development/Tools
 tags: [database, mongodb, gui, nosql]
 description: Lightweight GUI for MongoDB with embedded shell
+profiles: [developer]
+os: [windows, linux, macos]
+license: GPL-3.0
 links:
   website: https://robomongo.org
 install:

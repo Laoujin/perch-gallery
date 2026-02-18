@@ -3,6 +3,9 @@ name: GIMP
 category: Media/Graphics
 tags: [graphics, image-editor, open-source]
 description: Free and open-source raster graphics editor
+profiles: [creative]
+os: [windows, linux, macos]
+license: GPL-3.0
 links:
   website: https://www.gimp.org
 install:

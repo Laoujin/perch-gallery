@@ -3,6 +3,10 @@ name: mitmproxy
 category: Networking/Security
 tags: [proxy, http, debugging, ssl, cli]
 description: Interactive HTTPS proxy for debugging and penetration testing
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
 links:
   website: https://mitmproxy.org
   docs: https://docs.mitmproxy.org

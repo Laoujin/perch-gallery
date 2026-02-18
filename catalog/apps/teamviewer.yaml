@@ -4,6 +4,9 @@ category: Networking/Protocol
 tags: [remote-desktop, remote-access, screen-sharing]
 description: Remote desktop access and support software
 hidden: true
+profiles: [casual]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://www.teamviewer.com
 install:

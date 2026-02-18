@@ -3,6 +3,9 @@ name: Opera
 category: Browsers
 tags: [browser, chromium, vpn]
 description: Feature-rich web browser with built-in VPN and ad blocker
+profiles: [casual]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://www.opera.com
 install:

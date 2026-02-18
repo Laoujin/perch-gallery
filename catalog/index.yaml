@@ -6,456 +6,570 @@ apps:
     name: .NET SDK
     category: Development/.NET
     tags: [dotnet, sdk, microsoft, csharp]
+    kind: runtime
+    profiles: [developer]
     path: apps/dotnet/dotnet-sdk.yaml
   - id: 1password
     name: 1Password
     category: Security/Passwords
     tags: [password-manager, security, vault]
+    profiles: [developer, power-user]
   - id: 7zip
     name: 7-Zip
     category: Utilities/Compression
     tags: [archive, compression, open-source]
+    profiles: [casual, power-user]
   - id: aimp
     name: AIMP
     category: Media/Audio
     tags: [audio, music, player]
+    profiles: [casual]
     hidden: true
   - id: anydesk
     name: AnyDesk
     category: Networking/Protocol
     tags: [remote-desktop, remote-access]
+    profiles: [casual]
     hidden: true
   - id: openoffice
     name: Apache OpenOffice
     category: Productivity/Office
     tags: [office, documents, spreadsheet, open-source]
+    profiles: [casual]
     hidden: true
   - id: audacity
     name: Audacity
     category: Media/Audio
     tags: [audio, editor, recording, open-source]
+    profiles: [creative]
   - id: autohotkey
     name: AutoHotkey
     category: Utilities/Productivity
     tags: [automation, scripting, hotkeys, windows]
+    profiles: [developer, power-user]
   - id: bash
     name: Bash
     category: Development/Shells
     tags: [shell, cli, linux, macos]
     kind: dotfile
+    profiles: [developer]
   - id: beyondcompare
     name: Beyond Compare
     category: Development/Diff Tools
     tags: [diff, compare, merge, windows]
+    profiles: [developer]
   - id: blender
     name: Blender
     category: Media/3D
     tags: [3d, modeling, animation, rendering, open-source]
+    profiles: [creative]
   - id: brave
     name: Brave
     category: Browsers
     tags: [browser, privacy, chromium, open-source]
+    profiles: [casual, power-user]
   - id: bun
     name: Bun
     category: Development/Node
     tags: [runtime, bundler, package-manager, javascript]
+    kind: runtime
+    profiles: [developer]
     path: apps/node/bun.yaml
   - id: cmder
     name: Cmder
     category: Development/Terminals
     tags: [terminal, console, windows]
+    profiles: [developer]
   - id: copyq
     name: CopyQ
     category: Utilities/Clipboard
     tags: [clipboard, manager, open-source]
+    profiles: [developer, power-user]
   - id: cursor
     name: Cursor
     category: Development/IDEs
     tags: [ide, ai, editor, vscode-fork]
+    profiles: [developer]
   - id: cutepdf
     name: CutePDF Writer
     category: Utilities/PDF
     tags: [pdf, printer, converter]
+    profiles: [casual]
     hidden: true
   - id: db-browser-sqlite
     name: DB Browser for SQLite
     category: Development/Tools
     tags: [database, sqlite, gui, open-source]
+    profiles: [developer]
   - id: discord
     name: Discord
     category: Communication/Chat
     tags: [chat, voice, gaming, community]
+    profiles: [casual, gamer]
   - id: ditto
     name: Ditto
     category: Utilities/Clipboard
     tags: [clipboard, manager, windows]
+    profiles: [power-user]
   - id: docker
     name: Docker Desktop
     category: Development/Tools
     tags: [containers, docker, devops, virtualization]
+    profiles: [developer]
   - id: dotpeek
     name: dotPeek
     category: Development/.NET
     tags: [dotnet, decompiler, jetbrains, csharp]
+    profiles: [developer]
     path: apps/dotnet/dotpeek.yaml
   - id: dropbox
     name: Dropbox
     category: Utilities/System
     tags: [cloud, sync, storage, backup]
+    profiles: [casual]
   - id: eclipse
     name: Eclipse IDE
     category: Development/IDEs
     tags: [ide, java, open-source]
+    profiles: [developer]
     hidden: true
   - id: epic-games
     name: Epic Games Launcher
     category: Gaming/Stores
     tags: [gaming, store, launcher]
+    profiles: [gamer]
   - id: everything
     name: Everything
     category: Utilities/Search
     tags: [search, files, indexing, windows]
+    profiles: [power-user]
   - id: faststone
     name: FastStone Image Viewer
     category: Media/Graphics
     tags: [image-viewer, graphics, editor]
+    profiles: [casual]
     hidden: true
   - id: filezilla
     name: FileZilla
     category: Networking/FTP
     tags: [ftp, sftp, transfer, windows]
+    profiles: [developer]
   - id: firefox
     name: Firefox
     category: Browsers
     tags: [browser, mozilla, privacy]
+    profiles: [casual, developer]
   - id: foobar2000
     name: foobar2000
     category: Media/Audio
     tags: [audio, music, player, lightweight]
+    profiles: [power-user]
     hidden: true
   - id: foxit-reader
     name: Foxit PDF Reader
     category: Utilities/PDF
     tags: [pdf, reader, annotate]
+    profiles: [casual]
     hidden: true
   - id: fzf
     name: fzf
     category: Development/Tools
     tags: [cli, fuzzy-finder, search, shell]
+    kind: cli-tool
+    profiles: [developer, power-user]
   - id: gimp
     name: GIMP
     category: Media/Graphics
     tags: [graphics, image-editor, open-source]
+    profiles: [creative]
   - id: git
     name: Git
     category: Development/Version Control
     tags: [vcs, cli, developer]
     kind: dotfile
+    profiles: [developer]
   - id: chrome
     name: Google Chrome
     category: Browsers
     tags: [browser, google, chromium]
+    profiles: [casual, developer]
   - id: chrome-canary
     name: Google Chrome Canary
     category: Browsers
     tags: [browser, google, chromium, dev]
+    profiles: [developer]
   - id: google-drive
     name: Google Drive
     category: Utilities/Storage
     tags: [cloud, storage, sync, google]
+    profiles: [casual]
   - id: greenshot
     name: Greenshot
     category: Utilities/Screenshots
     tags: [screenshot, capture, windows]
+    profiles: [developer, power-user]
   - id: handbrake
     name: HandBrake
     category: Media/Video
     tags: [video, converter, transcoder, open-source]
+    profiles: [creative, power-user]
   - id: heidisql
     name: HeidiSQL
     category: Development/Tools
     tags: [database, mysql, postgresql, sql, gui]
+    profiles: [developer]
   - id: hoppscotch
     name: Hoppscotch
     category: Development/Tools
     tags: [api, rest, graphql, testing, open-source]
+    profiles: [developer]
   - id: ilspy
     name: ILSpy
     category: Development/.NET
     tags: [dotnet, decompiler, open-source, csharp]
+    profiles: [developer]
     path: apps/dotnet/ilspy.yaml
   - id: inkscape
     name: Inkscape
     category: Media/Graphics
     tags: [graphics, vector, svg, open-source]
+    profiles: [creative]
   - id: irfanview
     name: IrfanView
     category: Media/Graphics
     tags: [image-viewer, graphics, lightweight]
+    profiles: [casual]
   - id: keepass
     name: KeePass 2
     category: Security/Passwords
     tags: [passwords, security, encryption, open-source]
+    profiles: [power-user]
   - id: krita
     name: Krita
     category: Media/Graphics
     tags: [graphics, digital-painting, illustration, open-source]
+    profiles: [creative]
   - id: launchy
     name: Launchy
     category: Utilities/Productivity
     tags: [launcher, productivity, keyboard, open-source]
+    profiles: [power-user]
     hidden: true
   - id: libreoffice
     name: LibreOffice
     category: Productivity/Office
     tags: [office, documents, spreadsheet, presentation, open-source]
+    profiles: [casual]
   - id: mediamonkey
     name: MediaMonkey
     category: Media/Audio
     tags: [audio, music, player, library, organizer]
+    profiles: [casual]
     hidden: true
   - id: mitmproxy
     name: mitmproxy
     category: Networking/Security
     tags: [proxy, http, debugging, ssl, cli]
+    kind: cli-tool
+    profiles: [developer]
   - id: musicbee
     name: MusicBee
     category: Media/Audio
     tags: [audio, music, player, library]
+    profiles: [casual]
     hidden: true
   - id: notepadplusplus
     name: Notepad++
     category: Development/Editors
     tags: [editor, text, windows]
+    profiles: [developer, power-user]
   - id: npm
     name: npm
     category: Development/Node
     tags: [node, package-manager, cli]
     kind: dotfile
+    profiles: [developer]
     path: apps/node/npm.yaml
   - id: nvm
     name: NVM for Windows
     category: Development/Node
     tags: [node, nvm, version-manager, windows]
+    profiles: [developer]
     path: apps/node/nvm.yaml
   - id: obsidian
     name: Obsidian
     category: Utilities/Productivity
     tags: [notes, markdown, knowledge-base, pkm]
+    profiles: [developer, power-user]
   - id: onedrive
     name: OneDrive
     category: Utilities/Storage
     tags: [cloud, storage, sync, microsoft]
+    profiles: [casual]
   - id: open-shell
     name: Open-Shell
     category: Utilities/System
     tags: [start-menu, shell, customization, open-source]
+    profiles: [power-user]
   - id: openssh
     name: OpenSSH
     category: Networking/Security
     tags: [ssh, remote, cli, microsoft]
+    kind: cli-tool
+    profiles: [developer]
   - id: opera
     name: Opera
     category: Browsers
     tags: [browser, chromium, vpn]
+    profiles: [casual]
   - id: paint-dot-net
     name: Paint.NET
     category: Media/Graphics
     tags: [image-editor, graphics, layers, windows]
+    profiles: [casual, creative]
   - id: pdftk
     name: PDFtk Free
     category: Utilities/Productivity
     tags: [pdf, cli, merge, split]
+    kind: cli-tool
+    profiles: [developer]
   - id: peazip
     name: PeaZip
     category: Utilities/Compression
     tags: [archive, compression, open-source]
+    profiles: [casual]
     hidden: true
   - id: pidgin
     name: Pidgin
     category: Communication/Chat
     tags: [chat, instant-messaging, multi-protocol, open-source]
+    profiles: [casual]
     hidden: true
   - id: powershell
     name: PowerShell
     category: Development/Shells
     tags: [shell, cli, microsoft, scripting]
     kind: dotfile
+    profiles: [developer, power-user]
   - id: powertoys
     name: PowerToys
     category: Utilities/Productivity
     tags: [productivity, utilities, microsoft, windows]
+    profiles: [developer, power-user]
   - id: putty
     name: PuTTY
     category: Networking/Protocol
     tags: [ssh, telnet, terminal, remote]
+    profiles: [developer]
     hidden: true
   - id: python
     name: Python
     category: Development/Tools
     tags: [python, language, scripting]
+    kind: runtime
+    profiles: [developer]
   - id: qbittorrent
     name: qBittorrent
     category: Utilities/Downloads
     tags: [torrent, downloads, open-source]
+    profiles: [casual]
   - id: resharper
     name: ReSharper
     category: Development/.NET
     tags: [dotnet, jetbrains, visual-studio, productivity]
+    profiles: [developer]
     path: apps/dotnet/resharper.yaml
   - id: revo-uninstaller
     name: Revo Uninstaller
     category: Utilities/Uninstallers
     tags: [uninstaller, cleanup, system]
+    profiles: [power-user]
   - id: robo3t
     name: Robo 3T
     category: Development/Tools
     tags: [database, mongodb, gui, nosql]
+    profiles: [developer]
   - id: ruby
     name: Ruby
     category: Development/Tools
     tags: [ruby, language, scripting]
+    kind: runtime
+    profiles: [developer]
   - id: sandboxie-plus
     name: Sandboxie Plus
     category: Security/Passwords
     tags: [sandbox, isolation, security, open-source]
+    profiles: [power-user]
   - id: sharex
     name: ShareX
     category: Utilities/Screenshots
     tags: [screenshot, screen-recording, capture, open-source]
+    profiles: [developer, power-user]
   - id: slack
     name: Slack
     category: Communication/Chat
     tags: [chat, messaging, team, collaboration]
+    profiles: [developer]
   - id: spotify
     name: Spotify
     category: Media/Players
     tags: [music, streaming, audio]
+    profiles: [casual]
   - id: steam
     name: Steam
     category: Gaming
     tags: [gaming, store, valve, launcher]
+    profiles: [gamer]
   - id: sublimetext
     name: Sublime Text
     category: Development/Editors
     tags: [editor, text, windows, macos, linux]
+    profiles: [developer]
   - id: sumatrapdf
     name: SumatraPDF
     category: Utilities/PDF
     tags: [pdf, reader, lightweight, open-source]
+    profiles: [casual]
   - id: sysinternals
     name: Sysinternals Suite
     category: Utilities/System
     tags: [system, diagnostics, microsoft, admin]
+    profiles: [developer, power-user]
   - id: teamviewer
     name: TeamViewer
     category: Networking/Protocol
     tags: [remote-desktop, remote-access, screen-sharing]
+    profiles: [casual]
     hidden: true
   - id: thunderbird
     name: Thunderbird
     category: Communication/Email
     tags: [email, calendar, open-source, mozilla]
+    profiles: [casual, power-user]
   - id: trillian
     name: Trillian
     category: Communication/Chat
     tags: [chat, instant-messaging, multi-protocol]
+    profiles: [casual]
     hidden: true
   - id: vim
     name: Vim
     category: Development/Editors
     tags: [editor, cli, terminal]
     kind: dotfile
+    profiles: [developer]
   - id: visualstudio
     name: Visual Studio
     category: Development/IDEs
     tags: [ide, microsoft, dotnet, windows]
+    profiles: [developer]
   - id: vscode
     name: Visual Studio Code
     category: Development/IDEs
     tags: [editor, ide, microsoft]
+    profiles: [developer]
   - id: vlc
     name: VLC
     category: Media/Players
     tags: [media, video, audio, open-source]
+    profiles: [casual]
   - id: winamp
     name: Winamp
     category: Media/Audio
     tags: [audio, music, player, classic]
+    profiles: [casual]
     hidden: true
   - id: windirstat
     name: WinDirStat
     category: File Management
     tags: [disk-usage, visualization, cleanup, open-source]
+    profiles: [power-user]
   - id: windows-terminal
     name: Windows Terminal
     category: Development/Terminals
     tags: [terminal, shell, microsoft]
+    profiles: [developer, power-user]
   - id: winmerge
     name: WinMerge
     category: Development/Diff Tools
     tags: [diff, merge, comparison, open-source]
+    profiles: [developer]
   - id: winrar
     name: WinRAR
     category: Utilities/Compression
     tags: [archive, compression, rar]
+    profiles: [casual]
     hidden: true
   - id: winscp
     name: WinSCP
     category: Networking/FTP
     tags: [ftp, sftp, scp, file-transfer, open-source]
+    profiles: [developer, power-user]
   - id: wireshark
     name: Wireshark
     category: Networking/Security
     tags: [network, packet-capture, analysis, open-source]
+    profiles: [developer]
   - id: wiztree
     name: WizTree
     category: Utilities/Storage
     tags: [disk-space, analyzer, storage]
+    profiles: [power-user]
   - id: wsl
     name: WSL
     category: System/Virtualization
     tags: [wsl, linux, microsoft, windows]
     kind: dotfile
+    profiles: [developer]
   - id: xnview
     name: XnView
     category: Media/Graphics
     tags: [image-viewer, graphics, batch-processing]
+    profiles: [casual]
     hidden: true
   - id: zoom
     name: Zoom
     category: Communication/Video
     tags: [video, meetings, conferencing]
+    profiles: [casual]
   - id: zoxide
     name: zoxide
     category: Development/Shells
     tags: [cli, navigation, cd, shell]
+    kind: cli-tool
+    profiles: [developer]
   - id: zsh
     name: Zsh
     category: Development/Shells
     tags: [shell, cli, linux, macos]
     kind: dotfile
+    profiles: [developer]
 fonts:
   - id: cascadia-code-nf
     name: Cascadia Code Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, ligatures, microsoft]
+    profiles: [developer]
   - id: fira-code
     name: Fira Code
     category: Fonts/Programming
     tags: [monospace, ligatures, open-source]
+    profiles: [developer]
   - id: hack-nf
     name: Hack Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, open-source]
+    profiles: [developer]
   - id: jetbrains-mono-nf
     name: JetBrains Mono Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, ligatures, jetbrains]
+    profiles: [developer]
   - id: meslo-nf
     name: Meslo Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, open-source]
+    profiles: [developer]
 tweaks:
   - id: add-cab-install-context-menu
     name: Add CAB Install Context Menu

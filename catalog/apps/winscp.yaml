@@ -3,6 +3,9 @@ name: WinSCP
 category: Networking/FTP
 tags: [ftp, sftp, scp, file-transfer, open-source]
 description: Free SFTP, SCP, S3, and FTP client for Windows
+profiles: [developer, power-user]
+os: [windows]
+license: GPL-3.0
 links:
   website: https://winscp.net
   github: https://github.com/winscp/winscp

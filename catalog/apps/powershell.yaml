@@ -4,6 +4,9 @@ kind: dotfile
 category: Development/Shells
 tags: [shell, cli, microsoft, scripting]
 description: Cross-platform task automation and configuration management
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: MIT
 links:
   website: https://learn.microsoft.com/en-us/powershell/
   docs: https://learn.microsoft.com/en-us/powershell/scripting/overview

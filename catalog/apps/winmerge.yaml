@@ -3,6 +3,9 @@ name: WinMerge
 category: Development/Diff Tools
 tags: [diff, merge, comparison, open-source]
 description: Free and open-source differencing and merging tool for Windows
+profiles: [developer]
+os: [windows]
+license: GPL-2.0
 links:
   website: https://winmerge.org
   github: https://github.com/WinMerge/winmerge

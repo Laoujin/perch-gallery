@@ -3,6 +3,9 @@ name: Cmder
 category: Development/Terminals
 tags: [terminal, console, windows]
 description: Portable console emulator for Windows based on ConEmu
+profiles: [developer]
+os: [windows]
+license: MIT
 links:
   website: https://cmder.app
   github: https://github.com/cmderdev/cmder

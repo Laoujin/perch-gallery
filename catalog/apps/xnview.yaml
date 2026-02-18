@@ -4,6 +4,9 @@ category: Media/Graphics
 tags: [image-viewer, graphics, batch-processing]
 description: Image viewer, browser, and converter with batch processing
 hidden: true
+profiles: [casual]
+os: [windows, linux, macos]
+license: freeware
 links:
   website: https://www.xnview.com
 install:

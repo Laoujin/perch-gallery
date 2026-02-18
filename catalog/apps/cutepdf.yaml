@@ -5,6 +5,9 @@ category: Utilities/PDF
 tags: [pdf, printer, converter]
 description: Free PDF creation tool that installs as a virtual printer
 hidden: true
+profiles: [casual]
+os: [windows]
+license: freeware
 links:
   website: https://www.cutepdf.com
 install:

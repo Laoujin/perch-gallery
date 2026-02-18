@@ -3,6 +3,9 @@ name: Slack
 category: Communication/Chat
 tags: [chat, messaging, team, collaboration]
 description: Business messaging and collaboration platform
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://slack.com
 install:

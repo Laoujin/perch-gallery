@@ -3,6 +3,9 @@ name: WinDirStat
 category: File Management
 tags: [disk-usage, visualization, cleanup, open-source]
 description: Disk usage statistics viewer and cleanup tool
+profiles: [power-user]
+os: [windows]
+license: GPL-2.0
 links:
   website: https://windirstat.net
 install:

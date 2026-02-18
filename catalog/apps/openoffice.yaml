@@ -5,6 +5,9 @@ category: Productivity/Office
 tags: [office, documents, spreadsheet, open-source]
 description: Open-source office productivity suite
 hidden: true
+profiles: [casual]
+os: [windows, linux, macos]
+license: Apache-2.0
 links:
   website: https://www.openoffice.org
 install:

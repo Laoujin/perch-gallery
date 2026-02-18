@@ -3,6 +3,9 @@ name: AutoHotkey
 category: Utilities/Productivity
 tags: [automation, scripting, hotkeys, windows]
 description: Scripting language for desktop automation and custom hotkeys
+profiles: [developer, power-user]
+os: [windows]
+license: GPL-2.0
 links:
   website: https://www.autohotkey.com
   docs: https://www.autohotkey.com/docs/

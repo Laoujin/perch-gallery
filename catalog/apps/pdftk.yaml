@@ -3,6 +3,10 @@ name: PDFtk Free
 category: Utilities/Productivity
 tags: [pdf, cli, merge, split]
 description: Command-line tool for manipulating PDF documents
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux]
+license: GPL-2.0
 links:
   website: https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/
 install:

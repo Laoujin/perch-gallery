@@ -4,6 +4,9 @@ kind: dotfile
 category: System/Virtualization
 tags: [wsl, linux, microsoft, windows]
 description: Windows Subsystem for Linux configuration
+profiles: [developer]
+os: [windows]
+license: MIT
 config:
   links:
     - source: .wslconfig

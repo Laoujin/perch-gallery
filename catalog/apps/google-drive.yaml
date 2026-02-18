@@ -3,6 +3,9 @@ name: Google Drive
 category: Utilities/Storage
 tags: [cloud, storage, sync, google]
 description: Cloud storage and file synchronization service by Google
+profiles: [casual]
+os: [windows, macos]
+license: proprietary
 links:
   website: https://drive.google.com
 install:

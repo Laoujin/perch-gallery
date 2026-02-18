@@ -3,6 +3,9 @@ name: VLC
 category: Media/Players
 tags: [media, video, audio, open-source]
 description: Free and open-source cross-platform multimedia player
+profiles: [casual]
+os: [windows, linux, macos]
+license: GPL-2.0
 links:
   website: https://www.videolan.org/vlc/
   docs: https://wiki.videolan.org/Documentation:Documentation/

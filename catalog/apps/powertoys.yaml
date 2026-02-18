@@ -3,6 +3,9 @@ name: PowerToys
 category: Utilities/Productivity
 tags: [productivity, utilities, microsoft, windows]
 description: Windows system utilities to maximize productivity
+profiles: [developer, power-user]
+os: [windows]
+license: MIT
 links:
   website: https://learn.microsoft.com/en-us/windows/powertoys/
   docs: https://learn.microsoft.com/en-us/windows/powertoys/

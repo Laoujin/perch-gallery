@@ -3,6 +3,8 @@ name: Hack Nerd Font
 category: Fonts/Programming
 tags: [monospace, nerd-font, open-source]
 description: Hack typeface with Nerd Font patches
+profiles: [developer]
+license: MIT
 preview-text: "if (x != null) { return x; }"
 install:
   choco: nerd-fonts-hack

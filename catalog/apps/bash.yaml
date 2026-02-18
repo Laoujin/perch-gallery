@@ -4,6 +4,9 @@ kind: dotfile
 category: Development/Shells
 tags: [shell, cli, linux, macos]
 description: GNU Bourne-Again SHell
+profiles: [developer]
+os: [linux, macos]
+license: GPL-3.0
 links:
   website: https://www.gnu.org/software/bash/
 config:

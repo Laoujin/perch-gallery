@@ -3,6 +3,9 @@ name: qBittorrent
 category: Utilities/Downloads
 tags: [torrent, downloads, open-source]
 description: Free and open-source BitTorrent client
+profiles: [casual]
+os: [windows, linux, macos]
+license: GPL-2.0
 links:
   website: https://www.qbittorrent.org
   github: https://github.com/qbittorrent/qBittorrent

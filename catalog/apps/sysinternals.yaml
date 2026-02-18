@@ -3,6 +3,9 @@ name: Sysinternals Suite
 category: Utilities/System
 tags: [system, diagnostics, microsoft, admin]
 description: Collection of advanced Windows system utilities by Mark Russinovich
+profiles: [developer, power-user]
+os: [windows]
+license: proprietary
 links:
   website: https://learn.microsoft.com/en-us/sysinternals/
 install:

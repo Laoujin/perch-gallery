@@ -3,6 +3,10 @@ name: Bun
 category: Development/Node
 tags: [runtime, bundler, package-manager, javascript]
 description: All-in-one JavaScript runtime, bundler, transpiler, and package manager
+kind: runtime
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
 links:
   website: https://bun.sh
   github: https://github.com/oven-sh/bun

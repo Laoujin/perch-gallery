@@ -3,6 +3,9 @@ name: Google Chrome Canary
 category: Browsers
 tags: [browser, google, chromium, dev]
 description: Nightly build of Chrome for developers and early adopters
+profiles: [developer]
+os: [windows, macos]
+license: proprietary
 links:
   website: https://www.google.com/chrome/canary/
 install:

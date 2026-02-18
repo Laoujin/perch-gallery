@@ -3,6 +3,9 @@ name: Greenshot
 category: Utilities/Screenshots
 tags: [screenshot, capture, windows]
 description: Light-weight screenshot tool for Windows
+profiles: [developer, power-user]
+os: [windows]
+license: GPL-3.0
 links:
   website: https://getgreenshot.org
   github: https://github.com/greenshot/greenshot

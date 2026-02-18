@@ -4,6 +4,10 @@ display-name: OpenSSH (Preview)
 category: Networking/Security
 tags: [ssh, remote, cli, microsoft]
 description: Microsoft's preview build of OpenSSH for Windows
+kind: cli-tool
+profiles: [developer]
+os: [windows, linux, macos]
+license: BSD-2-Clause
 links:
   github: https://github.com/PowerShell/openssh-portable
 install:

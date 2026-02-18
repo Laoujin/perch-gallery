@@ -3,6 +3,9 @@ name: 7-Zip
 category: Utilities/Compression
 tags: [archive, compression, open-source]
 description: Free and open-source file archiver
+profiles: [casual, power-user]
+os: [windows, linux]
+license: LGPL-2.1
 links:
   website: https://www.7-zip.org
 install:

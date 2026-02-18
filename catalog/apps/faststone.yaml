@@ -5,6 +5,9 @@ category: Media/Graphics
 tags: [image-viewer, graphics, editor]
 description: Fast and compact image viewer, editor, and converter
 hidden: true
+profiles: [casual]
+os: [windows]
+license: freeware
 links:
   website: https://www.faststone.org
 install:

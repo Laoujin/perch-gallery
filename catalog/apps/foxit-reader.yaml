@@ -5,6 +5,9 @@ category: Utilities/PDF
 tags: [pdf, reader, annotate]
 description: Lightweight PDF reader with annotation and form-filling support
 hidden: true
+profiles: [casual]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://www.foxit.com/pdf-reader/
 install:

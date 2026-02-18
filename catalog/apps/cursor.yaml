@@ -3,6 +3,9 @@ name: Cursor
 category: Development/IDEs
 tags: [ide, ai, editor, vscode-fork]
 description: AI-powered code editor built on VS Code
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://cursor.com
 install:

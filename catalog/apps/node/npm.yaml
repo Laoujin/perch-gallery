@@ -4,6 +4,9 @@ kind: dotfile
 category: Development/Node
 tags: [node, package-manager, cli]
 description: Node.js package manager configuration
+profiles: [developer]
+os: [windows, linux, macos]
+license: Artistic-2.0
 config:
   links:
     - source: .npmrc

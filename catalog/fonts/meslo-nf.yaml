@@ -3,6 +3,8 @@ name: Meslo Nerd Font
 category: Fonts/Programming
 tags: [monospace, nerd-font, open-source]
 description: Customized version of Apple's Menlo with Nerd Font patches
+profiles: [developer]
+license: Apache-2.0
 preview-text: "$ git status | grep modified"
 install:
   choco: nerd-fonts-meslo

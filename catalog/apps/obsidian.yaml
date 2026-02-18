@@ -3,6 +3,9 @@ name: Obsidian
 category: Utilities/Productivity
 tags: [notes, markdown, knowledge-base, pkm]
 description: Private and flexible markdown-based knowledge base
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://obsidian.md
   docs: https://help.obsidian.md

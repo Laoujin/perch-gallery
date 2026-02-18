@@ -3,6 +3,9 @@ name: Wireshark
 category: Networking/Security
 tags: [network, packet-capture, analysis, open-source]
 description: Network protocol analyzer for traffic capture and inspection
+profiles: [developer]
+os: [windows, linux, macos]
+license: GPL-2.0
 links:
   website: https://www.wireshark.org
   docs: https://www.wireshark.org/docs/

@@ -3,6 +3,9 @@ name: Sandboxie Plus
 category: Security/Passwords
 tags: [sandbox, isolation, security, open-source]
 description: Sandbox-based isolation program for running applications safely
+profiles: [power-user]
+os: [windows]
+license: GPL-3.0
 links:
   website: https://sandboxie-plus.com
   github: https://github.com/sandboxie-plus/Sandboxie

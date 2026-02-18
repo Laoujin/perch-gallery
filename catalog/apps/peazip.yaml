@@ -4,6 +4,9 @@ category: Utilities/Compression
 tags: [archive, compression, open-source]
 description: Free and open-source file archiver and compressor
 hidden: true
+profiles: [casual]
+os: [windows, linux]
+license: LGPL-3.0
 links:
   website: https://peazip.github.io
   github: https://github.com/peazip/PeaZip

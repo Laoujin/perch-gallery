@@ -3,6 +3,9 @@ name: Steam
 category: Gaming
 tags: [gaming, store, valve, launcher]
 description: Digital distribution platform for PC gaming
+profiles: [gamer]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://store.steampowered.com
 install:

@@ -3,6 +3,9 @@ name: Beyond Compare
 category: Development/Diff Tools
 tags: [diff, compare, merge, windows]
 description: File and folder comparison utility
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://www.scootersoftware.com
 install:

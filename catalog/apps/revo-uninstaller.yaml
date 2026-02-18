@@ -3,6 +3,9 @@ name: Revo Uninstaller
 category: Utilities/Uninstallers
 tags: [uninstaller, cleanup, system]
 description: Advanced uninstaller with leftover removal and system cleaning tools
+profiles: [power-user]
+os: [windows]
+license: freeware
 links:
   website: https://www.revouninstaller.com
 install:

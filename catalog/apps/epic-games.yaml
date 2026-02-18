@@ -4,6 +4,9 @@ display-name: Epic Games
 category: Gaming/Stores
 tags: [gaming, store, launcher]
 description: Digital distribution platform and game launcher by Epic Games
+profiles: [gamer]
+os: [windows, macos]
+license: proprietary
 links:
   website: https://store.epicgames.com
 install:

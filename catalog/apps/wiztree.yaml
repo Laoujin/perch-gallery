@@ -3,6 +3,9 @@ name: WizTree
 category: Utilities/Storage
 tags: [disk-space, analyzer, storage]
 description: Fast disk space analyzer that reads the MFT directly
+profiles: [power-user]
+os: [windows]
+license: freeware
 links:
   website: https://www.diskanalyzer.com
 install:

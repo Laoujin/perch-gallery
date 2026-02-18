@@ -3,6 +3,9 @@ name: ShareX
 category: Utilities/Screenshots
 tags: [screenshot, screen-recording, capture, open-source]
 description: Screen capture, file sharing, and productivity tool
+profiles: [developer, power-user]
+os: [windows]
+license: GPL-3.0
 links:
   website: https://getsharex.com
   github: https://github.com/ShareX/ShareX

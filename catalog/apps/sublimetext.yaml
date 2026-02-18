@@ -3,6 +3,9 @@ name: Sublime Text
 category: Development/Editors
 tags: [editor, text, windows, macos, linux]
 description: Sophisticated text editor for code, markup and prose
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://www.sublimetext.com
 install:

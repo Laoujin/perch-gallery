@@ -4,6 +4,10 @@ display-name: Ruby with DevKit
 category: Development/Tools
 tags: [ruby, language, scripting]
 description: Dynamic programming language with elegant syntax
+kind: runtime
+profiles: [developer]
+os: [windows, linux, macos]
+license: BSD-2-Clause
 links:
   website: https://www.ruby-lang.org
   docs: https://www.ruby-lang.org/en/documentation/

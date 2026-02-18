@@ -5,6 +5,9 @@ category: Development/IDEs
 tags: [ide, java, open-source]
 description: Open-source IDE primarily for Java development
 hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: EPL-2.0
 links:
   website: https://www.eclipse.org
 install:

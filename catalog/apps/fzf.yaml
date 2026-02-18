@@ -3,6 +3,10 @@ name: fzf
 category: Development/Tools
 tags: [cli, fuzzy-finder, search, shell]
 description: General-purpose command-line fuzzy finder
+kind: cli-tool
+profiles: [developer, power-user]
+os: [windows, linux, macos]
+license: MIT
 links:
   github: https://github.com/junegunn/fzf
 install:

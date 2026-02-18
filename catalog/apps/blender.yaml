@@ -3,6 +3,9 @@ name: Blender
 category: Media/3D
 tags: [3d, modeling, animation, rendering, open-source]
 description: Free and open-source 3D creation suite
+profiles: [creative]
+os: [windows, linux, macos]
+license: GPL-3.0
 links:
   website: https://www.blender.org
   github: https://github.com/blender/blender

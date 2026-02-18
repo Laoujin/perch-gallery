@@ -3,6 +3,9 @@ name: IrfanView
 category: Media/Graphics
 tags: [image-viewer, graphics, lightweight]
 description: Fast and compact image viewer and converter
+profiles: [casual]
+os: [windows]
+license: freeware
 links:
   website: https://www.irfanview.com
 install:

@@ -3,6 +3,9 @@ name: FileZilla
 category: Networking/FTP
 tags: [ftp, sftp, transfer, windows]
 description: Free FTP, FTPS and SFTP client
+profiles: [developer]
+os: [windows, linux, macos]
+license: GPL-2.0
 links:
   website: https://filezilla-project.org
 install:

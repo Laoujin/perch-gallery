@@ -4,6 +4,9 @@ display-name: VS Code
 category: Development/IDEs
 tags: [editor, ide, microsoft]
 description: Lightweight but powerful source code editor
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
 links:
   website: https://code.visualstudio.com
   docs: https://code.visualstudio.com/docs

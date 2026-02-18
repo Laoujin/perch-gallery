@@ -3,6 +3,9 @@ name: HandBrake
 category: Media/Video
 tags: [video, converter, transcoder, open-source]
 description: Open-source video transcoder for converting video formats
+profiles: [creative, power-user]
+os: [windows, linux, macos]
+license: GPL-2.0
 links:
   website: https://handbrake.fr
   github: https://github.com/HandBrake/HandBrake

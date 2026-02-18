@@ -3,6 +3,10 @@ name: Python
 category: Development/Tools
 tags: [python, language, scripting]
 description: Popular general-purpose programming language
+kind: runtime
+profiles: [developer]
+os: [windows, linux, macos]
+license: PSF-2.0
 links:
   website: https://www.python.org
   docs: https://docs.python.org/3/

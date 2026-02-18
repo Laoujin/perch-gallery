@@ -3,6 +3,9 @@ name: Notepad++
 category: Development/Editors
 tags: [editor, text, windows]
 description: Free source code editor and Notepad replacement
+profiles: [developer, power-user]
+os: [windows]
+license: GPL-3.0
 links:
   website: https://notepad-plus-plus.org
   github: https://github.com/notepad-plus-plus/notepad-plus-plus

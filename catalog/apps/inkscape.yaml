@@ -3,6 +3,9 @@ name: Inkscape
 category: Media/Graphics
 tags: [graphics, vector, svg, open-source]
 description: Free and open-source vector graphics editor
+profiles: [creative]
+os: [windows, linux, macos]
+license: GPL-2.0
 links:
   website: https://inkscape.org
   github: https://github.com/inkscape/inkscape

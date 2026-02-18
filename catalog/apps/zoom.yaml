@@ -3,6 +3,9 @@ name: Zoom
 category: Communication/Video
 tags: [video, meetings, conferencing]
 description: Video conferencing and online meeting platform
+profiles: [casual]
+os: [windows, linux, macos]
+license: proprietary
 links:
   website: https://zoom.us
 install:

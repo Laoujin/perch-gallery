@@ -4,6 +4,9 @@ category: Communication/Chat
 tags: [chat, instant-messaging, multi-protocol]
 description: Multi-protocol instant messaging client
 hidden: true
+profiles: [casual]
+os: [windows]
+license: proprietary
 links:
   website: https://www.trillian.im
 install:

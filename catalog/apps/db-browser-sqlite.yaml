@@ -3,6 +3,9 @@ name: DB Browser for SQLite
 category: Development/Tools
 tags: [database, sqlite, gui, open-source]
 description: Visual tool for creating, designing, and editing SQLite databases
+profiles: [developer]
+os: [windows, linux, macos]
+license: GPL-3.0
 links:
   website: https://sqlitebrowser.org
   github: https://github.com/sqlitebrowser/sqlitebrowser

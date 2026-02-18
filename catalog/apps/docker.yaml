@@ -3,6 +3,9 @@ name: Docker Desktop
 category: Development/Tools
 tags: [containers, docker, devops, virtualization]
 description: Container platform for building, sharing, and running applications
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
 links:
   website: https://www.docker.com/products/docker-desktop/
   docs: https://docs.docker.com/desktop/

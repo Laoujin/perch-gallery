@@ -3,6 +3,9 @@ name: CopyQ
 category: Utilities/Clipboard
 tags: [clipboard, manager, open-source]
 description: Advanced clipboard manager with editing and scripting
+profiles: [developer, power-user]
+os: [windows, linux]
+license: GPL-3.0
 links:
   website: https://hluk.github.io/CopyQ/
   github: https://github.com/hluk/CopyQ

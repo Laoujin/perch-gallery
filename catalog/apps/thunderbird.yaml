@@ -3,6 +3,9 @@ name: Thunderbird
 category: Communication/Email
 tags: [email, calendar, open-source, mozilla]
 description: Free and open-source email client by Mozilla
+profiles: [casual, power-user]
+os: [windows, linux, macos]
+license: MPL-2.0
 links:
   website: https://www.thunderbird.net
 install:
