@@ -7,6 +7,7 @@ description: GNU Bourne-Again SHell
 profiles: [developer]
 os: [windows, linux, macos]
 license: GPL-3.0
+suggests: [bat, eza, fd, fzf, lsd, ripgrep, sd, glow, navi, tokei, zoxide, atuin]
 links:
   website: https://www.gnu.org/software/bash/
 config:

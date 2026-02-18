@@ -1,0 +1,14 @@
+type: app
+name: Fiddler Classic
+category: Networking/Security
+tags: [network, http, debugging, proxy, web]
+description: HTTP debugging proxy for capturing and inspecting web traffic
+profiles: [developer]
+os: [windows]
+license: proprietary
+alternatives: [wireshark, mitmproxy]
+links:
+  website: https://www.telerik.com/fiddler/fiddler-classic
+  docs: https://docs.telerik.com/fiddler/
+install:
+  choco: fiddler

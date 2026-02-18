@@ -1,6 +1,6 @@
 type: app
 name: MSYS2
-category: Development/Tools
+category: Development/Build Tools
 tags: [cpp, gnu, posix, windows, open-source]
 description: Software distribution and building platform for Windows with pacman
 profiles: [developer]

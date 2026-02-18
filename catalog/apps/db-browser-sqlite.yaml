@@ -1,6 +1,6 @@
 type: app
 name: DB Browser for SQLite
-category: Development/Tools
+category: Development/Databases
 tags: [database, sqlite, gui, open-source]
 description: Visual tool for creating, designing, and editing SQLite databases
 profiles: [developer]

@@ -1,6 +1,6 @@
 type: app
 name: btop
-category: Utilities/System
+category: Utilities/System Monitors
 tags: [cli, monitor, system, tui]
 description: Resource monitor showing usage and stats for CPU, memory, disks, and network
 kind: cli-tool

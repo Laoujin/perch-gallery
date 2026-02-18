@@ -1,7 +1,7 @@
 type: app
 name: Ruby
 display-name: Ruby with DevKit
-category: Development/Tools
+category: Development/Languages
 tags: [ruby, language, scripting]
 description: Dynamic programming language with elegant syntax
 kind: runtime

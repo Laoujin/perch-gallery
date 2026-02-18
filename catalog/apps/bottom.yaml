@@ -1,6 +1,6 @@
 type: app
 name: bottom
-category: Utilities/System
+category: Utilities/System Monitors
 tags: [cli, monitor, system, tui, rust]
 description: Graphical process/system monitor for the terminal
 kind: cli-tool

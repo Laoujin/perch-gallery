@@ -7,6 +7,7 @@ description: Z shell configuration
 profiles: [developer]
 os: [linux, macos]
 license: MIT
+suggests: [bat, eza, fd, fzf, lsd, ripgrep, sd, glow, navi, tokei, zoxide, atuin]
 links:
   website: https://www.zsh.org
 config:

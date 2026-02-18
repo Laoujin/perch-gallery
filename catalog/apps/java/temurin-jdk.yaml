@@ -2,7 +2,7 @@ type: app
 name: Eclipse Temurin JDK
 display-name: Temurin JDK
 kind: runtime
-category: Development/Tools
+category: Development/Languages
 tags: [java, jdk, runtime, open-source]
 description: Open-source Java runtime from the Eclipse Adoptium project
 profiles: [developer]

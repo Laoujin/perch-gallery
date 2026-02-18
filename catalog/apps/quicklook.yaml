@@ -1,6 +1,6 @@
 type: app
 name: QuickLook
-category: Utilities
+category: File Management
 tags: [preview, spacebar, file-viewer]
 description: Bring macOS Quick Look to Windows — press space to preview any file
 profiles: [power-user]

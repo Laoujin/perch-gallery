@@ -1,6 +1,6 @@
 type: app
 name: Everything
-category: Utilities/Search
+category: File Management
 tags: [search, files, indexing, windows]
 description: Instant file search utility for Windows
 profiles: [power-user]

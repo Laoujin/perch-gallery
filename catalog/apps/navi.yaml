@@ -1,6 +1,6 @@
 type: app
 name: navi
-category: Development/Tools
+category: Development/CLI Tools
 tags: [cli, cheatsheet, tui, shell, rust]
 description: Interactive cheatsheet tool for the command-line
 kind: cli-tool

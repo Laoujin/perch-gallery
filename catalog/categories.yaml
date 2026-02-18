@@ -13,7 +13,10 @@ Development:
     Diff Tools: { sort: 60 }
     .NET: { sort: 70 }
     Node: { sort: 80 }
+    CLI Tools: { sort: 85 }
+    Languages: { sort: 88 }
     Tools: { sort: 90 }
+    Build Tools: { sort: 92 }
     API Tools: { sort: 100 }
     Databases: { sort: 110 }
     Containers: { sort: 120 }
@@ -46,6 +49,7 @@ Networking:
   children:
     FTP: { sort: 10 }
     Security: { sort: 20 }
+    Remote Access: { sort: 25 }
     Protocol: { sort: 30 }
 
 Productivity:
@@ -61,6 +65,7 @@ Utilities:
     Productivity: { sort: 30 }
     Screenshots: { sort: 40 }
     Search: { sort: 50 }
+    System Monitors: { sort: 55 }
     System: { sort: 60 }
     PDF: { sort: 70 }
     Downloads: { sort: 80 }
@@ -70,6 +75,8 @@ Utilities:
 Security:
   sort: 800
   children:
+    Encryption: { sort: 5 }
+    Sandboxing: { sort: 8 }
     Passwords: { sort: 10 }
     Firmware: { sort: 20 }
     Defender: { sort: 30 }

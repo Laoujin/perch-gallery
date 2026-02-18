@@ -1,6 +1,6 @@
 type: app
 name: Sandboxie Plus
-category: Security/Passwords
+category: Security/Sandboxing
 tags: [sandbox, isolation, security, open-source]
 description: Sandbox-based isolation program for running applications safely
 profiles: [power-user]

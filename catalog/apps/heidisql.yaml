@@ -1,6 +1,6 @@
 type: app
 name: HeidiSQL
-category: Development/Tools
+category: Development/Databases
 tags: [database, mysql, postgresql, sql, gui]
 description: Lightweight client for managing MySQL, PostgreSQL, SQL Server, and SQLite
 profiles: [developer]

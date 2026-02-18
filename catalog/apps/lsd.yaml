@@ -1,6 +1,6 @@
 type: app
 name: lsd
-category: Development/Tools
+category: Development/CLI Tools
 tags: [cli, ls, files, rust]
 description: Next-gen ls command with colors, icons, and tree view
 kind: cli-tool

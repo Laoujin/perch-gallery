@@ -1,6 +1,6 @@
 type: app
 name: Dropbox
-category: Utilities/System
+category: Utilities/Storage
 tags: [cloud, sync, storage, backup]
 description: Cloud file storage and synchronization service
 profiles: [casual]

@@ -1,6 +1,6 @@
 type: app
 name: eza
-category: Development/Tools
+category: Development/CLI Tools
 tags: [cli, ls, files, rust]
 description: Modern replacement for ls with colors, icons, and Git integration
 kind: cli-tool

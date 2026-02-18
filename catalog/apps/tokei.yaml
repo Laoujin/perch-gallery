@@ -1,6 +1,6 @@
 type: app
 name: tokei
-category: Development/Tools
+category: Development/CLI Tools
 tags: [cli, code, statistics, loc, rust]
 description: Count lines of code quickly across many languages
 kind: cli-tool

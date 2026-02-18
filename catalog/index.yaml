@@ -847,7 +847,7 @@ apps:
     hidden: true
   - id: powershell
     name: PowerShell
-    category: Development/Languages
+    category: Development/Shells
     tags: [shell, cli, microsoft, scripting]
     kind: dotfile
     profiles: [developer, power-user]

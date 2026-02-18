@@ -1,6 +1,6 @@
 type: app
 name: fd
-category: Development/Tools
+category: Development/CLI Tools
 tags: [cli, find, search, rust]
 description: Simple, fast, and user-friendly alternative to find
 kind: cli-tool

@@ -1,6 +1,6 @@
 type: app
 name: fzf
-category: Development/Tools
+category: Development/CLI Tools
 tags: [cli, fuzzy-finder, search, shell]
 description: General-purpose command-line fuzzy finder
 kind: cli-tool

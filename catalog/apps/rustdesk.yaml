@@ -1,6 +1,6 @@
 type: app
 name: RustDesk
-category: Networking
+category: Networking/Remote Access
 tags: [remote-desktop, self-hosted, open-source, rust]
 description: Open-source remote desktop with self-hosted server option
 hidden: true

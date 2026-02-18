@@ -1,6 +1,6 @@
 type: app
 name: procs
-category: Utilities/System
+category: Utilities/System Monitors
 tags: [cli, process, ps, rust]
 description: Modern replacement for ps with color and keyword search
 kind: cli-tool

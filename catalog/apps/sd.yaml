@@ -1,6 +1,6 @@
 type: app
 name: sd
-category: Development/Tools
+category: Development/CLI Tools
 tags: [cli, sed, find-replace, rust]
 description: Intuitive find and replace CLI using regex and string-literal modes
 kind: cli-tool
