@@ -1,0 +1,16 @@
+type: app
+name: GitUI
+category: Development/Version Control
+tags: [cli, git, tui, rust]
+description: Blazing fast terminal UI for git written in Rust
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+alternatives: [lazygit]
+links:
+  github: https://github.com/extrawurst/gitui
+install:
+  winget: Extrawurst.gitui
+  choco: gitui

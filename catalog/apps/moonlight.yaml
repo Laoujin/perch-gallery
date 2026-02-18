@@ -1,0 +1,16 @@
+type: app
+name: Moonlight
+category: Gaming/Streaming
+tags: [gaming, streaming, remote-play, client]
+description: Open-source game streaming client — connect to Sunshine or NVIDIA GameStream host
+hidden: true
+profiles: [gamer]
+os: [windows, linux, macos]
+license: GPL-3.0
+suggests: [sunshine]
+links:
+  website: https://moonlight-stream.org
+  github: https://github.com/moonlight-stream/moonlight-qt
+install:
+  winget: MoonlightGameStreamingProject.Moonlight
+  choco: moonlight-qt

@@ -1,0 +1,14 @@
+type: app
+name: Deskflow
+category: Utilities
+tags: [kvm, mouse, keyboard, sharing]
+description: Share one mouse and keyboard across multiple computers (Synergy fork)
+hidden: true
+profiles: [power-user]
+os: [windows, linux, macos]
+license: GPL-2.0
+links:
+  website: https://deskflow.org
+  github: https://github.com/deskflow/deskflow
+install:
+  winget: deskflow.deskflow

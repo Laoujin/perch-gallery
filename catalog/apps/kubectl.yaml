@@ -1,0 +1,18 @@
+type: app
+name: kubectl
+category: Development/Containers
+tags: [cli, kubernetes, k8s, cloud, devops]
+description: Kubernetes command-line tool for cluster management
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+suggests: [helm]
+links:
+  website: https://kubernetes.io
+  docs: https://kubernetes.io/docs/reference/kubectl/
+  github: https://github.com/kubernetes/kubectl
+install:
+  winget: Kubernetes.kubectl
+  choco: kubernetes-cli

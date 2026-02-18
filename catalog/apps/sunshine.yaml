@@ -1,0 +1,16 @@
+type: app
+name: Sunshine
+category: Gaming/Streaming
+tags: [gaming, streaming, remote-play, moonlight]
+description: Self-hosted game stream host — pair with Moonlight for low-latency remote play
+hidden: true
+profiles: [gamer]
+os: [windows, linux, macos]
+license: GPL-3.0
+suggests: [moonlight]
+links:
+  website: https://app.lizardbyte.dev/Sunshine
+  github: https://github.com/LizardByte/Sunshine
+install:
+  winget: LizardByte.Sunshine
+  choco: sunshine

@@ -1,0 +1,16 @@
+type: app
+name: RustDesk
+category: Networking
+tags: [remote-desktop, self-hosted, open-source, rust]
+description: Open-source remote desktop with self-hosted server option
+hidden: true
+profiles: [power-user]
+os: [windows, linux, macos]
+license: AGPL-3.0
+alternatives: [anydesk, teamviewer]
+links:
+  website: https://rustdesk.com
+  github: https://github.com/rustdesk/rustdesk
+install:
+  winget: RustDesk.RustDesk
+  choco: rustdesk

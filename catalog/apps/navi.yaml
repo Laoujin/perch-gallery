@@ -1,0 +1,14 @@
+type: app
+name: navi
+category: Development/Tools
+tags: [cli, cheatsheet, tui, shell, rust]
+description: Interactive cheatsheet tool for the command-line
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  github: https://github.com/denisidoro/navi
+install:
+  winget: denisidoro.navi

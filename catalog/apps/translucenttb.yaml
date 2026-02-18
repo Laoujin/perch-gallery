@@ -1,0 +1,13 @@
+type: app
+name: TranslucentTB
+category: Appearance
+tags: [taskbar, transparency, customization]
+description: Make the Windows taskbar translucent or transparent
+hidden: true
+profiles: [power-user]
+os: [windows]
+license: GPL-3.0
+links:
+  github: https://github.com/TranslucentTB/TranslucentTB
+install:
+  winget: CharlesMilette.TranslucentTB

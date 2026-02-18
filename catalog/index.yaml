@@ -37,6 +37,12 @@ apps:
     kind: runtime
     profiles: [developer]
     path: apps/java/corretto-jdk.yaml
+  - id: antimicrox
+    name: AntiMicroX
+    category: Gaming/Controllers
+    tags: [gaming, controller, gamepad, keyboard-mapping]
+    profiles: [gamer]
+    hidden: true
   - id: anydesk
     name: AnyDesk
     category: Networking/Protocol
@@ -115,6 +121,11 @@ apps:
     tags: [cli, monitor, system, tui]
     kind: cli-tool
     profiles: [developer, power-user]
+  - id: bulk-crap-uninstaller
+    name: Bulk Crap Uninstaller
+    category: Utilities/Uninstallers
+    tags: [uninstaller, cleanup, batch]
+    profiles: [power-user]
   - id: bun
     name: Bun
     category: Development/Node
@@ -132,6 +143,13 @@ apps:
     category: Gaming/Modding
     tags: [gaming, modding, memory, debugging]
     profiles: [gamer]
+    hidden: true
+  - id: chezmoi
+    name: chezmoi
+    category: Development/Tools
+    tags: [cli, dotfiles, config-management]
+    kind: cli-tool
+    profiles: [developer]
     hidden: true
   - id: cmake
     name: CMake
@@ -182,6 +200,12 @@ apps:
     category: Development/Node
     tags: [runtime, javascript, typescript, rust]
     profiles: [developer]
+  - id: deskflow
+    name: Deskflow
+    category: Utilities
+    tags: [kvm, mouse, keyboard, sharing]
+    profiles: [power-user]
+    hidden: true
   - id: discord
     name: Discord
     category: Communication/Chat
@@ -250,6 +274,12 @@ apps:
     tags: [profiler, performance, dotnet, jetbrains]
     profiles: [developer]
     path: apps/dotnet/dottrace.yaml
+  - id: doublecommander
+    name: Double Commander
+    category: File Management
+    tags: [file-manager, dual-pane, open-source]
+    profiles: [power-user]
+    hidden: true
   - id: dropbox
     name: Dropbox
     category: Utilities/System
@@ -389,6 +419,13 @@ apps:
     category: Development/Version Control
     tags: [git, gui, cross-platform]
     profiles: [developer]
+  - id: gitui
+    name: GitUI
+    category: Development/Version Control
+    tags: [cli, git, tui, rust]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: glazewm
     name: GlazeWM
     category: Appearance/Window Management
@@ -401,6 +438,13 @@ apps:
     kind: dotfile
     profiles: [developer]
     path: apps/dotnet/global-json.yaml
+  - id: glow
+    name: glow
+    category: Development/Tools
+    tags: [cli, markdown, reader, terminal]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: chrome
     name: Google Chrome
     category: Browsers
@@ -443,11 +487,25 @@ apps:
     tags: [editor, modal, terminal, rust]
     kind: cli-tool
     profiles: [developer]
+  - id: helm
+    name: Helm
+    category: Development/Containers
+    tags: [cli, kubernetes, k8s, package-manager, devops]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: hoppscotch
     name: Hoppscotch
     category: Development/API Tools
     tags: [api, rest, graphql, testing, open-source]
     profiles: [developer]
+  - id: hyperfine
+    name: hyperfine
+    category: Development/Tools
+    tags: [cli, benchmark, timing, rust]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: ilspy
     name: ILSpy
     category: Development/.NET
@@ -476,6 +534,12 @@ apps:
     category: Media/Graphics
     tags: [image-viewer, graphics, lightweight]
     profiles: [casual]
+  - id: jellyfin
+    name: Jellyfin
+    category: Media/Players
+    tags: [media-server, streaming, open-source, self-hosted]
+    profiles: [power-user]
+    hidden: true
   - id: rider
     name: JetBrains Rider
     category: Development/IDEs
@@ -487,6 +551,13 @@ apps:
     category: Utilities/Productivity
     tags: [notes, markdown, sync, open-source]
     profiles: [casual, power-user]
+  - id: just
+    name: just
+    category: Development/Tools
+    tags: [cli, command-runner, make, rust]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: kdenlive
     name: Kdenlive
     category: Media/Video
@@ -502,11 +573,24 @@ apps:
     category: Security/Passwords
     tags: [passwords, security, open-source, offline]
     profiles: [power-user]
+  - id: komorebi
+    name: komorebi
+    category: Appearance/Window Management
+    tags: [tiling, window-manager, bsp, productivity]
+    profiles: [developer]
+    hidden: true
   - id: krita
     name: Krita
     category: Media/Graphics
     tags: [graphics, digital-painting, illustration, open-source]
     profiles: [creative]
+  - id: kubectl
+    name: kubectl
+    category: Development/Containers
+    tags: [cli, kubernetes, k8s, cloud, devops]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: launchy
     name: Launchy
     category: Utilities/Productivity
@@ -546,6 +630,12 @@ apps:
     category: Utilities/Productivity
     tags: [notes, knowledge-base, markdown, graph]
     profiles: [power-user]
+  - id: losslesscut
+    name: LosslessCut
+    category: Media/Video
+    tags: [video, trimming, lossless, ffmpeg]
+    profiles: [creative]
+    hidden: true
   - id: lsd
     name: lsd
     category: Development/Tools
@@ -576,6 +666,12 @@ apps:
     tags: [proxy, http, debugging, ssl, cli]
     kind: cli-tool
     profiles: [developer]
+  - id: moonlight
+    name: Moonlight
+    category: Gaming/Streaming
+    tags: [gaming, streaming, remote-play, client]
+    profiles: [gamer]
+    hidden: true
   - id: mpc-hc
     name: MPC-HC
     category: Media/Players
@@ -587,6 +683,12 @@ apps:
     category: Media/Players
     tags: [video, player, cli, open-source]
     profiles: [power-user]
+  - id: msiafterburner
+    name: MSI Afterburner
+    category: Gaming/Performance
+    tags: [gaming, gpu, overclocking, monitoring]
+    profiles: [gamer]
+    hidden: true
   - id: msys2
     name: MSYS2
     category: Development/Tools
@@ -599,12 +701,25 @@ apps:
     tags: [audio, music, player, library]
     profiles: [casual]
     hidden: true
+  - id: navi
+    name: navi
+    category: Development/Tools
+    tags: [cli, cheatsheet, tui, shell, rust]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: neovim
     name: Neovim
     category: Development/Editors
     tags: [editor, vim, terminal, lua]
     kind: cli-tool
     profiles: [developer]
+  - id: nextcloud
+    name: Nextcloud
+    category: Utilities/Storage
+    tags: [cloud, sync, self-hosted, open-source]
+    profiles: [power-user]
+    hidden: true
   - id: nodejs
     name: Node.js
     category: Development/Node
@@ -624,6 +739,12 @@ apps:
     kind: dotfile
     profiles: [developer]
     path: apps/dotnet/nuget-config.yaml
+  - id: nvidia-profile-inspector
+    name: NVIDIA Profile Inspector
+    category: Gaming/Performance
+    tags: [gaming, nvidia, gpu, profiles, settings]
+    profiles: [gamer]
+    hidden: true
   - id: nvm
     name: NVM for Windows
     category: Development/Node
@@ -749,6 +870,11 @@ apps:
     category: Utilities/Downloads
     tags: [torrent, downloads, open-source]
     profiles: [casual]
+  - id: quicklook
+    name: QuickLook
+    category: Utilities
+    tags: [preview, spacebar, file-viewer]
+    profiles: [power-user]
   - id: rancher-desktop
     name: Rancher Desktop
     category: Development/Containers
@@ -761,12 +887,24 @@ apps:
     kind: cli-tool
     profiles: [developer, power-user]
     hidden: true
+  - id: reshade
+    name: ReShade
+    category: Gaming/Modding
+    tags: [gaming, post-processing, shaders, graphics]
+    profiles: [gamer]
+    hidden: true
   - id: resharper
     name: ReSharper
     category: Development/.NET
     tags: [dotnet, jetbrains, visual-studio, productivity]
     profiles: [developer]
     path: apps/dotnet/resharper.yaml
+  - id: retroarch
+    name: RetroArch
+    category: Gaming/Emulators
+    tags: [gaming, emulator, retro, multi-system]
+    profiles: [gamer]
+    hidden: true
   - id: revo-uninstaller
     name: Revo Uninstaller
     category: Utilities/Uninstallers
@@ -794,6 +932,12 @@ apps:
     category: Utilities/System
     tags: [usb, bootable, iso, formatting]
     profiles: [power-user]
+  - id: rustdesk
+    name: RustDesk
+    category: Networking
+    tags: [remote-desktop, self-hosted, open-source, rust]
+    profiles: [power-user]
+    hidden: true
   - id: sandboxie-plus
     name: Sandboxie Plus
     category: Security/Passwords
@@ -810,6 +954,12 @@ apps:
     tags: [cli, sed, find-replace, rust]
     kind: cli-tool
     profiles: [developer]
+    hidden: true
+  - id: seelen-ui
+    name: Seelen UI
+    category: Appearance
+    tags: [desktop, customization, taskbar, widgets]
+    profiles: [power-user]
     hidden: true
   - id: sharex
     name: ShareX
@@ -857,6 +1007,12 @@ apps:
     category: Utilities/PDF
     tags: [pdf, reader, lightweight, open-source]
     profiles: [casual]
+  - id: sunshine
+    name: Sunshine
+    category: Gaming/Streaming
+    tags: [gaming, streaming, remote-play, moonlight]
+    profiles: [gamer]
+    hidden: true
   - id: syncthing
     name: Syncthing
     category: Utilities/Storage
@@ -867,27 +1023,72 @@ apps:
     category: Utilities/System
     tags: [system, diagnostics, microsoft, admin]
     profiles: [developer, power-user]
+  - id: tabby
+    name: Tabby
+    category: Development/Terminals
+    tags: [terminal, ssh, serial, electron]
+    profiles: [developer]
+    hidden: true
   - id: teamviewer
     name: TeamViewer
     category: Networking/Protocol
     tags: [remote-desktop, remote-access, screen-sharing]
     profiles: [casual]
     hidden: true
+  - id: terraform
+    name: Terraform
+    category: Development/Tools
+    tags: [cli, iac, infrastructure, cloud, devops]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
   - id: thunderbird
     name: Thunderbird
     category: Communication/Email
     tags: [email, calendar, open-source, mozilla]
     profiles: [casual, power-user]
+  - id: tokei
+    name: tokei
+    category: Development/Tools
+    tags: [cli, code, statistics, loc, rust]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+  - id: topgrade
+    name: topgrade
+    category: Utilities/System
+    tags: [cli, update, upgrade, all-in-one, rust]
+    kind: cli-tool
+    profiles: [power-user]
+    hidden: true
   - id: tortoisegit
     name: TortoiseGit
     category: Development/Version Control
     tags: [git, gui, explorer-integration, open-source]
     profiles: [developer]
+  - id: translucenttb
+    name: TranslucentTB
+    category: Appearance
+    tags: [taskbar, transparency, customization]
+    profiles: [power-user]
+    hidden: true
+  - id: transmission
+    name: Transmission
+    category: Networking
+    tags: [torrent, bittorrent, lightweight, open-source]
+    profiles: [casual]
+    hidden: true
   - id: trillian
     name: Trillian
     category: Communication/Chat
     tags: [chat, instant-messaging, multi-protocol]
     profiles: [casual]
+    hidden: true
+  - id: twinkle-tray
+    name: Twinkle Tray
+    category: Utilities/System
+    tags: [brightness, monitor, display, tray]
+    profiles: [power-user]
     hidden: true
   - id: uv
     name: uv

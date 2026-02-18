@@ -1,0 +1,16 @@
+type: app
+name: Transmission
+category: Networking
+tags: [torrent, bittorrent, lightweight, open-source]
+description: Lightweight, easy-to-use BitTorrent client
+hidden: true
+profiles: [casual]
+os: [windows, linux, macos]
+license: GPL-2.0
+alternatives: [qbittorrent]
+links:
+  website: https://transmissionbt.com
+  github: https://github.com/transmission/transmission
+install:
+  winget: Transmission.Transmission
+  choco: transmission

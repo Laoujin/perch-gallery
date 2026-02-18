@@ -1,0 +1,13 @@
+type: app
+name: Seelen UI
+category: Appearance
+tags: [desktop, customization, taskbar, widgets]
+description: Fully customizable Windows desktop environment with widgets and tiling
+hidden: true
+profiles: [power-user]
+os: [windows]
+license: freeware
+links:
+  github: https://github.com/eythaann/Seelen-UI
+install:
+  winget: Seelen.SeelenUI

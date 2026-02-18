@@ -1,0 +1,14 @@
+type: app
+name: Bulk Crap Uninstaller
+category: Utilities/Uninstallers
+tags: [uninstaller, cleanup, batch]
+description: Remove large amounts of unwanted applications with thorough leftover cleanup
+profiles: [power-user]
+os: [windows]
+license: Apache-2.0
+alternatives: [revo-uninstaller]
+links:
+  github: https://github.com/Klocman/Bulk-Crap-Uninstaller
+install:
+  winget: Klocman.BulkCrapUninstaller
+  choco: bulk-crap-uninstaller

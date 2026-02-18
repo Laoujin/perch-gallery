@@ -1,0 +1,14 @@
+type: app
+name: komorebi
+category: Appearance/Window Management
+tags: [tiling, window-manager, bsp, productivity]
+description: Tiling window management for Windows with BSP, columns, rows, and stacking
+hidden: true
+profiles: [developer]
+os: [windows]
+license: MIT
+alternatives: [glazewm]
+links:
+  github: https://github.com/LGUG2Z/komorebi
+install:
+  winget: LGUG2Z.komorebi

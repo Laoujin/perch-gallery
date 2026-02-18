@@ -1,0 +1,17 @@
+type: app
+name: Terraform
+category: Development/Tools
+tags: [cli, iac, infrastructure, cloud, devops]
+description: Infrastructure as Code tool for provisioning cloud resources
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: BSL-1.1
+links:
+  website: https://www.terraform.io
+  docs: https://developer.hashicorp.com/terraform
+  github: https://github.com/hashicorp/terraform
+install:
+  winget: Hashicorp.Terraform
+  choco: terraform

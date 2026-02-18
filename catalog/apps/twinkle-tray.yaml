@@ -1,0 +1,13 @@
+type: app
+name: Twinkle Tray
+category: Utilities/System
+tags: [brightness, monitor, display, tray]
+description: Easily manage the brightness of your monitors from the system tray
+hidden: true
+profiles: [power-user]
+os: [windows]
+license: MIT
+links:
+  github: https://github.com/xanderfrangos/twinkle-tray
+install:
+  winget: xanderfrangos.twinkletray

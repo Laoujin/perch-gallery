@@ -1,0 +1,14 @@
+type: app
+name: RetroArch
+category: Gaming/Emulators
+tags: [gaming, emulator, retro, multi-system]
+description: Frontend for emulators, game engines, and media players — run classic games
+hidden: true
+profiles: [gamer]
+os: [windows, linux, macos]
+license: GPL-3.0
+links:
+  website: https://www.retroarch.com
+  github: https://github.com/libretro/RetroArch
+install:
+  choco: retroarch

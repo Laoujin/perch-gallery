@@ -1,0 +1,13 @@
+type: app
+name: LosslessCut
+category: Media/Video
+tags: [video, trimming, lossless, ffmpeg]
+description: Swiss army knife of lossless video/audio editing — trim without re-encoding
+hidden: true
+profiles: [creative]
+os: [windows, linux, macos]
+license: GPL-2.0
+links:
+  github: https://github.com/mifi/LosslessCut
+install:
+  winget: mifi.LosslessCut

@@ -1,0 +1,15 @@
+type: app
+name: just
+category: Development/Tools
+tags: [cli, command-runner, make, rust]
+description: Handy command runner, a modern alternative to make
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: CC0-1.0
+links:
+  github: https://github.com/casey/just
+install:
+  winget: Casey.Just
+  choco: just

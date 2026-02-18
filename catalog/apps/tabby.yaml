@@ -1,0 +1,16 @@
+type: app
+name: Tabby
+category: Development/Terminals
+tags: [terminal, ssh, serial, electron]
+description: Highly configurable terminal emulator with SSH client and serial support
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+alternatives: [windows-terminal, alacritty, wezterm]
+links:
+  website: https://tabby.sh
+  github: https://github.com/Eugeny/tabby
+install:
+  winget: Eugeny.Tabby
+  choco: tabby

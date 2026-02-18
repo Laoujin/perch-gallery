@@ -1,0 +1,15 @@
+type: app
+name: tokei
+category: Development/Tools
+tags: [cli, code, statistics, loc, rust]
+description: Count lines of code quickly across many languages
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  github: https://github.com/XAMPPRocky/tokei
+install:
+  winget: XAMPPRocky.Tokei
+  choco: tokei

@@ -1,0 +1,15 @@
+type: app
+name: hyperfine
+category: Development/Tools
+tags: [cli, benchmark, timing, rust]
+description: Command-line benchmarking tool with statistical analysis
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  github: https://github.com/sharkdp/hyperfine
+install:
+  winget: sharkdp.hyperfine
+  choco: hyperfine

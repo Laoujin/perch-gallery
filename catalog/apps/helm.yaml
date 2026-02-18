@@ -1,0 +1,18 @@
+type: app
+name: Helm
+category: Development/Containers
+tags: [cli, kubernetes, k8s, package-manager, devops]
+description: Package manager for Kubernetes — deploy apps with charts
+kind: cli-tool
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+suggests: [kubectl]
+links:
+  website: https://helm.sh
+  docs: https://helm.sh/docs/
+  github: https://github.com/helm/helm
+install:
+  winget: Helm.Helm
+  choco: kubernetes-helm
