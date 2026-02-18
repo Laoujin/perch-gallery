@@ -6,6 +6,7 @@ description: .NET memory profiler by JetBrains
 profiles: [developer]
 os: [windows, linux]
 license: proprietary
+requires: [dotnet-sdk]
 links:
   website: https://www.jetbrains.com/dotmemory/
 install:

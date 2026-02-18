@@ -6,6 +6,7 @@ description: Free .NET decompiler and assembly browser by JetBrains
 profiles: [developer]
 os: [windows]
 license: proprietary
+requires: [dotnet-sdk]
 links:
   website: https://www.jetbrains.com/decompiler/
 install:

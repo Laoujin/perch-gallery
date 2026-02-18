@@ -7,6 +7,7 @@ description: JavaScript tool manager with per-project version pinning
 profiles: [developer]
 os: [windows, linux, macos]
 license: BSD-2-Clause
+requires: [nodejs]
 links:
   website: https://volta.sh
   github: https://github.com/volta-cli/volta

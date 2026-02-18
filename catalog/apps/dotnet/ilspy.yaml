@@ -7,6 +7,7 @@ profiles: [developer]
 os: [windows]
 license: MIT
 alternatives: [dotpeek, dnspy]
+requires: [dotnet-sdk]
 links:
   website: https://icsharpcode.github.io/ILSpy/
   github: https://github.com/icsharpcode/ILSpy

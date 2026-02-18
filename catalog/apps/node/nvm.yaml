@@ -8,6 +8,7 @@ profiles: [developer]
 os: [windows]
 license: MIT
 alternatives: [fnm, volta]
+requires: [nodejs]
 links:
   github: https://github.com/coreybutler/nvm-windows
 install:

@@ -4,7 +4,7 @@
 apps:
   - id: dotnet-sdk
     name: .NET SDK
-    category: Development/.NET
+    category: Development/Languages
     tags: [dotnet, sdk, microsoft, csharp]
     kind: runtime
     profiles: [developer]
@@ -32,7 +32,7 @@ apps:
     profiles: [developer]
   - id: corretto-jdk
     name: Amazon Corretto JDK
-    category: Development/Tools
+    category: Development/Languages
     tags: [java, jdk, runtime, amazon, open-source]
     kind: runtime
     profiles: [developer]
@@ -79,7 +79,7 @@ apps:
     profiles: [developer]
   - id: bat
     name: bat
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, cat, syntax-highlighting, rust]
     kind: cli-tool
     profiles: [developer, power-user]
@@ -100,7 +100,7 @@ apps:
     profiles: [creative]
   - id: bottom
     name: bottom
-    category: Utilities/System
+    category: Utilities/System Monitors
     tags: [cli, monitor, system, tui, rust]
     kind: cli-tool
     profiles: [developer, power-user]
@@ -117,7 +117,7 @@ apps:
     profiles: [developer]
   - id: btop
     name: btop
-    category: Utilities/System
+    category: Utilities/System Monitors
     tags: [cli, monitor, system, tui]
     kind: cli-tool
     profiles: [developer, power-user]
@@ -153,7 +153,7 @@ apps:
     hidden: true
   - id: cmake
     name: CMake
-    category: Development/Tools
+    category: Development/Build Tools
     tags: [cpp, build-system, cross-platform, open-source]
     kind: cli-tool
     profiles: [developer]
@@ -170,7 +170,7 @@ apps:
     profiles: [developer, power-user]
   - id: cryptomator
     name: Cryptomator
-    category: Security
+    category: Security/Encryption
     tags: [encryption, cloud, privacy, open-source]
     profiles: [power-user]
   - id: cursor
@@ -186,7 +186,7 @@ apps:
     hidden: true
   - id: db-browser-sqlite
     name: DB Browser for SQLite
-    category: Development/Tools
+    category: Development/Databases
     tags: [database, sqlite, gui, open-source]
     profiles: [developer]
   - id: delta
@@ -202,7 +202,7 @@ apps:
     profiles: [developer]
   - id: deskflow
     name: Deskflow
-    category: Utilities
+    category: Networking/Remote Access
     tags: [kvm, mouse, keyboard, sharing]
     profiles: [power-user]
     hidden: true
@@ -282,7 +282,7 @@ apps:
     hidden: true
   - id: dropbox
     name: Dropbox
-    category: Utilities/System
+    category: Utilities/Storage
     tags: [cloud, sync, storage, backup]
     profiles: [casual]
   - id: ds4windows
@@ -299,7 +299,7 @@ apps:
     hidden: true
   - id: eartrumpet
     name: EarTrumpet
-    category: Utilities/System
+    category: Appearance
     tags: [audio, volume, per-app, taskbar]
     profiles: [power-user]
   - id: eclipse
@@ -310,7 +310,7 @@ apps:
     hidden: true
   - id: temurin-jdk
     name: Eclipse Temurin JDK
-    category: Development/Tools
+    category: Development/Languages
     tags: [java, jdk, runtime, open-source]
     kind: runtime
     profiles: [developer]
@@ -327,12 +327,12 @@ apps:
     profiles: [power-user]
   - id: everything
     name: Everything
-    category: Utilities/Search
+    category: File Management
     tags: [search, files, indexing, windows]
     profiles: [power-user]
   - id: eza
     name: eza
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, ls, files, rust]
     kind: cli-tool
     profiles: [developer, power-user]
@@ -344,10 +344,15 @@ apps:
     hidden: true
   - id: fd
     name: fd
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, find, search, rust]
     kind: cli-tool
     profiles: [developer, power-user]
+  - id: fiddler
+    name: Fiddler Classic
+    category: Networking/Security
+    tags: [network, http, debugging, proxy, web]
+    profiles: [developer]
   - id: filezilla
     name: FileZilla
     category: Networking/FTP
@@ -394,7 +399,7 @@ apps:
     hidden: true
   - id: fzf
     name: fzf
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, fuzzy-finder, search, shell]
     kind: cli-tool
     profiles: [developer, power-user]
@@ -440,7 +445,7 @@ apps:
     path: apps/dotnet/global-json.yaml
   - id: glow
     name: glow
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, markdown, reader, terminal]
     kind: cli-tool
     profiles: [developer]
@@ -478,7 +483,7 @@ apps:
     profiles: [creative, power-user]
   - id: heidisql
     name: HeidiSQL
-    category: Development/Tools
+    category: Development/Databases
     tags: [database, mysql, postgresql, sql, gui]
     profiles: [developer]
   - id: helix
@@ -622,7 +627,7 @@ apps:
     path: apps/dotnet/linqpad.yaml
   - id: localsend
     name: LocalSend
-    category: Networking
+    category: Networking/Remote Access
     tags: [file-sharing, local, airdrop, open-source]
     profiles: [casual, power-user]
   - id: logseq
@@ -638,7 +643,7 @@ apps:
     hidden: true
   - id: lsd
     name: lsd
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, ls, files, rust]
     kind: cli-tool
     profiles: [developer]
@@ -696,7 +701,7 @@ apps:
     hidden: true
   - id: msys2
     name: MSYS2
-    category: Development/Tools
+    category: Development/Build Tools
     tags: [cpp, gnu, posix, windows, open-source]
     profiles: [developer]
     path: apps/cpp/msys2.yaml
@@ -708,7 +713,7 @@ apps:
     hidden: true
   - id: navi
     name: navi
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, cheatsheet, tui, shell, rust]
     kind: cli-tool
     profiles: [developer]
@@ -727,7 +732,7 @@ apps:
     hidden: true
   - id: nodejs
     name: Node.js
-    category: Development/Node
+    category: Development/Languages
     tags: [runtime, javascript, typescript, server]
     kind: runtime
     profiles: [developer]
@@ -800,7 +805,7 @@ apps:
     profiles: [casual, creative]
   - id: pdftk
     name: PDFtk Free
-    category: Utilities/Productivity
+    category: Utilities/PDF
     tags: [pdf, cli, merge, split]
     kind: cli-tool
     profiles: [developer]
@@ -842,7 +847,7 @@ apps:
     hidden: true
   - id: powershell
     name: PowerShell
-    category: Development/Shells
+    category: Development/Languages
     tags: [shell, cli, microsoft, scripting]
     kind: dotfile
     profiles: [developer, power-user]
@@ -853,7 +858,7 @@ apps:
     profiles: [developer, power-user]
   - id: procs
     name: procs
-    category: Utilities/System
+    category: Utilities/System Monitors
     tags: [cli, process, ps, rust]
     kind: cli-tool
     profiles: [developer]
@@ -866,7 +871,7 @@ apps:
     hidden: true
   - id: python
     name: Python
-    category: Development/Tools
+    category: Development/Languages
     tags: [python, language, scripting]
     kind: runtime
     profiles: [developer]
@@ -877,7 +882,7 @@ apps:
     profiles: [casual]
   - id: quicklook
     name: QuickLook
-    category: Utilities
+    category: File Management
     tags: [preview, spacebar, file-viewer]
     profiles: [power-user]
   - id: rancher-desktop
@@ -917,18 +922,18 @@ apps:
     profiles: [power-user]
   - id: ripgrep
     name: ripgrep
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, grep, search, rust]
     kind: cli-tool
     profiles: [developer, power-user]
   - id: robo3t
     name: Robo 3T
-    category: Development/Tools
+    category: Development/Databases
     tags: [database, mongodb, gui, nosql]
     profiles: [developer]
   - id: ruby
     name: Ruby
-    category: Development/Tools
+    category: Development/Languages
     tags: [ruby, language, scripting]
     kind: runtime
     profiles: [developer]
@@ -939,13 +944,13 @@ apps:
     profiles: [power-user]
   - id: rustdesk
     name: RustDesk
-    category: Networking
+    category: Networking/Remote Access
     tags: [remote-desktop, self-hosted, open-source, rust]
     profiles: [power-user]
     hidden: true
   - id: sandboxie-plus
     name: Sandboxie Plus
-    category: Security/Passwords
+    category: Security/Sandboxing
     tags: [sandbox, isolation, security, open-source]
     profiles: [power-user]
   - id: screentogif
@@ -955,7 +960,7 @@ apps:
     profiles: [developer, creative]
   - id: sd
     name: sd
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, sed, find-replace, rust]
     kind: cli-tool
     profiles: [developer]
@@ -1059,7 +1064,7 @@ apps:
     profiles: [casual, power-user]
   - id: tokei
     name: tokei
-    category: Development/Tools
+    category: Development/CLI Tools
     tags: [cli, code, statistics, loc, rust]
     kind: cli-tool
     profiles: [developer]
@@ -1084,7 +1089,7 @@ apps:
     hidden: true
   - id: transmission
     name: Transmission
-    category: Networking
+    category: Utilities/Downloads
     tags: [torrent, bittorrent, lightweight, open-source]
     profiles: [casual]
     hidden: true
@@ -1096,7 +1101,7 @@ apps:
     hidden: true
   - id: twinkle-tray
     name: Twinkle Tray
-    category: Utilities/System
+    category: Appearance
     tags: [brightness, monitor, display, tray]
     profiles: [power-user]
     hidden: true
@@ -1119,13 +1124,23 @@ apps:
     profiles: [developer]
   - id: vcredist
     name: Visual C++ Redistributable
-    category: Development/Tools
+    category: Development/Build Tools
     tags: [cpp, runtime, microsoft]
     kind: runtime
     profiles: [casual, developer]
     path: apps/cpp/vcredist.yaml
   - id: visualstudio
     name: Visual Studio
+    category: Development/IDEs
+    tags: [ide, microsoft, dotnet, windows]
+    profiles: [developer]
+  - id: visualstudio-2022
+    name: Visual Studio 2022
+    category: Development/IDEs
+    tags: [ide, microsoft, dotnet, windows]
+    profiles: [developer]
+  - id: visualstudio-2026
+    name: Visual Studio 2026
     category: Development/IDEs
     tags: [ide, microsoft, dotnet, windows]
     profiles: [developer]
@@ -1195,7 +1210,7 @@ apps:
     profiles: [developer]
   - id: wiztree
     name: WizTree
-    category: Utilities/Storage
+    category: File Management
     tags: [disk-space, analyzer, storage]
     profiles: [power-user]
   - id: xbox

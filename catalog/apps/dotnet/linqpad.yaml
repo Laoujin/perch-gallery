@@ -6,6 +6,7 @@ description: .NET code scratchpad for instant query and script execution
 profiles: [developer]
 os: [windows]
 license: freeware
+requires: [dotnet-sdk]
 links:
   website: https://www.linqpad.net
 install:

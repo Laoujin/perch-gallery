@@ -1,0 +1,20 @@
+type: app
+name: Visual Studio 2026
+category: Development/IDEs
+tags: [ide, microsoft, dotnet, windows]
+description: Full-featured IDE for .NET and C++ development
+profiles: [developer]
+os: [windows]
+license: proprietary
+links:
+  website: https://visualstudio.microsoft.com
+install:
+  winget: Microsoft.VisualStudio.2026.Community
+  choco: visualstudio2026community
+config:
+  links:
+    - source: "2026"
+      link-type: junction
+      platforms: [windows]
+      target:
+        windows: "%USERPROFILE%/Documents/Visual Studio 2026"

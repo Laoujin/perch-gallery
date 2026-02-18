@@ -6,6 +6,7 @@ description: .NET performance profiler by JetBrains
 profiles: [developer]
 os: [windows, linux, macos]
 license: proprietary
+requires: [dotnet-sdk]
 links:
   website: https://www.jetbrains.com/profiler/
 install:

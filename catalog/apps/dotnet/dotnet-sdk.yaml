@@ -1,6 +1,6 @@
 type: app
 name: .NET SDK
-category: Development/.NET
+category: Development/Languages
 tags: [dotnet, sdk, microsoft, csharp]
 description: Free, open-source, cross-platform framework for building apps
 kind: runtime

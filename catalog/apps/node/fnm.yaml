@@ -7,6 +7,7 @@ description: Fast and simple Node.js version manager built in Rust
 profiles: [developer]
 os: [windows, linux, macos]
 license: GPL-3.0
+requires: [nodejs]
 links:
   github: https://github.com/Schniz/fnm
 install:
