@@ -58,3 +58,8 @@ config:
         linux: "$HOME/.config/Code/User/snippets"
         macos: "$HOME/Library/Application Support/Code/User/snippets"
       link-type: junction
+  clean-filter:
+    files: [settings.json]
+    rules:
+      - type: strip-json-keys
+        keys: [window.zoomLevel, sync.gist, julia.executablePath, typescript.tsdk]
