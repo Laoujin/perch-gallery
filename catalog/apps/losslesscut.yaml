@@ -8,6 +8,6 @@ profiles: [creative]
 os: [windows, linux, macos]
 license: GPL-2.0
 links:
-  github: https://github.com/mifi/LosslessCut
+  github: https://github.com/mifi/lossless-cut
 install:
   winget: mifi.LosslessCut

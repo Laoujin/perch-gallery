@@ -8,7 +8,7 @@ os: [windows]
 license: MIT
 links:
   website: https://playnite.link
-  github: https://github.com/JosefNemworthy/Playnite
+  github: https://github.com/JosefNemec/Playnite
 install:
   winget: Playnite.Playnite
   choco: playnite

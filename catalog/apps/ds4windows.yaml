@@ -8,7 +8,7 @@ os: [windows]
 license: GPL-3.0
 alternatives: [antimicrox]
 links:
-  github: https://github.com/Ryochan7/DS4Windows
+  github: https://github.com/Jays2Kings/DS4Windows
 install:
   winget: Ryochan7.DS4Windows
   choco: ds4windows
