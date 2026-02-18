@@ -1,5 +1,7 @@
 type: app
 name: Windows Terminal
+kind: dotfile
+dotfiles: true
 category: Development/Terminals
 tags: [terminal, shell, microsoft]
 description: Modern terminal application for command-line users
