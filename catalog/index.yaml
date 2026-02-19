@@ -3,12 +3,33 @@
 
 apps:
   - id: dotnet-sdk
-    name: .NET SDK
-    category: Development/Languages
+    name: .NET
+    category: Development/Runtimes
     tags: [dotnet, sdk, microsoft, csharp]
     kind: runtime
     profiles: [developer]
     path: apps/dotnet/dotnet-sdk.yaml
+  - id: dotnet-framework
+    name: .NET Framework
+    category: Development/Runtimes
+    tags: [dotnet, framework, microsoft, legacy, windows]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/dotnet-framework.yaml
+  - id: dotnet-sdk-8
+    name: .NET SDK 8
+    category: Development/Runtimes
+    tags: [dotnet, sdk, microsoft, csharp, lts]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/dotnet-sdk-8.yaml
+  - id: dotnet-sdk-9
+    name: .NET SDK 9
+    category: Development/Runtimes
+    tags: [dotnet, sdk, microsoft, csharp]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/dotnet-sdk-9.yaml
   - id: 1password
     name: 1Password
     category: Security/Passwords

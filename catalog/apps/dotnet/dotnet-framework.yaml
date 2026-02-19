@@ -1,0 +1,16 @@
+type: app
+name: .NET Framework
+display-name: .NET Framework 4.8
+category: Development/Runtimes
+tags: [dotnet, framework, microsoft, legacy, windows]
+description: Legacy .NET runtime for Windows — still required by many enterprise apps
+hidden: true
+requires: [dotnet-sdk]
+profiles: [developer]
+os: [windows]
+license: proprietary
+links:
+  docs: https://learn.microsoft.com/en-us/dotnet/framework/
+install:
+  winget: Microsoft.DotNet.Framework.DeveloperPack_4
+  choco: dotnetfx

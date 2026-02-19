@@ -19,6 +19,7 @@ Development:
     Go: { sort: 84 }
     Rust: { sort: 85 }
     CLI Tools: { sort: 86 }
+    Runtimes: { sort: 87 }
     Languages: { sort: 88 }
     Tools: { sort: 90 }
     Build Tools: { sort: 92 }

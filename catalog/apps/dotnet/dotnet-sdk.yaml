@@ -1,13 +1,14 @@
 type: app
-name: .NET SDK
-category: Development/Languages
+name: .NET
+display-name: .NET SDK 10
+category: Development/Runtimes
 tags: [dotnet, sdk, microsoft, csharp]
 description: Free, open-source, cross-platform framework for building apps
 kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
-suggests: [rider, resharper, visualstudio, dotnet-ef, dotnet-format, dotnet-outdated, ilspy, dotpeek, dnspy, linqpad, perfview, dottrace, dotmemory, global-json, nuget-config, dotnet-tools-json]
+suggests: [dotnet-sdk-9, dotnet-sdk-8, dotnet-framework, rider, resharper, visualstudio, dotnet-ef, dotnet-format, dotnet-outdated, ilspy, dotpeek, dnspy, linqpad, perfview, dottrace, dotmemory, global-json, nuget-config, dotnet-tools-json]
 links:
   website: https://dotnet.microsoft.com
   docs: https://learn.microsoft.com/en-us/dotnet/

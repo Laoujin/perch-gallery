@@ -1,0 +1,14 @@
+type: app
+name: .NET SDK 8
+category: Development/Runtimes
+tags: [dotnet, sdk, microsoft, csharp, lts]
+description: .NET 8 — long term support release
+hidden: true
+requires: [dotnet-sdk]
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  docs: https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8/
+install:
+  winget: Microsoft.DotNet.SDK.8
