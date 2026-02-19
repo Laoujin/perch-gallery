@@ -22,6 +22,9 @@ Development:
     Languages: { sort: 88 }
     Tools: { sort: 90 }
     Build Tools: { sort: 92 }
+    Decompilers: { sort: 94 }
+    Profilers: { sort: 96 }
+    IDE Extensions: { sort: 98 }
     API Tools: { sort: 100 }
     Databases: { sort: 110 }
     Containers: { sort: 120 }

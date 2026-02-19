@@ -1,7 +1,7 @@
 type: app
 name: dotnet-outdated
 kind: cli-tool
-category: Development/.NET
+category: Development/CLI Tools
 tags: [dotnet, nuget, dependencies, cli, open-source]
 description: Check and update outdated NuGet packages
 hidden: true

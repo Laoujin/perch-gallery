@@ -1,6 +1,6 @@
 type: app
 name: dotTrace
-category: Development/.NET
+category: Development/Profilers
 tags: [profiler, performance, dotnet, jetbrains]
 description: .NET performance profiler by JetBrains
 hidden: true

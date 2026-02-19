@@ -1,7 +1,7 @@
 type: app
 name: dotnet-ef
 kind: cli-tool
-category: Development/.NET
+category: Development/CLI Tools
 tags: [dotnet, entity-framework, database, cli, open-source]
 description: Entity Framework Core command-line tools
 hidden: true

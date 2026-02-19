@@ -1,6 +1,6 @@
 type: app
 name: PerfView
-category: Development/.NET
+category: Development/Profilers
 tags: [profiler, performance, etw, dotnet, open-source]
 description: Performance analysis tool for .NET using ETW traces
 hidden: true

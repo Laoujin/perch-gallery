@@ -247,7 +247,7 @@ apps:
     profiles: [power-user]
   - id: dnspy
     name: dnSpy
-    category: Development/.NET
+    category: Development/Decompilers
     tags: [decompiler, debugger, dotnet, open-source]
     profiles: [developer]
     hidden: true
@@ -259,14 +259,14 @@ apps:
     profiles: [developer]
   - id: dotmemory
     name: dotMemory
-    category: Development/.NET
+    category: Development/Profilers
     tags: [profiler, memory, dotnet, jetbrains]
     profiles: [developer]
     hidden: true
     path: apps/dotnet/dotmemory.yaml
   - id: dotnet-ef
     name: dotnet-ef
-    category: Development/.NET
+    category: Development/CLI Tools
     tags: [dotnet, entity-framework, database, cli, open-source]
     kind: cli-tool
     profiles: [developer]
@@ -274,7 +274,7 @@ apps:
     path: apps/dotnet/dotnet-ef.yaml
   - id: dotnet-format
     name: dotnet-format
-    category: Development/.NET
+    category: Development/CLI Tools
     tags: [dotnet, formatter, code-style, cli, open-source]
     kind: cli-tool
     profiles: [developer]
@@ -282,7 +282,7 @@ apps:
     path: apps/dotnet/dotnet-format.yaml
   - id: dotnet-outdated
     name: dotnet-outdated
-    category: Development/.NET
+    category: Development/CLI Tools
     tags: [dotnet, nuget, dependencies, cli, open-source]
     kind: cli-tool
     profiles: [developer]
@@ -297,14 +297,14 @@ apps:
     path: apps/dotnet/dotnet-tools-json.yaml
   - id: dotpeek
     name: dotPeek
-    category: Development/.NET
+    category: Development/Decompilers
     tags: [dotnet, decompiler, jetbrains, csharp]
     profiles: [developer]
     hidden: true
     path: apps/dotnet/dotpeek.yaml
   - id: dottrace
     name: dotTrace
-    category: Development/.NET
+    category: Development/Profilers
     tags: [profiler, performance, dotnet, jetbrains]
     profiles: [developer]
     hidden: true
@@ -568,7 +568,7 @@ apps:
     hidden: true
   - id: ilspy
     name: ILSpy
-    category: Development/.NET
+    category: Development/Decompilers
     tags: [dotnet, decompiler, open-source, csharp]
     profiles: [developer]
     hidden: true
@@ -685,7 +685,7 @@ apps:
     profiles: [casual]
   - id: linqpad
     name: LINQPad
-    category: Development/.NET
+    category: Development/Tools
     tags: [dotnet, csharp, linq, scratchpad]
     profiles: [developer]
     hidden: true
@@ -892,7 +892,7 @@ apps:
     hidden: true
   - id: perfview
     name: PerfView
-    category: Development/.NET
+    category: Development/Profilers
     tags: [profiler, performance, etw, dotnet, open-source]
     profiles: [developer]
     hidden: true
@@ -999,7 +999,7 @@ apps:
     hidden: true
   - id: resharper
     name: ReSharper
-    category: Development/.NET
+    category: Development/IDE Extensions
     tags: [dotnet, jetbrains, visual-studio, productivity]
     profiles: [developer]
     hidden: true
@@ -1271,7 +1271,7 @@ apps:
   - id: visualstudio
     name: Visual Studio
     category: Development/IDEs
-    tags: [ide, microsoft, dotnet, windows]
+    tags: [ide, microsoft, dotnet, windows, csharp, cpp]
     profiles: [developer]
     hidden: true
   - id: visualstudio-2022

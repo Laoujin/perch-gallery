@@ -1,7 +1,7 @@
 type: app
 name: dotnet-format
 kind: cli-tool
-category: Development/.NET
+category: Development/CLI Tools
 tags: [dotnet, formatter, code-style, cli, open-source]
 description: Code formatter for .NET projects
 hidden: true

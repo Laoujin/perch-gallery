@@ -1,6 +1,6 @@
 type: app
 name: LINQPad
-category: Development/.NET
+category: Development/Tools
 tags: [dotnet, csharp, linq, scratchpad]
 description: .NET code scratchpad for instant query and script execution
 hidden: true

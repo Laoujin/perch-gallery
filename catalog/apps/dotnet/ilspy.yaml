@@ -1,6 +1,6 @@
 type: app
 name: ILSpy
-category: Development/.NET
+category: Development/Decompilers
 tags: [dotnet, decompiler, open-source, csharp]
 description: Open-source .NET assembly browser and decompiler
 hidden: true
