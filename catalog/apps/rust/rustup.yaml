@@ -1,0 +1,17 @@
+type: app
+name: Rust
+category: Development/Languages
+tags: [rust, language, systems, memory-safe]
+description: Systems programming language focused on safety and performance
+kind: runtime
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+suggests: [cargo-edit, rust-analyzer]
+links:
+  website: https://www.rust-lang.org
+  docs: https://doc.rust-lang.org/book/
+  github: https://github.com/rust-lang/rust
+install:
+  winget: Rustlang.Rustup
+  choco: rustup.install

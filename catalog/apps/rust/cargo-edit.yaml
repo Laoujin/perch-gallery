@@ -1,0 +1,13 @@
+type: app
+name: cargo-edit
+category: Development/Rust
+tags: [rust, cargo, dependency-management]
+description: Cargo subcommands for managing dependencies from the CLI
+kind: cli-tool
+hidden: true
+requires: [rustup]
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  github: https://github.com/killercup/cargo-edit

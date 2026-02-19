@@ -7,7 +7,7 @@ kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: PSF-2.0
-suggests: [uv]
+suggests: [uv, poetry, ruff, mypy, pipx]
 links:
   website: https://www.python.org
   docs: https://docs.python.org/3/

@@ -1,0 +1,14 @@
+type: app
+name: rust-analyzer
+category: Development/Rust
+tags: [rust, lsp, language-server, ide]
+description: Rust language server for IDE support and code analysis
+kind: cli-tool
+hidden: true
+requires: [rustup]
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  website: https://rust-analyzer.github.io
+  github: https://github.com/rust-lang/rust-analyzer

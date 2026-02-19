@@ -1,0 +1,17 @@
+type: app
+name: Poetry
+category: Development/Python
+tags: [python, package-manager, dependency-management, virtualenv]
+description: Python dependency management and packaging made easy
+kind: cli-tool
+hidden: true
+requires: [python]
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://python-poetry.org
+  docs: https://python-poetry.org/docs/
+  github: https://github.com/python-poetry/poetry
+install:
+  winget: Python.Poetry

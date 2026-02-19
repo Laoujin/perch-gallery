@@ -1,0 +1,18 @@
+type: app
+name: Apache Maven
+display-name: Maven
+category: Development/Java
+tags: [java, build-tool, dependency-management, apache]
+description: Build automation and dependency management for Java projects
+kind: cli-tool
+hidden: true
+requires: [temurin-jdk]
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  website: https://maven.apache.org
+  docs: https://maven.apache.org/guides/
+install:
+  winget: Apache.Maven
+  choco: maven

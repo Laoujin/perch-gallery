@@ -32,10 +32,10 @@ apps:
     profiles: [developer]
   - id: corretto-jdk
     name: Amazon Corretto JDK
-    category: Development/Languages
+    category: Development/Java
     tags: [java, jdk, runtime, amazon, open-source]
-    kind: runtime
     profiles: [developer]
+    hidden: true
     path: apps/java/corretto-jdk.yaml
   - id: antimicrox
     name: AntiMicroX
@@ -49,6 +49,14 @@ apps:
     tags: [remote-desktop, remote-access]
     profiles: [casual]
     hidden: true
+  - id: maven
+    name: Apache Maven
+    category: Development/Java
+    tags: [java, build-tool, dependency-management, apache]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/java/maven.yaml
   - id: openoffice
     name: Apache OpenOffice
     category: Productivity/Office
@@ -136,11 +144,27 @@ apps:
     profiles: [developer]
     hidden: true
     path: apps/node/bun.yaml
+  - id: bundler
+    name: Bundler
+    category: Development/Ruby
+    tags: [ruby, gems, dependency-management, package-manager]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/ruby/bundler.yaml
   - id: calibre
     name: calibre
     category: Utilities
     tags: [ebooks, library, reader, converter]
     profiles: [casual]
+  - id: cargo-edit
+    name: cargo-edit
+    category: Development/Rust
+    tags: [rust, cargo, dependency-management]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/rust/cargo-edit.yaml
   - id: cheat-engine
     name: Cheat Engine
     category: Gaming/Modding
@@ -319,13 +343,6 @@ apps:
     tags: [ide, java, open-source]
     profiles: [developer]
     hidden: true
-  - id: temurin-jdk
-    name: Eclipse Temurin JDK
-    category: Development/Languages
-    tags: [java, jdk, runtime, open-source]
-    kind: runtime
-    profiles: [developer]
-    path: apps/java/temurin-jdk.yaml
   - id: epic-games
     name: Epic Games Launcher
     category: Gaming/Stores
@@ -465,6 +482,21 @@ apps:
     kind: cli-tool
     profiles: [developer]
     hidden: true
+  - id: go
+    name: Go
+    category: Development/Languages
+    tags: [go, golang, language, google]
+    kind: runtime
+    profiles: [developer]
+    path: apps/go/go.yaml
+  - id: golangci-lint
+    name: golangci-lint
+    category: Development/Go
+    tags: [go, golang, linter, static-analysis]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/go/golangci-lint.yaml
   - id: chrome
     name: Google Chrome
     category: Browsers
@@ -480,6 +512,14 @@ apps:
     category: Utilities/Storage
     tags: [cloud, storage, sync, google]
     profiles: [casual]
+  - id: gradle
+    name: Gradle
+    category: Development/Java
+    tags: [java, kotlin, build-tool, groovy]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/java/gradle.yaml
   - id: greenshot
     name: Greenshot
     category: Utilities/Screenshots
@@ -555,6 +595,13 @@ apps:
     category: Media/Graphics
     tags: [image-viewer, graphics, lightweight]
     profiles: [casual]
+  - id: temurin-jdk
+    name: Java
+    category: Development/Languages
+    tags: [java, jdk, runtime, open-source, temurin, adoptium]
+    kind: runtime
+    profiles: [developer]
+    path: apps/java/temurin-jdk.yaml
   - id: jellyfin
     name: Jellyfin
     category: Media/Players
@@ -729,6 +776,14 @@ apps:
     tags: [audio, music, player, library]
     profiles: [casual]
     hidden: true
+  - id: mypy
+    name: mypy
+    category: Development/Python
+    tags: [python, type-checker, static-analysis]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/python/mypy.yaml
   - id: navi
     name: navi
     category: Development/CLI Tools
@@ -848,6 +903,14 @@ apps:
     tags: [chat, instant-messaging, multi-protocol, open-source]
     profiles: [casual]
     hidden: true
+  - id: pipx
+    name: pipx
+    category: Development/Python
+    tags: [python, package-manager, cli, isolated]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/python/pipx.yaml
   - id: playnite
     name: Playnite
     category: Gaming/Stores
@@ -861,6 +924,14 @@ apps:
     profiles: [developer]
     hidden: true
     path: apps/node/pnpm.yaml
+  - id: poetry
+    name: Poetry
+    category: Development/Python
+    tags: [python, package-manager, dependency-management, virtualenv]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/python/poetry.yaml
   - id: postman
     name: Postman
     category: Development/API Tools
@@ -897,6 +968,7 @@ apps:
     tags: [python, language, scripting]
     kind: runtime
     profiles: [developer]
+    path: apps/python/python.yaml
   - id: qbittorrent
     name: qBittorrent
     category: Utilities/Downloads
@@ -955,17 +1027,57 @@ apps:
     category: Development/Databases
     tags: [database, mongodb, gui, nosql]
     profiles: [developer]
+  - id: rubocop
+    name: RuboCop
+    category: Development/Ruby
+    tags: [ruby, linter, formatter, static-analysis]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/ruby/rubocop.yaml
   - id: ruby
     name: Ruby
     category: Development/Languages
     tags: [ruby, language, scripting]
     kind: runtime
     profiles: [developer]
+    path: apps/ruby/ruby.yaml
+  - id: rails
+    name: Ruby on Rails
+    category: Development/Ruby
+    tags: [ruby, framework, web, mvc]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/ruby/rails.yaml
+  - id: ruff
+    name: Ruff
+    category: Development/Python
+    tags: [python, linter, formatter, rust, fast]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/python/ruff.yaml
   - id: rufus
     name: Rufus
     category: Utilities/System
     tags: [usb, bootable, iso, formatting]
     profiles: [power-user]
+  - id: rustup
+    name: Rust
+    category: Development/Languages
+    tags: [rust, language, systems, memory-safe]
+    kind: runtime
+    profiles: [developer]
+    path: apps/rust/rustup.yaml
+  - id: rust-analyzer
+    name: rust-analyzer
+    category: Development/Rust
+    tags: [rust, lsp, language-server, ide]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/rust/rust-analyzer.yaml
   - id: rustdesk
     name: RustDesk
     category: Networking/Remote Access
@@ -1132,11 +1244,12 @@ apps:
     hidden: true
   - id: uv
     name: uv
-    category: Development/Tools
+    category: Development/Python
     tags: [cli, python, package-manager, rust]
     kind: cli-tool
     profiles: [developer]
     hidden: true
+    path: apps/python/uv.yaml
   - id: ventoy
     name: Ventoy
     category: Utilities/System

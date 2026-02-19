@@ -1,0 +1,17 @@
+type: app
+name: mypy
+category: Development/Python
+tags: [python, type-checker, static-analysis]
+description: Optional static type checker for Python
+kind: cli-tool
+hidden: true
+requires: [python]
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://mypy-lang.org
+  docs: https://mypy.readthedocs.io
+  github: https://github.com/python/mypy
+install:
+  winget: Python.mypy

@@ -1,0 +1,15 @@
+type: app
+name: Bundler
+category: Development/Ruby
+tags: [ruby, gems, dependency-management, package-manager]
+description: Manages Ruby gem dependencies for consistent environments
+kind: cli-tool
+hidden: true
+requires: [ruby]
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://bundler.io
+  docs: https://bundler.io/docs.html
+  github: https://github.com/rubygems/rubygems

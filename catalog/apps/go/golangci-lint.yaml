@@ -1,0 +1,18 @@
+type: app
+name: golangci-lint
+category: Development/Go
+tags: [go, golang, linter, static-analysis]
+description: Fast Go linters runner with dozens of linters included
+kind: cli-tool
+hidden: true
+requires: [go]
+profiles: [developer]
+os: [windows, linux, macos]
+license: GPL-3.0
+links:
+  website: https://golangci-lint.run
+  docs: https://golangci-lint.run/usage/install/
+  github: https://github.com/golangci/golangci-lint
+install:
+  winget: GolangCI.golangci-lint
+  choco: golangci-lint

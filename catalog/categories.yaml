@@ -13,7 +13,12 @@ Development:
     Diff Tools: { sort: 60 }
     .NET: { sort: 70 }
     Node: { sort: 80 }
-    CLI Tools: { sort: 85 }
+    Python: { sort: 81 }
+    Ruby: { sort: 82 }
+    Java: { sort: 83 }
+    Go: { sort: 84 }
+    Rust: { sort: 85 }
+    CLI Tools: { sort: 86 }
     Languages: { sort: 88 }
     Tools: { sort: 90 }
     Build Tools: { sort: 92 }

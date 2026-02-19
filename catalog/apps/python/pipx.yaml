@@ -1,0 +1,17 @@
+type: app
+name: pipx
+category: Development/Python
+tags: [python, package-manager, cli, isolated]
+description: Install and run Python applications in isolated environments
+kind: cli-tool
+hidden: true
+requires: [python]
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  docs: https://pipx.pypa.io
+  github: https://github.com/pypa/pipx
+install:
+  winget: pypa.pipx
+  choco: pipx

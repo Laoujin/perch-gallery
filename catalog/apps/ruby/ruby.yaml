@@ -1,6 +1,5 @@
 type: app
 name: Ruby
-display-name: Ruby with DevKit
 category: Development/Languages
 tags: [ruby, language, scripting]
 description: Dynamic programming language with elegant syntax
@@ -8,6 +7,7 @@ kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: BSD-2-Clause
+suggests: [bundler, rubocop, rails]
 links:
   website: https://www.ruby-lang.org
   docs: https://www.ruby-lang.org/en/documentation/

@@ -1,0 +1,18 @@
+type: app
+name: Gradle
+category: Development/Java
+tags: [java, kotlin, build-tool, groovy]
+description: Build automation tool for multi-language software development
+kind: cli-tool
+hidden: true
+requires: [temurin-jdk]
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+links:
+  website: https://gradle.org
+  docs: https://docs.gradle.org
+  github: https://github.com/gradle/gradle
+install:
+  winget: Gradle.Gradle
+  choco: gradle

@@ -1,0 +1,16 @@
+type: app
+name: Ruby on Rails
+display-name: Rails
+category: Development/Ruby
+tags: [ruby, framework, web, mvc]
+description: Full-stack web application framework for Ruby
+kind: cli-tool
+hidden: true
+requires: [ruby]
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://rubyonrails.org
+  docs: https://guides.rubyonrails.org
+  github: https://github.com/rails/rails

@@ -1,0 +1,16 @@
+type: app
+name: Ruff
+category: Development/Python
+tags: [python, linter, formatter, rust, fast]
+description: Extremely fast Python linter and code formatter
+kind: cli-tool
+hidden: true
+requires: [python]
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://docs.astral.sh/ruff
+  github: https://github.com/astral-sh/ruff
+install:
+  winget: astral-sh.ruff
