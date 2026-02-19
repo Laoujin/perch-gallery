@@ -685,7 +685,7 @@ apps:
     profiles: [casual]
   - id: linqpad
     name: LINQPad
-    category: Development/Tools
+    category: Development/IDEs
     tags: [dotnet, csharp, linq, scratchpad]
     profiles: [developer]
     hidden: true
