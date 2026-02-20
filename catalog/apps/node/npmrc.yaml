@@ -1,0 +1,16 @@
+type: app
+name: .npmrc
+kind: dotfile
+category: Development/Node
+tags: [config, npm, node, dotfile]
+description: npm configuration file
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+config:
+  links:
+    - source: .npmrc
+      target:
+        windows: "%USERPROFILE%/.npmrc"
+        linux: "$HOME/.npmrc"
+        macos: "$HOME/.npmrc"

@@ -1,5 +1,6 @@
 type: app
 name: Deno
+kind: runtime
 category: Development/Node
 tags: [runtime, javascript, typescript, rust]
 description: Secure runtime for JavaScript and TypeScript with built-in tooling
@@ -7,6 +8,7 @@ hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
+alternatives: [nodejs, bun]
 links:
   website: https://deno.com
   docs: https://docs.deno.com

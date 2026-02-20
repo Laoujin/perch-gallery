@@ -1,14 +1,14 @@
 type: app
 name: Node.js
 kind: runtime
-category: Development/Languages
+category: Development/Node
 tags: [runtime, javascript, typescript, server]
 description: JavaScript runtime built on Chrome's V8 engine
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
-alternatives: [bun]
-suggests: [yarn, pnpm, fnm, volta, nvm, deno, bun]
+alternatives: [bun, deno]
+suggests: [yarn, pnpm, fnm, volta, nvm, deno, bun, npm, typescript, tsx, eslint-d, prettier, npm-check-updates, http-server, rimraf, tldr, npmrc, nvmrc]
 links:
   website: https://nodejs.org
   docs: https://nodejs.org/docs/latest/api/

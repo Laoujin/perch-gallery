@@ -8,7 +8,8 @@ hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: BSD-2-Clause
-requires: [nodejs]
+alternatives: [fnm, nvm]
+suggests: [nodejs]
 links:
   website: https://volta.sh
   github: https://github.com/volta-cli/volta

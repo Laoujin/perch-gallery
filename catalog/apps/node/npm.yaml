@@ -1,0 +1,16 @@
+type: app
+name: npm
+kind: cli-tool
+category: Development/Node
+tags: [package-manager, node, cli]
+description: Default package manager for Node.js
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Artistic-2.0
+alternatives: [yarn, pnpm]
+requires: [nodejs]
+links:
+  website: https://www.npmjs.com
+  docs: https://docs.npmjs.com
+  github: https://github.com/npm/cli

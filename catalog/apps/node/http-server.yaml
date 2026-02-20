@@ -1,0 +1,15 @@
+type: app
+name: http-server
+kind: cli-tool
+category: Development/Node
+tags: [http, server, node, cli]
+description: Simple zero-configuration HTTP server
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+requires: [nodejs]
+links:
+  github: https://github.com/http-party/http-server
+install:
+  node-package: http-server

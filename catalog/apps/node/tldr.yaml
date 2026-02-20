@@ -1,0 +1,16 @@
+type: app
+name: tldr
+kind: cli-tool
+category: Development/Node
+tags: [man-pages, help, documentation, node, cli]
+description: Simplified community-driven man pages
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+requires: [nodejs]
+links:
+  website: https://tldr.sh
+  github: https://github.com/tldr-pages/tldr-node-client
+install:
+  node-package: tldr

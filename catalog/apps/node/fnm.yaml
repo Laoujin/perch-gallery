@@ -8,7 +8,8 @@ hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: GPL-3.0
-requires: [nodejs]
+alternatives: [nvm, volta]
+suggests: [nodejs]
 links:
   github: https://github.com/Schniz/fnm
 install:

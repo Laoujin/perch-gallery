@@ -8,6 +8,7 @@ hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
+alternatives: [nodejs, deno]
 links:
   website: https://bun.sh
   github: https://github.com/oven-sh/bun

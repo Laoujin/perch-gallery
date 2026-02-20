@@ -1,0 +1,17 @@
+type: app
+name: Prettier
+kind: cli-tool
+category: Development/Node
+tags: [formatter, code-style, node, cli]
+description: Opinionated code formatter
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+requires: [nodejs]
+links:
+  website: https://prettier.io
+  docs: https://prettier.io/docs/en/
+  github: https://github.com/prettier/prettier
+install:
+  node-package: prettier

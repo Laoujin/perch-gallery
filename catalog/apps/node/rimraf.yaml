@@ -1,0 +1,15 @@
+type: app
+name: rimraf
+kind: cli-tool
+category: Development/Node
+tags: [filesystem, cleanup, node, cli]
+description: Cross-platform rm -rf
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: ISC
+requires: [nodejs]
+links:
+  github: https://github.com/isaacs/rimraf
+install:
+  node-package: rimraf

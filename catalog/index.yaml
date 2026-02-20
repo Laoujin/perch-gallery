@@ -30,6 +30,22 @@ apps:
     profiles: [developer]
     hidden: true
     path: apps/dotnet/dotnet-sdk-9.yaml
+  - id: npmrc
+    name: .npmrc
+    category: Development/Node
+    tags: [config, npm, node, dotfile]
+    kind: dotfile
+    profiles: [developer]
+    hidden: true
+    path: apps/node/npmrc.yaml
+  - id: nvmrc
+    name: .nvmrc
+    category: Development/Node
+    tags: [config, nvm, node, dotfile]
+    kind: dotfile
+    profiles: [developer]
+    hidden: true
+    path: apps/node/nvmrc.yaml
   - id: 1password
     name: 1Password
     category: Security/Passwords
@@ -255,6 +271,7 @@ apps:
     name: Deno
     category: Development/Node
     tags: [runtime, javascript, typescript, rust]
+    kind: runtime
     profiles: [developer]
     hidden: true
     path: apps/node/deno.yaml
@@ -377,6 +394,14 @@ apps:
     category: Gaming/Stores
     tags: [gaming, store, launcher]
     profiles: [gamer]
+  - id: eslint-d
+    name: eslint_d
+    category: Development/Node
+    tags: [linter, eslint, daemon, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/eslint-d.yaml
   - id: espanso
     name: Espanso
     category: Utilities/Productivity
@@ -596,6 +621,14 @@ apps:
     category: Development/API Tools
     tags: [api, rest, graphql, testing, open-source]
     profiles: [developer]
+  - id: http-server
+    name: http-server
+    category: Development/Node
+    tags: [http, server, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/http-server.yaml
   - id: hyperfine
     name: hyperfine
     category: Development/Tools
@@ -842,7 +875,7 @@ apps:
     hidden: true
   - id: nodejs
     name: Node.js
-    category: Development/Languages
+    category: Development/Node
     tags: [runtime, javascript, typescript, server]
     kind: runtime
     profiles: [developer]
@@ -852,6 +885,22 @@ apps:
     category: Development/Editors
     tags: [editor, text, windows]
     profiles: [developer, power-user]
+  - id: npm
+    name: npm
+    category: Development/Node
+    tags: [package-manager, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/npm.yaml
+  - id: npm-check-updates
+    name: npm-check-updates
+    category: Development/Node
+    tags: [dependencies, upgrade, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/npm-check-updates.yaml
   - id: nswag
     name: NSwagStudio
     category: Development/.NET
@@ -883,6 +932,7 @@ apps:
     name: NVM for Windows
     category: Development/Node
     tags: [node, nvm, version-manager, windows]
+    kind: cli-tool
     profiles: [developer]
     hidden: true
     path: apps/node/nvm.yaml
@@ -1000,6 +1050,14 @@ apps:
     category: Utilities/Productivity
     tags: [productivity, utilities, microsoft, windows]
     profiles: [developer, power-user]
+  - id: prettier
+    name: Prettier
+    category: Development/Node
+    tags: [formatter, code-style, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/prettier.yaml
   - id: procs
     name: procs
     category: Utilities/System Monitors
@@ -1074,6 +1132,14 @@ apps:
     category: Utilities/Uninstallers
     tags: [uninstaller, cleanup, system]
     profiles: [power-user]
+  - id: rimraf
+    name: rimraf
+    category: Development/Node
+    tags: [filesystem, cleanup, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/rimraf.yaml
   - id: ripgrep
     name: ripgrep
     category: Development/CLI Tools
@@ -1266,6 +1332,14 @@ apps:
     category: Communication/Email
     tags: [email, calendar, open-source, mozilla]
     profiles: [casual, power-user]
+  - id: tldr
+    name: tldr
+    category: Development/Node
+    tags: [man-pages, help, documentation, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/tldr.yaml
   - id: tokei
     name: tokei
     category: Development/CLI Tools
@@ -1303,12 +1377,28 @@ apps:
     tags: [chat, instant-messaging, multi-protocol]
     profiles: [casual]
     hidden: true
+  - id: tsx
+    name: tsx
+    category: Development/Node
+    tags: [typescript, runner, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/tsx.yaml
   - id: twinkle-tray
     name: Twinkle Tray
     category: Appearance
     tags: [brightness, monitor, display, tray]
     profiles: [power-user]
     hidden: true
+  - id: typescript
+    name: TypeScript
+    category: Development/Node
+    tags: [typescript, compiler, node, cli]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/node/typescript.yaml
   - id: uv
     name: uv
     category: Development/Python

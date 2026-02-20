@@ -1,0 +1,16 @@
+type: app
+name: .nvmrc
+kind: dotfile
+category: Development/Node
+tags: [config, nvm, node, dotfile]
+description: Node version manager configuration file
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+config:
+  links:
+    - source: .nvmrc
+      target:
+        windows: "%USERPROFILE%/.nvmrc"
+        linux: "$HOME/.nvmrc"
+        macos: "$HOME/.nvmrc"

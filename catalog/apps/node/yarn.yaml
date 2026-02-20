@@ -8,6 +8,7 @@ hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: BSD-2-Clause
+alternatives: [npm, pnpm]
 requires: [nodejs]
 links:
   website: https://yarnpkg.com

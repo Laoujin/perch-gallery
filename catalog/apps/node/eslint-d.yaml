@@ -1,0 +1,16 @@
+type: app
+name: eslint_d
+display-name: eslint-d
+kind: cli-tool
+category: Development/Node
+tags: [linter, eslint, daemon, node, cli]
+description: Fast ESLint daemon for editors
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+requires: [nodejs]
+links:
+  github: https://github.com/mantoni/eslint_d.js
+install:
+  node-package: eslint_d

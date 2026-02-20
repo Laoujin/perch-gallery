@@ -1,6 +1,7 @@
 type: app
 name: NVM for Windows
 display-name: nvm
+kind: cli-tool
 category: Development/Node
 tags: [node, nvm, version-manager, windows]
 description: Node.js version manager for Windows
@@ -9,7 +10,7 @@ profiles: [developer]
 os: [windows]
 license: MIT
 alternatives: [fnm, volta]
-requires: [nodejs]
+suggests: [nodejs]
 links:
   github: https://github.com/coreybutler/nvm-windows
 install:

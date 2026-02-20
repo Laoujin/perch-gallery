@@ -1,0 +1,15 @@
+type: app
+name: tsx
+kind: cli-tool
+category: Development/Node
+tags: [typescript, runner, node, cli]
+description: TypeScript execute — run TS files directly
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+requires: [nodejs]
+links:
+  github: https://github.com/privatenumber/tsx
+install:
+  node-package: tsx

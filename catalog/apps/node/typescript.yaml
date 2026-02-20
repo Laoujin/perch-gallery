@@ -1,0 +1,17 @@
+type: app
+name: TypeScript
+kind: cli-tool
+category: Development/Node
+tags: [typescript, compiler, node, cli]
+description: TypeScript compiler and language
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+requires: [nodejs]
+links:
+  website: https://www.typescriptlang.org
+  docs: https://www.typescriptlang.org/docs/
+  github: https://github.com/microsoft/TypeScript
+install:
+  node-package: typescript
