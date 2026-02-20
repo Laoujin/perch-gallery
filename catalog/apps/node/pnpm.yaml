@@ -1,6 +1,7 @@
 type: app
 name: pnpm
 kind: cli-tool
+hot: true
 category: Development/Node
 tags: [package-manager, node, cli, open-source]
 description: Fast, disk space efficient package manager for Node.js

@@ -2,6 +2,7 @@ type: app
 name: NVM for Windows
 display-name: nvm
 kind: cli-tool
+hot: true
 category: Development/Node
 tags: [node, nvm, version-manager, windows]
 description: Node.js version manager for Windows
