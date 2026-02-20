@@ -14,6 +14,7 @@ links:
 install:
   winget: Microsoft.VisualStudio.2022.Community
   choco: visualstudio2022community
+  detect: "%ProgramFiles%/Microsoft Visual Studio/2022/Community"
 config:
   links:
     - source: .vsconfig
