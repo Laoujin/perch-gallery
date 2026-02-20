@@ -1,0 +1,17 @@
+type: app
+name: NSwagStudio
+category: Development/API Tools
+tags: [dotnet, openapi, swagger, codegen, csharp]
+description: OpenAPI/Swagger toolchain for .NET — generate API clients and server stubs
+hot: true
+hidden: true
+profiles: [developer]
+os: [windows]
+license: MIT
+requires: [dotnet-sdk]
+links:
+  website: https://github.com/RicoSuter/NSwag/wiki/NSwagStudio
+  github: https://github.com/RicoSuter/NSwag
+install:
+  winget: RicoSuter.NSwagStudio
+  choco: nswagstudio

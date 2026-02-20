@@ -1,0 +1,15 @@
+type: app
+name: NuGet Package Explorer
+category: Development/Package Management
+tags: [dotnet, nuget, packages, inspector]
+description: GUI tool for creating, inspecting, and analyzing NuGet packages
+hot: true
+hidden: true
+profiles: [developer]
+os: [windows]
+license: MIT
+requires: [dotnet-sdk]
+links:
+  github: https://github.com/NuGetPackageExplorer/NuGetPackageExplorer
+install:
+  choco: nugetpackageexplorer

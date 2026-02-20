@@ -1,0 +1,18 @@
+type: app
+name: Stryker.NET
+kind: cli-tool
+category: Development/Testing
+tags: [dotnet, mutation-testing, testing, quality, csharp]
+description: Mutation testing for .NET — verify your tests actually catch bugs
+hot: true
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: Apache-2.0
+requires: [dotnet-sdk]
+links:
+  website: https://stryker-mutator.io
+  github: https://github.com/stryker-mutator/stryker-net
+  docs: https://stryker-mutator.io/docs/stryker-net/introduction/
+install:
+  dotnet-tool: dotnet-stryker

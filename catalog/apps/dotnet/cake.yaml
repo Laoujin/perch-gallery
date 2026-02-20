@@ -1,0 +1,17 @@
+type: app
+name: Cake
+kind: cli-tool
+category: Development/Build Tools
+tags: [dotnet, build, automation, csharp, ci]
+description: C# Make — cross-platform build automation using C# DSL
+hidden: true
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+requires: [dotnet-sdk]
+links:
+  website: https://cakebuild.net
+  github: https://github.com/cake-build/cake
+  docs: https://cakebuild.net/docs/
+install:
+  dotnet-tool: Cake.Tool

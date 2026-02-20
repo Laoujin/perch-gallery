@@ -1,0 +1,15 @@
+type: app
+name: WinDbg
+category: Development/Debuggers
+tags: [debugger, windows, microsoft, native, dotnet]
+description: Low-level Windows debugger with managed .NET debugging support
+hot: true
+hidden: true
+profiles: [developer]
+os: [windows]
+license: proprietary
+requires: [dotnet-sdk]
+links:
+  docs: https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/
+install:
+  winget: Microsoft.WinDbg
