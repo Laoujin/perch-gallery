@@ -7,7 +7,7 @@ description: Distributed version control system
 profiles: [developer]
 os: [windows, linux, macos]
 license: GPL-2.0
-suggests: [github-desktop, gitkraken, sourcetree, fork, tortoisegit]
+suggests: [github-desktop, gitkraken, sourcetree, fork, tortoisegit, gitui, lazygit]
 links:
   website: https://git-scm.com
   docs: https://git-scm.com/doc
@@ -37,3 +37,22 @@ tweaks:
         name: "(Default)"
         value: '"C:\Program Files\Git\git-bash.exe" "--cd=%v"'
         type: string
+  - id: git-gui-here
+    name: Git GUI Here
+    description: Add "Git GUI Here" to the Explorer context menu
+    reversible: true
+    registry:
+      - key: HKCR\Directory\Background\shell\git_gui
+        name: "(Default)"
+        value: "Git &GUI Here"
+        type: string
+      - key: HKCR\Directory\Background\shell\git_gui\command
+        name: "(Default)"
+        value: '"C:\Program Files\Git\cmd\git-gui.exe" "--working-dir" "%v"'
+        type: string
+  - id: git-lfs-enable
+    name: Enable Git LFS
+    description: Install and configure Git Large File Storage globally
+    reversible: true
+    script: "git lfs install"
+    undo-script: "git lfs uninstall"

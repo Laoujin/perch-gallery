@@ -175,7 +175,7 @@ apps:
     path: apps/ruby/bundler.yaml
   - id: cake
     name: Cake
-    category: Development/Build Tools
+    category: Development/.NET
     tags: [dotnet, build, automation, csharp, ci]
     kind: cli-tool
     profiles: [developer]
@@ -494,7 +494,7 @@ apps:
     hidden: true
   - id: gitversion
     name: GitVersion
-    category: Development/Build Tools
+    category: Development/.NET
     tags: [dotnet, versioning, semver, git, ci]
     kind: cli-tool
     profiles: [developer]
@@ -854,7 +854,7 @@ apps:
     profiles: [developer, power-user]
   - id: nswag
     name: NSwagStudio
-    category: Development/API Tools
+    category: Development/.NET
     tags: [dotnet, openapi, swagger, codegen, csharp]
     profiles: [developer]
     hidden: true
@@ -868,7 +868,7 @@ apps:
     path: apps/dotnet/nuget-config.yaml
   - id: nuget-package-explorer
     name: NuGet Package Explorer
-    category: Development/Package Management
+    category: Development/.NET
     tags: [dotnet, nuget, packages, inspector]
     profiles: [developer]
     hidden: true
@@ -1058,7 +1058,7 @@ apps:
     hidden: true
   - id: resharper
     name: ReSharper
-    category: Development/IDE Extensions
+    category: Development/.NET
     tags: [dotnet, jetbrains, visual-studio, productivity]
     profiles: [developer]
     hidden: true
@@ -1418,7 +1418,7 @@ apps:
     hidden: true
   - id: windbg
     name: WinDbg
-    category: Development/Debuggers
+    category: Development/.NET
     tags: [debugger, windows, microsoft, native, dotnet]
     profiles: [developer]
     hidden: true
