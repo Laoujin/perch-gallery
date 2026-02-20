@@ -12,8 +12,9 @@ alternatives: [vs2026-community]
 links:
   website: https://visualstudio.microsoft.com
 install:
-  winget: Microsoft.VisualStudio.2026.Professional
+  winget: Microsoft.VisualStudio.Professional
   choco: visualstudio2026professional
+  detect: "%ProgramFiles%/Microsoft Visual Studio/18/Professional"
 config:
   links:
     - source: .vsconfig

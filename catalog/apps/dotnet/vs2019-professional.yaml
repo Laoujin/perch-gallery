@@ -14,6 +14,7 @@ links:
 install:
   winget: Microsoft.VisualStudio.2019.Professional
   choco: visualstudio2019professional
+  detect: "%ProgramFiles(x86)%/Microsoft Visual Studio/2019/Professional"
 config:
   links:
     - source: .vsconfig

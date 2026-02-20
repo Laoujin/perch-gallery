@@ -173,6 +173,14 @@ apps:
     profiles: [developer]
     hidden: true
     path: apps/ruby/bundler.yaml
+  - id: cake
+    name: Cake
+    category: Development/Build Tools
+    tags: [dotnet, build, automation, csharp, ci]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/cake.yaml
   - id: calibre
     name: calibre
     category: Utilities
@@ -484,6 +492,14 @@ apps:
     kind: cli-tool
     profiles: [developer]
     hidden: true
+  - id: gitversion
+    name: GitVersion
+    category: Development/Build Tools
+    tags: [dotnet, versioning, semver, git, ci]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/gitversion.yaml
   - id: glazewm
     name: GlazeWM
     category: Appearance/Window Management
@@ -836,6 +852,13 @@ apps:
     category: Development/Editors
     tags: [editor, text, windows]
     profiles: [developer, power-user]
+  - id: nswag
+    name: NSwagStudio
+    category: Development/API Tools
+    tags: [dotnet, openapi, swagger, codegen, csharp]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/nswag.yaml
   - id: nuget-config
     name: NuGet Config
     category: Development/.NET
@@ -843,6 +866,13 @@ apps:
     kind: dotfile
     profiles: [developer]
     path: apps/dotnet/nuget-config.yaml
+  - id: nuget-package-explorer
+    name: NuGet Package Explorer
+    category: Development/Package Management
+    tags: [dotnet, nuget, packages, inspector]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/nuget-package-explorer.yaml
   - id: nvidia-profile-inspector
     name: NVIDIA Profile Inspector
     category: Gaming/Performance
@@ -1012,6 +1042,14 @@ apps:
     kind: cli-tool
     profiles: [developer, power-user]
     hidden: true
+  - id: reportgenerator
+    name: ReportGenerator
+    category: Development/Testing
+    tags: [dotnet, coverage, reports, testing, csharp]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/reportgenerator.yaml
   - id: reshade
     name: ReShade
     category: Gaming/Modding
@@ -1165,6 +1203,14 @@ apps:
     category: Gaming/Stores
     tags: [gaming, store, valve, launcher]
     profiles: [gamer]
+  - id: stryker-net
+    name: Stryker.NET
+    category: Development/Testing
+    tags: [dotnet, mutation-testing, testing, quality, csharp]
+    kind: cli-tool
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/stryker-net.yaml
   - id: sublimetext
     name: Sublime Text
     category: Development/Editors
@@ -1370,6 +1416,13 @@ apps:
     tags: [audio, music, player, classic]
     profiles: [casual]
     hidden: true
+  - id: windbg
+    name: WinDbg
+    category: Development/Debuggers
+    tags: [debugger, windows, microsoft, native, dotnet]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/windbg.yaml
   - id: windirstat
     name: WinDirStat
     category: File Management

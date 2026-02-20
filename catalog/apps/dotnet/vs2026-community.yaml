@@ -12,7 +12,7 @@ license: freeware
 links:
   website: https://visualstudio.microsoft.com
 install:
-  winget: Microsoft.VisualStudio.2026.Community
+  winget: Microsoft.VisualStudio.Community
   choco: visualstudio2026community
 config:
   links:

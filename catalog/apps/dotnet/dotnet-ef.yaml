@@ -13,3 +13,4 @@ links:
   docs: https://learn.microsoft.com/en-us/ef/core/cli/dotnet
 install:
   dotnet-tool: dotnet-ef
+  detect: dotnet-ef
