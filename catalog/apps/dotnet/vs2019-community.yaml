@@ -1,0 +1,21 @@
+type: app
+name: Visual Studio 2019 Community
+display-name: VS 2019 Community
+category: Development/IDEs
+tags: [ide, dotnet, csharp, microsoft, visual-studio, legacy]
+description: Free IDE — last version to support .NET Framework and older project types
+hidden: true
+profiles: [developer]
+os: [windows]
+license: freeware
+alternatives: [vs2026-community]
+links:
+  website: https://visualstudio.microsoft.com
+install:
+  winget: Microsoft.VisualStudio.2019.Community
+  choco: visualstudio2019community
+config:
+  links:
+    - source: .vsconfig
+      target:
+        windows: "%USERPROFILE%/.vsconfig"

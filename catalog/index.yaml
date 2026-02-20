@@ -1289,22 +1289,58 @@ apps:
     kind: runtime
     profiles: [casual, developer]
     path: apps/cpp/vcredist.yaml
-  - id: visualstudio
-    name: Visual Studio
+  - id: vs2019-community
+    name: Visual Studio 2019 Community
     category: Development/IDEs
-    tags: [ide, microsoft, dotnet, windows, csharp, cpp]
+    tags: [ide, dotnet, csharp, microsoft, visual-studio, legacy]
     profiles: [developer]
     hidden: true
+    path: apps/dotnet/vs2019-community.yaml
+  - id: vs2019-professional
+    name: Visual Studio 2019 Professional
+    category: Development/IDEs
+    tags: [ide, dotnet, csharp, microsoft, visual-studio, legacy]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/vs2019-professional.yaml
   - id: visualstudio-2022
     name: Visual Studio 2022
     category: Development/IDEs
     tags: [ide, microsoft, dotnet, windows]
     profiles: [developer]
+  - id: vs2022-community
+    name: Visual Studio 2022 Community
+    category: Development/IDEs
+    tags: [ide, dotnet, csharp, microsoft, visual-studio]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/vs2022-community.yaml
+  - id: vs2022-professional
+    name: Visual Studio 2022 Professional
+    category: Development/IDEs
+    tags: [ide, dotnet, csharp, microsoft, visual-studio]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/vs2022-professional.yaml
   - id: visualstudio-2026
     name: Visual Studio 2026
     category: Development/IDEs
     tags: [ide, microsoft, dotnet, windows]
     profiles: [developer]
+  - id: vs2026-community
+    name: Visual Studio 2026 Community
+    category: Development/IDEs
+    tags: [ide, dotnet, csharp, microsoft, visual-studio]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/vs2026-community.yaml
+  - id: vs2026-professional
+    name: Visual Studio 2026 Professional
+    category: Development/IDEs
+    tags: [ide, dotnet, csharp, microsoft, visual-studio]
+    profiles: [developer]
+    hidden: true
+    path: apps/dotnet/vs2026-professional.yaml
   - id: vscode
     name: Visual Studio Code
     category: Development/IDEs

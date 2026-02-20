@@ -1,0 +1,21 @@
+type: app
+name: Visual Studio 2026 Professional
+display-name: VS 2026 Professional
+category: Development/IDEs
+tags: [ide, dotnet, csharp, microsoft, visual-studio]
+description: Professional IDE for small teams with advanced debugging and testing tools
+hidden: true
+profiles: [developer]
+os: [windows]
+license: proprietary
+alternatives: [vs2026-community]
+links:
+  website: https://visualstudio.microsoft.com
+install:
+  winget: Microsoft.VisualStudio.2026.Professional
+  choco: visualstudio2026professional
+config:
+  links:
+    - source: .vsconfig
+      target:
+        windows: "%USERPROFILE%/.vsconfig"

@@ -1,0 +1,21 @@
+type: app
+name: Visual Studio 2022 Community
+display-name: VS 2022 Community
+category: Development/IDEs
+tags: [ide, dotnet, csharp, microsoft, visual-studio]
+description: Free, full-featured IDE — first native 64-bit Visual Studio
+hidden: true
+profiles: [developer]
+os: [windows]
+license: freeware
+alternatives: [vs2026-community]
+links:
+  website: https://visualstudio.microsoft.com
+install:
+  winget: Microsoft.VisualStudio.2022.Community
+  choco: visualstudio2022community
+config:
+  links:
+    - source: .vsconfig
+      target:
+        windows: "%USERPROFILE%/.vsconfig"

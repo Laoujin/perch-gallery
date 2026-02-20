@@ -1,0 +1,21 @@
+type: app
+name: Visual Studio 2019 Professional
+display-name: VS 2019 Professional
+category: Development/IDEs
+tags: [ide, dotnet, csharp, microsoft, visual-studio, legacy]
+description: Professional IDE — last version with classic .NET Framework project support
+hidden: true
+profiles: [developer]
+os: [windows]
+license: proprietary
+alternatives: [vs2019-community]
+links:
+  website: https://visualstudio.microsoft.com
+install:
+  winget: Microsoft.VisualStudio.2019.Professional
+  choco: visualstudio2019professional
+config:
+  links:
+    - source: .vsconfig
+      target:
+        windows: "%USERPROFILE%/.vsconfig"

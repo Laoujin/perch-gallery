@@ -1,0 +1,21 @@
+type: app
+name: Visual Studio 2026 Community
+display-name: VS 2026 Community
+category: Development/IDEs
+tags: [ide, dotnet, csharp, microsoft, visual-studio]
+description: Free, full-featured IDE for students, open-source, and individual developers
+hidden: true
+top-choice: true
+profiles: [developer]
+os: [windows]
+license: freeware
+links:
+  website: https://visualstudio.microsoft.com
+install:
+  winget: Microsoft.VisualStudio.2026.Community
+  choco: visualstudio2026community
+config:
+  links:
+    - source: .vsconfig
+      target:
+        windows: "%USERPROFILE%/.vsconfig"
