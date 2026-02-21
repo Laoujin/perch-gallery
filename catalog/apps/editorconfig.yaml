@@ -1,0 +1,19 @@
+type: app
+name: EditorConfig
+kind: dotfile
+category: Development/Editor
+tags: [editor, config, formatting, coding-style]
+description: Maintain consistent coding styles across editors and IDEs
+profiles: [developer]
+os: [windows, linux, macos]
+license: MIT
+links:
+  website: https://editorconfig.org
+  github: https://github.com/editorconfig/editorconfig
+config:
+  links:
+    - source: .editorconfig
+      target:
+        windows: "%USERPROFILE%/.editorconfig"
+        linux: "$HOME/.editorconfig"
+        macos: "$HOME/.editorconfig"
