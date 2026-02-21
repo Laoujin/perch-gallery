@@ -13,7 +13,7 @@ links:
   docs: https://code.visualstudio.com/docs
   github: https://github.com/microsoft/vscode
 install:
-  winget: Microsoft.VisualStudio.Code
+  winget: Microsoft.VisualStudioCode
   choco: vscode
 tweaks:
   - id: open-with-code
