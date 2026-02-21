@@ -22,3 +22,8 @@ config:
         windows: "%USERPROFILE%/.bunfig.toml"
         linux: "$HOME/.bunfig.toml"
         macos: "$HOME/.bunfig.toml"
+  path-entries:
+    - path:
+        windows: "%USERPROFILE%\\.bun\\bin"
+        linux: "$HOME/.bun/bin"
+        macos: "$HOME/.bun/bin"
