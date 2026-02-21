@@ -13,8 +13,8 @@ links:
 config:
   links:
     - source: .bashrc
-      platforms: [linux, macos]
       target:
+        windows: "%USERPROFILE%/.bashrc"
         linux: "$HOME/.bashrc"
         macos: "$HOME/.bashrc"
     - source: .wslconfig
