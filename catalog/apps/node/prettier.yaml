@@ -1,10 +1,9 @@
 type: app
 name: Prettier
-kind: cli-tool
-category: Development/Node
+cli-tool: true
+category: Languages/Node/Global Packages
 tags: [formatter, code-style, node, cli]
 description: Opinionated code formatter
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

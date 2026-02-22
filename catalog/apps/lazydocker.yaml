@@ -3,7 +3,7 @@ name: lazydocker
 category: Development/Containers
 tags: [cli, docker, tui, containers]
 description: Simple terminal UI for Docker and Docker Compose
-kind: cli-tool
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

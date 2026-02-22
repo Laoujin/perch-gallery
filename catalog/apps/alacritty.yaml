@@ -1,6 +1,6 @@
 type: app
 name: Alacritty
-category: Development/Terminals
+category: Terminal/Terminal Apps
 tags: [terminal, gpu, rust]
 description: GPU-accelerated terminal emulator
 profiles: [developer]

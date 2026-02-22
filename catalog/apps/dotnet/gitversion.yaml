@@ -1,10 +1,9 @@
 type: app
 name: GitVersion
-kind: cli-tool
-category: Development/Build Tools
+cli-tool: true
+category: Languages/.NET/Global Packages
 tags: [dotnet, versioning, semver, git, ci]
 description: Semantic versioning derived from git history and branch conventions
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

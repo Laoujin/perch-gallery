@@ -1,10 +1,9 @@
 type: app
 name: Atuin
-category: Development/Shells
+category: Terminal/CLI Tools
 tags: [cli, shell, history, sync, rust]
 description: Magical shell history with sync, search, and stats
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

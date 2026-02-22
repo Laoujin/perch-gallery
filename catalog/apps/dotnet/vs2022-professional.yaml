@@ -1,10 +1,9 @@
 type: app
 name: Visual Studio 2022 Professional
 display-name: VS 2022 Professional
-category: Development/IDEs
+category: Languages/.NET/IDEs
 tags: [ide, dotnet, csharp, microsoft, visual-studio]
 description: Professional IDE with advanced debugging, testing, and DevOps tools
-hidden: true
 profiles: [developer]
 os: [windows]
 license: proprietary

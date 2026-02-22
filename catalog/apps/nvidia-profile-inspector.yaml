@@ -3,7 +3,6 @@ name: NVIDIA Profile Inspector
 category: Gaming/Performance
 tags: [gaming, nvidia, gpu, profiles, settings]
 description: View and edit NVIDIA driver profiles for per-game GPU settings
-hidden: true
 profiles: [gamer]
 os: [windows]
 license: MIT

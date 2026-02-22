@@ -1,9 +1,8 @@
 type: app
 name: Nextcloud
-category: Utilities/Storage
+category: Essentials/Cloud Storage
 tags: [cloud, sync, self-hosted, open-source]
 description: Self-hosted cloud storage and collaboration platform
-hidden: true
 profiles: [power-user]
 os: [windows, linux, macos]
 license: GPL-2.0

@@ -1,6 +1,6 @@
 type: app
 name: Cmder
-category: Development/Terminals
+category: Terminal/Terminal Apps
 tags: [terminal, console, windows]
 description: Portable console emulator for Windows based on ConEmu
 profiles: [developer]

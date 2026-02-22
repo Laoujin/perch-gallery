@@ -1,7 +1,7 @@
 type: app
 name: Visual Studio Code
 display-name: VS Code
-category: Development/IDEs
+category: Development/IDEs & Editors
 tags: [editor, ide, microsoft]
 description: Lightweight but powerful source code editor
 profiles: [developer]

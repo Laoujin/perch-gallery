@@ -1,6 +1,6 @@
 type: app
 name: Microsoft Edge
-category: Browsers
+category: Essentials/Browsers
 tags: [browser, chromium, microsoft]
 description: Microsoft's Chromium-based web browser built into Windows
 profiles: [casual]

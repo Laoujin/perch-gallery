@@ -1,6 +1,6 @@
 type: app
 name: Google Chrome Canary
-category: Browsers
+category: Essentials/Browsers
 tags: [browser, google, chromium, dev]
 description: Nightly build of Chrome for developers and early adopters
 profiles: [developer]

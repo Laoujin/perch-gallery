@@ -1,9 +1,9 @@
 type: app
 name: yazi
-category: File Management
+category: Power User/File Management
 tags: [cli, file-manager, tui, rust]
 description: Blazing fast terminal file manager with async I/O and image preview
-kind: cli-tool
+cli-tool: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

@@ -1,10 +1,9 @@
 type: app
 name: GitUI
-category: Development/Version Control
+category: Terminal/Git
 tags: [cli, git, tui, rust]
 description: Blazing fast terminal UI for git written in Rust
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

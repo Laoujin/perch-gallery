@@ -1,7 +1,6 @@
 type: app
 name: dotnet-tools.json
-kind: dotfile
-category: Development/.NET
+category: Languages/.NET
 tags: [dotnet, tools, manifest]
 description: .NET local tool manifest for reproducible tool installs
 profiles: [developer]

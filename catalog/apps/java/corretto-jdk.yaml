@@ -1,10 +1,9 @@
 type: app
 name: Amazon Corretto JDK
 display-name: Corretto JDK
-category: Development/Java
+category: Languages/Java/Runtimes
 tags: [java, jdk, runtime, amazon, open-source]
 description: No-cost production-ready OpenJDK distribution by Amazon
-hidden: true
 alternatives: [temurin-jdk]
 profiles: [developer]
 os: [windows, linux, macos]

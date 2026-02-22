@@ -3,7 +3,6 @@ name: Sunshine
 category: Gaming/Streaming
 tags: [gaming, streaming, remote-play, moonlight]
 description: Self-hosted game stream host — pair with Moonlight for low-latency remote play
-hidden: true
 profiles: [gamer]
 os: [windows, linux, macos]
 license: GPL-3.0

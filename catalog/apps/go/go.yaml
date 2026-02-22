@@ -1,9 +1,8 @@
 type: app
 name: Go
-category: Development/Languages
+category: Languages/Go/Runtimes
 tags: [go, golang, language, google]
 description: Fast, statically typed, compiled language by Google
-kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: BSD-3-Clause

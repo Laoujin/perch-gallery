@@ -1,10 +1,9 @@
 type: app
 name: Gradle
-category: Development/Java
+category: Languages/Java/Package Managers
 tags: [java, kotlin, build-tool, groovy]
 description: Build automation tool for multi-language software development
-kind: cli-tool
-hidden: true
+cli-tool: true
 requires: [temurin-jdk]
 profiles: [developer]
 os: [windows, linux, macos]

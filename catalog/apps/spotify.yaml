@@ -1,6 +1,6 @@
 type: app
 name: Spotify
-category: Media/Players
+category: Media/Audio
 tags: [music, streaming, audio]
 description: Digital music streaming service
 profiles: [casual]

@@ -1,9 +1,8 @@
 type: app
 name: Rust
-category: Development/Languages
+category: Languages/Rust/Runtimes
 tags: [rust, language, systems, memory-safe]
 description: Systems programming language focused on safety and performance
-kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

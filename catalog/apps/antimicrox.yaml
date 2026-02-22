@@ -3,7 +3,6 @@ name: AntiMicroX
 category: Gaming/Controllers
 tags: [gaming, controller, gamepad, keyboard-mapping]
 description: Map keyboard buttons and mouse controls to a gamepad
-hidden: true
 profiles: [gamer]
 os: [windows, linux]
 license: GPL-3.0

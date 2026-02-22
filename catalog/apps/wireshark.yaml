@@ -1,6 +1,6 @@
 type: app
 name: Wireshark
-category: Networking/Security
+category: Power User/Networking
 tags: [network, packet-capture, analysis, open-source]
 description: Network protocol analyzer for traffic capture and inspection
 profiles: [developer]

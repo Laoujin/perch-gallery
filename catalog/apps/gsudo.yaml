@@ -1,9 +1,9 @@
 type: app
 name: gsudo
-category: Utilities/System
+category: Power User/System Tools
 tags: [cli, sudo, elevation, windows]
 description: Sudo for Windows — run elevated commands from a non-elevated shell
-kind: cli-tool
+cli-tool: true
 profiles: [developer, power-user]
 os: [windows]
 license: MIT

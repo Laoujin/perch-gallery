@@ -1,6 +1,6 @@
 type: app
 name: Sublime Text
-category: Development/Editors
+category: Development/IDEs & Editors
 tags: [editor, text, windows, macos, linux]
 description: Sophisticated text editor for code, markup and prose
 profiles: [developer]

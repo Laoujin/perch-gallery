@@ -1,10 +1,9 @@
 type: app
 name: Foxit PDF Reader
 display-name: Foxit Reader
-category: Utilities/PDF
+category: Essentials/PDF
 tags: [pdf, reader, annotate]
 description: Lightweight PDF reader with annotation and form-filling support
-hidden: true
 profiles: [casual]
 os: [windows, linux, macos]
 license: proprietary

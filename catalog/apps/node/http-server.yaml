@@ -1,10 +1,9 @@
 type: app
 name: http-server
-kind: cli-tool
-category: Development/Node
+cli-tool: true
+category: Languages/Node/Global Packages
 tags: [http, server, node, cli]
 description: Simple zero-configuration HTTP server
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

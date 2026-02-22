@@ -1,10 +1,9 @@
 type: app
 name: RuboCop
-category: Development/Ruby
+category: Languages/Ruby/Global Packages
 tags: [ruby, linter, formatter, static-analysis]
 description: Ruby static code analyzer and formatter
-kind: cli-tool
-hidden: true
+cli-tool: true
 requires: [ruby]
 profiles: [developer]
 os: [windows, linux, macos]

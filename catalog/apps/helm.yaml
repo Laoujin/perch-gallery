@@ -3,8 +3,7 @@ name: Helm
 category: Development/Containers
 tags: [cli, kubernetes, k8s, package-manager, devops]
 description: Package manager for Kubernetes — deploy apps with charts
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

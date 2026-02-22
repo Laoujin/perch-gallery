@@ -1,10 +1,9 @@
 type: app
 name: rclone
-category: Utilities/Storage
+category: Essentials/Cloud Storage
 tags: [cli, cloud, sync, backup]
 description: Command-line program to manage files on cloud storage (rsync for cloud)
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

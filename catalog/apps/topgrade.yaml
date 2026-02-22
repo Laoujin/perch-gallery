@@ -1,10 +1,9 @@
 type: app
 name: topgrade
-category: Utilities/System
+category: Power User/System Tools
 tags: [cli, update, upgrade, all-in-one, rust]
 description: Upgrade everything — detect and run all package manager updates in one command
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [power-user]
 os: [windows, linux, macos]
 license: GPL-3.0

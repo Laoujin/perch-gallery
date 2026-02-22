@@ -1,7 +1,6 @@
 type: app
 name: Git
-kind: dotfile
-category: Development/Version Control
+category: Terminal/Git
 tags: [vcs, cli, developer]
 description: Distributed version control system
 profiles: [developer]

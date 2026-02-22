@@ -1,6 +1,6 @@
 type: app
 name: Flameshot
-category: Utilities/Screenshots
+category: Essentials/Screenshots
 tags: [screenshot, annotation, open-source]
 description: Powerful yet simple to use screenshot tool with annotation support
 profiles: [developer, power-user]

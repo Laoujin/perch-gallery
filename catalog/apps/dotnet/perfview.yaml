@@ -1,9 +1,8 @@
 type: app
 name: PerfView
-category: Development/Profilers
+category: Languages/.NET/IDEs
 tags: [profiler, performance, etw, dotnet, open-source]
 description: Performance analysis tool for .NET using ETW traces
-hidden: true
 profiles: [developer]
 os: [windows]
 license: MIT

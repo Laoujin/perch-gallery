@@ -1,11 +1,10 @@
 type: app
 name: uv
-category: Development/Python
+category: Languages/Python/Package Managers
 requires: [python]
 tags: [cli, python, package-manager, rust]
 description: Extremely fast Python package and project manager
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

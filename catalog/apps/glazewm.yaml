@@ -1,6 +1,6 @@
 type: app
 name: GlazeWM
-category: Appearance/Window Management
+category: Essentials/Window Managers
 tags: [tiling, window-manager, i3, productivity]
 description: Tiling window manager for Windows inspired by i3wm
 profiles: [developer, power-user]

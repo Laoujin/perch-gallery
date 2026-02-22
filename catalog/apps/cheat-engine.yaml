@@ -3,7 +3,6 @@ name: Cheat Engine
 category: Gaming/Modding
 tags: [gaming, modding, memory, debugging]
 description: Memory scanner and debugger for modifying single-player games
-hidden: true
 profiles: [gamer]
 os: [windows]
 license: freeware

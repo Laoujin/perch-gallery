@@ -1,6 +1,6 @@
 type: app
 name: Ditto
-category: Utilities/Clipboard
+category: Essentials/Clipboard
 tags: [clipboard, manager, windows]
 description: Extension to the Windows clipboard with search and paste
 profiles: [power-user]

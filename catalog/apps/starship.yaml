@@ -1,10 +1,9 @@
 type: app
 name: Starship
-category: Development/Shells
+category: Terminal/CLI Tools
 tags: [cli, prompt, shell, rust]
 description: Minimal, blazing-fast, and infinitely customizable cross-shell prompt
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: ISC

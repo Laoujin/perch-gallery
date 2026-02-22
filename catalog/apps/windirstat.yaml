@@ -1,6 +1,6 @@
 type: app
 name: WinDirStat
-category: File Management
+category: Power User/File Management
 tags: [disk-usage, visualization, cleanup, open-source]
 description: Disk usage statistics viewer and cleanup tool
 profiles: [power-user]

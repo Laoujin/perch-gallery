@@ -1,7 +1,6 @@
 type: app
 name: EditorConfig
-kind: dotfile
-category: Development/Editor
+category: Development/IDEs & Editors
 tags: [editor, config, formatting, coding-style]
 description: Maintain consistent coding styles across editors and IDEs
 profiles: [developer]

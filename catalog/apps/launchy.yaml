@@ -1,9 +1,8 @@
 type: app
 name: Launchy
-category: Utilities/Productivity
+category: Power User/System Tools
 tags: [launcher, productivity, keyboard, open-source]
 description: Keystroke application launcher
-hidden: true
 profiles: [power-user]
 os: [windows]
 license: GPL-2.0

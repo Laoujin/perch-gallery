@@ -1,10 +1,9 @@
 type: app
 name: fd
-category: Development/CLI Tools
+category: Terminal/CLI Tools
 tags: [cli, find, search, rust]
 description: Simple, fast, and user-friendly alternative to find
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: Apache-2.0

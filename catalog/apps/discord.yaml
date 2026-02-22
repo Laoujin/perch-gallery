@@ -1,6 +1,6 @@
 type: app
 name: Discord
-category: Communication/Chat
+category: Essentials/Communication
 tags: [chat, voice, gaming, community]
 description: Voice, video, and text communication platform
 profiles: [casual, gamer]

@@ -1,6 +1,6 @@
 type: app
 name: Brave
-category: Browsers
+category: Essentials/Browsers
 tags: [browser, privacy, chromium, open-source]
 description: Privacy-focused Chromium-based web browser with built-in ad blocking
 profiles: [casual, power-user]

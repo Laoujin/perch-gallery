@@ -1,6 +1,6 @@
 type: app
 name: EarTrumpet
-category: Appearance
+category: Power User/System Tools
 tags: [audio, volume, per-app, taskbar]
 description: Per-app volume control from the system tray
 profiles: [power-user]

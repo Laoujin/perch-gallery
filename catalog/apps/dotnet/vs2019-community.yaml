@@ -1,10 +1,9 @@
 type: app
 name: Visual Studio 2019 Community
 display-name: VS 2019 Community
-category: Development/IDEs
+category: Languages/.NET/IDEs
 tags: [ide, dotnet, csharp, microsoft, visual-studio, legacy]
 description: Free IDE — last version to support .NET Framework and older project types
-hidden: true
 profiles: [developer]
 os: [windows]
 license: freeware

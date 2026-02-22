@@ -3,7 +3,6 @@ name: MediaMonkey
 category: Media/Audio
 tags: [audio, music, player, library, organizer]
 description: Music manager and media jukebox for large collections
-hidden: true
 profiles: [casual]
 os: [windows]
 license: freeware

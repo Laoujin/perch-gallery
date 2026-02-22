@@ -1,9 +1,8 @@
 type: app
 name: dotPeek
-category: Development/Decompilers
+category: Languages/.NET/IDEs
 tags: [dotnet, decompiler, jetbrains, csharp]
 description: Free .NET decompiler and assembly browser by JetBrains
-hidden: true
 profiles: [developer]
 os: [windows]
 license: proprietary

@@ -1,6 +1,6 @@
 type: app
 name: PowerToys
-category: Utilities/Productivity
+category: Power User/System Tools
 tags: [productivity, utilities, microsoft, windows]
 description: Windows system utilities to maximize productivity
 profiles: [developer, power-user]

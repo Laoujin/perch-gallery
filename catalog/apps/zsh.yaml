@@ -1,7 +1,6 @@
 type: app
 name: Zsh
-kind: dotfile
-category: Development/Shells
+category: Terminal/Shells/Bash
 tags: [shell, cli, linux, macos]
 description: Z shell configuration
 profiles: [developer]

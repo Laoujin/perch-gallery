@@ -1,11 +1,10 @@
 type: app
 name: npm-check-updates
 display-name: ncu
-kind: cli-tool
-category: Development/Node
+cli-tool: true
+category: Languages/Node/Global Packages
 tags: [dependencies, upgrade, node, cli]
 description: Upgrade package.json dependencies
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

@@ -1,6 +1,6 @@
 type: app
 name: Windows Copilot
-category: Utilities
+category: Development/IDEs & Editors
 tags: [ai, microsoft, copilot, windows-11]
 description: AI-powered assistant built into Windows 11
 profiles: [casual]

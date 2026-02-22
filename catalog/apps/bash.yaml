@@ -1,7 +1,6 @@
 type: app
 name: Bash
-kind: dotfile
-category: Development/Shells
+category: Terminal/Shells/Bash
 tags: [shell, cli, linux, macos, wsl]
 description: GNU Bourne-Again SHell
 profiles: [developer]

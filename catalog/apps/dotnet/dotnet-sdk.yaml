@@ -1,10 +1,9 @@
 type: app
 name: .NET
 display-name: .NET SDK 10
-category: Development/Runtimes
+category: Languages/.NET/Runtimes
 tags: [dotnet, sdk, microsoft, csharp]
 description: Free, open-source, cross-platform framework for building apps
-kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

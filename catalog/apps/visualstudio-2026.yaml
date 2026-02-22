@@ -1,6 +1,6 @@
 type: app
 name: Visual Studio 2026
-category: Development/IDEs
+category: Development/IDEs & Editors
 tags: [ide, microsoft, dotnet, windows]
 description: Full-featured IDE for .NET and C++ development
 profiles: [developer]

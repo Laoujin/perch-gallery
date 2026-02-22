@@ -1,6 +1,6 @@
 type: app
 name: Zed
-category: Development/Editors
+category: Development/IDEs & Editors
 tags: [editor, ide, gpu, collaboration, rust]
 description: High-performance multiplayer code editor from the creators of Atom
 profiles: [developer]

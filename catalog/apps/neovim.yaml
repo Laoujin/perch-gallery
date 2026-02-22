@@ -1,9 +1,9 @@
 type: app
 name: Neovim
-category: Development/Editors
+category: Development/IDEs & Editors
 tags: [editor, vim, terminal, lua]
 description: Hyperextensible Vim-based text editor
-kind: cli-tool
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

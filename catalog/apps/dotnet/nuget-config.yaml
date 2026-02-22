@@ -1,7 +1,6 @@
 type: app
 name: NuGet Config
-kind: dotfile
-category: Development/.NET
+category: Languages/.NET/Package Managers
 tags: [dotnet, nuget, config]
 description: NuGet package source and credentials configuration
 profiles: [developer]

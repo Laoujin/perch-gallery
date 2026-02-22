@@ -1,7 +1,6 @@
 type: app
 name: Vim
-kind: dotfile
-category: Development/Editors
+category: Development/IDEs & Editors
 tags: [editor, cli, terminal]
 description: Highly configurable text editor
 profiles: [developer]

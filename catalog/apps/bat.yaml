@@ -1,10 +1,9 @@
 type: app
 name: bat
-category: Development/CLI Tools
+category: Terminal/CLI Tools
 tags: [cli, cat, syntax-highlighting, rust]
 description: Cat clone with syntax highlighting and Git integration
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: Apache-2.0

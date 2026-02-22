@@ -1,6 +1,6 @@
 type: app
 name: WizTree
-category: File Management
+category: Power User/File Management
 tags: [disk-space, analyzer, storage]
 description: Fast disk space analyzer that reads the MFT directly
 profiles: [power-user]

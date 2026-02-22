@@ -1,6 +1,6 @@
 type: app
 name: GitHub Desktop
-category: Development/Version Control
+category: Terminal/Git
 tags: [git, gui, github, open-source]
 description: Simple Git GUI client focused on GitHub workflows
 profiles: [developer]

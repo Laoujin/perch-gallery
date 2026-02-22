@@ -1,6 +1,6 @@
 type: app
 name: Revo Uninstaller
-category: Utilities/Uninstallers
+category: Power User/System Tools
 tags: [uninstaller, cleanup, system]
 description: Advanced uninstaller with leftover removal and system cleaning tools
 profiles: [power-user]

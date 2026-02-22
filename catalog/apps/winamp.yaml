@@ -3,7 +3,6 @@ name: Winamp
 category: Media/Audio
 tags: [audio, music, player, classic]
 description: Classic media player for Windows
-hidden: true
 profiles: [casual]
 os: [windows]
 license: freeware

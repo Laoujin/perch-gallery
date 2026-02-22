@@ -1,11 +1,10 @@
 type: app
 name: Stryker.NET
-kind: cli-tool
-category: Development/Testing
+cli-tool: true
+category: Languages/.NET/Global Packages
 tags: [dotnet, mutation-testing, testing, quality, csharp]
 description: Mutation testing for .NET — verify your tests actually catch bugs
 hot: true
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

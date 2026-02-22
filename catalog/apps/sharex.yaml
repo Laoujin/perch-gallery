@@ -1,6 +1,6 @@
 type: app
 name: ShareX
-category: Utilities/Screenshots
+category: Essentials/Screenshots
 tags: [screenshot, screen-recording, capture, open-source]
 description: Screen capture, file sharing, and productivity tool
 profiles: [developer, power-user]

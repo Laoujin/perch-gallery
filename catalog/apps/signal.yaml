@@ -1,6 +1,6 @@
 type: app
 name: Signal
-category: Communication/Chat
+category: Essentials/Communication
 tags: [messaging, privacy, encryption, open-source]
 description: Private messenger with end-to-end encryption
 profiles: [casual]

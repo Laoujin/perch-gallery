@@ -1,9 +1,8 @@
 type: app
 name: .NET SDK 8
-category: Development/Runtimes
+category: Languages/.NET/Runtimes
 tags: [dotnet, sdk, microsoft, csharp, lts]
 description: .NET 8 — long term support release
-hidden: true
 requires: [dotnet-sdk]
 profiles: [developer]
 os: [windows, linux, macos]

@@ -1,9 +1,8 @@
 type: app
 name: PeaZip
-category: Utilities/Compression
+category: Essentials/Compression
 tags: [archive, compression, open-source]
 description: Free and open-source file archiver and compressor
-hidden: true
 profiles: [casual]
 os: [windows, linux]
 license: LGPL-3.0

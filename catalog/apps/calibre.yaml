@@ -1,6 +1,6 @@
 type: app
 name: calibre
-category: Utilities
+category: Media/Other
 tags: [ebooks, library, reader, converter]
 description: Powerful and easy-to-use e-book manager and converter
 profiles: [casual]

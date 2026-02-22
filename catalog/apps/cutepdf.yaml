@@ -1,10 +1,9 @@
 type: app
 name: CutePDF Writer
 display-name: CutePDF
-category: Utilities/PDF
+category: Essentials/PDF
 tags: [pdf, printer, converter]
 description: Free PDF creation tool that installs as a virtual printer
-hidden: true
 profiles: [casual]
 os: [windows]
 license: freeware

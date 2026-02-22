@@ -1,10 +1,9 @@
 type: app
 name: Eclipse IDE
 display-name: Eclipse
-category: Development/IDEs
+category: Development/IDEs & Editors
 tags: [ide, java, open-source]
 description: Open-source IDE primarily for Java development
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: EPL-2.0

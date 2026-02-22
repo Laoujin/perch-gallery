@@ -1,6 +1,6 @@
 type: app
 name: LocalSend
-category: Networking/Remote Access
+category: Power User/Networking
 tags: [file-sharing, local, airdrop, open-source]
 description: Share files to nearby devices — open-source cross-platform AirDrop alternative
 profiles: [casual, power-user]

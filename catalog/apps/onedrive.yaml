@@ -1,6 +1,6 @@
 type: app
 name: OneDrive
-category: Utilities/Storage
+category: Essentials/Cloud Storage
 tags: [cloud, storage, sync, microsoft]
 description: Cloud storage and file synchronization service by Microsoft
 profiles: [casual]

@@ -1,6 +1,6 @@
 type: app
 name: Steam
-category: Gaming/Stores
+category: Gaming/Launchers
 tags: [gaming, store, valve, launcher]
 description: Digital distribution platform for PC gaming
 profiles: [gamer]

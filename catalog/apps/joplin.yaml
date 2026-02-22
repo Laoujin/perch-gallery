@@ -1,6 +1,6 @@
 type: app
 name: Joplin
-category: Utilities/Productivity
+category: Essentials/Note-Taking
 tags: [notes, markdown, sync, open-source]
 description: Open-source note-taking and to-do application with sync
 profiles: [casual, power-user]

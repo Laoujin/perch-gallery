@@ -1,9 +1,8 @@
 type: app
 name: Tabby
-category: Development/Terminals
+category: Terminal/Terminal Apps
 tags: [terminal, ssh, serial, electron]
 description: Highly configurable terminal emulator with SSH client and serial support
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

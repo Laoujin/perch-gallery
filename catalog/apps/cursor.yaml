@@ -1,6 +1,6 @@
 type: app
 name: Cursor
-category: Development/IDEs
+category: Development/IDEs & Editors
 tags: [ide, ai, editor, vscode-fork]
 description: AI-powered code editor built on VS Code
 profiles: [developer]

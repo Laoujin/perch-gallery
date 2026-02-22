@@ -1,6 +1,6 @@
 type: app
 name: Firefox
-category: Browsers
+category: Essentials/Browsers
 tags: [browser, mozilla, privacy]
 description: Free and open-source web browser by Mozilla
 profiles: [casual, developer]

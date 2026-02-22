@@ -1,10 +1,9 @@
 type: app
 name: golangci-lint
-category: Development/Go
+category: Languages/Go/Global Packages
 tags: [go, golang, linter, static-analysis]
 description: Fast Go linters runner with dozens of linters included
-kind: cli-tool
-hidden: true
+cli-tool: true
 requires: [go]
 profiles: [developer]
 os: [windows, linux, macos]

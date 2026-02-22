@@ -1,10 +1,9 @@
 type: app
 name: dust
-category: Utilities/System
+category: Power User/System Tools
 tags: [cli, disk, du, rust]
 description: More intuitive version of du, showing disk usage in a visual tree
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: Apache-2.0

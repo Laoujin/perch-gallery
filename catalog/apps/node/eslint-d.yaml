@@ -1,11 +1,10 @@
 type: app
 name: eslint_d
 display-name: eslint-d
-kind: cli-tool
-category: Development/Node
+cli-tool: true
+category: Languages/Node/Global Packages
 tags: [linter, eslint, daemon, node, cli]
 description: Fast ESLint daemon for editors
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

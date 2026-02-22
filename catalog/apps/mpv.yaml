@@ -1,6 +1,6 @@
 type: app
 name: mpv
-category: Media/Players
+category: Media/Video
 tags: [video, player, cli, open-source]
 description: Free, open-source, cross-platform media player for the power user
 profiles: [power-user]

@@ -1,11 +1,10 @@
 type: app
 name: ReportGenerator
-kind: cli-tool
-category: Development/Testing
+cli-tool: true
+category: Languages/.NET/Global Packages
 tags: [dotnet, coverage, reports, testing, csharp]
 description: Convert code coverage reports into human-readable HTML reports
 hot: true
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

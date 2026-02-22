@@ -1,9 +1,9 @@
 type: app
 name: Helix
-category: Development/Editors
+category: Development/IDEs & Editors
 tags: [editor, modal, terminal, rust]
 description: Post-modern modal text editor with built-in LSP support
-kind: cli-tool
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MPL-2.0

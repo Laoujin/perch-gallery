@@ -1,6 +1,6 @@
 type: app
 name: Teams Chat
-category: Communication/Chat
+category: Essentials/Communication
 tags: [chat, teams, microsoft, windows-11]
 description: Built-in Teams Chat integration in the Windows 11 taskbar
 profiles: [casual]

@@ -1,6 +1,6 @@
 type: app
 name: Windows Terminal
-category: Development/Terminals
+category: Terminal/Terminal Apps
 tags: [terminal, shell, microsoft]
 description: Modern terminal application for command-line users
 profiles: [developer, power-user]

@@ -1,9 +1,8 @@
 type: app
 name: Jellyfin
-category: Media/Players
+category: Media/Video
 tags: [media-server, streaming, open-source, self-hosted]
 description: Free software media system for streaming your own media library
-hidden: true
 profiles: [power-user]
 os: [windows, linux, macos]
 license: GPL-2.0

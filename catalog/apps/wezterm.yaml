@@ -1,6 +1,6 @@
 type: app
 name: WezTerm
-category: Development/Terminals
+category: Terminal/Terminal Apps
 tags: [terminal, gpu, lua, multiplexer]
 description: GPU-accelerated terminal emulator and multiplexer with Lua config
 profiles: [developer]

@@ -1,6 +1,6 @@
 type: app
 name: Thunderbird
-category: Communication/Email
+category: Essentials/Communication
 tags: [email, calendar, open-source, mozilla]
 description: Free and open-source email client by Mozilla
 profiles: [casual, power-user]

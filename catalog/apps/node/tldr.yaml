@@ -1,10 +1,9 @@
 type: app
 name: tldr
-kind: cli-tool
-category: Development/Node
+cli-tool: true
+category: Languages/Node/Global Packages
 tags: [man-pages, help, documentation, node, cli]
 description: Simplified community-driven man pages
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

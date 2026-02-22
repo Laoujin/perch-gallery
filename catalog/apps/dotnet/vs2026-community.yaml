@@ -1,10 +1,9 @@
 type: app
 name: Visual Studio 2026 Community
 display-name: VS 2026 Community
-category: Development/IDEs
+category: Languages/.NET/IDEs
 tags: [ide, dotnet, csharp, microsoft, visual-studio]
 description: Free, full-featured IDE for students, open-source, and individual developers
-hidden: true
 hot: true
 profiles: [developer]
 os: [windows]

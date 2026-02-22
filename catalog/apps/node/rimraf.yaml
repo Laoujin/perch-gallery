@@ -1,10 +1,9 @@
 type: app
 name: rimraf
-kind: cli-tool
-category: Development/Node
+cli-tool: true
+category: Languages/Node/Global Packages
 tags: [filesystem, cleanup, node, cli]
 description: Cross-platform rm -rf
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: ISC

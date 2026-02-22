@@ -1,10 +1,9 @@
 type: app
 name: tsx
-kind: cli-tool
-category: Development/Node
+cli-tool: true
+category: Languages/Node/Global Packages
 tags: [typescript, runner, node, cli]
 description: TypeScript execute — run TS files directly
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

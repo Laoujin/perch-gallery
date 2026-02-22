@@ -1,7 +1,7 @@
 type: app
 name: CMake
-kind: cli-tool
-category: Development/Build Tools
+cli-tool: true
+category: Languages/C/C++/Package Managers
 tags: [cpp, build-system, cross-platform, open-source]
 description: Cross-platform build system generator
 profiles: [developer]

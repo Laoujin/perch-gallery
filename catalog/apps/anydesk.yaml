@@ -1,9 +1,8 @@
 type: app
 name: AnyDesk
-category: Networking/Remote Access
+category: Power User/Networking
 tags: [remote-desktop, remote-access]
 description: Remote desktop application for remote access and support
-hidden: true
 profiles: [casual]
 os: [windows, linux, macos]
 license: proprietary

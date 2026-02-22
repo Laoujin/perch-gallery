@@ -1,9 +1,8 @@
 type: app
 name: RetroArch
-category: Gaming/Stores
+category: Gaming/Launchers
 tags: [gaming, emulator, retro, multi-system]
 description: Frontend for emulators, game engines, and media players — run classic games
-hidden: true
 profiles: [gamer]
 os: [windows, linux, macos]
 license: GPL-3.0

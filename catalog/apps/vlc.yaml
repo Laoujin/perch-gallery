@@ -1,6 +1,6 @@
 type: app
 name: VLC
-category: Media/Players
+category: Media/Video
 tags: [media, video, audio, open-source]
 description: Free and open-source cross-platform multimedia player
 profiles: [casual]

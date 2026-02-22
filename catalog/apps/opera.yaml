@@ -1,6 +1,6 @@
 type: app
 name: Opera
-category: Browsers
+category: Essentials/Browsers
 tags: [browser, chromium, vpn]
 description: Feature-rich web browser with built-in VPN and ad blocker
 profiles: [casual]

@@ -1,10 +1,9 @@
 type: app
 name: TypeScript
-kind: cli-tool
-category: Development/Node
+cli-tool: true
+category: Languages/Node/Global Packages
 tags: [typescript, compiler, node, cli]
 description: TypeScript compiler and language
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

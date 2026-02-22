@@ -1,10 +1,9 @@
 type: app
 name: mypy
-category: Development/Python
+category: Languages/Python/Global Packages
 tags: [python, type-checker, static-analysis]
 description: Optional static type checker for Python
-kind: cli-tool
-hidden: true
+cli-tool: true
 requires: [python]
 profiles: [developer]
 os: [windows, linux, macos]

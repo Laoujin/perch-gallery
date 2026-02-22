@@ -1,6 +1,6 @@
 type: app
 name: Sysinternals Suite
-category: Utilities/System
+category: Power User/System Tools
 tags: [system, diagnostics, microsoft, admin]
 description: Collection of advanced Windows system utilities by Mark Russinovich
 profiles: [developer, power-user]

@@ -1,7 +1,7 @@
 type: app
 name: KeePass 2
 display-name: KeePass
-category: Security/Passwords
+category: Essentials/Passwords
 tags: [passwords, security, encryption, open-source]
 description: Free and open-source password manager
 profiles: [power-user]

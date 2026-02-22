@@ -1,6 +1,6 @@
 type: app
 name: Flow Launcher
-category: Utilities/Productivity
+category: Power User/System Tools
 tags: [launcher, search, productivity, plugins]
 description: Quick file search and app launcher with community-made plugins
 profiles: [power-user]

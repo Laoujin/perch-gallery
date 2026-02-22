@@ -3,7 +3,6 @@ name: foobar2000
 category: Media/Audio
 tags: [audio, music, player, lightweight]
 description: Advanced freeware audio player for Windows
-hidden: true
 profiles: [power-user]
 os: [windows]
 license: freeware

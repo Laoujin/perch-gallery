@@ -1,6 +1,6 @@
 type: app
 name: FileZilla
-category: Networking/FTP
+category: Essentials/FTP
 tags: [ftp, sftp, transfer, windows]
 description: Free FTP, FTPS and SFTP client
 profiles: [developer]

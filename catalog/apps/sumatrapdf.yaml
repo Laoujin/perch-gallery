@@ -1,6 +1,6 @@
 type: app
 name: SumatraPDF
-category: Utilities/PDF
+category: Essentials/PDF
 tags: [pdf, reader, lightweight, open-source]
 description: Lightweight and fast PDF, EPUB, MOBI, and comic book reader
 profiles: [casual]

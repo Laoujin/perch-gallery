@@ -3,7 +3,6 @@ name: ReShade
 category: Gaming/Modding
 tags: [gaming, post-processing, shaders, graphics]
 description: Generic post-processing injector for games — add effects like SMAA, ambient occlusion, depth of field
-hidden: true
 profiles: [gamer]
 os: [windows]
 license: BSD-3-Clause

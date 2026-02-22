@@ -1,6 +1,6 @@
 type: app
 name: Ventoy
-category: Utilities/System
+category: Power User/System Tools
 tags: [usb, bootable, iso, multiboot]
 description: Create bootable USB drive supporting multiple ISO files at once
 profiles: [power-user]

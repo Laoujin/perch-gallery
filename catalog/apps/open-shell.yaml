@@ -1,6 +1,6 @@
 type: app
 name: Open-Shell
-category: Utilities/System
+category: Power User/System Tools
 tags: [start-menu, shell, customization, open-source]
 description: Classic Start menu and Windows shell customizations
 profiles: [power-user]

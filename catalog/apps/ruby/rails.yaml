@@ -1,11 +1,10 @@
 type: app
 name: Ruby on Rails
 display-name: Rails
-category: Development/Ruby
+category: Languages/Ruby/Global Packages
 tags: [ruby, framework, web, mvc]
 description: Full-stack web application framework for Ruby
-kind: cli-tool
-hidden: true
+cli-tool: true
 requires: [ruby]
 profiles: [developer]
 os: [windows, linux, macos]

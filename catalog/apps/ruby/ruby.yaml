@@ -1,9 +1,8 @@
 type: app
 name: Ruby
-category: Development/Languages
+category: Languages/Ruby/Runtimes
 tags: [ruby, language, scripting]
 description: Dynamic programming language with elegant syntax
-kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: BSD-2-Clause

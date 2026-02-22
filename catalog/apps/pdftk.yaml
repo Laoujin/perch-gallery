@@ -1,9 +1,9 @@
 type: app
 name: PDFtk Free
-category: Utilities/PDF
+category: Essentials/PDF
 tags: [pdf, cli, merge, split]
 description: Command-line tool for manipulating PDF documents
-kind: cli-tool
+cli-tool: true
 profiles: [developer]
 os: [windows, linux]
 license: GPL-2.0

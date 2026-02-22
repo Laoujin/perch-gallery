@@ -1,9 +1,8 @@
 type: app
 name: Python
-category: Development/Languages
+category: Languages/Python/Runtimes
 tags: [python, language, scripting]
 description: Popular general-purpose programming language
-kind: runtime
 profiles: [developer]
 os: [windows, linux, macos]
 license: PSF-2.0

@@ -3,8 +3,7 @@ name: kubectl
 category: Development/Containers
 tags: [cli, kubernetes, k8s, cloud, devops]
 description: Kubernetes command-line tool for cluster management
-kind: cli-tool
-hidden: true
+cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

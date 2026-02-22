@@ -1,9 +1,8 @@
 type: app
 name: RustDesk
-category: Networking/Remote Access
+category: Power User/Networking
 tags: [remote-desktop, self-hosted, open-source, rust]
 description: Open-source remote desktop with self-hosted server option
-hidden: true
 profiles: [power-user]
 os: [windows, linux, macos]
 license: AGPL-3.0

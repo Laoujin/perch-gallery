@@ -3,7 +3,6 @@ name: Postman
 category: Development/API Tools
 tags: [api, rest, graphql, testing]
 description: API platform for building and testing APIs
-hidden: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: proprietary

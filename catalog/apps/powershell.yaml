@@ -1,7 +1,6 @@
 type: app
 name: PowerShell
-kind: dotfile
-category: Development/Shells
+category: Terminal/Shells/PowerShell
 tags: [shell, cli, microsoft, scripting]
 description: Cross-platform task automation and configuration management
 profiles: [developer, power-user]

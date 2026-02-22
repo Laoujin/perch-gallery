@@ -1,6 +1,6 @@
 type: app
 name: Bulk Crap Uninstaller
-category: Utilities/Uninstallers
+category: Power User/System Tools
 tags: [uninstaller, cleanup, batch]
 description: Remove large amounts of unwanted applications with thorough leftover cleanup
 profiles: [power-user]

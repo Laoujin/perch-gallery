@@ -1,6 +1,6 @@
 type: app
 name: TortoiseGit
-category: Development/Version Control
+category: Terminal/Git
 tags: [git, gui, explorer-integration, open-source]
 description: Windows shell interface to Git with Explorer overlay icons
 profiles: [developer]

@@ -1,6 +1,6 @@
 type: app
 name: KeePassXC
-category: Security/Passwords
+category: Essentials/Passwords
 tags: [passwords, security, open-source, offline]
 description: Cross-platform community-driven port of KeePass
 profiles: [power-user]

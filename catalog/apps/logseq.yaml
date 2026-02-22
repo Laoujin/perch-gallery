@@ -1,6 +1,6 @@
 type: app
 name: Logseq
-category: Utilities/Productivity
+category: Essentials/Note-Taking
 tags: [notes, knowledge-base, markdown, graph]
 description: Privacy-first, open-source knowledge base that works on local files
 profiles: [power-user]

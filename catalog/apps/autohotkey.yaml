@@ -1,6 +1,6 @@
 type: app
 name: AutoHotkey
-category: Utilities/Productivity
+category: Power User/System Tools
 tags: [automation, scripting, hotkeys, windows]
 description: Scripting language for desktop automation and custom hotkeys
 profiles: [developer, power-user]

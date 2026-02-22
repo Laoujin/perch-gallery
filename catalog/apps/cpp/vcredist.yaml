@@ -1,8 +1,7 @@
 type: app
 name: Visual C++ Redistributable
 display-name: VC++ Redist
-kind: runtime
-category: Development/Build Tools
+category: Languages/C/C++/Runtimes
 tags: [cpp, runtime, microsoft]
 description: Microsoft Visual C++ runtime libraries required by many applications
 profiles: [casual, developer]
