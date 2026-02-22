@@ -9,16 +9,16 @@ license: proprietary
 links:
   website: https://www.scootersoftware.com
 install:
-  winget: ScooterSoftware.BeyondCompare.4
+  winget: ScooterSoftware.BeyondCompare.5
   choco: beyondcompare
 config:
   links:
     - source: BCCommands.xml
       target:
-        windows: "%APPDATA%/Scooter Software/Beyond Compare 3/BCCommands.xml"
+        windows: "%APPDATA%/Scooter Software/Beyond Compare 5/BCCommands.xml"
     - source: BCPreferences.xml
       target:
-        windows: "%APPDATA%/Scooter Software/Beyond Compare 3/BCPreferences.xml"
+        windows: "%APPDATA%/Scooter Software/Beyond Compare 5/BCPreferences.xml"
   clean-filter:
     files: [BCPreferences.xml]
     rules:
