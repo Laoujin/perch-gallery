@@ -1,110 +1,170 @@
-# Category sort order for unified tree display.
-# Lower values appear first. Sub-categories inherit parent sort
+# Category definitions for unified tree display.
+# Lower sort values appear first. Sub-categories inherit parent sort
 # unless overridden. Gaps left for future insertion.
+#
+# Pattern:
+#   drill-down: UI shows category cards that expand to subcategory views
+#   direct: UI shows all apps in a flat list grouped by subcategory
+
+# ============================================================================
+# APP CATEGORIES (8 top-level)
+# ============================================================================
+
+Languages:
+  sort: 100
+  pattern: drill-down
+  children:
+    .NET:
+      sort: 10
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+    Node:
+      sort: 20
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+    Python:
+      sort: 30
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+    Rust:
+      sort: 40
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+    Go:
+      sort: 50
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+    Ruby:
+      sort: 60
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+    Java:
+      sort: 70
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+    C/C++:
+      sort: 80
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+    PHP:
+      sort: 90
+      children:
+        Runtimes: { sort: 10 }
+        Version Managers: { sort: 20 }
+        Package Managers: { sort: 30 }
+        IDEs: { sort: 40 }
+        Global Packages: { sort: 50 }
+
+Terminal:
+  sort: 200
+  pattern: direct
+  children:
+    Shells:
+      sort: 10
+      children:
+        Bash: { sort: 10 }
+        PowerShell: { sort: 20 }
+    Terminal Apps: { sort: 20 }
+    CLI Tools: { sort: 30 }
+    Git: { sort: 40 }
+    SSH: { sort: 50 }
 
 Development:
-  sort: 100
-  children:
-    IDEs: { sort: 10 }
-    Editors: { sort: 20 }
-    Shells: { sort: 30 }
-    Terminals: { sort: 40 }
-    Version Control: { sort: 50 }
-    Diff Tools: { sort: 60 }
-    .NET: { sort: 70 }
-    Node: { sort: 80 }
-    Python: { sort: 81 }
-    Ruby: { sort: 82 }
-    Java: { sort: 83 }
-    Go: { sort: 84 }
-    Rust: { sort: 85 }
-    CLI Tools: { sort: 86 }
-    Runtimes: { sort: 87 }
-    Languages: { sort: 88 }
-    Tools: { sort: 90 }
-    Build Tools: { sort: 92 }
-    Decompilers: { sort: 94 }
-    Profilers: { sort: 96 }
-    IDE Extensions: { sort: 98 }
-    API Tools: { sort: 100 }
-    Databases: { sort: 110 }
-    Containers: { sort: 120 }
-
-Browsers:
-  sort: 200
-  children:
-    Debloat: { sort: 10 }
-
-Communication:
   sort: 300
+  pattern: direct
   children:
-    Chat: { sort: 10 }
-    Email: { sort: 20 }
-    Video: { sort: 30 }
+    IDEs & Editors: { sort: 10 }
+    API Tools: { sort: 20 }
+    Databases: { sort: 30 }
+    Containers: { sort: 40 }
+    Diff Tools: { sort: 50 }
 
-File Management: { sort: 400 }
+Essentials:
+  sort: 400
+  pattern: drill-down
+  children:
+    Browsers: { sort: 10 }
+    Communication: { sort: 20 }
+    Passwords: { sort: 30 }
+    Office: { sort: 40 }
+    Note-Taking: { sort: 50 }
+    Cloud Storage: { sort: 60 }
+    Compression: { sort: 70 }
+    Screenshots: { sort: 80 }
+    Clipboard: { sort: 90 }
+    PDF: { sort: 100 }
+    Downloads: { sort: 110 }
+    FTP: { sort: 120 }
+    Window Managers: { sort: 130 }
 
 Media:
   sort: 500
+  pattern: direct
   children:
     Graphics: { sort: 10 }
-    Players: { sort: 20 }
+    Video: { sort: 20 }
     Audio: { sort: 30 }
-    Video: { sort: 40 }
-    3D: { sort: 50 }
-
-Networking:
-  sort: 600
-  children:
-    FTP: { sort: 10 }
-    Security: { sort: 20 }
-    Remote Access: { sort: 25 }
-    Protocol: { sort: 30 }
-
-Security:
-  sort: 650
-  children:
-    Encryption: { sort: 5 }
-    Sandboxing: { sort: 8 }
-    Passwords: { sort: 10 }
-    Firmware: { sort: 20 }
-    Defender: { sort: 30 }
-    Downloads: { sort: 40 }
-    Logging: { sort: 50 }
-    System: { sort: 60 }
-    UAC: { sort: 70 }
-
-Utilities:
-  sort: 700
-  children:
-    Clipboard: { sort: 10 }
-    Compression: { sort: 20 }
-    Productivity: { sort: 30 }
-    Screenshots: { sort: 40 }
-    Search: { sort: 50 }
-    System Monitors: { sort: 55 }
-    System: { sort: 60 }
-    PDF: { sort: 70 }
-    Downloads: { sort: 80 }
-    Storage: { sort: 90 }
-    Uninstallers: { sort: 100 }
-
-Productivity:
-  sort: 750
-  children:
-    Office: { sort: 10 }
+    Other: { sort: 40 }
 
 Gaming:
-  sort: 900
+  sort: 600
+  pattern: direct
   children:
-    Stores: { sort: 10 }
-    Xbox: { sort: 20 }
-    Controllers: { sort: 30 }
-    Modding: { sort: 40 }
+    Launchers: { sort: 10 }
+    Controllers: { sort: 20 }
+    Modding: { sort: 30 }
+    Streaming: { sort: 40 }
     Performance: { sort: 50 }
-    Streaming: { sort: 60 }
 
-# Windows tweaks categories
+Power User:
+  sort: 700
+  pattern: direct
+  children:
+    File Management: { sort: 10 }
+    System Monitors: { sort: 20 }
+    System Tools: { sort: 30 }
+    Networking: { sort: 40 }
+
+Companion Tools:
+  sort: 800
+  pattern: direct
+
+# ============================================================================
+# TWEAK CATEGORIES (unchanged)
+# ============================================================================
+
 Appearance:
   sort: 1000
   children:
