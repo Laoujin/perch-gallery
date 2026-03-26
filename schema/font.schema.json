@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://perch-gallery/schema/font.schema.json",
+  "title": "Perch Gallery Font Entry",
+  "description": "Schema for font entries in the perch-gallery catalog",
+  "type": "object",
+  "required": ["type", "name", "category", "tags", "description", "profiles", "license", "preview-text", "install"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "font"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "Hierarchical category path (e.g., Fonts/Programming)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["casual", "developer", "power-user", "gamer", "creative"]
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX license identifier"
+    },
+    "preview-text": {
+      "type": "string",
+      "description": "Code snippet demonstrating the font"
+    },
+    "install": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "choco": {
+          "type": "string",
+          "description": "Chocolatey package ID"
+        }
+      }
+    }
+  }
+}

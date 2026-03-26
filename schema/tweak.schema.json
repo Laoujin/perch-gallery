@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://perch-gallery/schema/tweak.schema.json",
+  "title": "Perch Gallery Tweak Entry",
+  "description": "Schema for standalone registry tweak entries in the perch-gallery catalog",
+  "type": "object",
+  "required": ["type", "name", "category", "tags", "description", "reversible", "profiles", "windows-versions"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "tweak"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "description": "Hierarchical category path (e.g., Privacy/Telemetry)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "reversible": {
+      "type": "boolean"
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["casual", "developer", "power-user", "gamer", "creative"]
+      },
+      "minItems": 1
+    },
+    "windows-versions": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "enum": [10, 11]
+      },
+      "minItems": 1
+    },
+    "source": {
+      "type": "string",
+      "description": "Origin of the tweak (e.g., winutil, sophia-script)"
+    },
+    "restart-required": {
+      "type": "boolean",
+      "description": "Whether the tweak requires a system restart to take effect"
+    },
+    "suggests": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Related tweak IDs"
+    },
+    "registry": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["key", "name", "type"],
+        "additionalProperties": false,
+        "properties": {
+          "key": {
+            "type": "string",
+            "description": "Windows registry path (e.g., HKCU\\Software\\...)"
+          },
+          "name": {
+            "type": ["string", "integer"],
+            "description": "Registry value name (empty string for default value)"
+          },
+          "value": {
+            "description": "Registry value to set (number, string, or null)"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["dword", "string", "qword", "binary"]
+          },
+          "default-value": {
+            "description": "Original default value (number, string, or null)"
+          }
+        }
+      },
+      "minItems": 1
+    },
+    "script": {
+      "type": "string",
+      "description": "PowerShell script to apply tweak (alternative to registry)"
+    },
+    "undo-script": {
+      "type": "string",
+      "description": "PowerShell script to undo tweak (paired with script)"
+    }
+  }
+}

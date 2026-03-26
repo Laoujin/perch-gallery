@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://perch-gallery/schema/dotfile.schema.json",
+  "title": "Perch Gallery Dotfile Entry",
+  "description": "Schema for standalone dotfile/config template entries. Note: currently dotfiles use type 'app' with config links. This schema is for future standalone dotfile entries.",
+  "type": "object",
+  "required": ["type", "name", "category", "tags", "description", "profiles"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "dotfile"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["casual", "developer", "power-user", "gamer", "creative"]
+      },
+      "minItems": 1
+    },
+    "os": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["windows", "linux", "macos"]
+      }
+    },
+    "license": {
+      "type": "string"
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "website": { "type": "string", "format": "uri" },
+        "docs": { "type": "string", "format": "uri" },
+        "github": { "type": "string", "format": "uri" }
+      }
+    },
+    "config": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source", "target"],
+            "additionalProperties": false,
+            "properties": {
+              "source": { "type": "string" },
+              "target": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "windows": { "type": "string" },
+                  "linux": { "type": "string" },
+                  "macos": { "type": "string" }
+                }
+              },
+              "link-type": {
+                "type": "string",
+                "enum": ["junction"]
+              },
+              "platforms": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": ["windows", "linux", "macos"]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

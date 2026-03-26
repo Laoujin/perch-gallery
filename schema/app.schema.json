@@ -1,0 +1,254 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://perch-gallery/schema/app.schema.json",
+  "title": "Perch Gallery App Entry",
+  "description": "Schema for app and cli-tool entries in the perch-gallery catalog",
+  "type": "object",
+  "required": ["type", "name", "category", "tags", "description", "profiles"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": ["app", "cli-tool"]
+    },
+    "name": {
+      "type": "string",
+      "description": "Full display name of the application"
+    },
+    "display-name": {
+      "type": "string",
+      "description": "Short display name (alternate to name)"
+    },
+    "category": {
+      "type": "string",
+      "description": "Hierarchical category path (e.g., Development/IDEs & Editors)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "profiles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["casual", "developer", "power-user", "gamer", "creative"]
+      },
+      "minItems": 1
+    },
+    "os": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["windows", "linux", "macos"]
+      },
+      "minItems": 1
+    },
+    "license": {
+      "type": "string",
+      "description": "SPDX license identifier or 'proprietary' or 'freeware'"
+    },
+    "cli-tool": {
+      "type": "boolean",
+      "description": "Marks entry as a CLI tool"
+    },
+    "hot": {
+      "type": "boolean",
+      "description": "Marks entry as trending/new"
+    },
+    "links": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "website": { "type": "string", "format": "uri" },
+        "docs": { "type": "string", "format": "uri" },
+        "github": { "type": "string", "format": "uri" },
+        "download": { "type": "string", "format": "uri" }
+      }
+    },
+    "install": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "winget": {
+          "type": "string",
+          "description": "WinGet package ID"
+        },
+        "choco": {
+          "type": "string",
+          "description": "Chocolatey package ID"
+        },
+        "dotnet-tool": {
+          "type": "string",
+          "description": ".NET global tool name"
+        },
+        "node-package": {
+          "type": "string",
+          "description": "npm package name"
+        },
+        "detect": {
+          "type": "string",
+          "description": "Detection hint for existing installations"
+        }
+      }
+    },
+    "config": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "registry": {
+          "type": "array",
+          "description": "App-specific registry settings (e.g., Ditto hotkey config)",
+          "items": {
+            "type": "object",
+            "required": ["key", "name", "type"],
+            "additionalProperties": false,
+            "properties": {
+              "key": { "type": "string" },
+              "name": { "type": ["string", "integer"] },
+              "value": {},
+              "type": {
+                "type": "string",
+                "enum": ["dword", "string", "qword", "binary"]
+              },
+              "default-value": {}
+            }
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source", "target"],
+            "additionalProperties": false,
+            "properties": {
+              "source": {
+                "type": "string",
+                "description": "Source path in config repo"
+              },
+              "target": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "windows": { "type": "string" },
+                  "linux": { "type": "string" },
+                  "macos": { "type": "string" }
+                }
+              },
+              "link-type": {
+                "type": "string",
+                "enum": ["junction"]
+              },
+              "platforms": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": ["windows", "linux", "macos"]
+                }
+              }
+            }
+          }
+        },
+        "clean-filter": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "files": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "rules": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["type"],
+                "properties": {
+                  "type": { "type": "string" },
+                  "keys": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  },
+                  "elements": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "path-entries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["path"],
+            "additionalProperties": false,
+            "properties": {
+              "path": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "windows": { "type": "string" },
+                  "linux": { "type": "string" },
+                  "macos": { "type": "string" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tweaks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description", "reversible"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": "string" },
+          "reversible": { "type": "boolean" },
+          "registry": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "name", "type"],
+              "additionalProperties": false,
+              "properties": {
+                "key": { "type": "string" },
+                "name": { "type": ["string", "integer"] },
+                "value": {},
+                "type": {
+                  "type": "string",
+                  "enum": ["dword", "string", "qword", "binary"]
+                },
+                "default-value": {}
+              }
+            }
+          },
+          "script": { "type": "string" },
+          "undo-script": { "type": "string" }
+        }
+      }
+    },
+    "suggests": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Related app recommendations by ID"
+    },
+    "requires": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Dependency app IDs"
+    },
+    "alternatives": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternative app IDs"
+    }
+  }
+}

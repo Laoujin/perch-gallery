@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://perch-gallery/schema/ref.schema.json",
+  "title": "Perch Gallery Reference Entry",
+  "description": "Schema for lightweight reference entries that point to canonical entries in other locations",
+  "type": "object",
+  "required": ["ref"],
+  "additionalProperties": false,
+  "properties": {
+    "ref": {
+      "type": "string",
+      "description": "Entry ID of the canonical entry (relative path from catalog/)"
+    },
+    "sort": {
+      "type": "integer",
+      "description": "Override sort order in this location"
+    },
+    "display": {
+      "type": "string",
+      "enum": ["hot", "visible", "hidden"],
+      "description": "Override display tier in this location"
+    }
+  }
+}
