@@ -96,6 +96,7 @@ Terminal:
       children:
         Bash: { sort: 10 }
         PowerShell: { sort: 20 }
+        Zsh: { sort: 30 }
     Terminal Apps: { sort: 20 }
     CLI Tools: { sort: 30 }
     Git: { sort: 40 }

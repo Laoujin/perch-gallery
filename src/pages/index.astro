@@ -11,6 +11,7 @@ interface IndexEntry {
   name: string;
   category: string;
   tags: string[];
+  path?: string;
 }
 
 interface IndexData {
@@ -145,7 +146,7 @@ const categories = [...new Set(apps.map(a => a.category.split('/')[0]))].sort();
       <div class="card-grid" id="app-grid">
         {apps.map(app => (
           <a
-            href={`${base}catalog/apps/${app.id}.yaml`}
+            href={`${base}catalog/${app.path ?? `apps/${app.id}.yaml`}`}
             class="card"
             data-category={app.category.split('/')[0]}
             data-tags={app.tags.join(' ')}
@@ -171,7 +172,7 @@ const categories = [...new Set(apps.map(a => a.category.split('/')[0]))].sort();
       <p class="section-desc">Nerd Font patched programming fonts with ligature support.</p>
       <div class="card-grid">
         {fonts.map(font => (
-          <a href={`${base}catalog/fonts/${font.id}.yaml`} class="card">
+          <a href={`${base}catalog/${font.path ?? `fonts/${font.id}.yaml`}`} class="card">
             <div class="card-name">{font.name}</div>
             <div class="card-category">{font.category}</div>
             <div class="card-tags">
@@ -195,7 +196,7 @@ const categories = [...new Set(apps.map(a => a.category.split('/')[0]))].sort();
       </p>
       <div class="card-grid">
         {tweaks.map(tweak => (
-          <a href={`${base}catalog/tweaks/${tweak.id}.yaml`} class="card">
+          <a href={`${base}catalog/${tweak.path ?? `tweaks/${tweak.id}.yaml`}`} class="card">
             <div class="card-name">{tweak.name}</div>
             <div class="card-category">{tweak.category}</div>
             <div class="card-tags">
