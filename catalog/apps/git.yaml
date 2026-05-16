@@ -21,11 +21,6 @@ config:
         windows: "%USERPROFILE%/.gitconfig"
         linux: "$HOME/.gitconfig"
         macos: "$HOME/.gitconfig"
-    - source: .gitignore_global
-      target:
-        windows: "%USERPROFILE%/.gitignore_global"
-        linux: "$HOME/.gitignore_global"
-        macos: "$HOME/.gitignore_global"
 tweaks:
   - id: git-bash-here
     name: Git Bash Here
