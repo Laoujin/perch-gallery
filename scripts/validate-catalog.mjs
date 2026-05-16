@@ -54,7 +54,6 @@ const validAppTypes = new Set(['app', 'cli-tool']);
 const validDisplay = new Set(['hot', 'visible', 'hidden']);
 const validProfiles = new Set(['developer', 'power-user', 'casual', 'gamer', 'creative']);
 const validOs = new Set(['windows', 'linux', 'macos']);
-const validTypes = new Set(['app', 'font', 'tweak']);
 const validRegistryTypes = new Set(['dword', 'string', 'qword', 'expandstring', 'multistring', 'binary']);
 
 // --- Validate entries ---
