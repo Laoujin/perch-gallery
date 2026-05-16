@@ -57,7 +57,6 @@ config:
         windows: "%APPDATA%/Code/User/snippets"
         linux: "$HOME/.config/Code/User/snippets"
         macos: "$HOME/Library/Application Support/Code/User/snippets"
-      link-type: junction
   clean-filter:
     files: [settings.json]
     rules:

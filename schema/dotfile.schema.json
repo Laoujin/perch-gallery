@@ -73,10 +73,6 @@
                   "macos": { "type": "string" }
                 }
               },
-              "link-type": {
-                "type": "string",
-                "enum": ["junction"]
-              },
               "platforms": {
                 "type": "array",
                 "items": {
