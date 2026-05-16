@@ -124,6 +124,7 @@ apps:
     tags: [shell, cli, linux, macos, wsl]
     type: app
     profiles: [developer]
+    path: apps/terminal/shells/bash/bash.yaml
   - id: bat
     name: bat
     category: Terminal/CLI Tools
@@ -225,6 +226,13 @@ apps:
     tags: [cli, dotfiles, config-management]
     type: cli-tool
     profiles: [developer]
+  - id: claude-code
+    name: Claude Code
+    category: Terminal/CLI Tools
+    tags: [ai, cli, anthropic, coding-assistant, agent]
+    type: cli-tool
+    profiles: [developer]
+    path: apps/terminal/cli-tools/claude-code.yaml
   - id: cmake
     name: CMake
     category: Languages/C/C++/Package Managers
@@ -519,6 +527,7 @@ apps:
     tags: [vcs, cli, developer]
     type: app
     profiles: [developer]
+    path: apps/terminal/git/git.yaml
   - id: github-desktop
     name: GitHub Desktop
     category: Terminal/Git
@@ -1081,6 +1090,7 @@ apps:
     tags: [shell, cli, microsoft, scripting]
     type: app
     profiles: [developer, power-user]
+    path: apps/terminal/shells/powershell/powershell.yaml
   - id: powertoys
     name: PowerToys
     category: Power User/System Tools

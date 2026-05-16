@@ -1,0 +1,12 @@
+type: cli-tool
+name: Claude Code
+category: Terminal/CLI Tools
+tags: [ai, cli, anthropic, coding-assistant, agent]
+description: Anthropic's official CLI for Claude — agentic coding assistant in the terminal
+profiles: [developer]
+os: [windows, linux, macos]
+license: proprietary
+links:
+  github: https://github.com/anthropics/claude-code
+install:
+  node-package: "@anthropic-ai/claude-code"
