@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: hyperfine
 category: Terminal/CLI Tools
 tags: [cli, benchmark, timing, rust]
 description: Command-line benchmarking tool with statistical analysis
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

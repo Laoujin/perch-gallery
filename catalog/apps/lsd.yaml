@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: lsd
 category: Terminal/CLI Tools
 tags: [cli, ls, files, rust]
 description: Next-gen ls command with colors, icons, and tree view
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: Apache-2.0

@@ -1,6 +1,5 @@
-type: app
+type: cli-tool
 name: tsx
-cli-tool: true
 category: Languages/Node/Global Packages
 tags: [typescript, runner, node, cli]
 description: TypeScript execute — run TS files directly

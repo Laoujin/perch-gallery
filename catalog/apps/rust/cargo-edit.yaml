@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: cargo-edit
 category: Languages/Rust/Global Packages
 tags: [rust, cargo, dependency-management]
 description: Cargo subcommands for managing dependencies from the CLI
-cli-tool: true
 requires: [rustup]
 profiles: [developer]
 os: [windows, linux, macos]

@@ -1,6 +1,5 @@
-type: app
+type: cli-tool
 name: fnm
-cli-tool: true
 category: Languages/Node/Version Managers
 tags: [node, version-manager, cli, rust, open-source]
 description: Fast and simple Node.js version manager built in Rust

@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: delta
 category: Development/Diff Tools
 tags: [cli, git, diff, syntax-highlighting, rust]
 description: Syntax-highlighting pager for git, diff, and grep output
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

@@ -3,7 +3,7 @@ name: WinDbg
 category: Languages/.NET/IDEs
 tags: [debugger, windows, microsoft, native, dotnet]
 description: Low-level Windows debugger with managed .NET debugging support
-hot: true
+display: hot
 profiles: [developer]
 os: [windows]
 license: proprietary

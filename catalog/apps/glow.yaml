@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: glow
 category: Terminal/CLI Tools
 tags: [cli, markdown, reader, terminal]
 description: Render markdown on the CLI with glamour
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

@@ -4,2240 +4,2402 @@
 apps:
   - id: dotnet-sdk
     name: .NET
-    category: Development/Runtimes
+    category: Languages/.NET/Runtimes
     tags: [dotnet, sdk, microsoft, csharp]
-    kind: runtime
+    type: app
     profiles: [developer]
     path: apps/dotnet/dotnet-sdk.yaml
   - id: dotnet-framework
     name: .NET Framework
-    category: Development/Runtimes
+    category: Languages/.NET/Runtimes
     tags: [dotnet, framework, microsoft, legacy, windows]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dotnet-framework.yaml
   - id: dotnet-sdk-8
     name: .NET SDK 8
-    category: Development/Runtimes
+    category: Languages/.NET/Runtimes
     tags: [dotnet, sdk, microsoft, csharp, lts]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dotnet-sdk-8.yaml
   - id: dotnet-sdk-9
     name: .NET SDK 9
-    category: Development/Runtimes
+    category: Languages/.NET/Runtimes
     tags: [dotnet, sdk, microsoft, csharp]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dotnet-sdk-9.yaml
   - id: npmrc
     name: .npmrc
-    category: Development/Node
+    category: Languages/Node
     tags: [config, npm, node, dotfile]
-    kind: dotfile
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/node/npmrc.yaml
   - id: nvmrc
     name: .nvmrc
-    category: Development/Node
+    category: Languages/Node
     tags: [config, nvm, node, dotfile]
-    kind: dotfile
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/node/nvmrc.yaml
   - id: 1password
     name: 1Password
-    category: Security/Passwords
+    category: Essentials/Passwords
     tags: [password-manager, security, vault]
+    type: app
     profiles: [developer, power-user]
   - id: 7zip
     name: 7-Zip
-    category: Utilities/Compression
+    category: Essentials/Compression
     tags: [archive, compression, open-source]
+    type: app
     profiles: [casual, power-user]
   - id: aimp
     name: AIMP
     category: Media/Audio
     tags: [audio, music, player]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: alacritty
     name: Alacritty
-    category: Development/Terminals
+    category: Terminal/Terminal Apps
     tags: [terminal, gpu, rust]
+    type: app
     profiles: [developer]
   - id: corretto-jdk
     name: Amazon Corretto JDK
-    category: Development/Java
+    category: Languages/Java/Runtimes
     tags: [java, jdk, runtime, amazon, open-source]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/java/corretto-jdk.yaml
   - id: antimicrox
     name: AntiMicroX
     category: Gaming/Controllers
     tags: [gaming, controller, gamepad, keyboard-mapping]
+    type: app
     profiles: [gamer]
-    hidden: true
   - id: anydesk
     name: AnyDesk
-    category: Networking/Remote Access
+    category: Power User/Networking
     tags: [remote-desktop, remote-access]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: maven
     name: Apache Maven
-    category: Development/Java
+    category: Languages/Java/Package Managers
     tags: [java, build-tool, dependency-management, apache]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/java/maven.yaml
   - id: openoffice
     name: Apache OpenOffice
-    category: Productivity/Office
+    category: Essentials/Office
     tags: [office, documents, spreadsheet, open-source]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: atuin
     name: Atuin
-    category: Development/Shells
+    category: Terminal/CLI Tools
     tags: [cli, shell, history, sync, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: audacity
     name: Audacity
     category: Media/Audio
     tags: [audio, editor, recording, open-source]
+    type: app
     profiles: [creative]
   - id: autohotkey
     name: AutoHotkey
-    category: Utilities/Productivity
+    category: Power User/System Tools
     tags: [automation, scripting, hotkeys, windows]
+    type: app
     profiles: [developer, power-user]
   - id: bash
     name: Bash
-    category: Development/Shells
+    category: Terminal/Shells/Bash
     tags: [shell, cli, linux, macos, wsl]
-    kind: dotfile
+    type: app
     profiles: [developer]
   - id: bat
     name: bat
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, cat, syntax-highlighting, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: beyondcompare
     name: Beyond Compare
     category: Development/Diff Tools
     tags: [diff, compare, merge, windows]
+    type: app
     profiles: [developer]
   - id: bitwarden
     name: Bitwarden
-    category: Security/Passwords
+    category: Essentials/Passwords
     tags: [passwords, security, open-source]
+    type: app
     profiles: [casual, power-user]
   - id: blender
     name: Blender
-    category: Media/3D
+    category: Media/Graphics
     tags: [3d, modeling, animation, rendering, open-source]
+    type: app
     profiles: [creative]
   - id: bottom
     name: bottom
-    category: Utilities/System Monitors
+    category: Power User/System Monitors
     tags: [cli, monitor, system, tui, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: brave
     name: Brave
-    category: Browsers
+    category: Essentials/Browsers
     tags: [browser, privacy, chromium, open-source]
+    type: app
     profiles: [casual, power-user]
   - id: bruno
     name: Bruno
     category: Development/API Tools
     tags: [api, rest, graphql, open-source]
+    type: app
     profiles: [developer]
   - id: btop
     name: btop
-    category: Utilities/System Monitors
+    category: Power User/System Monitors
     tags: [cli, monitor, system, tui]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
   - id: bulk-crap-uninstaller
     name: Bulk Crap Uninstaller
-    category: Utilities/Uninstallers
+    category: Power User/System Tools
     tags: [uninstaller, cleanup, batch]
+    type: app
     profiles: [power-user]
   - id: bun
     name: Bun
-    category: Development/Node
+    category: Languages/Node/Runtimes
     tags: [runtime, bundler, package-manager, javascript]
-    kind: runtime
+    type: app
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/node/bun.yaml
   - id: bundler
     name: Bundler
-    category: Development/Ruby
+    category: Languages/Ruby/Package Managers
     tags: [ruby, gems, dependency-management, package-manager]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/ruby/bundler.yaml
   - id: cake
     name: Cake
-    category: Development/.NET
+    category: Languages/.NET/Global Packages
     tags: [dotnet, build, automation, csharp, ci]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/cake.yaml
   - id: calibre
     name: calibre
-    category: Utilities
+    category: Media/Other
     tags: [ebooks, library, reader, converter]
+    type: app
     profiles: [casual]
   - id: cargo-edit
     name: cargo-edit
-    category: Development/Rust
+    category: Languages/Rust/Global Packages
     tags: [rust, cargo, dependency-management]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/rust/cargo-edit.yaml
   - id: cheat-engine
     name: Cheat Engine
     category: Gaming/Modding
     tags: [gaming, modding, memory, debugging]
+    type: app
     profiles: [gamer]
-    hidden: true
   - id: chezmoi
     name: chezmoi
-    category: Development/Tools
+    category: Companion Tools
     tags: [cli, dotfiles, config-management]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: cmake
     name: CMake
-    category: Development/Build Tools
+    category: Languages/C/C++/Package Managers
     tags: [cpp, build-system, cross-platform, open-source]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
     path: apps/cpp/cmake.yaml
   - id: cmder
     name: Cmder
-    category: Development/Terminals
+    category: Terminal/Terminal Apps
     tags: [terminal, console, windows]
+    type: app
     profiles: [developer]
   - id: copyq
     name: CopyQ
-    category: Utilities/Clipboard
+    category: Essentials/Clipboard
     tags: [clipboard, manager, open-source]
+    type: app
     profiles: [developer, power-user]
   - id: cryptomator
     name: Cryptomator
-    category: Security/Encryption
+    category: Power User/System Tools
     tags: [encryption, cloud, privacy, open-source]
+    type: app
     profiles: [power-user]
   - id: cursor
     name: Cursor
-    category: Development/IDEs
+    category: Development/IDEs & Editors
     tags: [ide, ai, editor, vscode-fork]
+    type: app
     profiles: [developer]
   - id: cutepdf
     name: CutePDF Writer
-    category: Utilities/PDF
+    category: Essentials/PDF
     tags: [pdf, printer, converter]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: db-browser-sqlite
     name: DB Browser for SQLite
     category: Development/Databases
     tags: [database, sqlite, gui, open-source]
+    type: app
     profiles: [developer]
   - id: delta
     name: delta
     category: Development/Diff Tools
     tags: [cli, git, diff, syntax-highlighting, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: deno
     name: Deno
-    category: Development/Node
+    category: Languages/Node/Runtimes
     tags: [runtime, javascript, typescript, rust]
-    kind: runtime
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/node/deno.yaml
   - id: deskflow
     name: Deskflow
-    category: Networking/Remote Access
+    category: Power User/Networking
     tags: [kvm, mouse, keyboard, sharing]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: discord
     name: Discord
-    category: Communication/Chat
+    category: Essentials/Communication
     tags: [chat, voice, gaming, community]
+    type: app
     profiles: [casual, gamer]
   - id: ditto
     name: Ditto
-    category: Utilities/Clipboard
+    category: Essentials/Clipboard
     tags: [clipboard, manager, windows]
+    type: app
     profiles: [power-user]
   - id: dnspy
     name: dnSpy
-    category: Development/Decompilers
+    category: Languages/.NET/IDEs
     tags: [decompiler, debugger, dotnet, open-source]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dnspy.yaml
   - id: docker
     name: Docker Desktop
     category: Development/Containers
     tags: [containers, docker, devops, virtualization]
+    type: app
     profiles: [developer]
   - id: dotmemory
     name: dotMemory
-    category: Development/Profilers
+    category: Languages/.NET/IDEs
     tags: [profiler, memory, dotnet, jetbrains]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dotmemory.yaml
   - id: dotnet-ef
     name: dotnet-ef
-    category: Development/CLI Tools
+    category: Languages/.NET/Global Packages
     tags: [dotnet, entity-framework, database, cli, open-source]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dotnet-ef.yaml
   - id: dotnet-format
     name: dotnet-format
-    category: Development/CLI Tools
+    category: Languages/.NET/Global Packages
     tags: [dotnet, formatter, code-style, cli, open-source]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dotnet-format.yaml
   - id: dotnet-outdated
     name: dotnet-outdated
-    category: Development/CLI Tools
+    category: Languages/.NET/Global Packages
     tags: [dotnet, nuget, dependencies, cli, open-source]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dotnet-outdated.yaml
   - id: dotnet-tools-json
     name: dotnet-tools.json
-    category: Development/.NET
+    category: Languages/.NET
     tags: [dotnet, tools, manifest]
-    kind: dotfile
+    type: app
     profiles: [developer]
     path: apps/dotnet/dotnet-tools-json.yaml
   - id: dotpeek
     name: dotPeek
-    category: Development/Decompilers
+    category: Languages/.NET/IDEs
     tags: [dotnet, decompiler, jetbrains, csharp]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dotpeek.yaml
   - id: dottrace
     name: dotTrace
-    category: Development/Profilers
+    category: Languages/.NET/IDEs
     tags: [profiler, performance, dotnet, jetbrains]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/dottrace.yaml
   - id: doublecommander
     name: Double Commander
-    category: File Management
+    category: Power User/File Management
     tags: [file-manager, dual-pane, open-source]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: dropbox
     name: Dropbox
-    category: Utilities/Storage
+    category: Essentials/Cloud Storage
     tags: [cloud, sync, storage, backup]
+    type: app
     profiles: [casual]
   - id: ds4windows
     name: DS4Windows
     category: Gaming/Controllers
     tags: [gaming, controller, dualshock, gamepad]
+    type: app
     profiles: [gamer]
   - id: dust
     name: dust
-    category: Utilities/System
+    category: Power User/System Tools
     tags: [cli, disk, du, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: eartrumpet
     name: EarTrumpet
-    category: Appearance
+    category: Power User/System Tools
     tags: [audio, volume, per-app, taskbar]
+    type: app
     profiles: [power-user]
   - id: eclipse
     name: Eclipse IDE
-    category: Development/IDEs
+    category: Development/IDEs & Editors
     tags: [ide, java, open-source]
+    type: app
     profiles: [developer]
-    hidden: true
+  - id: editorconfig
+    name: EditorConfig
+    category: Development/IDEs & Editors
+    tags: [editor, config, formatting, coding-style]
+    type: app
+    profiles: [developer]
   - id: epic-games
     name: Epic Games Launcher
-    category: Gaming/Stores
+    category: Gaming/Launchers
     tags: [gaming, store, launcher]
+    type: app
     profiles: [gamer]
   - id: eslint-d
     name: eslint_d
-    category: Development/Node
+    category: Languages/Node/Global Packages
     tags: [linter, eslint, daemon, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/eslint-d.yaml
   - id: espanso
     name: Espanso
-    category: Utilities/Productivity
+    category: Power User/System Tools
     tags: [text-expander, automation, productivity]
+    type: app
     profiles: [power-user]
   - id: everything
     name: Everything
-    category: File Management
+    category: Power User/File Management
     tags: [search, files, indexing, windows]
+    type: app
     profiles: [power-user]
   - id: eza
     name: eza
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, ls, files, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: faststone
     name: FastStone Image Viewer
     category: Media/Graphics
     tags: [image-viewer, graphics, editor]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: fd
     name: fd
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, find, search, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: fiddler
     name: Fiddler Classic
-    category: Networking/Security
+    category: Power User/Networking
     tags: [network, http, debugging, proxy, web]
+    type: app
     profiles: [developer]
   - id: filezilla
     name: FileZilla
-    category: Networking/FTP
+    category: Essentials/FTP
     tags: [ftp, sftp, transfer, windows]
+    type: app
     profiles: [developer]
   - id: firefox
     name: Firefox
-    category: Browsers
+    category: Essentials/Browsers
     tags: [browser, mozilla, privacy]
+    type: app
     profiles: [casual, developer]
   - id: flameshot
     name: Flameshot
-    category: Utilities/Screenshots
+    category: Essentials/Screenshots
     tags: [screenshot, annotation, open-source]
+    type: app
     profiles: [developer, power-user]
   - id: flow-launcher
     name: Flow Launcher
-    category: Utilities/Productivity
+    category: Power User/System Tools
     tags: [launcher, search, productivity, plugins]
+    type: app
     profiles: [power-user]
   - id: fnm
     name: fnm
-    category: Development/Node
+    category: Languages/Node/Version Managers
     tags: [node, version-manager, cli, rust, open-source]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/fnm.yaml
   - id: foobar2000
     name: foobar2000
     category: Media/Audio
     tags: [audio, music, player, lightweight]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: fork
     name: Fork
-    category: Development/Version Control
+    category: Terminal/Git
     tags: [git, gui, lightweight]
+    type: app
     profiles: [developer]
   - id: foxit-reader
     name: Foxit PDF Reader
-    category: Utilities/PDF
+    category: Essentials/PDF
     tags: [pdf, reader, annotate]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: fzf
     name: fzf
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, fuzzy-finder, search, shell]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: gimp
     name: GIMP
     category: Media/Graphics
     tags: [graphics, image-editor, open-source]
+    type: app
     profiles: [creative]
   - id: git
     name: Git
-    category: Development/Version Control
+    category: Terminal/Git
     tags: [vcs, cli, developer]
-    kind: dotfile
+    type: app
     profiles: [developer]
   - id: github-desktop
     name: GitHub Desktop
-    category: Development/Version Control
+    category: Terminal/Git
     tags: [git, gui, github, open-source]
+    type: app
     profiles: [developer]
   - id: gitkraken
     name: GitKraken
-    category: Development/Version Control
+    category: Terminal/Git
     tags: [git, gui, cross-platform]
+    type: app
     profiles: [developer]
   - id: gitui
     name: GitUI
-    category: Development/Version Control
+    category: Terminal/Git
     tags: [cli, git, tui, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: gitversion
     name: GitVersion
-    category: Development/.NET
+    category: Languages/.NET/Global Packages
     tags: [dotnet, versioning, semver, git, ci]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/gitversion.yaml
   - id: glazewm
     name: GlazeWM
-    category: Appearance/Window Management
+    category: Essentials/Window Managers
     tags: [tiling, window-manager, i3, productivity]
+    type: app
     profiles: [developer, power-user]
   - id: global-json
     name: global.json
-    category: Development/.NET
+    category: Languages/.NET
     tags: [dotnet, sdk, version-pinning]
-    kind: dotfile
+    type: app
     profiles: [developer]
     path: apps/dotnet/global-json.yaml
   - id: glow
     name: glow
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, markdown, reader, terminal]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: go
     name: Go
-    category: Development/Languages
+    category: Languages/Go/Runtimes
     tags: [go, golang, language, google]
-    kind: runtime
+    type: app
     profiles: [developer]
     path: apps/go/go.yaml
   - id: golangci-lint
     name: golangci-lint
-    category: Development/Go
+    category: Languages/Go/Global Packages
     tags: [go, golang, linter, static-analysis]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/go/golangci-lint.yaml
   - id: chrome
     name: Google Chrome
-    category: Browsers
+    category: Essentials/Browsers
     tags: [browser, google, chromium]
+    type: app
     profiles: [casual, developer]
   - id: chrome-canary
     name: Google Chrome Canary
-    category: Browsers
+    category: Essentials/Browsers
     tags: [browser, google, chromium, dev]
+    type: app
     profiles: [developer]
   - id: google-drive
     name: Google Drive
-    category: Utilities/Storage
+    category: Essentials/Cloud Storage
     tags: [cloud, storage, sync, google]
+    type: app
     profiles: [casual]
   - id: gradle
     name: Gradle
-    category: Development/Java
+    category: Languages/Java/Package Managers
     tags: [java, kotlin, build-tool, groovy]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/java/gradle.yaml
   - id: greenshot
     name: Greenshot
-    category: Utilities/Screenshots
+    category: Essentials/Screenshots
     tags: [screenshot, capture, windows]
+    type: app
     profiles: [developer, power-user]
   - id: gsudo
     name: gsudo
-    category: Utilities/System
+    category: Power User/System Tools
     tags: [cli, sudo, elevation, windows]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
   - id: handbrake
     name: HandBrake
     category: Media/Video
     tags: [video, converter, transcoder, open-source]
+    type: app
     profiles: [creative, power-user]
   - id: heidisql
     name: HeidiSQL
     category: Development/Databases
     tags: [database, mysql, postgresql, sql, gui]
+    type: app
     profiles: [developer]
   - id: helix
     name: Helix
-    category: Development/Editors
+    category: Development/IDEs & Editors
     tags: [editor, modal, terminal, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: helm
     name: Helm
     category: Development/Containers
     tags: [cli, kubernetes, k8s, package-manager, devops]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: hoppscotch
     name: Hoppscotch
     category: Development/API Tools
     tags: [api, rest, graphql, testing, open-source]
+    type: app
     profiles: [developer]
   - id: http-server
     name: http-server
-    category: Development/Node
+    category: Languages/Node/Global Packages
     tags: [http, server, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/http-server.yaml
   - id: hyperfine
     name: hyperfine
-    category: Development/Tools
+    category: Terminal/CLI Tools
     tags: [cli, benchmark, timing, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: ilspy
     name: ILSpy
-    category: Development/Decompilers
+    category: Languages/.NET/IDEs
     tags: [dotnet, decompiler, open-source, csharp]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/ilspy.yaml
   - id: imageglass
     name: ImageGlass
     category: Media/Graphics
     tags: [image-viewer, lightweight, open-source]
+    type: app
     profiles: [creative, casual]
   - id: inkscape
     name: Inkscape
     category: Media/Graphics
     tags: [graphics, vector, svg, open-source]
+    type: app
     profiles: [creative]
   - id: intellij-idea-community
     name: IntelliJ IDEA Community
-    category: Development/IDEs
+    category: Languages/Java/IDEs
     tags: [ide, java, kotlin, jetbrains, open-source]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/java/intellij-idea-community.yaml
   - id: irfanview
     name: IrfanView
     category: Media/Graphics
     tags: [image-viewer, graphics, lightweight]
+    type: app
     profiles: [casual]
   - id: temurin-jdk
     name: Java
-    category: Development/Languages
+    category: Languages/Java/Runtimes
     tags: [java, jdk, runtime, open-source, temurin, adoptium]
-    kind: runtime
+    type: app
     profiles: [developer]
     path: apps/java/temurin-jdk.yaml
   - id: jellyfin
     name: Jellyfin
-    category: Media/Players
+    category: Media/Video
     tags: [media-server, streaming, open-source, self-hosted]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: rider
     name: JetBrains Rider
-    category: Development/IDEs
+    category: Languages/.NET/IDEs
     tags: [ide, dotnet, csharp, jetbrains]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/rider.yaml
   - id: joplin
     name: Joplin
-    category: Utilities/Productivity
+    category: Essentials/Note-Taking
     tags: [notes, markdown, sync, open-source]
+    type: app
     profiles: [casual, power-user]
   - id: just
     name: just
-    category: Development/Tools
+    category: Terminal/CLI Tools
     tags: [cli, command-runner, make, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: kdenlive
     name: Kdenlive
     category: Media/Video
     tags: [video-editor, editing, open-source]
+    type: app
     profiles: [creative]
   - id: keepass
     name: KeePass 2
-    category: Security/Passwords
+    category: Essentials/Passwords
     tags: [passwords, security, encryption, open-source]
+    type: app
     profiles: [power-user]
   - id: keepassxc
     name: KeePassXC
-    category: Security/Passwords
+    category: Essentials/Passwords
     tags: [passwords, security, open-source, offline]
+    type: app
     profiles: [power-user]
   - id: komorebi
     name: komorebi
-    category: Appearance/Window Management
+    category: Essentials/Window Managers
     tags: [tiling, window-manager, bsp, productivity]
+    type: app
     profiles: [developer]
-    hidden: true
   - id: krita
     name: Krita
     category: Media/Graphics
     tags: [graphics, digital-painting, illustration, open-source]
+    type: app
     profiles: [creative]
   - id: kubectl
     name: kubectl
     category: Development/Containers
     tags: [cli, kubernetes, k8s, cloud, devops]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: launchy
     name: Launchy
-    category: Utilities/Productivity
+    category: Power User/System Tools
     tags: [launcher, productivity, keyboard, open-source]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: lazydocker
     name: lazydocker
     category: Development/Containers
     tags: [cli, docker, tui, containers]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: lazygit
     name: lazygit
-    category: Development/Version Control
+    category: Terminal/Git
     tags: [cli, git, tui]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: libreoffice
     name: LibreOffice
-    category: Productivity/Office
+    category: Essentials/Office
     tags: [office, documents, spreadsheet, presentation, open-source]
+    type: app
     profiles: [casual]
   - id: linqpad
     name: LINQPad
-    category: Development/IDEs
+    category: Languages/.NET/IDEs
     tags: [dotnet, csharp, linq, scratchpad]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/linqpad.yaml
   - id: localsend
     name: LocalSend
-    category: Networking/Remote Access
+    category: Power User/Networking
     tags: [file-sharing, local, airdrop, open-source]
+    type: app
     profiles: [casual, power-user]
   - id: logseq
     name: Logseq
-    category: Utilities/Productivity
+    category: Essentials/Note-Taking
     tags: [notes, knowledge-base, markdown, graph]
+    type: app
     profiles: [power-user]
   - id: losslesscut
     name: LosslessCut
     category: Media/Video
     tags: [video, trimming, lossless, ffmpeg]
+    type: app
     profiles: [creative]
-    hidden: true
   - id: lsd
     name: lsd
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, ls, files, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: ludusavi
     name: Ludusavi
     category: Gaming/Modding
     tags: [gaming, backup, save-games, open-source]
+    type: app
     profiles: [gamer]
   - id: mediamonkey
     name: MediaMonkey
     category: Media/Audio
     tags: [audio, music, player, library, organizer]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: edge
     name: Microsoft Edge
-    category: Browsers
+    category: Essentials/Browsers
     tags: [browser, chromium, microsoft]
+    type: app
     profiles: [casual]
   - id: mise
     name: mise
-    category: Development/Tools
+    category: Terminal/CLI Tools
     tags: [cli, version-manager, polyglot, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: mitmproxy
     name: mitmproxy
     category: Development/API Tools
     tags: [proxy, http, debugging, ssl, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: moonlight
     name: Moonlight
     category: Gaming/Streaming
     tags: [gaming, streaming, remote-play, client]
+    type: app
     profiles: [gamer]
-    hidden: true
   - id: mpc-hc
     name: MPC-HC
-    category: Media/Players
+    category: Media/Video
     tags: [video, player, lightweight, codec]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: mpv
     name: mpv
-    category: Media/Players
+    category: Media/Video
     tags: [video, player, cli, open-source]
+    type: app
     profiles: [power-user]
   - id: msiafterburner
     name: MSI Afterburner
     category: Gaming/Performance
     tags: [gaming, gpu, overclocking, monitoring]
+    type: app
     profiles: [gamer]
-    hidden: true
   - id: msys2
     name: MSYS2
-    category: Development/Build Tools
+    category: Languages/C/C++/Package Managers
     tags: [cpp, gnu, posix, windows, open-source]
+    type: app
     profiles: [developer]
     path: apps/cpp/msys2.yaml
   - id: musicbee
     name: MusicBee
     category: Media/Audio
     tags: [audio, music, player, library]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: mypy
     name: mypy
-    category: Development/Python
+    category: Languages/Python/Global Packages
     tags: [python, type-checker, static-analysis]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/python/mypy.yaml
   - id: navi
     name: navi
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, cheatsheet, tui, shell, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: neovim
     name: Neovim
-    category: Development/Editors
+    category: Development/IDEs & Editors
     tags: [editor, vim, terminal, lua]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: nextcloud
     name: Nextcloud
-    category: Utilities/Storage
+    category: Essentials/Cloud Storage
     tags: [cloud, sync, self-hosted, open-source]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: nodejs
     name: Node.js
-    category: Development/Node
+    category: Languages/Node/Runtimes
     tags: [runtime, javascript, typescript, server]
-    kind: runtime
+    type: app
     profiles: [developer]
     path: apps/node/nodejs.yaml
   - id: notepadplusplus
     name: Notepad++
-    category: Development/Editors
+    category: Development/IDEs & Editors
     tags: [editor, text, windows]
+    type: app
     profiles: [developer, power-user]
   - id: npm
     name: npm
-    category: Development/Node
+    category: Languages/Node/Package Managers
     tags: [package-manager, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/npm.yaml
   - id: npm-check-updates
     name: npm-check-updates
-    category: Development/Node
+    category: Languages/Node/Global Packages
     tags: [dependencies, upgrade, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/npm-check-updates.yaml
   - id: nswag
     name: NSwagStudio
-    category: Development/.NET
+    category: Languages/.NET/Global Packages
     tags: [dotnet, openapi, swagger, codegen, csharp]
+    type: app
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/dotnet/nswag.yaml
   - id: nuget-config
     name: NuGet Config
-    category: Development/.NET
+    category: Languages/.NET/Package Managers
     tags: [dotnet, nuget, config]
-    kind: dotfile
+    type: app
     profiles: [developer]
     path: apps/dotnet/nuget-config.yaml
   - id: nuget-package-explorer
     name: NuGet Package Explorer
-    category: Development/.NET
+    category: Languages/.NET/Package Managers
     tags: [dotnet, nuget, packages, inspector]
+    type: app
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/dotnet/nuget-package-explorer.yaml
   - id: nvidia-profile-inspector
     name: NVIDIA Profile Inspector
     category: Gaming/Performance
     tags: [gaming, nvidia, gpu, profiles, settings]
+    type: app
     profiles: [gamer]
-    hidden: true
   - id: nvm
     name: NVM for Windows
-    category: Development/Node
+    category: Languages/Node/Version Managers
     tags: [node, nvm, version-manager, windows]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/node/nvm.yaml
   - id: obs-studio
     name: OBS Studio
     category: Media/Video
     tags: [streaming, recording, video, open-source]
+    type: app
     profiles: [creative, gamer]
   - id: obsidian
     name: Obsidian
-    category: Utilities/Productivity
+    category: Essentials/Note-Taking
     tags: [notes, markdown, knowledge-base, pkm]
+    type: app
     profiles: [developer, power-user]
   - id: oh-my-posh
     name: Oh My Posh
-    category: Development/Shells
+    category: Terminal/CLI Tools
     tags: [cli, prompt, shell, powershell, theme]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: onedrive
     name: OneDrive
-    category: Utilities/Storage
+    category: Essentials/Cloud Storage
     tags: [cloud, storage, sync, microsoft]
+    type: app
     profiles: [casual]
   - id: open-shell
     name: Open-Shell
-    category: Utilities/System
+    category: Power User/System Tools
     tags: [start-menu, shell, customization, open-source]
+    type: app
     profiles: [power-user]
   - id: openssh
     name: OpenSSH
-    category: Networking/Security
+    category: Power User/Networking
     tags: [ssh, remote, cli, microsoft]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: opera
     name: Opera
-    category: Browsers
+    category: Essentials/Browsers
     tags: [browser, chromium, vpn]
+    type: app
     profiles: [casual]
   - id: paint-dot-net
     name: Paint.NET
     category: Media/Graphics
     tags: [image-editor, graphics, layers, windows]
+    type: app
     profiles: [casual, creative]
   - id: pdftk
     name: PDFtk Free
-    category: Utilities/PDF
+    category: Essentials/PDF
     tags: [pdf, cli, merge, split]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
   - id: peazip
     name: PeaZip
-    category: Utilities/Compression
+    category: Essentials/Compression
     tags: [archive, compression, open-source]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: perfview
     name: PerfView
-    category: Development/Profilers
+    category: Languages/.NET/IDEs
     tags: [profiler, performance, etw, dotnet, open-source]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/perfview.yaml
   - id: pidgin
     name: Pidgin
-    category: Communication/Chat
+    category: Essentials/Communication
     tags: [chat, instant-messaging, multi-protocol, open-source]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: pipx
     name: pipx
-    category: Development/Python
+    category: Languages/Python/Package Managers
     tags: [python, package-manager, cli, isolated]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/python/pipx.yaml
   - id: playnite
     name: Playnite
-    category: Gaming/Stores
+    category: Gaming/Launchers
     tags: [gaming, launcher, library, open-source]
+    type: app
     profiles: [gamer]
   - id: pnpm
     name: pnpm
-    category: Development/Node
+    category: Languages/Node/Package Managers
     tags: [package-manager, node, cli, open-source]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/node/pnpm.yaml
   - id: poetry
     name: Poetry
-    category: Development/Python
+    category: Languages/Python/Package Managers
     tags: [python, package-manager, dependency-management, virtualenv]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/python/poetry.yaml
   - id: postman
     name: Postman
     category: Development/API Tools
     tags: [api, rest, graphql, testing]
+    type: app
     profiles: [developer]
-    hidden: true
   - id: powershell
     name: PowerShell
-    category: Development/Shells
+    category: Terminal/Shells/PowerShell
     tags: [shell, cli, microsoft, scripting]
-    kind: dotfile
+    type: app
     profiles: [developer, power-user]
   - id: powertoys
     name: PowerToys
-    category: Utilities/Productivity
+    category: Power User/System Tools
     tags: [productivity, utilities, microsoft, windows]
+    type: app
     profiles: [developer, power-user]
   - id: prettier
     name: Prettier
-    category: Development/Node
+    category: Languages/Node/Global Packages
     tags: [formatter, code-style, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/prettier.yaml
   - id: procs
     name: procs
-    category: Utilities/System Monitors
+    category: Power User/System Monitors
     tags: [cli, process, ps, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: putty
     name: PuTTY
-    category: Networking/Security
+    category: Power User/Networking
     tags: [ssh, telnet, terminal, remote]
+    type: app
     profiles: [developer]
-    hidden: true
   - id: python
     name: Python
-    category: Development/Languages
+    category: Languages/Python/Runtimes
     tags: [python, language, scripting]
-    kind: runtime
+    type: app
     profiles: [developer]
     path: apps/python/python.yaml
   - id: qbittorrent
     name: qBittorrent
-    category: Utilities/Downloads
+    category: Essentials/Downloads
     tags: [torrent, downloads, open-source]
+    type: app
     profiles: [casual]
   - id: quicklook
     name: QuickLook
-    category: File Management
+    category: Power User/File Management
     tags: [preview, spacebar, file-viewer]
+    type: app
     profiles: [power-user]
   - id: rancher-desktop
     name: Rancher Desktop
     category: Development/Containers
     tags: [containers, kubernetes, docker, open-source]
+    type: app
     profiles: [developer]
   - id: rclone
     name: rclone
-    category: Utilities/Storage
+    category: Essentials/Cloud Storage
     tags: [cli, cloud, sync, backup]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: reportgenerator
     name: ReportGenerator
-    category: Development/Testing
+    category: Languages/.NET/Global Packages
     tags: [dotnet, coverage, reports, testing, csharp]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/dotnet/reportgenerator.yaml
   - id: reshade
     name: ReShade
     category: Gaming/Modding
     tags: [gaming, post-processing, shaders, graphics]
+    type: app
     profiles: [gamer]
-    hidden: true
   - id: resharper
     name: ReSharper
-    category: Development/.NET
+    category: Languages/.NET/IDEs
     tags: [dotnet, jetbrains, visual-studio, productivity]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/resharper.yaml
   - id: retroarch
     name: RetroArch
-    category: Gaming/Stores
+    category: Gaming/Launchers
     tags: [gaming, emulator, retro, multi-system]
+    type: app
     profiles: [gamer]
-    hidden: true
   - id: revo-uninstaller
     name: Revo Uninstaller
-    category: Utilities/Uninstallers
+    category: Power User/System Tools
     tags: [uninstaller, cleanup, system]
+    type: app
     profiles: [power-user]
   - id: rimraf
     name: rimraf
-    category: Development/Node
+    category: Languages/Node/Global Packages
     tags: [filesystem, cleanup, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/rimraf.yaml
   - id: ripgrep
     name: ripgrep
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, grep, search, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
-    hidden: true
   - id: robo3t
     name: Robo 3T
     category: Development/Databases
     tags: [database, mongodb, gui, nosql]
+    type: app
     profiles: [developer]
   - id: rubocop
     name: RuboCop
-    category: Development/Ruby
+    category: Languages/Ruby/Global Packages
     tags: [ruby, linter, formatter, static-analysis]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/ruby/rubocop.yaml
   - id: ruby
     name: Ruby
-    category: Development/Languages
+    category: Languages/Ruby/Runtimes
     tags: [ruby, language, scripting]
-    kind: runtime
+    type: app
     profiles: [developer]
     path: apps/ruby/ruby.yaml
   - id: rails
     name: Ruby on Rails
-    category: Development/Ruby
+    category: Languages/Ruby/Global Packages
     tags: [ruby, framework, web, mvc]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/ruby/rails.yaml
   - id: ruff
     name: Ruff
-    category: Development/Python
+    category: Languages/Python/Global Packages
     tags: [python, linter, formatter, rust, fast]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/python/ruff.yaml
   - id: rufus
     name: Rufus
-    category: Utilities/System
+    category: Power User/System Tools
     tags: [usb, bootable, iso, formatting]
+    type: app
     profiles: [power-user]
   - id: rustup
     name: Rust
-    category: Development/Languages
+    category: Languages/Rust/Runtimes
     tags: [rust, language, systems, memory-safe]
-    kind: runtime
+    type: app
     profiles: [developer]
     path: apps/rust/rustup.yaml
   - id: rust-analyzer
     name: rust-analyzer
-    category: Development/Rust
+    category: Languages/Rust/Global Packages
     tags: [rust, lsp, language-server, ide]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/rust/rust-analyzer.yaml
   - id: rustdesk
     name: RustDesk
-    category: Networking/Remote Access
+    category: Power User/Networking
     tags: [remote-desktop, self-hosted, open-source, rust]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: sandboxie-plus
     name: Sandboxie Plus
-    category: Security/Sandboxing
+    category: Power User/System Tools
     tags: [sandbox, isolation, security, open-source]
+    type: app
     profiles: [power-user]
   - id: screentogif
     name: ScreenToGif
-    category: Utilities/Screenshots
+    category: Essentials/Screenshots
     tags: [gif, recording, screen-capture]
+    type: app
     profiles: [developer, creative]
   - id: sd
     name: sd
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, sed, find-replace, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: seelen-ui
     name: Seelen UI
-    category: Appearance
+    category: Essentials/Window Managers
     tags: [desktop, customization, taskbar, widgets]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: sharex
     name: ShareX
-    category: Utilities/Screenshots
+    category: Essentials/Screenshots
     tags: [screenshot, screen-recording, capture, open-source]
+    type: app
     profiles: [developer, power-user]
   - id: signal
     name: Signal
-    category: Communication/Chat
+    category: Essentials/Communication
     tags: [messaging, privacy, encryption, open-source]
+    type: app
     profiles: [casual]
   - id: slack
     name: Slack
-    category: Communication/Chat
+    category: Essentials/Communication
     tags: [chat, messaging, team, collaboration]
+    type: app
     profiles: [developer]
   - id: sourcetree
     name: Sourcetree
-    category: Development/Version Control
+    category: Terminal/Git
     tags: [git, gui, atlassian]
+    type: app
     profiles: [developer]
   - id: spotify
     name: Spotify
-    category: Media/Players
+    category: Media/Audio
     tags: [music, streaming, audio]
+    type: app
     profiles: [casual]
   - id: starship
     name: Starship
-    category: Development/Shells
+    category: Terminal/CLI Tools
     tags: [cli, prompt, shell, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: steam
     name: Steam
-    category: Gaming/Stores
+    category: Gaming/Launchers
     tags: [gaming, store, valve, launcher]
+    type: app
     profiles: [gamer]
   - id: stryker-net
     name: Stryker.NET
-    category: Development/Testing
+    category: Languages/.NET/Global Packages
     tags: [dotnet, mutation-testing, testing, quality, csharp]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/dotnet/stryker-net.yaml
   - id: sublimetext
     name: Sublime Text
-    category: Development/Editors
+    category: Development/IDEs & Editors
     tags: [editor, text, windows, macos, linux]
+    type: app
     profiles: [developer]
   - id: sumatrapdf
     name: SumatraPDF
-    category: Utilities/PDF
+    category: Essentials/PDF
     tags: [pdf, reader, lightweight, open-source]
+    type: app
     profiles: [casual]
   - id: sunshine
     name: Sunshine
     category: Gaming/Streaming
     tags: [gaming, streaming, remote-play, moonlight]
+    type: app
     profiles: [gamer]
-    hidden: true
   - id: syncthing
     name: Syncthing
-    category: Utilities/Storage
+    category: Essentials/Cloud Storage
     tags: [sync, p2p, file-sharing, open-source]
+    type: app
     profiles: [power-user]
   - id: sysinternals
     name: Sysinternals Suite
-    category: Utilities/System
+    category: Power User/System Tools
     tags: [system, diagnostics, microsoft, admin]
+    type: app
     profiles: [developer, power-user]
   - id: tabby
     name: Tabby
-    category: Development/Terminals
+    category: Terminal/Terminal Apps
     tags: [terminal, ssh, serial, electron]
+    type: app
     profiles: [developer]
-    hidden: true
   - id: teams-chat
     name: Teams Chat
-    category: Communication/Chat
+    category: Essentials/Communication
     tags: [chat, teams, microsoft, windows-11]
+    type: app
     profiles: [casual]
   - id: teamviewer
     name: TeamViewer
-    category: Networking/Remote Access
+    category: Power User/Networking
     tags: [remote-desktop, remote-access, screen-sharing]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: terraform
     name: Terraform
-    category: Development/Tools
+    category: Terminal/CLI Tools
     tags: [cli, iac, infrastructure, cloud, devops]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: thunderbird
     name: Thunderbird
-    category: Communication/Email
+    category: Essentials/Communication
     tags: [email, calendar, open-source, mozilla]
+    type: app
     profiles: [casual, power-user]
   - id: tldr
     name: tldr
-    category: Development/Node
+    category: Languages/Node/Global Packages
     tags: [man-pages, help, documentation, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/tldr.yaml
   - id: tokei
     name: tokei
-    category: Development/CLI Tools
+    category: Terminal/CLI Tools
     tags: [cli, code, statistics, loc, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: topgrade
     name: topgrade
-    category: Utilities/System
+    category: Power User/System Tools
     tags: [cli, update, upgrade, all-in-one, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [power-user]
-    hidden: true
   - id: tortoisegit
     name: TortoiseGit
-    category: Development/Version Control
+    category: Terminal/Git
     tags: [git, gui, explorer-integration, open-source]
+    type: app
     profiles: [developer]
   - id: translucenttb
     name: TranslucentTB
-    category: Appearance
+    category: Power User/System Tools
     tags: [taskbar, transparency, customization]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: transmission
     name: Transmission
-    category: Utilities/Downloads
+    category: Essentials/Downloads
     tags: [torrent, bittorrent, lightweight, open-source]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: trillian
     name: Trillian
-    category: Communication/Chat
+    category: Essentials/Communication
     tags: [chat, instant-messaging, multi-protocol]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: tsx
     name: tsx
-    category: Development/Node
+    category: Languages/Node/Global Packages
     tags: [typescript, runner, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/tsx.yaml
   - id: twinkle-tray
     name: Twinkle Tray
-    category: Appearance
+    category: Power User/System Tools
     tags: [brightness, monitor, display, tray]
+    type: app
     profiles: [power-user]
-    hidden: true
   - id: typescript
     name: TypeScript
-    category: Development/Node
+    category: Languages/Node/Global Packages
     tags: [typescript, compiler, node, cli]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/typescript.yaml
   - id: uv
     name: uv
-    category: Development/Python
+    category: Languages/Python/Package Managers
     tags: [cli, python, package-manager, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/python/uv.yaml
   - id: ventoy
     name: Ventoy
-    category: Utilities/System
+    category: Power User/System Tools
     tags: [usb, bootable, iso, multiboot]
+    type: app
     profiles: [power-user]
   - id: vim
     name: Vim
-    category: Development/Editors
+    category: Development/IDEs & Editors
     tags: [editor, cli, terminal]
-    kind: dotfile
+    type: app
     profiles: [developer]
   - id: vcredist
     name: Visual C++ Redistributable
-    category: Development/Build Tools
+    category: Languages/C/C++/Runtimes
     tags: [cpp, runtime, microsoft]
-    kind: runtime
+    type: app
     profiles: [casual, developer]
     path: apps/cpp/vcredist.yaml
   - id: vs2019-community
     name: Visual Studio 2019 Community
-    category: Development/IDEs
+    category: Languages/.NET/IDEs
     tags: [ide, dotnet, csharp, microsoft, visual-studio, legacy]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/vs2019-community.yaml
   - id: vs2019-professional
     name: Visual Studio 2019 Professional
-    category: Development/IDEs
+    category: Languages/.NET/IDEs
     tags: [ide, dotnet, csharp, microsoft, visual-studio, legacy]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/vs2019-professional.yaml
   - id: visualstudio-2022
     name: Visual Studio 2022
-    category: Development/IDEs
+    category: Development/IDEs & Editors
     tags: [ide, microsoft, dotnet, windows]
+    type: app
     profiles: [developer]
   - id: vs2022-community
     name: Visual Studio 2022 Community
-    category: Development/IDEs
+    category: Languages/.NET/IDEs
     tags: [ide, dotnet, csharp, microsoft, visual-studio]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/vs2022-community.yaml
   - id: vs2022-professional
     name: Visual Studio 2022 Professional
-    category: Development/IDEs
+    category: Languages/.NET/IDEs
     tags: [ide, dotnet, csharp, microsoft, visual-studio]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/vs2022-professional.yaml
   - id: visualstudio-2026
     name: Visual Studio 2026
-    category: Development/IDEs
+    category: Development/IDEs & Editors
     tags: [ide, microsoft, dotnet, windows]
+    type: app
     profiles: [developer]
   - id: vs2026-community
     name: Visual Studio 2026 Community
-    category: Development/IDEs
+    category: Languages/.NET/IDEs
     tags: [ide, dotnet, csharp, microsoft, visual-studio]
+    type: app
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/dotnet/vs2026-community.yaml
   - id: vs2026-professional
     name: Visual Studio 2026 Professional
-    category: Development/IDEs
+    category: Languages/.NET/IDEs
     tags: [ide, dotnet, csharp, microsoft, visual-studio]
+    type: app
     profiles: [developer]
-    hidden: true
     path: apps/dotnet/vs2026-professional.yaml
   - id: vscode
     name: Visual Studio Code
-    category: Development/IDEs
+    category: Development/IDEs & Editors
     tags: [editor, ide, microsoft]
+    type: app
     profiles: [developer]
   - id: vlc
     name: VLC
-    category: Media/Players
+    category: Media/Video
     tags: [media, video, audio, open-source]
+    type: app
     profiles: [casual]
   - id: volta
     name: Volta
-    category: Development/Node
+    category: Languages/Node/Version Managers
     tags: [node, version-manager, cli, rust, open-source]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/volta.yaml
   - id: wezterm
     name: WezTerm
-    category: Development/Terminals
+    category: Terminal/Terminal Apps
     tags: [terminal, gpu, lua, multiplexer]
+    type: app
     profiles: [developer]
   - id: winamp
     name: Winamp
     category: Media/Audio
     tags: [audio, music, player, classic]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: windbg
     name: WinDbg
-    category: Development/.NET
+    category: Languages/.NET/IDEs
     tags: [debugger, windows, microsoft, native, dotnet]
+    type: app
     profiles: [developer]
-    hidden: true
+    display: hot
     path: apps/dotnet/windbg.yaml
   - id: windirstat
     name: WinDirStat
-    category: File Management
+    category: Power User/File Management
     tags: [disk-usage, visualization, cleanup, open-source]
+    type: app
     profiles: [power-user]
   - id: copilot
     name: Windows Copilot
-    category: Utilities
+    category: Development/IDEs & Editors
     tags: [ai, microsoft, copilot, windows-11]
+    type: app
     profiles: [casual]
   - id: windows-terminal
     name: Windows Terminal
-    category: Development/Terminals
+    category: Terminal/Terminal Apps
     tags: [terminal, shell, microsoft]
+    type: app
     profiles: [developer, power-user]
   - id: winmerge
     name: WinMerge
     category: Development/Diff Tools
     tags: [diff, merge, comparison, open-source]
+    type: app
     profiles: [developer]
   - id: winrar
     name: WinRAR
-    category: Utilities/Compression
+    category: Essentials/Compression
     tags: [archive, compression, rar]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: winscp
     name: WinSCP
-    category: Networking/FTP
+    category: Essentials/FTP
     tags: [ftp, sftp, scp, file-transfer, open-source]
+    type: app
     profiles: [developer, power-user]
   - id: wireshark
     name: Wireshark
-    category: Networking/Security
+    category: Power User/Networking
     tags: [network, packet-capture, analysis, open-source]
+    type: app
     profiles: [developer]
   - id: wiztree
     name: WizTree
-    category: File Management
+    category: Power User/File Management
     tags: [disk-space, analyzer, storage]
+    type: app
     profiles: [power-user]
   - id: xbox
     name: Xbox Game Bar
     category: Gaming/Modding
     tags: [gaming, xbox, microsoft, game-bar]
+    type: app
     profiles: [gamer]
   - id: xnview
     name: XnView
     category: Media/Graphics
     tags: [image-viewer, graphics, batch-processing]
+    type: app
     profiles: [casual]
-    hidden: true
   - id: yarn
     name: Yarn
-    category: Development/Node
+    category: Languages/Node/Package Managers
     tags: [package-manager, node, cli, open-source]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
     path: apps/node/yarn.yaml
   - id: yazi
     name: yazi
-    category: File Management
+    category: Power User/File Management
     tags: [cli, file-manager, tui, rust]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer, power-user]
   - id: zed
     name: Zed
-    category: Development/Editors
+    category: Development/IDEs & Editors
     tags: [editor, ide, gpu, collaboration, rust]
+    type: app
     profiles: [developer]
   - id: zoom
     name: Zoom
-    category: Communication/Video
+    category: Essentials/Communication
     tags: [video, meetings, conferencing]
+    type: app
     profiles: [casual]
   - id: zoxide
     name: zoxide
-    category: Development/Shells
+    category: Terminal/CLI Tools
     tags: [cli, navigation, cd, shell]
-    kind: cli-tool
+    type: cli-tool
     profiles: [developer]
-    hidden: true
   - id: zsh
     name: Zsh
-    category: Development/Shells
+    category: Terminal/Shells/Bash
     tags: [shell, cli, linux, macos]
-    kind: dotfile
+    type: app
     profiles: [developer]
 fonts:
   - id: cascadia-code-nf
     name: Cascadia Code Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, ligatures, microsoft]
+    type: font
     profiles: [developer]
   - id: fira-code
     name: Fira Code
     category: Fonts/Programming
     tags: [monospace, ligatures, open-source]
+    type: font
     profiles: [developer]
   - id: hack-nf
     name: Hack Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, open-source]
+    type: font
     profiles: [developer]
   - id: jetbrains-mono-nf
     name: JetBrains Mono Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, ligatures, jetbrains]
+    type: font
     profiles: [developer]
   - id: meslo-nf
     name: Meslo Nerd Font
     category: Fonts/Programming
     tags: [monospace, nerd-font, open-source]
+    type: font
     profiles: [developer]
 tweaks:
   - id: add-cab-install-context-menu
     name: Add CAB Install Context Menu
     category: Explorer/Context Menu
     tags: [explorer, context-menu, cab, install]
+    type: tweak
     profiles: [developer]
     path: tweaks/explorer/add-cab-install-context-menu.yaml
   - id: add-msi-extract-context-menu
     name: Add MSI Extract Context Menu
     category: Explorer/Context Menu
     tags: [explorer, context-menu, msi, extract]
+    type: tweak
     profiles: [developer]
     path: tweaks/explorer/add-msi-extract-context-menu.yaml
   - id: block-razer-software-installs
     name: Block Razer Software Installs
     category: System/Bloatware
     tags: [razer, bloatware, driver]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/block-razer-software-installs.yaml
   - id: classic-context-menu
     name: Classic Context Menu
     category: Explorer/Context Menu
     tags: [explorer, context-menu, windows-11]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/explorer/classic-context-menu.yaml
   - id: compact-mode
     name: Compact Mode
     category: Explorer/Appearance
     tags: [explorer, density, windows-11]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/compact-mode.yaml
   - id: configure-start-layout
     name: Configure Start Layout
     category: Search/Start Menu
     tags: [start-menu, layout, pins]
+    type: tweak
     profiles: [power-user]
     path: tweaks/search/configure-start-layout.yaml
   - id: control-panel-icon-view
     name: Control Panel Icon View
     category: System/Settings
     tags: [control-panel, icons, view]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/control-panel-icon-view.yaml
   - id: create-restore-point
     name: Create Restore Point
     category: System/Backup
     tags: [backup, restore-point, system-protection]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/create-restore-point.yaml
   - id: cross-device-resume
     name: Cross-Device Resume
     category: Privacy/Sync
     tags: [privacy, cross-device, sync, resume]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/cross-device-resume.yaml
   - id: dark-mode
     name: Dark Mode
     category: Appearance/Theme
     tags: [theme, dark-mode, personalization]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/appearance/dark-mode.yaml
   - id: detailed-bsod
     name: Detailed BSoD
     category: System/Diagnostics
     tags: [bsod, diagnostics, crash]
+    type: tweak
     profiles: [developer]
     path: tweaks/system/detailed-bsod.yaml
   - id: detailed-file-transfer-dialog
     name: Detailed File Transfer Dialog
     category: Explorer/Appearance
     tags: [explorer, file-transfer, dialog]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/detailed-file-transfer-dialog.yaml
   - id: disable-activity-history
     name: Disable Activity History
     category: Privacy/Tracking
     tags: [privacy, activity-history, telemetry]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-activity-history.yaml
   - id: disable-advertising-id
     name: Disable Advertising ID
     category: Privacy/Advertising
     tags: [privacy, advertising, telemetry]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/privacy/disable-advertising-id.yaml
   - id: disable-aero-shake
     name: Disable Aero Shake
     category: Appearance/Window Management
     tags: [aero, shake, window-management]
+    type: tweak
     profiles: [power-user]
     path: tweaks/appearance/disable-aero-shake.yaml
   - id: disable-app-smartscreen
     name: Disable App SmartScreen
     category: Security/Defender
     tags: [security, smartscreen, defender]
+    type: tweak
     profiles: [power-user]
     path: tweaks/security/disable-app-smartscreen.yaml
   - id: disable-auto-restart-after-update
     name: Disable Auto Restart After Update
     category: System/Updates
     tags: [updates, restart, automatic]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/disable-auto-restart-after-update.yaml
   - id: disable-auto-troubleshooting
     name: Disable Auto Troubleshooting
     category: System/Troubleshooting
     tags: [troubleshooting, automatic, diagnostics]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/disable-auto-troubleshooting.yaml
   - id: disable-autoplay
     name: Disable AutoPlay
     category: System/Devices
     tags: [autoplay, media, devices]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/disable-autoplay.yaml
   - id: disable-background-apps
     name: Disable Background Apps
     category: Performance/Background
     tags: [performance, background-apps, resources]
+    type: tweak
     profiles: [power-user]
     path: tweaks/performance/disable-background-apps.yaml
   - id: disable-caps-lock
     name: Disable Caps Lock
     category: Input/Keyboard
     tags: [keyboard, capslock, remap]
+    type: tweak
     profiles: [power-user]
     path: tweaks/input/disable-caps-lock.yaml
   - id: disable-consumerfeatures
     name: Disable ConsumerFeatures
     category: Privacy/Advertising
     tags: [privacy, consumer-features, suggestions]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-consumerfeatures.yaml
   - id: disable-delivery-optimization
     name: Disable Delivery Optimization
     category: System/Updates
     tags: [updates, delivery-optimization, bandwidth]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/disable-delivery-optimization.yaml
   - id: disable-error-reporting
     name: Disable Error Reporting
     category: Privacy/Telemetry
     tags: [privacy, error-reporting, telemetry]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-error-reporting.yaml
   - id: disable-feedback-requests
     name: Disable Feedback Requests
     category: Privacy/Telemetry
     tags: [privacy, feedback, telemetry]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-feedback-requests.yaml
   - id: disable-first-logon-animation
     name: Disable First Logon Animation
     category: Appearance/Logon
     tags: [appearance, logon, animation]
+    type: tweak
     profiles: [power-user]
     path: tweaks/appearance/disable-first-logon-animation.yaml
   - id: disable-fullscreen-optimizations
     name: Disable Fullscreen Optimizations
     category: Performance/Gaming
     tags: [gaming, fullscreen, performance]
+    type: tweak
     profiles: [power-user]
     path: tweaks/performance/disable-fullscreen-optimizations.yaml
   - id: disable-hibernation
     name: Disable Hibernation
     category: Power/Hibernation
     tags: [power, hibernation, disk-space]
+    type: tweak
     profiles: [power-user]
     path: tweaks/power/disable-hibernation.yaml
   - id: disable-ipv6
     name: Disable IPv6
     category: Networking/Protocol
     tags: [networking, ipv6, disable]
+    type: tweak
     profiles: [power-user]
     path: tweaks/networking/disable-ipv6.yaml
   - id: disable-item-check-boxes
     name: Disable Item Check Boxes
     category: Explorer/Appearance
     tags: [explorer, checkboxes, selection]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/disable-item-check-boxes.yaml
   - id: disable-location-tracking
     name: Disable Location Tracking
     category: Privacy/Tracking
     tags: [privacy, location, tracking]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-location-tracking.yaml
   - id: disable-mouse-acceleration
     name: Disable Mouse Acceleration
     category: Input/Mouse
     tags: [mouse, gaming, precision]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/input/disable-mouse-acceleration.yaml
   - id: disable-multiplane-overlay
     name: Disable Multiplane Overlay
     category: System/Graphics
     tags: [graphics, multiplane-overlay, performance]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/disable-multiplane-overlay.yaml
   - id: disable-network-adapter-power-saving
     name: Disable Network Adapter Power Saving
     category: Power/Devices
     tags: [power, network, wake, sleep]
+    type: tweak
     profiles: [power-user]
     path: tweaks/power/disable-network-adapter-power-saving.yaml
   - id: disable-notification-traycalendar
     name: Disable Notification Tray/Calendar
     category: Taskbar/Declutter
     tags: [taskbar, notifications, calendar, declutter]
+    type: tweak
     profiles: [power-user]
     path: tweaks/taskbar/disable-notification-traycalendar.yaml
   - id: disable-search-highlights
     name: Disable Search Highlights
     category: Search/Start Menu
     tags: [search, highlights, bing]
+    type: tweak
     profiles: [power-user]
     path: tweaks/search/disable-search-highlights.yaml
   - id: disable-settings-suggestions
     name: Disable Settings Suggestions
     category: Privacy/Advertising
     tags: [privacy, settings, suggestions]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-settings-suggestions.yaml
   - id: disable-sign-in-auto-setup
     name: Disable Sign-in Auto Setup
     category: Privacy/Logon
     tags: [privacy, sign-in, auto-finish]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-sign-in-auto-setup.yaml
   - id: disable-silent-app-installing
     name: Disable Silent App Installing
     category: Privacy/Advertising
     tags: [privacy, auto-install, suggestions]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-silent-app-installing.yaml
   - id: disable-snap-assist
     name: Disable Snap Assist
     category: Appearance/Window Management
     tags: [window-management, snap, assist]
+    type: tweak
     profiles: [power-user]
     path: tweaks/appearance/disable-snap-assist.yaml
   - id: disable-start-account-notifications
     name: Disable Start Account Notifications
     category: Search/Start Menu
     tags: [start-menu, account, notifications]
+    type: tweak
     profiles: [power-user]
     path: tweaks/search/disable-start-account-notifications.yaml
   - id: disable-sticky-keys
     name: Disable Sticky Keys Shortcut
     category: Accessibility/Keyboard
     tags: [accessibility, keyboard, gaming]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/accessibility/disable-sticky-keys.yaml
   - id: disable-sticky-shift-shortcut
     name: Disable Sticky Shift Shortcut
     category: Accessibility/Keyboard
     tags: [accessibility, keyboard, sticky-shift]
+    type: tweak
     profiles: [power-user]
     path: tweaks/accessibility/disable-sticky-shift-shortcut.yaml
   - id: disable-storage-sense
     name: Disable Storage Sense
     category: System/Storage
     tags: [storage, storage-sense, cleanup]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/disable-storage-sense.yaml
   - id: disable-tailored-experiences
     name: Disable Tailored Experiences
     category: Privacy/Telemetry
     tags: [privacy, tailored-experiences, telemetry]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-tailored-experiences.yaml
   - id: disable-telemetry
     name: Disable Telemetry
     category: Privacy/Telemetry
     tags: [privacy, telemetry, microsoft]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-telemetry.yaml
   - id: disable-teredo
     name: Disable Teredo
     category: Networking/Protocol
     tags: [networking, teredo, ipv6, tunnel]
+    type: tweak
     profiles: [power-user]
     path: tweaks/networking/disable-teredo.yaml
   - id: disable-uac-admin-approval-mode
     name: Disable UAC Admin Approval Mode
     category: Security/UAC
     tags: [security, uac, admin]
+    type: tweak
     profiles: [power-user]
     path: tweaks/security/disable-uac-admin-approval-mode.yaml
   - id: disable-web-search
     name: Disable Web Search in Start
     category: Search/Start Menu
     tags: [search, start-menu, privacy]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/search/disable-web-search.yaml
   - id: disable-welcome-experience
     name: Disable Welcome Experience
     category: Privacy/Advertising
     tags: [privacy, welcome, post-update]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-welcome-experience.yaml
   - id: disable-whats-new-in-windows
     name: Disable What's New in Windows
     category: Privacy/Advertising
     tags: [privacy, tips, whats-new]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-whats-new-in-windows.yaml
   - id: disable-windows-platform-binary-table-wpbt
     name: Disable Windows Platform Binary Table (WPBT)
     category: Security/Firmware
     tags: [security, firmware, wpbt]
+    type: tweak
     profiles: [power-user]
     path: tweaks/security/disable-windows-platform-binary-table-wpbt.yaml
   - id: disable-windows-tips
     name: Disable Windows Tips
     category: Privacy/Advertising
     tags: [privacy, tips, suggestions]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/disable-windows-tips.yaml
   - id: disable-zone-information-saving
     name: Disable Zone Information Saving
     category: Security/Downloads
     tags: [security, zone, downloads, block]
+    type: tweak
     profiles: [power-user]
     path: tweaks/security/disable-zone-information-saving.yaml
   - id: enable-bulk-file-actions
     name: Enable Bulk File Actions
     category: Explorer/Context Menu
     tags: [explorer, context-menu, bulk-selection]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/enable-bulk-file-actions.yaml
   - id: enable-end-task-with-right-click
     name: Enable End Task With Right Click
     category: Taskbar/Productivity
     tags: [taskbar, end-task, right-click]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/taskbar/enable-end-task-with-right-click.yaml
   - id: enable-gpu-scheduling
     name: Enable GPU Scheduling
     category: Performance/GPU
     tags: [performance, gpu, scheduling]
+    type: tweak
     profiles: [power-user]
     path: tweaks/performance/enable-gpu-scheduling.yaml
   - id: long-paths-enabled
     name: Enable Long Paths
     category: System/Filesystem
     tags: [filesystem, developer, paths]
+    type: tweak
     profiles: [developer]
     path: tweaks/system/long-paths-enabled.yaml
   - id: enable-lsa-protection
     name: Enable LSA Protection
     category: Security/System
     tags: [security, lsa, credential-guard]
+    type: tweak
     profiles: [power-user]
     path: tweaks/security/enable-lsa-protection.yaml
   - id: enable-process-creation-event-view
     name: Enable Process Creation Event View
     category: System/Diagnostics
     tags: [event-viewer, diagnostics, process-creation]
+    type: tweak
     profiles: [developer]
     path: tweaks/system/enable-process-creation-event-view.yaml
   - id: expand-to-current-folder
     name: Expand to Current Folder
     category: Explorer/Navigation
     tags: [explorer, navigation, expand]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/expand-to-current-folder.yaml
   - id: explorer-open-this-pc
     name: Explorer Opens to This PC
     category: Explorer/Navigation
     tags: [explorer, navigation]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/explorer-open-this-pc.yaml
   - id: get-latest-windows-updates
     name: Get Latest Windows Updates
     category: System/Updates
     tags: [updates, latest, preview]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/get-latest-windows-updates.yaml
   - id: hide-frequent-folders-in-quick-access
     name: Hide Frequent Folders in Quick Access
     category: Explorer/Navigation
     tags: [explorer, quick-access, folders]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/hide-frequent-folders-in-quick-access.yaml
   - id: hide-most-used-start-apps
     name: Hide Most Used Start Apps
     category: Search/Start Menu
     tags: [start-menu, most-used, apps]
+    type: tweak
     profiles: [power-user]
     path: tweaks/search/hide-most-used-start-apps.yaml
   - id: hide-network-navigation
     name: Hide Network from Navigation Pane
     category: Explorer/Navigation
     tags: [explorer, network, navigation]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/hide-network-navigation.yaml
   - id: hide-recent-files-in-quick-access
     name: Hide Recent Files in Quick Access
     category: Explorer/Navigation
     tags: [explorer, quick-access, recent-files]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/hide-recent-files-in-quick-access.yaml
   - id: hide-recently-added-start-apps
     name: Hide Recently Added Start Apps
     category: Search/Start Menu
     tags: [start-menu, recently-added, apps]
+    type: tweak
     profiles: [power-user]
     path: tweaks/search/hide-recently-added-start-apps.yaml
   - id: hide-recommended-section
     name: Hide Recommended Section
     category: Search/Start Menu
     tags: [start-menu, recommended, declutter]
+    type: tweak
     profiles: [power-user]
     path: tweaks/search/hide-recommended-section.yaml
   - id: hide-store-in-open-with
     name: Hide Store in Open With
     category: System/Settings
     tags: [store, open-with, app-suggestions]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/hide-store-in-open-with.yaml
   - id: hide-this-pc-folders
     name: Hide This PC Folders
     category: Explorer/Navigation
     tags: [explorer, this-pc, folders, windows-10]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/hide-this-pc-folders.yaml
   - id: disable-widgets
     name: Hide Widgets Button
     category: Taskbar/Declutter
     tags: [taskbar, widgets, windows-11]
+    type: tweak
     profiles: [power-user]
     path: tweaks/taskbar/disable-widgets.yaml
   - id: max-jpeg-wallpaper-quality
     name: Max JPEG Wallpaper Quality
     category: Appearance/Wallpaper
     tags: [appearance, wallpaper, jpeg, quality]
+    type: tweak
     profiles: [power-user]
     path: tweaks/appearance/max-jpeg-wallpaper-quality.yaml
   - id: never-combine-taskbar-buttons
     name: Never Combine Taskbar Buttons
     category: Taskbar/Layout
     tags: [taskbar, combine, labels]
+    type: tweak
     profiles: [power-user]
     path: tweaks/taskbar/never-combine-taskbar-buttons.yaml
   - id: new-outlook
     name: New Outlook
     category: System/Settings
     tags: [outlook, microsoft, mail]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/new-outlook.yaml
   - id: numlock-on-startup
     name: NumLock on Startup
     category: Input/Keyboard
     tags: [keyboard, numlock, startup]
+    type: tweak
     profiles: [power-user]
     path: tweaks/input/numlock-on-startup.yaml
   - id: prefer-ipv4-over-ipv6
     name: Prefer IPv4 over IPv6
     category: Networking/Protocol
     tags: [networking, ipv4, ipv6]
+    type: tweak
     profiles: [power-user]
     path: tweaks/networking/prefer-ipv4-over-ipv6.yaml
   - id: printscreen-opens-snipping-tool
     name: PrintScreen Opens Snipping Tool
     category: Input/Keyboard
     tags: [keyboard, print-screen, snipping-tool, screenshot]
+    type: tweak
     profiles: [power-user]
     path: tweaks/input/printscreen-opens-snipping-tool.yaml
   - id: recommendations-in-start-menu
     name: Recommendations in Start Menu
     category: Search/Start Menu
     tags: [start-menu, recommendations, declutter]
+    type: tweak
     profiles: [power-user]
     path: tweaks/search/recommendations-in-start-menu.yaml
   - id: remove-settings-home-page
     name: Remove Settings Home Page
     category: System/Settings
     tags: [settings, home-page, declutter]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/remove-settings-home-page.yaml
   - id: remove-shortcut-suffix
     name: Remove Shortcut Suffix
     category: Explorer/Behavior
     tags: [explorer, shortcuts, suffix]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/remove-shortcut-suffix.yaml
   - id: restore-folders-at-logon
     name: Restore Folders at Logon
     category: Explorer/Behavior
     tags: [explorer, restore, folders, logon]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/restore-folders-at-logon.yaml
   - id: pin-to-start-context-menu
     name: Restore Pin to Start Context Menu
     category: Explorer/Context Menu
     tags: [explorer, context-menu, pin-to-start, windows-10]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/pin-to-start-context-menu.yaml
   - id: s3-sleep
     name: S3 Sleep
     category: Power/Sleep
     tags: [power, sleep, s3, standby]
+    type: tweak
     profiles: [power-user]
     path: tweaks/power/s3-sleep.yaml
   - id: search-button-in-taskbar
     name: Search Button in Taskbar
     category: Taskbar/Declutter
     tags: [taskbar, search, declutter]
+    type: tweak
     profiles: [power-user]
     path: tweaks/taskbar/search-button-in-taskbar.yaml
   - id: set-active-hours-automatically
     name: Set Active Hours Automatically
     category: System/Updates
     tags: [updates, active-hours, restart]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/set-active-hours-automatically.yaml
   - id: set-diagnostic-data-to-minimum
     name: Set Diagnostic Data to Minimum
     category: Privacy/Telemetry
     tags: [privacy, diagnostics, telemetry]
+    type: tweak
     profiles: [power-user]
     path: tweaks/privacy/set-diagnostic-data-to-minimum.yaml
   - id: set-display-for-performance
     name: Set Display for Performance
     category: Performance/Visual
     tags: [performance, visual-effects, animations]
+    type: tweak
     profiles: [power-user]
     path: tweaks/performance/set-display-for-performance.yaml
   - id: set-time-to-utc-dual-boot
     name: Set Time to UTC (Dual Boot)
     category: System/Clock
     tags: [clock, utc, dual-boot, linux]
+    type: tweak
     profiles: [developer]
     path: tweaks/system/set-time-to-utc-dual-boot.yaml
   - id: show-clock-in-notification-center
     name: Show Clock in Notification Center
     category: Taskbar/Clock
     tags: [taskbar, clock, notification-center]
+    type: tweak
     profiles: [power-user]
     path: tweaks/taskbar/show-clock-in-notification-center.yaml
   - id: show-file-extensions
     name: Show File Extensions
     category: Explorer/Files
     tags: [explorer, files, visibility]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/explorer/show-file-extensions.yaml
   - id: show-folder-merge-conflicts
     name: Show Folder Merge Conflicts
     category: Explorer/Behavior
     tags: [explorer, merge, conflicts]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/show-folder-merge-conflicts.yaml
   - id: show-full-path-in-title-bar
     name: Show Full Path in Title Bar
     category: Explorer/Navigation
     tags: [explorer, navigation, path]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/explorer/show-full-path-in-title-bar.yaml
   - id: show-hidden-files
     name: Show Hidden Files
     category: Explorer/Files
     tags: [explorer, files, visibility]
+    type: tweak
     profiles: [developer, power-user]
     path: tweaks/explorer/show-hidden-files.yaml
   - id: show-protected-os-files
     name: Show Protected OS Files
     category: Explorer/Files
     tags: [explorer, files, visibility, advanced]
+    type: tweak
     profiles: [developer]
     path: tweaks/explorer/show-protected-os-files.yaml
   - id: show-restart-notification
     name: Show Restart Notification
     category: System/Updates
     tags: [updates, restart, notification]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/show-restart-notification.yaml
   - id: show-seconds-in-clock
     name: Show Seconds in Clock
     category: Taskbar/Clock
     tags: [taskbar, clock, seconds]
+    type: tweak
     profiles: [power-user]
     path: tweaks/taskbar/show-seconds-in-clock.yaml
   - id: show-this-pc-on-desktop
     name: Show This PC on Desktop
     category: Explorer/Desktop
     tags: [explorer, desktop, this-pc, icon]
+    type: tweak
     profiles: [power-user]
     path: tweaks/explorer/show-this-pc-on-desktop.yaml
   - id: task-view-button-in-taskbar
     name: Task View Button in Taskbar
     category: Taskbar/Declutter
     tags: [taskbar, task-view, declutter]
+    type: tweak
     profiles: [power-user]
     path: tweaks/taskbar/task-view-button-in-taskbar.yaml
   - id: taskbar-alignment-left
     name: Taskbar Left Alignment
     category: Taskbar/Layout
     tags: [taskbar, alignment, windows-11]
+    type: tweak
     profiles: [power-user]
     path: tweaks/taskbar/taskbar-alignment-left.yaml
   - id: update-other-microsoft-products
     name: Update Other Microsoft Products
     category: System/Updates
     tags: [updates, microsoft, office]
+    type: tweak
     profiles: [power-user]
     path: tweaks/system/update-other-microsoft-products.yaml
   - id: verbose-messages-during-logon
     name: Verbose Messages During Logon
     category: System/Diagnostics
     tags: [diagnostics, logon, verbose]
+    type: tweak
     profiles: [developer]
     path: tweaks/system/verbose-messages-during-logon.yaml

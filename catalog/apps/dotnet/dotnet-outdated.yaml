@@ -1,6 +1,5 @@
-type: app
+type: cli-tool
 name: dotnet-outdated
-cli-tool: true
 category: Languages/.NET/Global Packages
 tags: [dotnet, nuget, dependencies, cli, open-source]
 description: Check and update outdated NuGet packages

@@ -1,10 +1,9 @@
-type: app
+type: cli-tool
 name: OpenSSH
 display-name: OpenSSH (Preview)
 category: Power User/Networking
 tags: [ssh, remote, cli, microsoft]
 description: Microsoft's preview build of OpenSSH for Windows
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: BSD-2-Clause

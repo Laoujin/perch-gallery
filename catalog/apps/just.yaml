@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: just
 category: Terminal/CLI Tools
 tags: [cli, command-runner, make, rust]
 description: Handy command runner, a modern alternative to make
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: CC0-1.0

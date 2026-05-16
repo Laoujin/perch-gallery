@@ -1,6 +1,5 @@
-type: app
+type: cli-tool
 name: npm
-cli-tool: true
 category: Languages/Node/Package Managers
 tags: [package-manager, node, cli]
 description: Default package manager for Node.js

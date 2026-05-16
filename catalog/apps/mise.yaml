@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: mise
 category: Terminal/CLI Tools
 tags: [cli, version-manager, polyglot, rust]
 description: Polyglot dev tool version manager (replaces asdf, nvm, pyenv, rbenv)
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

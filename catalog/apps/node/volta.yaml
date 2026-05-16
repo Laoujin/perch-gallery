@@ -1,6 +1,5 @@
-type: app
+type: cli-tool
 name: Volta
-cli-tool: true
 category: Languages/Node/Version Managers
 tags: [node, version-manager, cli, rust, open-source]
 description: JavaScript tool manager with per-project version pinning

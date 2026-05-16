@@ -51,13 +51,10 @@
       "type": "string",
       "description": "SPDX license identifier or 'proprietary' or 'freeware'"
     },
-    "cli-tool": {
-      "type": "boolean",
-      "description": "Marks entry as a CLI tool"
-    },
-    "hot": {
-      "type": "boolean",
-      "description": "Marks entry as trending/new"
+    "display": {
+      "type": "string",
+      "enum": ["hot", "visible", "hidden"],
+      "description": "Display tier override. Unset means visible (implicit default)."
     },
     "links": {
       "type": "object",

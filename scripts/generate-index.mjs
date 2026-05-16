@@ -27,9 +27,9 @@ function readEntries(subdir) {
     const relPath = relative(catalogDir, file).replace(/\\/g, '/');
 
     const entry = { id, name: content.name, category: content.category, tags: content.tags };
-    if (content.kind) entry.kind = content.kind;
+    if (content.type) entry.type = content.type;
     if (content.profiles?.length) entry.profiles = content.profiles;
-    if (content.hidden) entry.hidden = true;
+    if (content.display) entry.display = content.display;
 
     // Include path when file is in a subdirectory (not flat)
     const flatPath = `${subdir}/${id}.yaml`;

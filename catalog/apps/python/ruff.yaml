@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: Ruff
 category: Languages/Python/Global Packages
 tags: [python, linter, formatter, rust, fast]
 description: Extremely fast Python linter and code formatter
-cli-tool: true
 requires: [python]
 profiles: [developer]
 os: [windows, linux, macos]

@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: fzf
 category: Terminal/CLI Tools
 tags: [cli, fuzzy-finder, search, shell]
 description: General-purpose command-line fuzzy finder
-cli-tool: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: procs
 category: Power User/System Monitors
 tags: [cli, process, ps, rust]
 description: Modern replacement for ps with color and keyword search
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: bottom
 category: Power User/System Monitors
 tags: [cli, monitor, system, tui, rust]
 description: Graphical process/system monitor for the terminal
-cli-tool: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

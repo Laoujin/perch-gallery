@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: Poetry
 category: Languages/Python/Package Managers
 tags: [python, package-manager, dependency-management, virtualenv]
 description: Python dependency management and packaging made easy
-cli-tool: true
 requires: [python]
 profiles: [developer]
 os: [windows, linux, macos]

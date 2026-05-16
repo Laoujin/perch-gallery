@@ -50,7 +50,8 @@ function flattenCategories(obj, prefix = '') {
 const validCategories = flattenCategories(categoriesRaw);
 
 // --- Valid enum values ---
-const validKinds = new Set(['app', 'cli-tool', 'runtime', 'dotfile']);
+const validAppTypes = new Set(['app', 'cli-tool']);
+const validDisplay = new Set(['hot', 'visible', 'hidden']);
 const validProfiles = new Set(['developer', 'power-user', 'casual', 'gamer', 'creative']);
 const validOs = new Set(['windows', 'linux', 'macos']);
 const validTypes = new Set(['app', 'font', 'tweak']);
@@ -64,8 +65,12 @@ function validateApp(file, content) {
   if (!content.tags?.length) warn(rel, 'missing or empty: tags');
   if (!content.description) warn(rel, 'missing: description');
 
-  if (content.kind && !validKinds.has(content.kind)) {
-    error(rel, `invalid kind: '${content.kind}' (valid: ${[...validKinds].join(', ')})`);
+  if (content.type && !validAppTypes.has(content.type)) {
+    error(rel, `invalid type: '${content.type}' (valid: ${[...validAppTypes].join(', ')})`);
+  }
+
+  if (content.display && !validDisplay.has(content.display)) {
+    error(rel, `invalid display: '${content.display}' (valid: ${[...validDisplay].join(', ')})`);
   }
 
   if (content.profiles) {
@@ -84,8 +89,8 @@ function validateApp(file, content) {
     warn(rel, `category '${content.category}' not in categories.yaml`);
   }
 
-  if (content.kind !== 'dotfile' && !content.install) {
-    warn(rel, 'non-dotfile app has no install section');
+  if (!content.install) {
+    warn(rel, 'app entry has no install section');
   }
 
   validateLinks(rel, content);

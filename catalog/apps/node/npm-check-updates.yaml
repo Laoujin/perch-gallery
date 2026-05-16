@@ -1,7 +1,6 @@
-type: app
+type: cli-tool
 name: npm-check-updates
 display-name: ncu
-cli-tool: true
 category: Languages/Node/Global Packages
 tags: [dependencies, upgrade, node, cli]
 description: Upgrade package.json dependencies

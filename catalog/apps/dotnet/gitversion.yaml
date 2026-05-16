@@ -1,6 +1,5 @@
-type: app
+type: cli-tool
 name: GitVersion
-cli-tool: true
 category: Languages/.NET/Global Packages
 tags: [dotnet, versioning, semver, git, ci]
 description: Semantic versioning derived from git history and branch conventions

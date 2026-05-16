@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: zoxide
 category: Terminal/CLI Tools
 tags: [cli, navigation, cd, shell]
 description: Smarter cd command that learns your most-used directories
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT

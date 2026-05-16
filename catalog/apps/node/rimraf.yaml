@@ -1,6 +1,5 @@
-type: app
+type: cli-tool
 name: rimraf
-cli-tool: true
 category: Languages/Node/Global Packages
 tags: [filesystem, cleanup, node, cli]
 description: Cross-platform rm -rf

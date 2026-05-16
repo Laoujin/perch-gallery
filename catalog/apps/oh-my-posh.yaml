@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: Oh My Posh
 category: Terminal/CLI Tools
 tags: [cli, prompt, shell, powershell, theme]
 description: Prompt theme engine for any shell
-cli-tool: true
 profiles: [developer, power-user]
 os: [windows, linux, macos]
 license: MIT

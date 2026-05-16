@@ -1,9 +1,8 @@
-type: app
+type: cli-tool
 name: lazydocker
 category: Development/Containers
 tags: [cli, docker, tui, containers]
 description: Simple terminal UI for Docker and Docker Compose
-cli-tool: true
 profiles: [developer]
 os: [windows, linux, macos]
 license: MIT
