@@ -109,12 +109,12 @@
             "properties": {
               "key": { "type": "string" },
               "name": { "type": ["string", "integer"] },
-              "value": {},
+              "value": { "type": ["string", "integer", "null"] },
               "type": {
                 "type": "string",
                 "enum": ["dword", "string", "qword", "binary"]
               },
-              "default-value": {}
+              "default-value": { "type": ["string", "integer", "null"] }
             }
           }
         },
@@ -165,6 +165,7 @@
               "items": {
                 "type": "object",
                 "required": ["type"],
+                "additionalProperties": false,
                 "properties": {
                   "type": { "type": "string" },
                   "keys": {
@@ -207,6 +208,10 @@
         "type": "object",
         "required": ["id", "name", "description", "reversible"],
         "additionalProperties": false,
+        "anyOf": [
+          { "required": ["registry"] },
+          { "required": ["script"] }
+        ],
         "properties": {
           "id": { "type": "string" },
           "name": { "type": "string" },

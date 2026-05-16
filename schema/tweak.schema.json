@@ -6,6 +6,10 @@
   "type": "object",
   "required": ["type", "name", "category", "tags", "description", "reversible", "profiles", "windows-versions"],
   "additionalProperties": false,
+  "anyOf": [
+    { "required": ["registry"] },
+    { "required": ["script"] }
+  ],
   "properties": {
     "type": {
       "type": "string",
@@ -74,6 +78,7 @@
             "description": "Registry value name (empty string for default value)"
           },
           "value": {
+            "type": ["string", "integer", "null"],
             "description": "Registry value to set (number, string, or null)"
           },
           "type": {
@@ -81,6 +86,7 @@
             "enum": ["dword", "string", "qword", "binary"]
           },
           "default-value": {
+            "type": ["string", "integer", "null"],
             "description": "Original default value (number, string, or null)"
           }
         }
