@@ -129,6 +129,7 @@
               "target": {
                 "type": "object",
                 "additionalProperties": false,
+                "minProperties": 1,
                 "properties": {
                   "windows": { "type": "string" },
                   "linux": { "type": "string" },
