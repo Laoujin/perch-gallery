@@ -1,6 +1,5 @@
 type: app
 name: EditorConfig
-category: Development/IDEs & Editors
 tags: [editor, config, formatting, coding-style]
 description: Maintain consistent coding styles across editors and IDEs
 profiles: [developer]

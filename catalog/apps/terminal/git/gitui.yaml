@@ -1,6 +1,5 @@
 type: cli-tool
 name: GitUI
-category: Terminal/Git
 tags: [cli, git, tui, rust]
 description: Blazing fast terminal UI for git written in Rust
 profiles: [developer]

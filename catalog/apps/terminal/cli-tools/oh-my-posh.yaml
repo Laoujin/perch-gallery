@@ -1,6 +1,5 @@
 type: cli-tool
 name: Oh My Posh
-category: Terminal/CLI Tools
 tags: [cli, prompt, shell, powershell, theme]
 description: Prompt theme engine for any shell
 profiles: [developer, power-user]

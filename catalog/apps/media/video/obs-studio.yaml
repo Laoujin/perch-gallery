@@ -1,6 +1,5 @@
 type: app
 name: OBS Studio
-category: Media/Video
 tags: [streaming, recording, video, open-source]
 description: Free and open-source software for video recording and live streaming
 profiles: [creative, gamer]

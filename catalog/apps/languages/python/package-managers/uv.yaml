@@ -1,6 +1,5 @@
 type: cli-tool
 name: uv
-category: Languages/Python/Package Managers
 requires: [python]
 tags: [cli, python, package-manager, rust]
 description: Extremely fast Python package and project manager

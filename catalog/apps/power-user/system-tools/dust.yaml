@@ -1,6 +1,5 @@
 type: cli-tool
 name: dust
-category: Power User/System Tools
 tags: [cli, disk, du, rust]
 description: More intuitive version of du, showing disk usage in a visual tree
 profiles: [developer, power-user]

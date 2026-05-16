@@ -1,6 +1,5 @@
 type: app
 name: NSwagStudio
-category: Languages/.NET/Global Packages
 tags: [dotnet, openapi, swagger, codegen, csharp]
 description: OpenAPI/Swagger toolchain for .NET — generate API clients and server stubs
 display: hot

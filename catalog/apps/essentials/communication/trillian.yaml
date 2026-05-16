@@ -1,6 +1,5 @@
 type: app
 name: Trillian
-category: Essentials/Communication
 tags: [chat, instant-messaging, multi-protocol]
 description: Multi-protocol instant messaging client
 profiles: [casual]

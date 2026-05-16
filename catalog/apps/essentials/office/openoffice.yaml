@@ -1,7 +1,6 @@
 type: app
 name: Apache OpenOffice
 display-name: OpenOffice
-category: Essentials/Office
 tags: [office, documents, spreadsheet, open-source]
 description: Open-source office productivity suite
 profiles: [casual]

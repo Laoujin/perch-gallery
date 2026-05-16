@@ -1,6 +1,5 @@
 type: cli-tool
 name: yazi
-category: Power User/File Management
 tags: [cli, file-manager, tui, rust]
 description: Blazing fast terminal file manager with async I/O and image preview
 profiles: [developer, power-user]

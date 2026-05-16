@@ -1,6 +1,5 @@
 type: cli-tool
 name: tokei
-category: Terminal/CLI Tools
 tags: [cli, code, statistics, loc, rust]
 description: Count lines of code quickly across many languages
 profiles: [developer]

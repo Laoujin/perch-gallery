@@ -1,0 +1,13 @@
+type: tweak
+name: Disable Advertising ID
+tags: [privacy, advertising, telemetry]
+description: Disable the Windows advertising ID for personalized ads
+reversible: true
+profiles: [developer, power-user]
+windows-versions: [10, 11]
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo
+    name: Enabled
+    value: 0
+    type: dword
+    default-value: 1

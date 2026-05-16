@@ -1,6 +1,5 @@
 type: cli-tool
 name: RuboCop
-category: Languages/Ruby/Global Packages
 tags: [ruby, linter, formatter, static-analysis]
 description: Ruby static code analyzer and formatter
 requires: [ruby]

@@ -3,10 +3,9 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "generate-index": "node scripts/generate-index.mjs",
     "validate": "node scripts/validate-catalog.mjs",
     "sync-stars": "node scripts/sync-github-stars.mjs",
-    "build": "node scripts/validate-catalog.mjs && node scripts/generate-index.mjs && astro build && node scripts/copy-catalog.mjs",
+    "build": "node scripts/validate-catalog.mjs && astro build && node scripts/copy-catalog.mjs",
     "preview": "astro preview"
   },
   "dependencies": {

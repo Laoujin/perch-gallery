@@ -1,6 +1,5 @@
 type: app
 name: Sourcetree
-category: Terminal/Git
 tags: [git, gui, atlassian]
 description: Free Git client for Windows and Mac by Atlassian
 profiles: [developer]

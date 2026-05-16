@@ -1,6 +1,5 @@
 type: cli-tool
 name: btop
-category: Power User/System Monitors
 tags: [cli, monitor, system, tui]
 description: Resource monitor showing usage and stats for CPU, memory, disks, and network
 profiles: [developer, power-user]

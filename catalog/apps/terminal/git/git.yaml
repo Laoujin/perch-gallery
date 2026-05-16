@@ -1,6 +1,5 @@
 type: app
 name: Git
-category: Terminal/Git
 tags: [vcs, cli, developer]
 description: Distributed version control system
 profiles: [developer]

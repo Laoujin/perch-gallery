@@ -1,6 +1,5 @@
 type: app
 name: Bun
-category: Languages/Node/Runtimes
 tags: [runtime, bundler, package-manager, javascript]
 description: All-in-one JavaScript runtime, bundler, transpiler, and package manager
 display: hot

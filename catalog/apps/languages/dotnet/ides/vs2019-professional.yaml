@@ -1,7 +1,6 @@
 type: app
 name: Visual Studio 2019 Professional
 display-name: VS 2019 Professional
-category: Languages/.NET/IDEs
 tags: [ide, dotnet, csharp, microsoft, visual-studio, legacy]
 description: Professional IDE — last version with classic .NET Framework project support
 profiles: [developer]

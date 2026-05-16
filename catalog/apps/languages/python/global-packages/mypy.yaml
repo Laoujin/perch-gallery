@@ -1,6 +1,5 @@
 type: cli-tool
 name: mypy
-category: Languages/Python/Global Packages
 tags: [python, type-checker, static-analysis]
 description: Optional static type checker for Python
 requires: [python]

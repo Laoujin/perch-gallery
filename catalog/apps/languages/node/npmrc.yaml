@@ -1,6 +1,5 @@
 type: app
 name: .npmrc
-category: Languages/Node
 tags: [config, npm, node, dotfile]
 description: npm configuration file
 profiles: [developer]

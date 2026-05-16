@@ -1,6 +1,5 @@
 type: app
 name: Notepad++
-category: Development/IDEs & Editors
 tags: [editor, text, windows]
 description: Free source code editor and Notepad replacement
 profiles: [developer, power-user]

@@ -1,6 +1,5 @@
 type: app
 name: Java
-category: Languages/Java/Runtimes
 tags: [java, jdk, runtime, open-source, temurin, adoptium]
 description: Open-source Java runtime from the Eclipse Adoptium project
 profiles: [developer]

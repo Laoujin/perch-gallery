@@ -1,6 +1,5 @@
 type: app
 name: RetroArch
-category: Gaming/Launchers
 tags: [gaming, emulator, retro, multi-system]
 description: Frontend for emulators, game engines, and media players — run classic games
 profiles: [gamer]

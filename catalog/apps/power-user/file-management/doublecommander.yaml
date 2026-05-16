@@ -1,6 +1,5 @@
 type: app
 name: Double Commander
-category: Power User/File Management
 tags: [file-manager, dual-pane, open-source]
 description: Cross-platform open-source dual-pane file manager
 profiles: [power-user]

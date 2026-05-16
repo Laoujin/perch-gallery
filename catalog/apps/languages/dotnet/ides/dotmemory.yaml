@@ -1,6 +1,5 @@
 type: app
 name: dotMemory
-category: Languages/.NET/IDEs
 tags: [profiler, memory, dotnet, jetbrains]
 description: .NET memory profiler by JetBrains
 profiles: [developer]

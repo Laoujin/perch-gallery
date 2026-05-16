@@ -1,6 +1,5 @@
 type: cli-tool
 name: Gradle
-category: Languages/Java/Package Managers
 tags: [java, kotlin, build-tool, groovy]
 description: Build automation tool for multi-language software development
 requires: [temurin-jdk]

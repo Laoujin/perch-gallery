@@ -1,7 +1,6 @@
 type: app
 name: Eclipse IDE
 display-name: Eclipse
-category: Development/IDEs & Editors
 tags: [ide, java, open-source]
 description: Open-source IDE primarily for Java development
 profiles: [developer]

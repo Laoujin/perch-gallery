@@ -1,6 +1,5 @@
 type: app
 name: AntiMicroX
-category: Gaming/Controllers
 tags: [gaming, controller, gamepad, keyboard-mapping]
 description: Map keyboard buttons and mouse controls to a gamepad
 profiles: [gamer]

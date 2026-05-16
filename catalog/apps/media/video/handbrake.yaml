@@ -1,6 +1,5 @@
 type: app
 name: HandBrake
-category: Media/Video
 tags: [video, converter, transcoder, open-source]
 description: Open-source video transcoder for converting video formats
 profiles: [creative, power-user]

@@ -1,6 +1,5 @@
 type: app
 name: dnSpy
-category: Languages/.NET/IDEs
 tags: [decompiler, debugger, dotnet, open-source]
 description: .NET debugger and assembly editor
 profiles: [developer]

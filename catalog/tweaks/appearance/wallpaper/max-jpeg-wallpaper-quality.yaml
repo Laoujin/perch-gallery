@@ -1,0 +1,14 @@
+type: tweak
+name: Max JPEG Wallpaper Quality
+tags: [appearance, wallpaper, jpeg, quality]
+description: "Set JPEG desktop wallpaper import quality to maximum"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Control Panel\Desktop
+    name: JPEGImportQuality
+    value: 100
+    type: dword
+    default-value: null

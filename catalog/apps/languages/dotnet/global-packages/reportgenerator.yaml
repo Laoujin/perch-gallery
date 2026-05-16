@@ -1,6 +1,5 @@
 type: cli-tool
 name: ReportGenerator
-category: Languages/.NET/Global Packages
 tags: [dotnet, coverage, reports, testing, csharp]
 description: Convert code coverage reports into human-readable HTML reports
 display: hot

@@ -1,6 +1,5 @@
 type: app
 name: CopyQ
-category: Essentials/Clipboard
 tags: [clipboard, manager, open-source]
 description: Advanced clipboard manager with editing and scripting
 profiles: [developer, power-user]

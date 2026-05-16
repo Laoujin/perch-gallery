@@ -1,6 +1,5 @@
 type: app
 name: Syncthing
-category: Essentials/Cloud Storage
 tags: [sync, p2p, file-sharing, open-source]
 description: Continuous file synchronization between devices without a cloud
 profiles: [power-user]

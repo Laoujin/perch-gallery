@@ -1,6 +1,5 @@
 type: app
 name: Rufus
-category: Power User/System Tools
 tags: [usb, bootable, iso, formatting]
 description: Create bootable USB flash drives with format and ISO writing
 profiles: [power-user]

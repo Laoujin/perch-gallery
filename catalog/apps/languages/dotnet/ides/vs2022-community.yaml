@@ -1,7 +1,6 @@
 type: app
 name: Visual Studio 2022 Community
 display-name: VS 2022 Community
-category: Languages/.NET/IDEs
 tags: [ide, dotnet, csharp, microsoft, visual-studio]
 description: Free, full-featured IDE — first native 64-bit Visual Studio
 profiles: [developer]

@@ -1,6 +1,5 @@
 type: app
 name: Robo 3T
-category: Development/Databases
 tags: [database, mongodb, gui, nosql]
 description: Lightweight GUI for MongoDB with embedded shell
 profiles: [developer]

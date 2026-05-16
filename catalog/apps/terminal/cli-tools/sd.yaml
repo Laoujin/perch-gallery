@@ -1,6 +1,5 @@
 type: cli-tool
 name: sd
-category: Terminal/CLI Tools
 tags: [cli, sed, find-replace, rust]
 description: Intuitive find and replace CLI using regex and string-literal modes
 profiles: [developer]

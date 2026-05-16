@@ -1,6 +1,5 @@
 type: cli-tool
 name: just
-category: Terminal/CLI Tools
 tags: [cli, command-runner, make, rust]
 description: Handy command runner, a modern alternative to make
 profiles: [developer]

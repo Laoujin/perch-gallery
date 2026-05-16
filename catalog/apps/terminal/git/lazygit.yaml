@@ -1,6 +1,5 @@
 type: cli-tool
 name: lazygit
-category: Terminal/Git
 tags: [cli, git, tui]
 description: Simple terminal UI for git commands
 profiles: [developer]

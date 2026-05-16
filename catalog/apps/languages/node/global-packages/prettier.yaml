@@ -1,6 +1,5 @@
 type: cli-tool
 name: Prettier
-category: Languages/Node/Global Packages
 tags: [formatter, code-style, node, cli]
 description: Opinionated code formatter
 profiles: [developer]

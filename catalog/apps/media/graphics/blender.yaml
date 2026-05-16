@@ -1,6 +1,5 @@
 type: app
 name: Blender
-category: Media/Graphics
 tags: [3d, modeling, animation, rendering, open-source]
 description: Free and open-source 3D creation suite
 profiles: [creative]

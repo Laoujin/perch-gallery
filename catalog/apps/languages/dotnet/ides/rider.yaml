@@ -1,7 +1,6 @@
 type: app
 name: JetBrains Rider
 display-name: Rider
-category: Languages/.NET/IDEs
 tags: [ide, dotnet, csharp, jetbrains]
 description: Cross-platform .NET IDE by JetBrains
 profiles: [developer]

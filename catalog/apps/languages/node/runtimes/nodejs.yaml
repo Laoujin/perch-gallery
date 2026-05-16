@@ -1,6 +1,5 @@
 type: app
 name: Node.js
-category: Languages/Node/Runtimes
 tags: [runtime, javascript, typescript, server]
 description: JavaScript runtime built on Chrome's V8 engine
 profiles: [developer]

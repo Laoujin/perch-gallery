@@ -1,6 +1,5 @@
 type: app
 name: MSI Afterburner
-category: Gaming/Performance
 tags: [gaming, gpu, overclocking, monitoring]
 description: Graphics card overclocking and hardware monitoring utility
 profiles: [gamer]

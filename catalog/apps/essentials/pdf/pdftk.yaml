@@ -1,6 +1,5 @@
 type: cli-tool
 name: PDFtk Free
-category: Essentials/PDF
 tags: [pdf, cli, merge, split]
 description: Command-line tool for manipulating PDF documents
 profiles: [developer]

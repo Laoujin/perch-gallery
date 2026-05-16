@@ -1,6 +1,5 @@
 type: app
 name: global.json
-category: Languages/.NET
 tags: [dotnet, sdk, version-pinning]
 description: .NET SDK version pinning for reproducible builds
 profiles: [developer]

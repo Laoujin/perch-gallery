@@ -1,6 +1,5 @@
 type: app
 name: TranslucentTB
-category: Power User/System Tools
 tags: [taskbar, transparency, customization]
 description: Make the Windows taskbar translucent or transparent
 profiles: [power-user]

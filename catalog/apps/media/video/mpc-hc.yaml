@@ -1,6 +1,5 @@
 type: app
 name: MPC-HC
-category: Media/Video
 tags: [video, player, lightweight, codec]
 description: Extremely lightweight, open-source media player for Windows
 profiles: [power-user]

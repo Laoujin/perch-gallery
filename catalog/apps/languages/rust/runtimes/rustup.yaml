@@ -1,6 +1,5 @@
 type: app
 name: Rust
-category: Languages/Rust/Runtimes
 tags: [rust, language, systems, memory-safe]
 description: Systems programming language focused on safety and performance
 profiles: [developer]

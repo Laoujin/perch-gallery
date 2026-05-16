@@ -1,6 +1,5 @@
 type: app
 name: Bash
-category: Terminal/Shells/Bash
 tags: [shell, cli, linux, macos, wsl]
 description: GNU Bourne-Again SHell
 profiles: [developer]

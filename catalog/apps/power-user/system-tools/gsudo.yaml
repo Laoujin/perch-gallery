@@ -1,6 +1,5 @@
 type: cli-tool
 name: gsudo
-category: Power User/System Tools
 tags: [cli, sudo, elevation, windows]
 description: Sudo for Windows — run elevated commands from a non-elevated shell
 profiles: [developer, power-user]

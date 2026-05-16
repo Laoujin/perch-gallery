@@ -1,6 +1,5 @@
 type: app
 name: Python
-category: Languages/Python/Runtimes
 tags: [python, language, scripting]
 description: Popular general-purpose programming language
 profiles: [developer]

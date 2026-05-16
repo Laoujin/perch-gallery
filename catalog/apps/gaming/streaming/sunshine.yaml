@@ -1,6 +1,5 @@
 type: app
 name: Sunshine
-category: Gaming/Streaming
 tags: [gaming, streaming, remote-play, moonlight]
 description: Self-hosted game stream host — pair with Moonlight for low-latency remote play
 profiles: [gamer]

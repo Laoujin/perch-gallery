@@ -1,6 +1,5 @@
 type: app
 name: .NET SDK 9
-category: Languages/.NET/Runtimes
 tags: [dotnet, sdk, microsoft, csharp]
 description: .NET 9 — standard term support release
 requires: [dotnet-sdk]

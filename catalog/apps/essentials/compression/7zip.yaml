@@ -1,6 +1,5 @@
 type: app
 name: 7-Zip
-category: Essentials/Compression
 tags: [archive, compression, open-source]
 description: Free and open-source file archiver
 profiles: [casual, power-user]

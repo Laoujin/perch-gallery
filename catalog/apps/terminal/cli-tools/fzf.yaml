@@ -1,6 +1,5 @@
 type: cli-tool
 name: fzf
-category: Terminal/CLI Tools
 tags: [cli, fuzzy-finder, search, shell]
 description: General-purpose command-line fuzzy finder
 profiles: [developer, power-user]

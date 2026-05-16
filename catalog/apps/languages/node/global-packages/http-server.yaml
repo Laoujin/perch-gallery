@@ -1,6 +1,5 @@
 type: cli-tool
 name: http-server
-category: Languages/Node/Global Packages
 tags: [http, server, node, cli]
 description: Simple zero-configuration HTTP server
 profiles: [developer]

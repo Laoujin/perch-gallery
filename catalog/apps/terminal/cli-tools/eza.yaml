@@ -1,6 +1,5 @@
 type: cli-tool
 name: eza
-category: Terminal/CLI Tools
 tags: [cli, ls, files, rust]
 description: Modern replacement for ls with colors, icons, and Git integration
 profiles: [developer, power-user]

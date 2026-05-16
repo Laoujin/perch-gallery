@@ -1,6 +1,5 @@
 type: cli-tool
 name: golangci-lint
-category: Languages/Go/Global Packages
 tags: [go, golang, linter, static-analysis]
 description: Fast Go linters runner with dozens of linters included
 requires: [go]

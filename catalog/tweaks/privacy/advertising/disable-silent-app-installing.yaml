@@ -1,0 +1,14 @@
+type: tweak
+name: Disable Silent App Installing
+tags: [privacy, auto-install, suggestions]
+description: "Disable automatic installing of suggested apps"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager
+    name: SilentInstalledAppsEnabled
+    value: 0
+    type: dword
+    default-value: null

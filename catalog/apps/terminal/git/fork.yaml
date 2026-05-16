@@ -1,6 +1,5 @@
 type: app
 name: Fork
-category: Terminal/Git
 tags: [git, gui, lightweight]
 description: Fast and friendly Git client for Mac and Windows
 profiles: [developer]

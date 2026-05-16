@@ -1,7 +1,6 @@
 type: cli-tool
 name: Apache Maven
 display-name: Maven
-category: Languages/Java/Package Managers
 tags: [java, build-tool, dependency-management, apache]
 description: Build automation and dependency management for Java projects
 requires: [temurin-jdk]

@@ -1,6 +1,5 @@
 type: cli-tool
 name: Starship
-category: Terminal/CLI Tools
 tags: [cli, prompt, shell, rust]
 description: Minimal, blazing-fast, and infinitely customizable cross-shell prompt
 profiles: [developer]

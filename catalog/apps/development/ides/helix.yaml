@@ -1,6 +1,5 @@
 type: cli-tool
 name: Helix
-category: Development/IDEs & Editors
 tags: [editor, modal, terminal, rust]
 description: Post-modern modal text editor with built-in LSP support
 profiles: [developer]

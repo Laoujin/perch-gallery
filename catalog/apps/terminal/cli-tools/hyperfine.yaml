@@ -1,6 +1,5 @@
 type: cli-tool
 name: hyperfine
-category: Terminal/CLI Tools
 tags: [cli, benchmark, timing, rust]
 description: Command-line benchmarking tool with statistical analysis
 profiles: [developer]

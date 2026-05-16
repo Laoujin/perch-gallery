@@ -1,0 +1,14 @@
+type: tweak
+name: Disable First Logon Animation
+tags: [appearance, logon, animation]
+description: "Disable the first sign-in animation"
+reversible: true
+profiles: [power-user]
+windows-versions: [10, 11]
+source: sophia-script
+registry:
+  - key: HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    name: EnableFirstLogonAnimation
+    value: 0
+    type: dword
+    default-value: null

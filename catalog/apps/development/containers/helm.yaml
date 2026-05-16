@@ -1,6 +1,5 @@
 type: cli-tool
 name: Helm
-category: Development/Containers
 tags: [cli, kubernetes, k8s, package-manager, devops]
 description: Package manager for Kubernetes — deploy apps with charts
 profiles: [developer]

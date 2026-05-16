@@ -1,6 +1,5 @@
 type: cli-tool
 name: rclone
-category: Essentials/Cloud Storage
 tags: [cli, cloud, sync, backup]
 description: Command-line program to manage files on cloud storage (rsync for cloud)
 profiles: [developer, power-user]

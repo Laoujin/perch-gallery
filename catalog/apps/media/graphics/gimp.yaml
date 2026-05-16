@@ -1,6 +1,5 @@
 type: app
 name: GIMP
-category: Media/Graphics
 tags: [graphics, image-editor, open-source]
 description: Free and open-source raster graphics editor
 profiles: [creative]

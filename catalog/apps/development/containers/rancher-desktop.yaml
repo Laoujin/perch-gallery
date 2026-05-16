@@ -1,6 +1,5 @@
 type: app
 name: Rancher Desktop
-category: Development/Containers
 tags: [containers, kubernetes, docker, open-source]
 description: Open-source container management and Kubernetes on the desktop
 profiles: [developer]

@@ -1,0 +1,18 @@
+type: tweak
+name: Dark Mode
+tags: [theme, dark-mode, personalization]
+description: Enable dark mode for apps and system UI
+reversible: true
+profiles: [developer, power-user]
+windows-versions: [10, 11]
+registry:
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize
+    name: AppsUseLightTheme
+    value: 0
+    type: dword
+    default-value: 1
+  - key: HKCU\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize
+    name: SystemUsesLightTheme
+    value: 0
+    type: dword
+    default-value: 1

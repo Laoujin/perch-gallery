@@ -1,6 +1,5 @@
 type: app
 name: Bitwarden
-category: Essentials/Passwords
 tags: [passwords, security, open-source]
 description: Open-source password manager
 profiles: [casual, power-user]

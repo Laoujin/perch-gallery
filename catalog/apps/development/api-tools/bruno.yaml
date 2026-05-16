@@ -1,6 +1,5 @@
 type: app
 name: Bruno
-category: Development/API Tools
 tags: [api, rest, graphql, open-source]
 description: Fast and Git-friendly open-source API client, alternative to Postman
 profiles: [developer]

@@ -1,6 +1,5 @@
 type: app
 name: WinRAR
-category: Essentials/Compression
 tags: [archive, compression, rar]
 description: File archiver with RAR and ZIP support
 profiles: [casual]

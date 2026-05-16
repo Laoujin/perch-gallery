@@ -1,6 +1,5 @@
 type: app
 name: Krita
-category: Media/Graphics
 tags: [graphics, digital-painting, illustration, open-source]
 description: Free and open-source digital painting application
 profiles: [creative]

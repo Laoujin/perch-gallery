@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://perch-gallery/schema/category.schema.json",
+  "title": "Perch Gallery Category Parent Tile",
+  "description": "Parent tile entry stored as <foldername>.yaml inside each category folder. Provides display metadata (name, sort, pattern) that replaces the retired catalog/categories.yaml.",
+  "type": "object",
+  "required": ["type", "name", "sort"],
+  "additionalProperties": false,
+  "properties": {
+    "type": {
+      "const": "category"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name for this category (e.g. '.NET', 'IDEs & Editors')"
+    },
+    "sort": {
+      "type": "integer",
+      "description": "Sort order relative to siblings (lower first)"
+    },
+    "pattern": {
+      "type": "string",
+      "enum": ["drill-down", "direct"],
+      "description": "UI pattern. Set on top-level categories; subcategories inherit."
+    },
+    "description": {
+      "type": "string",
+      "description": "Optional short description shown on the category tile"
+    }
+  }
+}

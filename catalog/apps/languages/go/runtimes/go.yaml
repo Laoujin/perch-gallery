@@ -1,6 +1,5 @@
 type: app
 name: Go
-category: Languages/Go/Runtimes
 tags: [go, golang, language, google]
 description: Fast, statically typed, compiled language by Google
 profiles: [developer]

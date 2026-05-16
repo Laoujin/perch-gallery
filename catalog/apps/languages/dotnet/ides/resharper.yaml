@@ -1,6 +1,5 @@
 type: app
 name: ReSharper
-category: Languages/.NET/IDEs
 tags: [dotnet, jetbrains, visual-studio, productivity]
 description: Visual Studio extension for .NET developers by JetBrains
 profiles: [developer]

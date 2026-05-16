@@ -1,6 +1,5 @@
 type: cli-tool
 name: mitmproxy
-category: Development/API Tools
 tags: [proxy, http, debugging, ssl, cli]
 description: Interactive HTTPS proxy for debugging and penetration testing
 profiles: [developer]

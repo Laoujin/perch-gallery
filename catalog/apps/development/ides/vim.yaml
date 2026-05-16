@@ -1,6 +1,5 @@
 type: app
 name: Vim
-category: Development/IDEs & Editors
 tags: [editor, cli, terminal]
 description: Highly configurable text editor
 profiles: [developer]

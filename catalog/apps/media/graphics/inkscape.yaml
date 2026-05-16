@@ -1,6 +1,5 @@
 type: app
 name: Inkscape
-category: Media/Graphics
 tags: [graphics, vector, svg, open-source]
 description: Free and open-source vector graphics editor
 profiles: [creative]

@@ -1,6 +1,5 @@
 type: app
 name: IrfanView
-category: Media/Graphics
 tags: [image-viewer, graphics, lightweight]
 description: Fast and compact image viewer and converter
 profiles: [casual]

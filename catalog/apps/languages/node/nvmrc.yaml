@@ -1,6 +1,5 @@
 type: app
 name: .nvmrc
-category: Languages/Node
 tags: [config, nvm, node, dotfile]
 description: Node version manager configuration file
 profiles: [developer]

@@ -1,6 +1,5 @@
 type: app
 name: DS4Windows
-category: Gaming/Controllers
 tags: [gaming, controller, dualshock, gamepad]
 description: DualShock 4 and DualSense controller support and remapping for PC
 profiles: [gamer]

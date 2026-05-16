@@ -1,6 +1,5 @@
 type: app
 name: Slack
-category: Essentials/Communication
 tags: [chat, messaging, team, collaboration]
 description: Business messaging and collaboration platform
 profiles: [developer]

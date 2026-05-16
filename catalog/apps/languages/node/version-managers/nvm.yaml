@@ -2,7 +2,6 @@ type: cli-tool
 name: NVM for Windows
 display-name: nvm
 display: hot
-category: Languages/Node/Version Managers
 tags: [node, nvm, version-manager, windows]
 description: Node.js version manager for Windows
 profiles: [developer]

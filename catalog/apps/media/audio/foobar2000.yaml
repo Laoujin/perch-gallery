@@ -1,6 +1,5 @@
 type: app
 name: foobar2000
-category: Media/Audio
 tags: [audio, music, player, lightweight]
 description: Advanced freeware audio player for Windows
 profiles: [power-user]

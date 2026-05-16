@@ -1,6 +1,5 @@
 type: app
 name: komorebi
-category: Essentials/Window Managers
 tags: [tiling, window-manager, bsp, productivity]
 description: Tiling window management for Windows with BSP, columns, rows, and stacking
 profiles: [developer]

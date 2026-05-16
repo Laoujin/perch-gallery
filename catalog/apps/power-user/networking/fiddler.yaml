@@ -1,6 +1,5 @@
 type: app
 name: Fiddler Classic
-category: Power User/Networking
 tags: [network, http, debugging, proxy, web]
 description: HTTP debugging proxy for capturing and inspecting web traffic
 profiles: [developer]

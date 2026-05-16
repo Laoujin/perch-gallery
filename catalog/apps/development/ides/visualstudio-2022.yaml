@@ -1,6 +1,5 @@
 type: app
 name: Visual Studio 2022
-category: Development/IDEs & Editors
 tags: [ide, microsoft, dotnet, windows]
 description: Full-featured IDE for .NET and C++ development
 profiles: [developer]

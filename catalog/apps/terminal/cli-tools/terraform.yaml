@@ -1,6 +1,5 @@
 type: cli-tool
 name: Terraform
-category: Terminal/CLI Tools
 tags: [cli, iac, infrastructure, cloud, devops]
 description: Infrastructure as Code tool for provisioning cloud resources
 profiles: [developer]

@@ -1,6 +1,5 @@
 type: app
 name: Moonlight
-category: Gaming/Streaming
 tags: [gaming, streaming, remote-play, client]
 description: Open-source game streaming client — connect to Sunshine or NVIDIA GameStream host
 profiles: [gamer]

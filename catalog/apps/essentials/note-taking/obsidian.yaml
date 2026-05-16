@@ -1,6 +1,5 @@
 type: app
 name: Obsidian
-category: Essentials/Note-Taking
 tags: [notes, markdown, knowledge-base, pkm]
 description: Private and flexible markdown-based knowledge base
 profiles: [developer, power-user]

@@ -1,6 +1,5 @@
 type: cli-tool
 name: dotnet-format
-category: Languages/.NET/Global Packages
 tags: [dotnet, formatter, code-style, cli, open-source]
 description: Code formatter for .NET projects
 profiles: [developer]

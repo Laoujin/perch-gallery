@@ -1,6 +1,5 @@
 type: app
 name: Pidgin
-category: Essentials/Communication
 tags: [chat, instant-messaging, multi-protocol, open-source]
 description: Universal chat client supporting multiple protocols
 profiles: [casual]

@@ -1,7 +1,6 @@
 type: app
 name: Visual Studio 2026 Professional
 display-name: VS 2026 Professional
-category: Languages/.NET/IDEs
 tags: [ide, dotnet, csharp, microsoft, visual-studio]
 description: Professional IDE for small teams with advanced debugging and testing tools
 profiles: [developer]

@@ -1,0 +1,9 @@
+type: font
+name: JetBrains Mono Nerd Font
+tags: [monospace, nerd-font, ligatures, jetbrains]
+description: JetBrains Mono with Nerd Font patches
+profiles: [developer]
+license: OFL-1.1
+preview-text: "fn main() { let x = 42; }"
+install:
+  choco: nerd-fonts-jetbrainsmono

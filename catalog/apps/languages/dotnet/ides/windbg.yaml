@@ -1,6 +1,5 @@
 type: app
 name: WinDbg
-category: Languages/.NET/IDEs
 tags: [debugger, windows, microsoft, native, dotnet]
 description: Low-level Windows debugger with managed .NET debugging support
 display: hot

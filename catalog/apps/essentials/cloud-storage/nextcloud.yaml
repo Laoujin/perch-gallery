@@ -1,6 +1,5 @@
 type: app
 name: Nextcloud
-category: Essentials/Cloud Storage
 tags: [cloud, sync, self-hosted, open-source]
 description: Self-hosted cloud storage and collaboration platform
 profiles: [power-user]

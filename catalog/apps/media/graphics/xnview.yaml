@@ -1,6 +1,5 @@
 type: app
 name: XnView
-category: Media/Graphics
 tags: [image-viewer, graphics, batch-processing]
 description: Image viewer, browser, and converter with batch processing
 profiles: [casual]

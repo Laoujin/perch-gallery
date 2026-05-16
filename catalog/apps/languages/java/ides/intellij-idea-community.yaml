@@ -1,7 +1,6 @@
 type: app
 name: IntelliJ IDEA Community
 display-name: IntelliJ IDEA
-category: Languages/Java/IDEs
 tags: [ide, java, kotlin, jetbrains, open-source]
 description: Free Java/Kotlin IDE by JetBrains
 profiles: [developer]

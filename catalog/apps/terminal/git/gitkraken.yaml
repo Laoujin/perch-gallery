@@ -1,6 +1,5 @@
 type: app
 name: GitKraken
-category: Terminal/Git
 tags: [git, gui, cross-platform]
 description: Cross-platform Git client with visual merge conflict editor
 profiles: [developer]

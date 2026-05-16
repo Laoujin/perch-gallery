@@ -1,6 +1,5 @@
 type: cli-tool
 name: kubectl
-category: Development/Containers
 tags: [cli, kubernetes, k8s, cloud, devops]
 description: Kubernetes command-line tool for cluster management
 profiles: [developer]

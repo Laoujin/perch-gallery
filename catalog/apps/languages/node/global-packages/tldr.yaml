@@ -1,6 +1,5 @@
 type: cli-tool
 name: tldr
-category: Languages/Node/Global Packages
 tags: [man-pages, help, documentation, node, cli]
 description: Simplified community-driven man pages
 profiles: [developer]

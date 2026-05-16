@@ -1,6 +1,5 @@
 type: app
 name: NuGet Package Explorer
-category: Languages/.NET/Package Managers
 tags: [dotnet, nuget, packages, inspector]
 description: GUI tool for creating, inspecting, and analyzing NuGet packages
 display: hot

@@ -1,6 +1,5 @@
 type: cli-tool
 name: TypeScript
-category: Languages/Node/Global Packages
 tags: [typescript, compiler, node, cli]
 description: TypeScript compiler and language
 profiles: [developer]

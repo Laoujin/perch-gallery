@@ -1,6 +1,5 @@
 type: cli-tool
 name: navi
-category: Terminal/CLI Tools
 tags: [cli, cheatsheet, tui, shell, rust]
 description: Interactive cheatsheet tool for the command-line
 profiles: [developer]

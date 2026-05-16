@@ -1,7 +1,6 @@
 type: cli-tool
 name: eslint_d
 display-name: eslint-d
-category: Languages/Node/Global Packages
 tags: [linter, eslint, daemon, node, cli]
 description: Fast ESLint daemon for editors
 profiles: [developer]

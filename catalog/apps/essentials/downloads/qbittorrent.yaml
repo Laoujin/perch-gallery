@@ -1,6 +1,5 @@
 type: app
 name: qBittorrent
-category: Essentials/Downloads
 tags: [torrent, downloads, open-source]
 description: Free and open-source BitTorrent client
 profiles: [casual]

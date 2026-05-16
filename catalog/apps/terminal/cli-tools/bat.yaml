@@ -1,6 +1,5 @@
 type: cli-tool
 name: bat
-category: Terminal/CLI Tools
 tags: [cli, cat, syntax-highlighting, rust]
 description: Cat clone with syntax highlighting and Git integration
 profiles: [developer, power-user]

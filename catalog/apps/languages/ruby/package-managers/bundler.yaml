@@ -1,6 +1,5 @@
 type: cli-tool
 name: Bundler
-category: Languages/Ruby/Package Managers
 tags: [ruby, gems, dependency-management, package-manager]
 description: Manages Ruby gem dependencies for consistent environments
 requires: [ruby]

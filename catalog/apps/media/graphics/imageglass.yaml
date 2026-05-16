@@ -1,6 +1,5 @@
 type: app
 name: ImageGlass
-category: Media/Graphics
 tags: [image-viewer, lightweight, open-source]
 description: Lightweight, versatile image viewing application
 profiles: [creative, casual]

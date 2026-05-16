@@ -1,6 +1,5 @@
 type: app
 name: LosslessCut
-category: Media/Video
 tags: [video, trimming, lossless, ffmpeg]
 description: Swiss army knife of lossless video/audio editing — trim without re-encoding
 profiles: [creative]

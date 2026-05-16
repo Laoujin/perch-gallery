@@ -1,6 +1,5 @@
 type: cli-tool
 name: ripgrep
-category: Terminal/CLI Tools
 tags: [cli, grep, search, rust]
 description: Recursively search directories for a regex pattern, extremely fast
 profiles: [developer, power-user]

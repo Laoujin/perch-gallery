@@ -1,6 +1,5 @@
 type: app
 name: Docker Desktop
-category: Development/Containers
 tags: [containers, docker, devops, virtualization]
 description: Container platform for building, sharing, and running applications
 profiles: [developer]

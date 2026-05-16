@@ -1,6 +1,5 @@
 type: app
 name: LibreOffice
-category: Essentials/Office
 tags: [office, documents, spreadsheet, presentation, open-source]
 description: Free and open-source office productivity suite
 profiles: [casual]

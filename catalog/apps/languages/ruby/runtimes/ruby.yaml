@@ -1,6 +1,5 @@
 type: app
 name: Ruby
-category: Languages/Ruby/Runtimes
 tags: [ruby, language, scripting]
 description: Dynamic programming language with elegant syntax
 profiles: [developer]

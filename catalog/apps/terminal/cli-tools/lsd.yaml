@@ -1,6 +1,5 @@
 type: cli-tool
 name: lsd
-category: Terminal/CLI Tools
 tags: [cli, ls, files, rust]
 description: Next-gen ls command with colors, icons, and tree view
 profiles: [developer]

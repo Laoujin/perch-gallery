@@ -1,7 +1,6 @@
 type: app
 name: Foxit PDF Reader
 display-name: Foxit Reader
-category: Essentials/PDF
 tags: [pdf, reader, annotate]
 description: Lightweight PDF reader with annotation and form-filling support
 profiles: [casual]

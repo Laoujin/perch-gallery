@@ -1,6 +1,5 @@
 type: app
 name: Hoppscotch
-category: Development/API Tools
 tags: [api, rest, graphql, testing, open-source]
 description: Open-source API development ecosystem and Postman alternative
 profiles: [developer]

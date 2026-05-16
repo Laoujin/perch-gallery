@@ -1,6 +1,5 @@
 type: cli-tool
 name: pipx
-category: Languages/Python/Package Managers
 tags: [python, package-manager, cli, isolated]
 description: Install and run Python applications in isolated environments
 requires: [python]

@@ -1,6 +1,5 @@
 type: app
 name: RustDesk
-category: Power User/Networking
 tags: [remote-desktop, self-hosted, open-source, rust]
 description: Open-source remote desktop with self-hosted server option
 profiles: [power-user]

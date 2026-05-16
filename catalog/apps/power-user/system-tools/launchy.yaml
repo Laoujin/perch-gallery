@@ -1,6 +1,5 @@
 type: app
 name: Launchy
-category: Power User/System Tools
 tags: [launcher, productivity, keyboard, open-source]
 description: Keystroke application launcher
 profiles: [power-user]

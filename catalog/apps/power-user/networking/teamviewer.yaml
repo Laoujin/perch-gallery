@@ -1,6 +1,5 @@
 type: app
 name: TeamViewer
-category: Power User/Networking
 tags: [remote-desktop, remote-access, screen-sharing]
 description: Remote desktop access and support software
 profiles: [casual]

@@ -1,6 +1,5 @@
 type: app
 name: Seelen UI
-category: Essentials/Window Managers
 tags: [desktop, customization, taskbar, widgets]
 description: Fully customizable Windows desktop environment with widgets and tiling
 profiles: [power-user]

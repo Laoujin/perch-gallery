@@ -1,7 +1,6 @@
 type: app
 name: .NET Framework
 display-name: .NET Framework 4.8
-category: Languages/.NET/Runtimes
 tags: [dotnet, framework, microsoft, legacy, windows]
 description: Legacy .NET runtime for Windows — still required by many enterprise apps
 requires: [dotnet-sdk]

@@ -1,6 +1,5 @@
 type: app
 name: ScreenToGif
-category: Essentials/Screenshots
 tags: [gif, recording, screen-capture]
 description: Screen, webcam, and sketchboard recorder with integrated editor
 profiles: [developer, creative]

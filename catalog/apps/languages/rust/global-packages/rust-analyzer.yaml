@@ -1,6 +1,5 @@
 type: cli-tool
 name: rust-analyzer
-category: Languages/Rust/Global Packages
 tags: [rust, lsp, language-server, ide]
 description: Rust language server for IDE support and code analysis
 requires: [rustup]

@@ -1,6 +1,5 @@
 type: app
 name: Twinkle Tray
-category: Power User/System Tools
 tags: [brightness, monitor, display, tray]
 description: Easily manage the brightness of your monitors from the system tray
 profiles: [power-user]

@@ -1,6 +1,5 @@
 type: cli-tool
 name: chezmoi
-category: Companion Tools
 tags: [cli, dotfiles, config-management]
 description: Manage your dotfiles across multiple machines securely
 profiles: [developer]

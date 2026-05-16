@@ -1,6 +1,5 @@
 type: app
 name: LINQPad
-category: Languages/.NET/IDEs
 tags: [dotnet, csharp, linq, scratchpad]
 description: .NET code scratchpad for instant query and script execution
 profiles: [developer]

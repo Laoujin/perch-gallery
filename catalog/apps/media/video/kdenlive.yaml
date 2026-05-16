@@ -1,6 +1,5 @@
 type: app
 name: Kdenlive
-category: Media/Video
 tags: [video-editor, editing, open-source]
 description: Free and open-source video editor based on MLT and KDE frameworks
 profiles: [creative]

@@ -1,6 +1,5 @@
 type: cli-tool
 name: Atuin
-category: Terminal/CLI Tools
 tags: [cli, shell, history, sync, rust]
 description: Magical shell history with sync, search, and stats
 profiles: [developer]

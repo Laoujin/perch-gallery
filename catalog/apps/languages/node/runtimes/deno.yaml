@@ -1,6 +1,5 @@
 type: app
 name: Deno
-category: Languages/Node/Runtimes
 tags: [runtime, javascript, typescript, rust]
 description: Secure runtime for JavaScript and TypeScript with built-in tooling
 profiles: [developer]
