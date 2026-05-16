@@ -25,7 +25,7 @@ tweaks:
         type: dword
         default-value: null
       - key: HKLM\SOFTWARE\Policies\Microsoft\Edge\ExtensionInstallBlocklist
-        name: 1
+        name: "1"
         value: ofefcgjbeghpigppfmkologfjadafddi
         type: string
         default-value: null

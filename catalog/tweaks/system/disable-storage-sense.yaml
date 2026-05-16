@@ -9,7 +9,7 @@ windows-versions: [10, 11]
 source: winutil
 registry:
   - key: HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\StorageSense\Parameters\StoragePolicy
-    name: 01
+    name: "01"
     value: 0
     type: dword
     default-value: 1
