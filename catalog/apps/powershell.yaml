@@ -14,13 +14,6 @@ links:
 install:
   winget: Microsoft.PowerShell
   choco: powershell-core
-config:
-  links:
-    - source: profile.ps1
-      target:
-        windows: "%USERPROFILE%/Documents/PowerShell/Microsoft.PowerShell_profile.ps1"
-        linux: "$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1"
-        macos: "$HOME/.config/powershell/Microsoft.PowerShell_profile.ps1"
 tweaks:
   - id: enable-module-logging
     name: Enable Module Logging
